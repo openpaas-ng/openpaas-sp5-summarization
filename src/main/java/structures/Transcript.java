@@ -7,22 +7,22 @@ import java.util.List;
  * Created by midas on 11/23/2016.
  */
 public class Transcript {
-    List<TranscriptEntry> transcript;
+    List<TranscriptEntry> entries;
 
     public Transcript(List<TranscriptEntry> entries) {
-        this.transcript = entries;
+        this.entries = entries;
     }
     public Transcript() {
-        this.transcript = new ArrayList<TranscriptEntry>();
+        this.entries = new ArrayList<TranscriptEntry>();
     }
     public void add(TranscriptEntry e){
-        this.transcript.add(e);
+        this.entries.add(e);
     }
     public List<TranscriptEntry> getEntries() {
-        return transcript;
+        return entries;
     }
 
     public void setEntries(List<TranscriptEntry> entries) {
-        this.transcript = entries;
+        this.entries = entries;
     }
 }

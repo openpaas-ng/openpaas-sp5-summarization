@@ -1,11 +1,13 @@
 package service;
 
-public class Greeting {
+import structures.Transcript;
+
+public class Meeting {
 
     private final long id;
-    private final String content;
+    private final Transcript content;
 
-    public Greeting(long id, String content) {
+    public Meeting(long id, Transcript content) {
         this.id = id;
         this.content = content;
     }
@@ -14,7 +16,7 @@ public class Greeting {
         return id;
     }
 
-    public String getContent() {
+    public Transcript getContent() {
         return content;
     }
 }
