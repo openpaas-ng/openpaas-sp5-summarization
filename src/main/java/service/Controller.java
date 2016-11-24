@@ -36,7 +36,7 @@ public class Controller {
         //Runtime.getRuntime().exec("Rscript --vanilla /home/midas/IdeaProjects/openpaas/offline_exe.R filename.txt 20");
         //System.out.println("service");
 
-        return "summary produced succesfully for meeting"+counter.get();
+        return "summary produced succesfully for meeting"+id;
     }
 
     @RequestMapping(value = "/summary", method = RequestMethod.GET)
@@ -53,5 +53,19 @@ public class Controller {
         String jsonInString = gson.toJson(t);
         return jsonInString;
     }
+    @RequestMapping(value = "/stream", method = RequestMethod.GET)
+    public String initStream(@RequestParam String id,@RequestParam String ip,@RequestParam String port) throws IOException {
 
+
+
+        return "stream initialized succesfully";
+    }
+
+    @RequestMapping(value = "/resources", method = RequestMethod.GET)
+    public String getCurrentResources(@RequestParam String id) throws IOException {
+
+
+
+        return "stream initialized succesfully";
+    }
 }
