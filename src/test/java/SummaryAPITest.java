@@ -39,7 +39,7 @@ public class SummaryAPITest {
         con.setRequestMethod("POST");
         con.setRequestProperty("User-Agent", USER_AGENT);
         con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
-        String urlParameters = "transcript="+jsonInString;
+        String urlParameters = "id=1&locale=&transcript="+jsonInString;
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
         wr.writeBytes(urlParameters);
