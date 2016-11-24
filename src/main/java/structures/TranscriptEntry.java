@@ -109,4 +109,9 @@ public class TranscriptEntry {
     public void setText(String text) {
         this.text = text;
     }
+
+    @Override
+    public String toString() {
+        return this.id+"\t"+this.from+"\t"+this.until+"\t"+this.speaker+"\t"+this.role+"\t"+this.annot1+"\t"+this.annot2+"\t"+this.annot3+"\t"+this.text+"\n";
+    }
 }

@@ -1,0 +1,476 @@
+start	end	role	text
+1	50.42	50.99	PM	Okay 
+2	53.56	53.96	PM	Right 
+3	55.415	60.35	PM	Um well as the kick-off meeting for our our project i 
+4	60.35	64.16	PM	And um this is what we're 
+5	64.16	67.55	PM	this is what we're gonna be doing as an extra five minutes um 
+6	67.55	72.79	PM	um so of course we'll just a kind of make sure that we all know each other if i'm right 
+7	67.21	67.45	ME	Uh-huh 
+8	72.79	74.42	PM	other if i'm right and then the project manager 
+9	74.42	77.29	PM	manager Two and to introduce yourself to get 
+10	74.89	75.24	ME	Okay 
+11	77.44	80.87	ID	Hi i'm david and i'm supposed to be industrial designer 
+12	80.81	81.26	PM	Okay 
+13	82.08	84.46	ME	And i'm andrew and i'm the marketing 
+14	85.99	88.71	UI	Hmm And create an an easy interface 
+15	86.07	86.5	ME	Experts 
+16	89.3	90.01	PM	Great okay 
+17	90.01	92.79	PM	okay Um as for 
+18	92.79	96.34	PM	Um as for designing a new remote control and um i'll have to 
+19	96.34	98.57	PM	i'll have to record easier actually so that's 
+20	98.57	101.76	PM	so that's do that and encourages know 
+21	104.89	106.58	PM	And you'll right on time 
+22	108.96	111.72	PM	Um yes it is the design a new remote control 
+23	111.72	116.66	PM	new remote control um as you can see this this be original trendy and user-friendly um 
+24	116.66	120.98	PM	um so that's kind of or or brief the y. 
+25	120.98	126.12	PM	the y. um and so there are three different stages to the design and i'm laurie sure what 
+26	126.12	131.36	PM	and i'm laurie sure what would you guys have already received um in your emails what did you get 
+27	131.36	132.03	PM	what did you get 
+28	132.57	136.68	ID	Um i just got the project announcement that uh designing 
+29	135.08	135.44	PM	Uh-huh 
+30	136.68	138.2	ID	uh designing a remote control 
+31	137.12	137.39	ME	Uh-huh 
+32	138.2	140.77	ID	in case you 
+33	138.96	140.56	ME	Hmm yeah that's that's 
+34	140.1	141.53	PM	Is that what everybody calls okay 
+35	140.77	141.98	ID	you think 
+36	140.47	140.83	UI	Yeah 
+37	141.53	142.66	PM	okay um 
+38	141.8	141.95	ME	Yeah 
+39	142.66	144.43	PM	um so we're gonna have like 
+40	144.43	147.92	PM	so we're gonna have like individual work and then a meeting about it and 
+41	147.92	151.79	PM	and repeat that process three times um 
+42	151.79	158.41	PM	um And at this point we get try out the whiteboard over there I have a 
+43	158.41	159.59	PM	I have a So uh 
+44	159.59	165.91	PM	So uh that you get to draw your favourite animal and sum up your favourite characteristics of that to see 
+45	165.91	167.31	PM	of that to see if you'd like to go first Very 
+46	166.67	167.81	ME	I will do that 
+47	167.84	169.072	PM	Very good 
+48	174.2	176.816	ME	Alright So 
+49	177.952	180.064	ME	{vocalsound}
+50	181.39	182.34	ME	This one here right 
+51	183.26	184.24	PM	Uh-huh 
+52	183.93	186.46	ME	Okay Yeah nice alright 
+53	186.46	187.46	ME	alright my favourite animal 
+54	187.46	192.021	ME	my favourite animal Is why 
+55	192.021	194.611	ME	{vocalsound}
+56	198.421	199.124	ME	{vocalsound}
+57	203.45	204.24	ME	A big l. 
+58	205.28	206.672	PM	{vocalsound}
+59	211.97	213.16	ME	Um carets very characteristics 
+60	213.16	216.46	ME	carets very characteristics that uh that i Um right 
+61	215.95	216.77	PM	Yeah yeah 
+62	216.46	229.16	ME	Um right well basically a um high priority for any animal for me is that they be willing to take a lot of physical affection from the family and 
+63	229.16	232.72	ME	and Yeah we have lots of personality and 
+64	232.72	237.96	ME	and uh These s. and then robust good health so 
+65	237.359	239.245	ID	{vocalsound}
+66	237.96	239.85	ME	good health so this is blue to 
+67	239.85	241.42	ME	to be a I send it to 
+68	241.42	242.41	ME	I send it to you 
+69	243.4	244.71	PM	Right Okay 
+70	244.064	245.212	ME	{vocalsound}
+71	244.71	245.744	PM	Okay 
+72	245.366	245.92	UI	{vocalsound}
+73	255.07	257.26	UI	No might have an would be a monkey 
+74	265.152	267.921	PM	{vocalsound}
+75	265.659	267.435	ID	{vocalsound}
+76	265.988	267.717	UI	And 
+77	268	270.01	UI	um the small keys already had a one point eight 
+78	270.01	273.99	UI	a one point eight seconds real not a i'm one that but with them 
+79	273.968	274.992	ME	{vocalsound}
+80	275.83	276.15	ID	Cool 
+81	275.67	276.02	PM	Right 
+82	275.561	278.886	UI	{vocalsound}
+83	279.963	283	UI	{vocalsound}
+84	280.75	282.696	ID	It's too much here 
+85	285.96	287.73	PM	You take as long over this is it like because 
+86	287.73	290.31	PM	this is it like because we have an what an awful lot to discuss a call it a 
+87	290.031	291.4	ID	{vocalsound}
+88	290.31	290.59	PM	a call it a 
+89	290.59	291.76	PM	a call it a day to fill 
+90	290.429	292.275	UI	{vocalsound}
+91	291.76	293.37	PM	day to fill out your interest anyway 
+92	293.26	294.25	ID	Okay 
+93	296.02	298.03	ME	it for the whole lot more about the school okay 
+94	297.94	298.97	PM	A kid so what i might 
+95	298.03	301.248	ME	okay 
+96	298.97	300.43	PM	kid so what i might have to get yep again then 
+97	300.234	301.607	UI	{vocalsound}
+98	301.14	302.11	PM	I don't know minus and i think on the spot 
+99	302.11	303.58	PM	and i think on the spot yeah 
+100	307.06	307.9	ME	Impressionist 
+101	307.824	309.12	PM	{vocalsound}
+102	308.532	309.412	UI	{vocalsound}
+103	309.38	311.028	ID	Cool 
+104	310.325	311.102	UI	{vocalsound}
+105	312.06	312.84	ID	Um 
+106	312.05	315.6	PM	Is that away on 
+107	313.09	313.52	ID	Yeah yeah 
+108	318.58	321.53	ID	Um well like I don't know it's just 
+109	321.53	324.11	ID	I don't know it's just first i might need off the top of my head um it's 
+110	324.11	327.86	ID	um it's bigger even this "'cause" i'm allergic to most animals but 
+111	327.86	328.76	ID	animals but you channel four so 
+112	327.91	328.53	PM	Oh 
+113	328.76	331.57	ID	you channel four so um issues a natural choice 
+114	332.03	333.1	ID	Um yeah and i kinda like wheels 
+115	333.1	334.32	ID	and i kinda like wheels becoming more i 
+116	334.32	338.036	ID	becoming more i eat everything in sight Not quite harmless 
+117	335.593	337.588	UI	{vocalsound}
+118	335.613	337.987	ME	{vocalsound}
+119	338.22	341.52	ID	Not quite harmless and my role than interesting 
+120	337.987	339.05	ME	Right 
+121	341.85	342.2	ME	Hmm 
+122	342.42	343.63	PM	Okay i saw 
+123	343.63	346.39	PM	i saw the note of interaction but um 
+124	346.39	346.85	PM	um 
+125	349.66	350.84	ME	Superb stage kind of uh 
+126	351.686	355.385	ID	Tales bit bigger 
+127	354.91	357.54	PM	I was good to use a dog as well but 
+128	354.929	355.715	ME	{vocalsound}
+129	357.54	360.21	PM	but i just a different kind of talk on my favourite animal 
+130	359.62	359.9	ME	Yeah 
+131	360.21	364.23	PM	on my favourite animal is my own though look at home Um 
+132	364.23	364.96	PM	Um 
+133	367.01	368.63	PM	That doesn't really look like um actually 
+134	373.3	374.72	PM	Yeah it's more like a pig actually 
+135	375.84	376.27	PM	Well 
+136	378.46	379.99	ME	I see a dog in there yeah 
+137	379.52	380.06	PM	There are the three good idea 
+138	379.357	380.833	UI	{vocalsound}
+139	380.06	380.97	PM	are the three good idea 
+140	379.99	380.14	ME	in there yeah 
+141	380.621	381.176	ME	{vocalsound}
+142	382.82	383.68	ME	No seriously 
+143	384.112	384.881	ID	{vocalsound}
+144	384.213	385.76	PM	{vocalsound}
+145	383.968	384.896	UI	{vocalsound}
+146	388.27	389.07	PM	Uh 
+147	393.42	394.21	ME	What kind of that 
+148	394.87	398.71	PM	He's the next year old uh uh uh various things um 
+149	398.71	403.23	PM	um it and what they like about that um that this to suggest 
+150	403.23	405.71	PM	that this to suggest that his tail wags and it's 
+151	404.797	405.584	ME	{vocalsound}
+152	405.539	406.388	ID	{vocalsound}
+153	405.71	409.2	PM	and it's very friendly interior and orestes to see uh and that 
+154	409.2	411.11	PM	uh and that kind of affectionate and 
+155	411.11	413.936	PM	and um 
+156	415	415.12	PM	Uh 
+157	415.12	421.48	PM	Uh and it's quite quite we as well so you know you can doesn't take up too much space um 
+158	420.784	421.745	ME	{vocalsound}
+159	421.48	422.22	PM	um 
+160	425.56	430.28	PM	Um the leaders of anything which is still as well this is quite music 
+161	429.714	431.338	ID	{vocalsound}
+162	430.28	431.78	PM	well this is quite music say 
+163	431.27	433.44	ME	Is you where the this is on to it really see thing 
+164	433.83	434.67	PM	I couldn't see it 
+165	434.67	436.84	PM	couldn't see it as i she's had is generate and 
+166	436.336	437.264	ME	{vocalsound}
+167	436.84	441.92	PM	and um it just all this and this get up and start chasing its tail with round living room 
+168	440.382	443.21	ID	And after that 
+169	440.33	440.47	ME	Hmm 
+170	443.59	444.02	PM	Yeah so uh 
+171	444.02	445.502	PM	so uh 
+172	444.05	448.71	ME	Colour when use little he got lots of attention for doing it and has forever been conditioned 
+173	447.15	447.47	PM	Yeah maybe 
+174	447.47	448.08	PM	Yeah maybe 
+175	449	450.7	PM	Maybe i And um 
+176	450.7	452.3	PM	And um where she found this just an here 
+177	450.264	450.929	ME	{vocalsound}
+178	452.3	453.61	PM	this just an here yeah 
+179	453.055	453.425	ID	{vocalsound}
+180	455.51	456.76	PM	Okay 
+181	458.294	462.97	PM	Um huh meeting next Um 
+182	465.51	470.01	PM	Okay um and i need to discuss the project finance Um 
+183	470.01	476.53	PM	So current a brief um we're gonna be selling this remote control for twenty five euro 
+184	476.53	482.77	PM	euro um i'm we're aiming to make fifty million euro um 
+185	482.77	487.21	PM	um so we're gonna be selling this um an international scale and uh 
+186	487.21	495	PM	and uh we do want it to cost any more than uh twelve fifty euros and fifty percent of the selling price 
+187	488.56	488.91	ME	Mm 
+188	496.02	497.6	ME	And we discover that again 
+189	497.99	498.46	PM	Sure 
+190	499.16	502.11	ME	Um so these are all right yeah 
+191	502.11	504.1	ME	all right yeah Okay 
+192	505.28	509.26	ME	So cost like production cost is twelve fifty the selling price 
+193	508.17	508.92	PM	All together 
+194	509.26	513.06	ME	the selling price is is a wholesaler reach yeah like on the shelf 
+195	513.06	514	ME	like on the shelf 
+196	515.16	516.78	PM	Mm but uh i might 
+197	516.78	517.97	PM	but uh i might to ask 
+198	517.97	518.91	PM	to ask a question 
+199	518.31	520.65	ME	Our sell our selling oh yeah 
+200	519.67	521.58	PM	I imagine it probably is are sell actually because it's probably 
+201	520.65	522.57	ME	yeah okay okay 
+202	521.58	530.2	PM	actually because it's probably up to the The um the retail or two yeah some of whatever price they want Um 
+203	526.79	527.05	ME	Okay 
+204	528.9	529.14	ME	Uh-huh 
+205	531.83	532.46	PM	But i i don't know i mean do you think 
+206	531.58	531.81	ME	Right 
+207	532.46	538.19	PM	i don't know i mean do you think the fact that it's going to be sold internationally will have a bearing on a redesign it at all 
+208	538.77	539.424	ME	Yes 
+209	539.31	541.17	PM	Okay well Um 
+210	541.17	542.15	PM	{vocalsound}
+211	540.69	540.94	ME	Uh-huh 
+212	543.86	544.12	ME	Uh-huh 
+213	544.544	546.06	PM	Mm 
+214	548.28	554.28	ME	All right away i'm wondering if there is um and like the d. v. d. players if they are zones um 
+215	553.78	554.46	PM	Oh yeah regions and 
+216	554.46	556.62	PM	yeah regions and stuff yeah yeah 
+217	554.28	557.41	ME	um frequencies are some way hmmm 
+218	556.62	557.56	PM	yeah okay 
+219	557.56	558.06	PM	okay 
+220	557.41	561.17	ME	hmmm as well as uh characters um different 
+221	561.17	565.35	ME	um different uh keypad styles and simple 
+222	565.05	565.32	ID	Mm 
+223	565.13	565.93	PM	Yeah well 
+224	565.93	568.3	PM	Yeah well for a remote control to think that would be i suppose depends 
+225	566.17	566.7	ME	Um 
+226	568.3	571.01	PM	i suppose depends on how complicated our remote control is 
+227	568.46	568.83	ME	You know 
+228	571.22	571.58	ME	Yeah 
+229	571.74	574.91	ID	It does make sense when it is i think it's 
+230	574.91	580.21	ID	is i think it's you have more complicated right here in languages and the buttons 
+231	580.42	583.04	PM	Yeah yeah Okay 
+232	580.66	580.94	ME	Yeah 
+233	581.3	582.52	ID	Mm 
+234	582.33	583.5	ME	Yeah and then at it 
+235	583.04	583.9	PM	Okay 
+236	583.5	587.78	ME	and then at it and then all of the other thing international is on top of the price i'm thinking 
+237	587.78	596.832	ME	i'm thinking The price might might appeal to a certain market in one region where is in another it would be different so 
+238	597.79	600.43	PM	Or just like in terms of like the wealth of the country like 
+239	598.26	600.064	ME	Just a characteristic characteristic uh-huh 
+240	600.43	603.43	PM	like how much money people have to spend on things that 
+241	601.09	601.845	ME	Just 
+242	602.87	606.29	ME	Or just like basic product that is positioning twenty five 
+243	606.29	611.16	ME	twenty five euro remote control might be a big hit in london might not be such 
+244	611.16	615.2	ME	might not be such a big hit in and greece you know something 
+245	615.2	615.98	ME	you know something 
+246	615.74	617.28	PM	Yeah it's it's them yeah 
+247	615.98	616.94	ME	you know something like that yeah 
+248	619.01	620.06	PM	Marketing get more control 
+249	620.06	621.09	PM	get more control over it should be writing 
+250	619.616	620.167	ME	Hmm 
+251	620.48	620.64	ME	Hmm 
+252	621.09	621.49	PM	over it should be writing 
+253	621.49	624.87	PM	over it should be writing all this time um 
+254	655.45	660.71	ME	Right away and making some kind of assumptions about what what information we're getting here thinking 
+255	660.7	661.22	PM	Mm 
+256	660.71	665.64	ME	here thinking "'kay" trendy probably means something other than just basic something other 
+257	665.36	665.84	PM	Yeah 
+258	665.64	669.16	ME	something other than just standard and 
+259	670.31	672.15	ME	So i'm wondering right away is selling twenty 
+260	672.15	674.38	ME	is selling twenty five years is that so that that that is it's gonna 
+261	674.38	677.852	ME	that that is it's gonna be like the premium product um mm 
+262	677.15	677.66	PM	Yeah yeah like how much 
+263	677.66	680.53	PM	Yeah yeah like how much does you know remote control cost 
+264	680.52	680.81	ME	Yeah 
+265	681.66	687.09	PM	Well twenty five euro mean that thumb That's quite like eighteen pounds or something isn't are know 
+266	687.09	687.81	PM	isn't are know 
+267	687.81	688.04	PM	isn't are know as as as much as a 
+268	688.04	689.7	PM	as as as much as a sixteen 
+269	687.72	688.11	ME	Uh-huh 
+270	689.7	691.58	PM	sixteen seventeen eighteen points 
+271	689.77	689.98	ME	Yeah 
+272	691.16	691.33	ME	Yeah it's it's yeah 
+273	691.33	691.82	ME	Yeah it's it's yeah 
+274	691.82	691.97	ME	Yeah it's it's yeah 
+275	692.42	694.16	PM	Um as and i've never bought a remote 
+276	694.16	695.53	PM	i've never bought a remote controls are you 
+277	695.53	700.41	PM	controls are you how it how good a remote control but we can't you um 
+278	696.23	696.58	ME	No 
+279	697.98	699.19	ME	Yeah yeah 
+280	699.19	702.08	ME	yeah 
+281	702.02	705.01	PM	Yes is it has to look kind of cool and gimmicky 
+282	704.03	704.41	ME	Uh-huh 
+283	707.1	710.07	PM	Um right okay 
+284	711.43	713.81	PM	We just go on add yeah okay 
+285	713.81	714.96	PM	okay uh 
+286	714.96	721.44	PM	uh well that does anybody have anything to add to uh to the finance issue at all 
+287	722.81	723	PM	Yeah 
+288	722.77	727.01	ME	Do we have any other background information on like how that compares to other 
+289	727.65	728.32	PM	No actually that would be useful 
+290	728.32	729.45	PM	that would be useful though it may if you 
+291	728.35	729.232	ME	Either 
+292	729.45	729.81	PM	though it may if you 
+293	729.81	732.87	PM	though it may if you knew like what your money look at you know 
+294	730.73	731.07	ME	Yeah 
+295	732.32	732.54	ID	Uh-huh 
+296	735.11	735.7	PM	Mm 
+297	734.73	735.08	ME	Hmm 
+298	753.67	759.58	ME	Here interesting thing about discussing the um production remote control for me is that we as you point 
+299	759.58	760.59	ME	we as you point out as don't 
+300	760.59	767.74	ME	out as don't think remote controls being summoned something people consciously s. f.s in the purchasing habits it's just 
+301	767.69	768.25	PM	Yeah yeah 
+302	767.74	772.49	ME	it's just like getting shoelaces issues or something this comes 
+303	772.01	772.14	PM	Five 
+304	772.8	774.17	PM	Five minutes and the meeting oh okay 
+305	772.49	773.41	ME	this comes one 
+306	774.17	775.33	PM	oh okay we're over the hand 
+307	775.33	776.97	PM	we're over the hand 
+308	776.12	777.67	ME	Can i mean like is it 
+309	776.735	777.89	UI	Yeah 
+310	777.7	778.02	ID	Yeah 
+311	777.67	779.25	ME	is it is or like how do you i i mean one 
+312	779.25	786.49	ME	i i mean one one we look at a be well the people producing television set maybe they have to buy a remote control is another way is 
+313	786.49	793.63	ME	is another way is maybe people had t. v. set a really set up with their remote control and they really want a better one or something 
+314	792.52	793.327	UI	Um 
+315	794.52	801.38	UI	Okay in time but i'm more controls because um the fed up of having four five different calls for each ten times so um and then 
+316	794.53	795.162	ME	Yeah 
+317	799.88	801.75	ME	Right right okay 
+318	801.38	804.33	UI	so um and then was just "'cause" i'm a devices control 
+319	801.75	802.454	ME	okay so 
+320	804.47	804.72	ME	Right so in function 
+321	804.72	810.448	ME	Right so in function wanna priorities might be too Combine as many uses 
+322	806.46	806.98	PM	Yeah 
+323	811.51	815.56	PM	That's a design that should be like a main design in the former control do you know your your 
+324	814.98	815.81	ME	I think so yeah 
+325	815.56	820.83	PM	your your satellite than your regular tally in your v. c. r. and everything 
+326	815.81	817.04	ME	think so yeah yeah 
+327	818.45	818.67	ME	Yeah 
+328	819.79	821.05	ME	Like "'kay" um maybe what we could use 
+329	821.05	828.28	ME	maybe what we could use as a sort of like an example of a successful at this technology is palm palm pilots there go on from being 
+330	828.28	834.09	ME	there go on from being just like little sort of scribble boards to the cameras m. p. three players telephones 
+331	832.76	833.2	PM	Uh-huh 
+332	835.22	836.31	ME	Everything agenda so like i wonder 
+333	836.31	840.68	ME	so like i wonder if we might add something new to the to the remote control market such as 
+334	839.536	840.69	PM	Yeah 
+335	840.68	844.096	ME	market such as the lighting in your hair so our um 
+336	843.99	847.62	PM	Or even a in a in a it's a ball it's um what you wanna watch slightly my 
+337	847.62	850.33	PM	watch slightly my pen they're all i want one sentence estimate and that's a good idea 
+338	849.08	849.78	ME	Yeah yeah 
+339	849.78	851.06	ME	Yeah yeah and 
+340	850.33	851.55	PM	and that's a good idea to extra 
+341	851.55	853.03	PM	to extra functionalities 
+342	851.06	851.42	ME	and 
+343	852.79	853.54	ME	Yeah but 
+344	853.54	862.9	ME	but personally for me at home i've i've combined the um the audio video might television set in my d. v. d. player m. s. c. d. player so 
+345	862.9	864.62	ME	so they will work actually function together but i differ 
+346	864.62	866.91	ME	together but i differ remote controls which you know so 
+347	866.59	867.24	PM	Uh-huh 
+348	866.91	870.27	ME	you know so it's sort of ironic that that then they're in there 
+349	872.03	872.56	ME	{vocalsound}
+350	874.02	876.45	ME	You know the sound everything is just one system but each one's 
+351	876.88	877.46	PM	Hmm 
+352	876.45	877.77	ME	but each one's got it on the know 
+353	878.95	879.22	ME	Right 
+354	883.05	885.66	PM	okay uh 
+355	885.66	886.62	PM	uh at all uh gonna have 
+356	886.62	889.88	PM	at all uh gonna have to wrap up pretty quickly a nice couple of minutes and 
+357	889.88	891.96	PM	minutes and i'll just write nothing else okay 
+358	891.96	892.58	PM	else okay um 
+359	892.58	898.27	PM	um so anything else anybody wants uh at it but what they don't like about remote controls and use what they you 
+360	898.27	902.62	PM	what they you would really like to be part of this new one at all 
+361	903.08	903.98	ID	And you losing them 
+362	904.6	905.58	PM	You keep using them at a 
+363	904.75	905.26	ME	Hmm 
+364	905.58	906.08	PM	them at a 
+365	906.45	908.59	ID	I mean it's okay uh-huh 
+366	907.47	909.26	ME	Mm hmm 
+367	908.59	910.62	ID	mean that's really quite small or when 
+368	910.62	912.9	ID	small or when you why it but i think uh 
+369	911.1	912.1	ME	Uh-huh uh-huh 
+370	912.9	914.44	ID	i think uh it's under or 
+371	913.17	914.71	PM	Yeah 
+372	913.22	913.58	ME	Yeah 
+373	914.71	920.04	PM	you get a response we can if you like whistle or make really high pitched noise they'd be there i mean is that 
+374	914.77	915.13	ME	Yeah 
+375	915.45	916.11	ID	Yeah 
+376	916.12	916.97	ME	This is really yeah 
+377	919.28	919.69	ME	Yeah 
+378	920.04	920.5	PM	there i mean is that 
+379	920.5	922.53	PM	there i mean is that something we don't include you think 
+380	924.35	925.74	ME	Huh Hmmm sure 
+381	925.37	926.64	PM	Hmm Okay 
+382	925.74	927.64	ME	Hmmm sure And i remember 
+383	926.64	927.869	PM	Okay maybe 
+384	927.64	932.01	ME	And i remember when the first remote control might much and we had was on a cable actually cable between get 
+385	932.01	933.48	ME	actually cable between get the t. v. in big like 
+386	932.64	933.296	PM	{vocalsound}
+387	933.48	937.36	ME	the t. v. in big like buttons as sort of like like on a blind or something and um 
+388	937	937.62	PM	My goodness 
+389	937.36	938.4	ME	and um you know anything about what 
+390	938.4	940.72	ME	you know anything about what they are now better but actually 
+391	940.72	946.4	ME	better but actually it's still kind of i don't know like a massive junkie thing on the table maybe we could think 
+392	946.26	948.04	PM	Stuff is quite primitive 
+393	946.4	952.63	ME	maybe we could think about how to be more you know streamline sister 
+394	951.41	952.78	PM	Maybe like a touch screen or something 
+395	953.06	954.2	ME	Something like that yeah or whatever be 
+396	954.09	954.42	PM	Okay 
+397	954.2	956.35	ME	or whatever be technologically reasonable 
+398	956.36	957.42	PM	Uh-huh okay well i guess that's 
+399	957.42	959.3	PM	well i guess that's up to our industrial designer 
+400	957.54	959.24	ME	Is it could be it could it could be that if it could be the functionally 
+401	959.24	961.34	ME	if it could be the functionally that doesn't make any better but that just t. 
+402	961.34	963.91	ME	better but that just t. p. all of a i've not having you 
+403	962.22	963.35	PM	Yeah that's better 
+404	963.91	969.56	ME	not having you know these days is a rip using that he was phones are becoming more and more like sheik you know um 
+405	969	969.47	PM	Yeah 
+406	969.56	971.36	ME	um nicer material than 
+407	971.85	972.39	PM	Okay 
+408	971.36	972.96	ME	than might be 
+409	975.24	975.63	PM	Okay 
+410	975.57	976.83	ME	Be worth exploring yeah 
+411	976.66	976.73	UI	Mm 
+412	977.17	978.62	PM	Right well um so this 
+413	978.62	979.73	PM	so this to wrap up the next 
+414	979.73	981.67	PM	to wrap up the next meeting's gonna be in thirty minutes so that's 
+415	981.67	985.49	PM	minutes so that's point um about ten to twelve by my watched um 
+416	985.49	994.81	PM	um so in between nine and um as the industrial designer you're gonna be working on you know that's a working design of that so you 
+417	993.88	994.02	ID	Yeah 
+418	994.81	996.69	PM	design of that so you you know you doing there um 
+419	996.69	1000.99	PM	um for our user interface technical functions i 
+420	1000.99	1003.16	PM	functions i guess that's you know like what we've been talking about what i'll actually day 
+421	1003.16	1004.08	PM	what i'll actually day and 
+422	1004.08	1008.75	PM	and and Uh marketing executive 
+423	1010.02	1016.48	PM	You'll be just thinking about what it actually what you know what requirements that house to house to fulfil and you will get 
+424	1016.48	1019.31	PM	and you will get instructions email to you i guess 
+425	1019.67	1020.01	ME	Okay 
+426	1021.55	1022.56	PM	Um 
+427	1024.032	1025.056	ME	{vocalsound}
+428	1028.05	1031.66	PM	Yes it's at the functional design stages next i guess 
+429	1032.573	1033.164	PM	{vocalsound}
+430	1034.47	1035.27	PM	And uh 
+431	1036.47	1037.69	PM	And that's the end of the meeting 
+432	1039.12	1042.624	PM	So i got the little message a lock same as my follow it through 
+433	1039.8	1041.248	ME	Um 
+434	1044.944	1045.136	ME	{vocalsound}
+435	1047.17	1050.09	ME	Before we wrap up just to make your own same page yeah um 
+436	1049.54	1050.04	PM	Uh-huh 
+437	1050.09	1052.89	ME	um do we we were 
+438	1052.89	1056.51	ME	we were given sort of an example of a coffee machine or something right 
+439	1056.3	1057.68	PM	Nine yeah 
+440	1056.93	1057.09	ID	Uh-huh 
+441	1056.51	1057.14	ME	or something right well 
+442	1057.14	1057.41	ME	well 
+443	1058.61	1059.15	ME	Um 
+444	1060.99	1067.54	ME	Are we may train on the assumption that are television remote control may have features which could be on the television or 
+445	1067.54	1073.79	ME	or are we keeping sort of like uh design commitment to television features and 
+446	1068.76	1068.8	PM	True 
+447	1073.56	1073.97	PM	Okay well 
+448	1073.97	1075.12	PM	Okay well just very quickly "'cause" we're supposed to finish 
+449	1073.79	1074.44	ME	and i don't know 
+450	1075.12	1076.64	PM	"'cause" we're supposed to finish my 
+451	1076.64	1079.1	PM	my and i guess that's not to us i mean you probably want 
+452	1076.56	1077.45	ME	Yeah sure 
+453	1077.45	1078.06	ME	sure 
+454	1079.1	1082.39	PM	i mean you probably want some kind of unique selling point of that so um 
+455	1082.39	1084.848	PM	so um you know 
+456	1081.99	1082.38	ME	Okay 
+457	1084.36	1086.91	ID	I don't want that it would be production cost 
+458	1086.96	1087.76	ME	Okay yeah 
+459	1087.57	1088.74	ID	Because there's a cat there so 
+460	1087.59	1088.2	PM	Yeah 
+461	1088.74	1094.9	ID	a cat there so um Depends on how much you can come into that price Mm 
+462	1089.89	1090.23	ME	Okay 
+463	1093.82	1094.41	PM	Uh-huh 
+464	1093.83	1094.13	ME	Okay 
+465	1096.03	1098.43	ID	I think that's the main at it 
+466	1095.78	1096.16	PM	Yeah 
+467	1098.51	1099.43	PM	Okay rights okay 
+468	1098.52	1098.85	ME	Okay 
+469	1099.43	1103.2	PM	rights okay well that's that's the end of the meeting then um 
+470	1102.4	1102.4	ME	Mm 
+471	1104.58	1105.58	PM	It's uh 
+472	1104.255	1105.728	ME	{vocalsound}
+473	1106.58	1107.09	PM	Thank you all for coming 
+474	1107.822	1109.45	ID	Mm 
+475	1107.628	1108.117	ME	{vocalsound}

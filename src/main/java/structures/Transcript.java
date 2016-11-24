@@ -25,4 +25,13 @@ public class Transcript {
     public void setEntries(List<TranscriptEntry> entries) {
         this.entries = entries;
     }
+
+    @Override
+    public String toString() {
+        String out="";
+        for(TranscriptEntry e:entries){
+            out+=e.toString();
+        }
+        return out;
+    }
 }
