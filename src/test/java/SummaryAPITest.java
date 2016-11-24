@@ -63,7 +63,7 @@ public class SummaryAPITest {
 
         //print result
         System.out.println(response.toString());
-        given().when().get("http://localhost:8080/summary").then().statusCode(200);
+        given().when().get("http://localhost:8080/summary?id=1").then().statusCode(200);
     }
 
 }
