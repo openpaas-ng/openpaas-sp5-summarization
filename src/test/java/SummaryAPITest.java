@@ -25,7 +25,7 @@ public class SummaryAPITest {
     public void makeSureThatBatchAPIWorks() throws Exception {
         String USER_AGENT = "Mozilla/5.0";
 
-        CSVReader reader = new CSVReader(new FileReader("src/test/java/ES2002a.2.da"),'\t');
+        CSVReader reader = new CSVReader(new FileReader("src/test/java/asr_info_english.txt"),'\t');
         Gson gson = new Gson();
 
         List myEntries = reader.readAll();
@@ -39,7 +39,7 @@ public class SummaryAPITest {
         con.setRequestMethod("POST");
         con.setRequestProperty("User-Agent", USER_AGENT);
         con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
-        String urlParameters = "id=1&locale=&transcript="+jsonInString;
+        String urlParameters = "id=1&locale=&nkeys=10&transcript="+jsonInString;
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
         wr.writeBytes(urlParameters);

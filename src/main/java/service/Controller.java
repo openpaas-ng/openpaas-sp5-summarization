@@ -18,7 +18,7 @@ public class Controller {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping(value = "/summary", method = RequestMethod.POST)
-    public String postSummary(@RequestBody String transcript, @RequestParam(value="id") String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc) throws IOException {
+    public String postSummary(@RequestBody String transcript, @RequestParam(value="id") String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException, InterruptedException {
         String[] bodyParams = transcript.split("&");
         for(String param:bodyParams){
             if(param.startsWith("transcript=")) {
@@ -30,18 +30,20 @@ public class Controller {
         transcript=transcript.substring(11);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
-        try(  PrintWriter out = new PrintWriter( id+"_transcript.txt" )  ){
+        String filename = "local_directory/input/meeting_"+ id + ".txt";
+        String infilename = "meeting_"+id + ".txt";
+        try(  PrintWriter out = new PrintWriter( filename)  ){
             out.println(t.toString());
         }
-        //Runtime.getRuntime().exec("Rscript --vanilla /home/midas/IdeaProjects/openpaas/offline_exe.R filename.txt 20");
-        //System.out.println("service");
+        Process u = Runtime.getRuntime().exec("Rscript --vanilla local_directory/offline_exe.R "+infilename+" "+nkeys.toString());
+        u.waitFor();
 
         return "summary produced succesfully for meeting"+id;
     }
 
     @RequestMapping(value = "/summary", method = RequestMethod.GET)
     public String getSummary(@RequestParam String id) throws IOException {
-        CSVReader reader = new CSVReader(new FileReader( id+"_transcript.txt"),'\t');
+        CSVReader reader = new CSVReader(new FileReader( "local_directory/output/meeting_"+id+".txt"),'\t');
         Gson gson = new Gson();
         List myEntries = reader.readAll();
         Transcript t= new Transcript();
