@@ -1,4 +1,4 @@
-cores_dec = function(g, degeneracy, directed_mode){
+cores_dec = function(g, degeneracy, directed_mode, overall_wd){
   
   operating_system = .Platform$OS.type
   
@@ -12,8 +12,10 @@ cores_dec = function(g, degeneracy, directed_mode){
       my_number = 2
     }
     
-    command = paste('java -jar kcore-1.0.jar edgelist.txt', my_number)
-    command_unix = paste('java -jar kcore-1.0.jar edgelist.txt', my_number)
+    #java -jar local_directory/kcore-1.0.jar local_directory/edgelist.txt 0
+    
+    command = paste0('java -jar ',overall_wd,'/kcore-1.0.jar ',overall_wd,'/edgelist.txt ', my_number)
+    command_unix = paste0('java -jar ',overall_wd,'/kcore-1.0.jar ',overall_wd,'/edgelist.txt ', my_number)
     
     if (operating_system=="unix"){
       
@@ -26,7 +28,7 @@ cores_dec = function(g, degeneracy, directed_mode){
       
     }
     
-    file_read = read.csv("edgelist_cores.csv", header=FALSE, stringsAsFactors = FALSE, sep=" ")
+    file_read = read.csv(paste0(overall_wd,"/edgelist_cores.csv"), header=FALSE, stringsAsFactors = FALSE, sep=" ")
     file_read = file_read[,-2]
     
     cores_g = as.numeric(file_read[,2])

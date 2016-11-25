@@ -32,12 +32,13 @@ public class Controller {
         transcript=transcript.substring(11);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
-        String filename = "local_directory/input/meeting_"+ id + ".txt";
+        String filename = System.getProperty("user.home")+"/local_directory/input/meeting_"+ id + ".txt";
         String infilename = "meeting_"+id + ".txt";
         try(  PrintWriter out = new PrintWriter( filename)  ){
             out.println(t.toString());
         }
-        Process u = Runtime.getRuntime().exec("Rscript --vanilla local_directory/offline_exe.R "+infilename+" "+nkeys.toString());
+        String command = "Rscript --vanilla offline_exe.R " + "asr_info_french.txt" + " " + nkeys.toString();
+        Process u = Runtime.getRuntime().exec(command);
         u.waitFor();
 
         return "summary produced succesfully for meeting"+id;

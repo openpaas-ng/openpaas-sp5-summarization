@@ -1,10 +1,10 @@
-assign_attributes_to_graph_nocomm = function(g, method, degeneracy, directed_mode, v_g_name, l_v_g_name){
+assign_attributes_to_graph_nocomm = function(g, method, degeneracy, directed_mode, v_g_name, l_v_g_name, overall_wd){
 	
 	# if method=="TR", no need to apply k-core or k-truss
 	if (method!="TR"){
 		
 		# perform k-core or k-truss decomposition
-		cores = cores_dec(g, degeneracy, directed_mode)$cores
+		cores = cores_dec(g, degeneracy, directed_mode, overall_wd)$cores
 		V(g)[names(cores)]$core_no = cores
 		
 		# get node membership
