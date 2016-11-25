@@ -3,6 +3,8 @@ package service;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -42,18 +44,12 @@ public class Controller {
     }
 
     @RequestMapping(value = "/summary", method = RequestMethod.GET)
-    public String getSummary(@RequestParam String id) throws IOException {
-        CSVReader reader = new CSVReader(new FileReader( "local_directory/output/meeting_"+id+".txt"),'\t');
+    public String getSummary(@RequestParam String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc) throws IOException {
         Gson gson = new Gson();
-        List myEntries = reader.readAll();
-        Transcript t= new Transcript();
-        myEntries.stream().forEach( s->{
-            String[] entry = (String[]) s;
-            if(entry.length==9)
-                t.add(new TranscriptEntry(entry));
-        });
-        String jsonInString = gson.toJson(t);
-        return jsonInString;
+        byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
+        String s = new String(encoded, enc);
+        String jsonInString = gson.toJson(s);
+        return s;
     }
     @RequestMapping(value = "/stream", method = RequestMethod.GET)
     public String initStream(@RequestParam String id,@RequestParam String ip,@RequestParam String port) throws IOException {
