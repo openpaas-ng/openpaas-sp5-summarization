@@ -9,8 +9,12 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 import com.opencsv.CSVReader;
+import org.springframework.messaging.handler.annotation.MessageMapping;
+import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.web.bind.annotation.*;
 import com.google.gson.Gson;
+import structures.Greeting;
+import structures.HelloMessage;
 import structures.Transcript;
 import structures.TranscriptEntry;
 
@@ -66,5 +70,12 @@ public class Controller {
 
 
         return "stream initialized succesfully";
+    }
+
+    @MessageMapping("/hello")
+    @SendTo("/topic/greetings")
+    public Greeting greeting(HelloMessage message) throws Exception {
+        Thread.sleep(1000); // simulated delay
+        return new Greeting("Hello, " + message.getName() + "!");
     }
 }
