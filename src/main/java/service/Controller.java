@@ -118,11 +118,10 @@ public class Controller {
     @MessageMapping("/chat")
     @SendTo("/topic/messages")
     public OutputMessage send(Message message) throws Exception {
-        if (currentMeetings.containsKey(message.getFrom()) && message.getText().split("\t").length==5){
-            //String id, Double from, Double until, String speaker, String text
-            String[] messageParts = message.getText().split("\t");
-            //TranscriptEntry e=new TranscriptEntry(message.id,message.from,message.until,speaker,text);
-
+        String[] messageParts = message.getText().split("\t");
+        if (currentMeetings.containsKey(message.getFrom()) &&messageParts.length==5){
+            TranscriptEntry e=new TranscriptEntry(messageParts[0],Double.valueOf(messageParts[1]),Double.valueOf(messageParts[2]),messageParts[3],messageParts[4]);
+            currentMeetings.get(message.getFrom()).add(e);
         }
         String time = new SimpleDateFormat("HH:mm").format(new Date());
         //currentMeetings.putIfAbsent(message.getFrom(),message.getText());
