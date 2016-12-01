@@ -8,8 +8,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
+
+import jdk.management.resource.internal.inst.InitInstrumentation;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 import com.google.gson.Gson;
 import structures.*;
@@ -127,5 +130,10 @@ public class Controller {
         //currentMeetings.putIfAbsent(message.getFrom(),message.getText());
         OutputMessage m = new OutputMessage(message.getFrom(), message.getText(), time);
         return m;
+    }
+    @Scheduled(fixedRate = 5000)
+    public void reportCurrentTime() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+        System.out.println("The time is now {}"+ dateFormat.format(new Date()));
     }
 }
