@@ -9,7 +9,6 @@ import java.util.Date;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-import jdk.management.resource.internal.inst.InitInstrumentation;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -131,9 +130,16 @@ public class Controller {
         OutputMessage m = new OutputMessage(message.getFrom(), message.getText(), time);
         return m;
     }
-    @Scheduled(fixedRate = 5000)
+
+
+    @Scheduled(fixedRate = 6000)
     public void reportCurrentTime() {
+        currentMeetings.forEach((k,v)->{
+            System.out.println(k+" "+v.getEntries().size());
+
+        });
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
         System.out.println("The time is now {}"+ dateFormat.format(new Date()));
     }
+    //http://localhost:8080/stream?id=1&action=START
 }
