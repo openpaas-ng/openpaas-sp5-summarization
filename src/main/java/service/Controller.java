@@ -135,6 +135,7 @@ public class Controller {
     @Scheduled(fixedRate = 6000)
     public void reportCurrentTime() {
         currentMeetings.forEach((k,v)->{
+            v.updateKeywords();
             System.out.println(k+" "+v.getEntries().size());
 
         });
