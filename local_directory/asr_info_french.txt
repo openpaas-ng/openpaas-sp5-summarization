@@ -1,3 +1,4 @@
+start	end	role	text
 1	10	part1	Bon c'est parti 
 2	20	part2	on va le mettre là puis On va essayer de l'oublier
 3	30	part1	bon Juste pour t'expliquer en fait on refait un peu comme comme hier sauf qu'on chacun détaille un petit peu plus ce qu'il a fait et puis puis on essaye de de discuter puis sur sur des points plus en detail que ce qu'on a ce qu'on a deja discuté hier 
