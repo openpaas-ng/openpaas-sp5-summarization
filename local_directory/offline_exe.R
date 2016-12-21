@@ -5,17 +5,17 @@ rm(list=ls())
 
 ########## packages and functions loading ##########
 
-tt = proc.time()['elapsed']
+tt0 = proc.time()['elapsed']
 library(stringr)
 library(textcat)
 library(SnowballC)
 library(igraph)
 library(hash)
 library(tools)
-cat('packages loaded in',proc.time()['elapsed'] - tt, 'second(s)')
+cat('packages loaded in',proc.time()['elapsed'] - tt0, 'second(s)')
 
 tt = proc.time()['elapsed']
-lapply(list("from_keyword_to_summary_submodularity.R","concept_submodularity_objective.R","from_terms_to_keywords.R","assign_attributes_to_graph_nocomm.R","sentence_extraction_submodularity.R","cores_dec.R","assign_attributes_to_graph_initial.R","clean_utterances.R","cleaning_meeting_text.R","cleaning_transcript.R","from_cleaned_transcript_to_terms_list.R","from_terms_to_graph.R","keyword_extraction.R","keyword_extraction_inner.R","sentence_selection_greedy.R","string_join.R","utterance_collapse.R","get_elbow_point.R"), function(x) {source(paste0('~/local_directory/',x))})
+hide = lapply(list("from_keyword_to_summary_submodularity.R","concept_submodularity_objective.R","from_terms_to_keywords.R","assign_attributes_to_graph_nocomm.R","sentence_extraction_submodularity.R","cores_dec.R","assign_attributes_to_graph_initial.R","clean_utterances.R","cleaning_meeting_text.R","cleaning_transcript.R","from_cleaned_transcript_to_terms_list.R","from_terms_to_graph.R","keyword_extraction.R","keyword_extraction_inner.R","sentence_selection_greedy.R","string_join.R","utterance_collapse.R","get_elbow_point.R"), function(x) {source(paste0('~/local_directory/',x))})
 cat('\n functions loaded in',proc.time()['elapsed'] - tt, 'second(s)')
 
 ########## variables passed from command line ##########
@@ -27,20 +27,27 @@ args = commandArgs(trailingOnly=TRUE)
 
 # example command prompt
 # Rscript --vanilla offline_exe.R asr_info_english.txt 350
+# note that 'offline_exe.R' needs to be present in the terminal working directory, outside of the local directory with all the R files
 
 ########## internal variables ##########
+
+input_file_name = as.character(args[1])
+user_summary_size = as.integer(args[2])
 
 r_directory='local_directory'
 
 operating_system = .Platform$OS.type
 # tuning parameters       
-method="CRP"
-scaling_factor=0.3
-lambda=5
+method = "CRP"
+scaling_factor = 0.3
+lambda = 5
+
+cat('\n internal variables defined')
 
 ########## text loading ##########
 
-asr_info = read.delim(paste0('~/local_directory/input/',as.character(args[1])), stringsAsFactors=FALSE, header=TRUE, fileEncoding = 'utf-8')
+# the file passed should be utf-8 encoded, with 4 tab-separated columns devoid of any header
+asr_info = read.delim(paste0('~/local_directory/input/',input_file_name), stringsAsFactors=FALSE, header=FALSE, fileEncoding = 'utf-8', col.names = c('start', 'end', 'role', 'text'))
 cat('\n input file read')
 
 detected_language = textcat(paste(asr_info[,'text'],collapse=' '))
@@ -93,25 +100,30 @@ cat('\n utterances cleaned in',proc.time()['elapsed'] - tt, 'second(s)')
 ########## keyword extraction ##########
 
 tt = proc.time()['elapsed']
-keywords_scores = from_terms_to_keywords(terms_list=terms_list, window_size=12, to_overspan=T, to_build_on_processed=T, community_algo="none", weighted_comm=NA, directed_comm=NA, rw_length=NULL, size_threshold=NULL, degeneracy="weighted_k_core", directed_mode="all", method=method, use_elbow=FALSE, use_percentage=NA, percentage=0.15, number_to_retain=NA, which_nodes="all", overall_wd=r_directory)$output
+keywords_scores = from_terms_to_keywords(terms_list=terms_list, window_size=12, to_overspan=T, to_build_on_processed=T, community_algo="none", weighted_comm=NA, directed_comm=NA, rw_length=NULL, size_threshold=NULL, degeneracy="weighted_k_core", directed_mode="all", method=method, use_elbow=FALSE, use_percentage=NA, percentage=0.15, number_to_retain=NA, which_nodes="all", overall_wd=r_directory, edgelist_file_name = unlist(strsplit(input_file_name, split='\\.'))[1])$output
 cat('\n keywords extracted in',proc.time()['elapsed'] - tt, 'second(s)')
 
 df_wc = data.frame(words = keywords_scores$extracted_keywords, freq = round(as.numeric(keywords_scores$scores),4))
 
-write.table(df_wc, paste0('~/local_directory/output/keywords_',as.character(args[1])), col.names = FALSE, row.names = FALSE, quote=FALSE)
+write.table(df_wc, paste0('~/local_directory/output/keywords_',input_file_name), col.names = FALSE, row.names = FALSE, quote=FALSE)
 
 cat('\n keywords written to disk')
 
 ########## summary generation ##########
 
 tt = proc.time()['elapsed']
-my_summary = from_keyword_to_summary_submodularity(graph_keywords_scores_temp = keywords_scores, utterances = utterances, start_time = start_time, to_stem=T, max_summary_length=as.integer(args[2]), scaling_factor=scaling_factor, weighted_sum_concepts=T, negative_terms=FALSE, lambda=lambda)$my_summary
-cat('\n summary of',args[2],'words generated in',proc.time()['elapsed'] - tt, 'second(s)')
-	
-writeLines(my_summary, paste0('~/local_directory/output/',as.character(args[1])))
+my_summary = from_keyword_to_summary_submodularity(graph_keywords_scores_temp = keywords_scores, utterances = utterances, start_time = start_time, to_stem=T, max_summary_length=user_summary_size, scaling_factor=scaling_factor, weighted_sum_concepts=T, negative_terms=FALSE, lambda=lambda)$my_summary
+cat('\n summary of',user_summary_size,'words generated in',proc.time()['elapsed'] - tt, 'second(s)')
+
+writeLines(my_summary, paste0('~/local_directory/output/',input_file_name))
 cat('\n summary written to disk')
+cat('\n')
 
 cat(paste(my_summary, collapse=' '))
+
+cat('\n')
+cat('\n total processing time:',proc.time()['elapsed'] - tt0, 'second(s)')
+
 
 } else {
 

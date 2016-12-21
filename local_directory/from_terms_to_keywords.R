@@ -1,10 +1,10 @@
 from_terms_to_keywords <-
-  function(terms_list, window_size, to_overspan, to_build_on_processed, community_algo, weighted_comm, directed_comm, rw_length, size_threshold, degeneracy, directed_mode, method, use_elbow, use_percentage, percentage, number_to_retain, which_nodes, overall_wd){
+  function(terms_list, window_size, to_overspan, to_build_on_processed, community_algo, weighted_comm, directed_comm, rw_length, size_threshold, degeneracy, directed_mode, method, use_elbow, use_percentage, percentage, number_to_retain, which_nodes, overall_wd, edgelist_file_name){
     
     edges_df = from_terms_to_graph(terms_list = terms_list, w = window_size, overspan = to_overspan, processed = to_build_on_processed)$output
     
     # ensures that the encoding is UTF-8 so that it works for French
-    write.table(edges_df,paste0('~/',overall_wd,"/edgelist.txt"), col.names = FALSE, row.names = FALSE, quote=FALSE, fileEncoding = 'utf-8')
+    write.table(edges_df,paste0('~/',overall_wd,"/",edgelist_file_name,"_edgelist.txt"), col.names = FALSE, row.names = FALSE, quote=FALSE, fileEncoding = 'utf-8')
     
     output = assign_attributes_to_graph_initial(edges_df, weighted = TRUE, directed = TRUE)
     
@@ -30,7 +30,7 @@ from_terms_to_keywords <-
     } else {
       
       # perform graph decomposition
-      g = assign_attributes_to_graph_nocomm(g, method, degeneracy, directed_mode, v_g_name, l_v_g_name, overall_wd)$g
+      g = assign_attributes_to_graph_nocomm(g, method, degeneracy, directed_mode, v_g_name, l_v_g_name, overall_wd, edgelist_file_name)$g
       
     }
     
