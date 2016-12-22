@@ -25,12 +25,18 @@ public class RegisterTest {
     public void register() throws Exception {
         String USER_AGENT = "Mozilla/5.0";
 
-        CSVReader reader = new CSVReader(new FileReader("src/test/java/asr_info_english.txt"),'\t');
+        CSVReader reader = new CSVReader(new FileReader("local_directory/input/1_transcript.txt"),'\t');
         Gson gson = new Gson();
 
         List myEntries = reader.readAll();
         Transcript t= new Transcript();
-        myEntries.stream().forEach( s->{t.add(new TranscriptEntry((String[]) s));});
+        myEntries.stream().forEach( s->{
+            String[] array = (String[]) s;
+            if(array.length==4)
+                t.add(new TranscriptEntry(array));
+            else
+                System.out.println(s);
+        });
         String jsonInString = gson.toJson(t);
         String url = "http://localhost:8080/stream?id=1&action=START";
         given().when().get(url).then().statusCode(200);

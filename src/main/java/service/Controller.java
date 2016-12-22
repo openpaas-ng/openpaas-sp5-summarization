@@ -47,12 +47,12 @@ public class Controller {
         transcript=transcript.substring(11);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
-        String filename = System.getProperty("user.home")+"/local_directory/input/meeting_"+ id + ".txt";
+        String filename = System.getProperty("user.home")+"/meeting_"+ id + ".txt";
         String infilename = "meeting_"+id + ".txt";
         try(  PrintWriter out = new PrintWriter( filename)  ){
             out.println(t.toString());
         }
-        String command = "Rscript --vanilla offline_exe.R " + "asr_info_french.txt" + " " + nkeys.toString();
+        String command = "Rscript --vanilla offline_exe.R " +infilename + " " + nkeys.toString();
         Process u = Runtime.getRuntime().exec(command);
         u.waitFor();
 
@@ -121,8 +121,8 @@ public class Controller {
     @SendTo("/topic/messages")
     public OutputMessage send(Message message) throws Exception {
         String[] messageParts = message.getText().split("\t");
-        if (currentMeetings.containsKey(message.getFrom()) &&messageParts.length==5){
-            TranscriptEntry e=new TranscriptEntry(messageParts[0],Double.valueOf(messageParts[1]),Double.valueOf(messageParts[2]),messageParts[3],messageParts[4]);
+        if (currentMeetings.containsKey(message.getFrom()) &&messageParts.length==4){
+            TranscriptEntry e=new TranscriptEntry(Double.valueOf(messageParts[0]),Double.valueOf(messageParts[1]),messageParts[2],messageParts[3]);
             currentMeetings.get(message.getFrom()).add(e);
         }
         String time = new SimpleDateFormat("HH:mm").format(new Date());

@@ -4,32 +4,22 @@ package structures;
  * Created by midas on 11/23/2016.
  */
 public class TranscriptEntry {
-    String id;
     Double from;
     Double until;
     String speaker;
     String text;
 
-    public TranscriptEntry(String id, Double from, Double until, String speaker, String text) {
-        this.id = id;
+    public TranscriptEntry(Double from, Double until, String speaker, String text) {
         this.from = from;
         this.until = until;
         this.speaker = speaker;
         this.text = text;
     }
     public TranscriptEntry(String[] e) {
-        this.id = e[0];
-        this.from = Double.valueOf(e[1]);
-        this.until = Double.valueOf(e[2]);
-        this.speaker = e[3];
-        this.text = e[4];
-    }
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
+        this.from = Double.valueOf(e[0]);
+        this.until = Double.valueOf(e[1]);
+        this.speaker = e[2];
+        this.text = e[3];
     }
 
     public Double getFrom() {
@@ -66,6 +56,6 @@ public class TranscriptEntry {
 
     @Override
     public String toString() {
-        return this.id+"\t"+this.from+"\t"+this.until+"\t"+this.speaker+"\t"+this.text+"\n";
+        return this.from+"\t"+this.until+"\t"+this.speaker+"\t"+this.text+"\n";
     }
 }

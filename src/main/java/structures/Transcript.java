@@ -5,10 +5,7 @@ import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
 import service.Settings;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by midas on 11/23/2016.
@@ -58,12 +55,15 @@ public class Transcript {
         Map<String, Double> map = decomposer.coreNumbers();
         map= KCore.sortByValue(map);
         latestKeywords.clear();
-        for(int i=0;i<Settings.NKEYWORDS;i++){
-            Map.Entry<String, Double> mapEntry = map.entrySet().iterator().next();
-            String key = mapEntry.getKey();
-            Double value = mapEntry.getValue();
-            latestKeywords.put(key,value);
+        int cc = 0;
+        for (Map.Entry<String,Double> e:map.entrySet()){
+
+            latestKeywords.put(e.getKey(),e.getValue());
+            cc++;
+            if(cc==Settings.NKEYWORDS)
+                break;
         }
+
     }
 
     private String getLatestEntriesText() {
