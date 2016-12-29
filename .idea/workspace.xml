@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1c7c45-3c09-482e-97b9-774418597b39" name="Default" comment="demo classes merged with REST framework for intergration">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/core/resource/resourceService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/core/retrieval/EmailService.java" afterPath="$PROJECT_DIR$/src/main/java/core/resource/EmailService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/core/retrieval/StackOverflowService.java" afterPath="$PROJECT_DIR$/src/main/java/core/resource/SOService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/core/retrieval/WikipediaService.java" afterPath="$PROJECT_DIR$/src/main/java/core/resource/WikipediaService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/structures/Email.java" afterPath="$PROJECT_DIR$/src/main/java/structures/resources/Email.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/structures/QuestionItems.java" afterPath="$PROJECT_DIR$/src/main/java/structures/resources/QuestionItems.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/structures/StackOverflow.java" afterPath="$PROJECT_DIR$/src/main/java/structures/resources/StackOverflow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/structures/Wikipedia.java" afterPath="$PROJECT_DIR$/src/main/java/structures/resources/Wikipedia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/Application.class" afterPath="$PROJECT_DIR$/target/classes/service/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/Controller.class" afterPath="$PROJECT_DIR$/target/classes/service/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structures/Transcript.class" afterPath="$PROJECT_DIR$/target/classes/structures/Transcript.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/structures/TranscriptEntry.class" afterPath="$PROJECT_DIR$/target/classes/structures/TranscriptEntry.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SummaryAPITest.class" afterPath="$PROJECT_DIR$/target/test-classes/SummaryAPITest.class" />
+    <list default="true" id="fc1c7c45-3c09-482e-97b9-774418597b39" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenpaasService.iml" afterPath="$PROJECT_DIR$/OpenpaasService.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/service/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/structures/Transcript.java" afterPath="$PROJECT_DIR$/src/main/java/structures/Transcript.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/RegisterTest.java" afterPath="$PROJECT_DIR$/src/test/java/RegisterTest.java" />
     </list>
     <ignored path="OpenPaasRealTimeService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Email.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Email.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structures/resources/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
+            <state relative-caret-position="561">
               <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding />
             </state>
@@ -98,13 +81,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
               <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
               <folding>
-                <marker date="1483028157516" expanded="false" signature="25:668" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -948,7 +931,7 @@
       <workItem from="1482839619220" duration="1203000" />
       <workItem from="1482841662902" duration="982000" />
       <workItem from="1482847211865" duration="5550000" />
-      <workItem from="1483013625594" duration="7056000" />
+      <workItem from="1483013625594" duration="7118000" />
     </task>
     <task id="LOCAL-00001" summary="simple rest service&#10;">
       <created>1479897068393</created>
@@ -985,7 +968,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480526400022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="retrieval services">
+      <created>1483045898643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1483045898643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1021,7 +1011,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67296000" />
+    <option name="totallyTimeSpent" value="67358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1924" height="1047" extended-state="0" />
@@ -1083,7 +1073,8 @@
     <MESSAGE value="simple rest service&#10;" />
     <MESSAGE value="rest" />
     <MESSAGE value="demo classes merged with REST framework for intergration" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo classes merged with REST framework for intergration" />
+    <MESSAGE value="retrieval services" />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieval services" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1130,7 +1121,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1483028157516" expanded="false" signature="25:668" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1161,7 +1152,7 @@
         <state relative-caret-position="221">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <marker date="1483028157516" expanded="false" signature="25:668" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1192,7 +1183,7 @@
         <state relative-caret-position="221">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <marker date="1483028157516" expanded="false" signature="25:668" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1407,29 +1398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/resource/resourceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structures/Transcript.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
           <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/resource/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1439,16 +1411,6 @@
         <state relative-caret-position="221">
           <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
-          <folding>
-            <marker date="1483028157516" expanded="false" signature="25:668" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1462,9 +1424,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structures/resources/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
+        <state relative-caret-position="561">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/resource/resourceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/resource/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="120" column="76" lean-forward="false" selection-start-line="120" selection-start-column="76" selection-end-line="120" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
