@@ -14,13 +14,17 @@ public class Transcript {
     List<TranscriptEntry> entries;
     //TODO check concurrency status of this map
     HashMap<String,Double> latestKeywords;
+    Double lastEntryTime;
+
     public Transcript(List<TranscriptEntry> entries) {
         this.entries = entries;
         latestKeywords=new HashMap<>();
+        lastEntryTime=0.0;
     }
     public Transcript() {
         this.entries = new ArrayList<TranscriptEntry>();
         latestKeywords=new HashMap<>();
+        lastEntryTime=0.0;
     }
 
 
@@ -69,7 +73,7 @@ public class Transcript {
     private String getLatestEntriesText() {
         String out = "";
         if(!this.entries.isEmpty()) {
-            Double lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
+            lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
             for (TranscriptEntry e : entries) {
                 if (e.getUntil()>lastEntryTime - Settings.TIMEWINDOW)
                     out += e.getText()+" ";

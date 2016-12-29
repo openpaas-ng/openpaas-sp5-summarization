@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package core.retrieval;
+package core.resource;
 
-import structures.Wikipedia;
+import structures.resources.Wikipedia;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -23,12 +22,9 @@ import org.jsoup.parser.Parser;
  *
  * @author pmeladianos
  */
-public class WikipediaService {
-    HashMap<String,Double> keywords;
+public class WikipediaService extends resourceService {
 
-    public WikipediaService(HashMap<String, Double> keywords) {
-        this.keywords = keywords;
-    }
+
 
     public  List<Wikipedia> createWikipediaArticles() {
         ArrayList<Wikipedia> list = new ArrayList<Wikipedia>();

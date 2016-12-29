@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package core.retrieval;
+package core.resource;
 
-import structures.Email;
+import structures.resources.Email;
 
 import java.util.*;
 
@@ -20,18 +20,9 @@ import org.apache.solr.common.SolrDocumentList;
  *
  * @author pmeladianos
  */
-public class EmailService {
-    HashMap<String,Double> keywords;
+public class EmailService extends resourceService{
 
-    public EmailService(HashMap<String, Double> keywords) {
-        this.keywords = keywords;
-    }
 
-    public static List<Email> createEmails() {
-        ArrayList<Email> list = new ArrayList<Email>();
-        list.add(new Email("0", "-", "-", "sample", "mail"));
-        return list;
-    }
 
     public List<Email> getEmails() {
         String query = getEmailServiceQuery(this.keywords.keySet());
@@ -48,7 +39,6 @@ public class EmailService {
             solrQuery.setHighlight(true).setHighlightSnippets(1).setHighlightSimplePost("</strong>").setHighlightSimplePre("<strong>"); //set other params as needed
             solrQuery.setParam("hl.fl", "content_t");
             solrQuery.setParam("hl.requireFieldMatch", "true");
-
         }
 
         solrQuery.setRows(15);

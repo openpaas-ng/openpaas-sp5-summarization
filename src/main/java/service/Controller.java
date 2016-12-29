@@ -6,15 +6,20 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
+import core.resource.EmailService;
+import core.resource.SOService;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 import com.google.gson.Gson;
 import structures.*;
+import structures.resources.Email;
+import structures.resources.StackOverflow;
 
 @RestController
 public class Controller {
@@ -67,7 +72,7 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/summary", method = RequestMethod.GET)
-    public String getSummary(@RequestParam String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc) throws IOException {
+    public String getSummary(@RequestParam(value="id") String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc) throws IOException {
         Gson gson = new Gson();
         byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
         String s = new String(encoded, enc);
@@ -83,7 +88,7 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/stream", method = RequestMethod.GET)
-    public String initStream(@RequestParam String id,@RequestParam String action) throws IOException {
+    public String initStream(@RequestParam(value="id") String id,@RequestParam String action) throws IOException {
         if(action.equals("START")){
             Transcript t=new Transcript();
             currentMeetings.putIfAbsent(id,t);
@@ -104,9 +109,19 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
-    public String getCurrentResources(@RequestParam String id) throws IOException {
-
-
+    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "email;so;wiki") String resources) throws IOException {
+        if(currentMeetings.contains(id)){
+            if(resources.contains("email")){
+                EmailService email=new EmailService();
+                email.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                List<Email> emails = email.getEmails();
+            }
+            if(resources.contains("so")) {
+                SOService so = new SOService();
+                so.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                List<StackOverflow> soQuestions = so.getSOQuestions();
+            }
+        }
 
         return "stream initialized succesfully";
     }
@@ -142,5 +157,4 @@ public class Controller {
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
         System.out.println("The time is now {}"+ dateFormat.format(new Date()));
     }
-    //http://localhost:8080/stream?id=1&action=START
 }

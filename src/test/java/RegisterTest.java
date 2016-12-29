@@ -25,7 +25,7 @@ public class RegisterTest {
     public void register() throws Exception {
         String USER_AGENT = "Mozilla/5.0";
 
-        CSVReader reader = new CSVReader(new FileReader("local_directory/input/1_transcript.txt"),'\t');
+        CSVReader reader = new CSVReader(new FileReader("local_directory/input/asr_info_english.txt"),'\t');
         Gson gson = new Gson();
 
         List myEntries = reader.readAll();

@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package core.retrieval;
+package core.resource;
 
 import com.google.gson.Gson;
-import structures.StackOverflow;
-import structures.QuestionItems;
+import structures.resources.StackOverflow;
+import structures.resources.QuestionItems;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,6 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.zip.GZIPInputStream;
 
@@ -23,24 +22,11 @@ import java.util.zip.GZIPInputStream;
  *
  * @author pmeladianos
  */
-public class StackOverflowService {
+public class SOService extends resourceService {
 
-    HashMap<String,Double> keywords;
 
-    public StackOverflowService(HashMap<String, Double> keywords) {
-        this.keywords = keywords;
-    }
 
-    public  List<StackOverflow> createStackOverflowQuestions() {
-        ArrayList<StackOverflow> list = new ArrayList<StackOverflow>();
-        ArrayList<String> tags = new ArrayList<String>();
-        tags.add("sample");
-        tags.add("answer");
-        list.add(new StackOverflow(tags, "1470617822", "38818943", "http://stackoverflow.com/questions/38818943/about-transfer-a-file-to-multiple-receiver-using-java-udp", "About transfer a file to multiple receiver using java UDP"));
-        return list;
-    }
-
-    public  List<StackOverflow> getStackOverflowQuestions() {
+    public  List<StackOverflow> getSOQuestions() {
         String query = getStackOverflowServiceQuery();
         String response = callSOAPI(query);
         Gson gson = new Gson();
