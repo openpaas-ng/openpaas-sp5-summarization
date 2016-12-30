@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import com.google.gson.Gson;
 import structures.*;
 import structures.resources.Email;
+import structures.resources.Resources;
 import structures.resources.StackOverflow;
 
 @RestController
@@ -110,20 +111,24 @@ public class Controller {
      */
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
     public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "email;so;wiki") String resources) throws IOException {
+        Resources res=new Resources();
         if(currentMeetings.contains(id)){
             if(resources.contains("email")){
                 EmailService email=new EmailService();
                 email.setKeywords(currentMeetings.get(id).getLatestKeywords());
                 List<Email> emails = email.getEmails();
+                res.setMails(emails);
             }
             if(resources.contains("so")) {
                 SOService so = new SOService();
                 so.setKeywords(currentMeetings.get(id).getLatestKeywords());
                 List<StackOverflow> soQuestions = so.getSOQuestions();
+                res.setSoArticles(soQuestions);
             }
         }
-
-        return "stream initialized succesfully";
+        Gson gson = new Gson();
+        String jsonInString = gson.toJson(res,Resources.class);
+        return jsonInString;
     }
 
     /**
