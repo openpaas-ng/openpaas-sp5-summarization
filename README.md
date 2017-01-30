@@ -26,7 +26,7 @@ Real-time Keyword extraction
 
 Steps
 - Register a current meeting
-    SERVER_IP:PORT/register?id=meeting_id&action=START
+    SERVER_IP:PORT/stream?id=meeting_id&action=START
 
 
 -Push text-to-speech snippets in real time using the websocket to /app/chat.
@@ -35,4 +35,4 @@ Steps
 
 
 -Un-register the meeting
-    SERVER_IP:PORT/register?id=meeting_id&action=STOP
+    SERVER_IP:PORT/stream?id=meeting_id&action=STOP
