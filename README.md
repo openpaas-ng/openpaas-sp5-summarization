@@ -15,8 +15,11 @@ Offline summarization
 
 Retrieving a summary for a meeting: 
     SERVER_IP:PORT/summary?id=meeting_id
+
+
 Pushing text-to-speech to generate a summary for a meeting:
     SERVER_IP:PORT/summary?id=meeting_id&transcript=text_to_speech
+
 
 Real-time Keyword extraction
 --
@@ -24,8 +27,12 @@ Real-time Keyword extraction
 Steps
 - Register a current meeting
     SERVER_IP:PORT/register?id=meeting_id&action=START
+
+
 -Push text-to-speech snippets in real time using the websocket to /app/chat.
     Message format: "from": meeting_id, "text": speech_snippet
     e.g using stomp.js
+
+
 -Un-register the meeting
     SERVER_IP:PORT/register?id=meeting_id&action=STOP
