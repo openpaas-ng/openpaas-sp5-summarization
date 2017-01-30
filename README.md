@@ -36,8 +36,8 @@ Steps
     e.g using stomp.js
 
 
-- Un-register the meeting
-    SERVER_IP:PORT/stream?id=meeting_id&action=STOP
-
 - Retrieve related resources:
     SERVER_IP:PORT/resources?id=meeting_id&resources="email;so;wiki"
+
+- Un-register the meeting
+    SERVER_IP:PORT/stream?id=meeting_id&action=STOP
