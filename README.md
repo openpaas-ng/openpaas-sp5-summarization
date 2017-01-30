@@ -20,3 +20,11 @@ Pushing text-to-speech to generate a summary for a meeting:
 
 Real-time Keyword extraction
 --
+
+Steps
+- Register a current meeting
+    SERVER_IP:PORT/register?id=meeting_id&action=START
+-Push text-to-speech snippets
+    
+-Un-register the meeting
+    SERVER_IP:PORT/register?id=meeting_id&action=STOP
