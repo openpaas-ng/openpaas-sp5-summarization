@@ -21,8 +21,8 @@ import static java.util.Collections.reverseOrder;
  * Created by Midas on 7/11/2016.
  */
 public class KCore {
-
-    public static void main(String[] args) throws IOException, Exception {
+    //TODO move to junit
+    public static void mainTest(String[] args) throws IOException, Exception {
 
         //List<String> lines = Files.readAllLines(Paths.get(args[0]));
         List<String> lines = Files.readAllLines(Paths.get("edgelist.txt"));
