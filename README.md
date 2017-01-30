@@ -31,13 +31,13 @@ Steps
     SERVER_IP:PORT/stream?id=meeting_id&action=START
 
 
-- Push text-to-speech snippets in real time using the websocket to /app/chat.
+- Push text-to-speech snippets in real time using the websocket at /app/chat.
     Message format: "from": meeting_id, "text": speech_snippet
     e.g using stomp.js
 
 
 - Retrieve related resources:
-    SERVER_IP:PORT/resources?id=meeting_id&resources="email;so;wiki"
+    SERVER_IP:PORT/resources?id=meeting_id&resources=email;so;wiki
 
 - Un-register the meeting
     SERVER_IP:PORT/stream?id=meeting_id&action=STOP
