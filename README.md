@@ -7,6 +7,10 @@ This repo contains the real-time and offline summarization modules of the openpa
 
 The REST interfaces and web-Socket connections are implemented in the service package
 
+Test IP:195.251.235.92
+test username: user32
+test password: test#@!
+
 Authentication
 --
 
