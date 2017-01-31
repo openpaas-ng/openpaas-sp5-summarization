@@ -7,6 +7,12 @@ This repo contains the real-time and offline summarization modules of the openpa
 
 The REST interfaces and web-Socket connections are implemented in the service package
 
+Authentication
+--
+
+Basic Auth
+
+
 Usage:
 --
 
@@ -39,5 +45,5 @@ Steps
 - Retrieve related resources:
     SERVER_IP:PORT/resources?id=meeting_id&resources=email;so;wiki
 
-- Un-register the meeting
+- Un-register when the meeting ends:
     SERVER_IP:PORT/stream?id=meeting_id&action=STOP
