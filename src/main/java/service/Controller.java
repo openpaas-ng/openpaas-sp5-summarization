@@ -54,7 +54,7 @@ public class Controller {
             }
         }
         transcript = java.net.URLDecoder.decode(transcript,enc);
-        transcript=transcript.substring(11);
+        //transcript=transcript.substring(11);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
         String filename = "local_directory/input/meeting_"+ id + ".txt";
