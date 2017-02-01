@@ -25,7 +25,7 @@ Dependencies:
 
 R, Rscript must be installed and on the systems path.
 
-Additionally the followind R libraries must be installed:
+Additionally the following R libraries must be installed:
 
 stringr
 textcat
