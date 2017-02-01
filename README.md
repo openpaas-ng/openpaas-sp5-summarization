@@ -27,6 +27,10 @@ Basic Auth
 
 Usage:
 --
+Go to the project folder and run
+
+java -jar openpaas-summary-service-0.1.0.jar
+
 
 Offline summarization
 --
@@ -36,7 +40,10 @@ Offline summarization
 
 
 - Pushing text-to-speech to generate a summary for a meeting:
-    SERVER_IP:PORT/summary?id=meeting_id&transcript=text_to_speech
+    Http POST:
+         headers:id,callbackurl
+         body:transcript
+    SERVER_IP:PORT/summary?id=meeting_id
 
 
 Real-time Keyword extraction
