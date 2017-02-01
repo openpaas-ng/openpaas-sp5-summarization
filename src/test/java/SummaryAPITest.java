@@ -21,7 +21,7 @@ import java.net.URL;
 public class SummaryAPITest {
     private final String USER_AGENT = "Mozilla/5.0";
 
-    @Test
+    //@Test
     public void makeSureThatBatchAPIWorks() throws Exception {
         String USER_AGENT = "Mozilla/5.0";
 
@@ -45,7 +45,7 @@ public class SummaryAPITest {
         con.setRequestMethod("POST");
         con.setRequestProperty("User-Agent", USER_AGENT);
         con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
-        String urlParameters = "id=1&locale=&nkeys=10&transcript="+jsonInString;
+        String urlParameters = "id=2&callbackurl=localhost&transcript="+jsonInString;
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
         wr.writeBytes(urlParameters);

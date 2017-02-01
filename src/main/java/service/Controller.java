@@ -1,10 +1,14 @@
 package service;
 
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
@@ -41,7 +45,7 @@ public class Controller {
      * @throws InterruptedException
      */
     @RequestMapping(value = "/summary", method = RequestMethod.POST)
-    public String postSummary(@RequestBody String transcript, @RequestParam(value="id") String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException, InterruptedException {
+    public String postSummary(@RequestBody String transcript, @RequestParam(value="callbackurl") String callbackurl,@RequestParam(value="id") String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException, InterruptedException {
         String[] bodyParams = transcript.split("&");
         for(String param:bodyParams){
             if(param.startsWith("transcript=")) {
@@ -53,7 +57,7 @@ public class Controller {
         transcript=transcript.substring(11);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
-        String filename = System.getProperty("user.home")+"/meeting_"+ id + ".txt";
+        String filename = "local_directory/input/meeting_"+ id + ".txt";
         String infilename = "meeting_"+id + ".txt";
         try(  PrintWriter out = new PrintWriter( filename)  ){
             out.println(t.toString());
@@ -62,6 +66,34 @@ public class Controller {
         Process u = Runtime.getRuntime().exec(command);
         u.waitFor();
 
+
+        gson = new Gson();
+        byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
+        String s = new String(encoded, enc);
+        List<Keyword> keywordList=new ArrayList<>();
+        Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_"+id+".txt")).stream().forEach(l->
+        {
+            String[] parts = l.split(" ");
+            keywordList.add(new Keyword(parts[0],parts[1]));
+        });
+
+        SummaryResponse res=new SummaryResponse(s,keywordList);
+        String jsonInString = gson.toJson(res);
+        String USER_AGENT = "Mozilla/5.0";
+
+
+        String url = callbackurl;
+        URL obj = new URL(url);
+        HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+        con.setRequestMethod("POST");
+        con.setRequestProperty("User-Agent", USER_AGENT);
+        con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+        String body = jsonInString;
+        con.setDoOutput(true);
+        DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+        wr.writeBytes(body);
+        wr.flush();
+        wr.close();
         return "summary produced succesfully for meeting"+id;
     }
 
@@ -77,8 +109,17 @@ public class Controller {
         Gson gson = new Gson();
         byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
         String s = new String(encoded, enc);
-        String jsonInString = gson.toJson(s);
-        return s;
+        List<Keyword> keywordList=new ArrayList<>();
+        Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_"+id+".txt")).stream().forEach(l->
+        {
+            String[] parts = l.split(" ");
+            keywordList.add(new Keyword(parts[0],parts[1]));
+        });
+
+        SummaryResponse res=new SummaryResponse(s,keywordList);
+        String jsonInString = gson.toJson(res);
+
+        return jsonInString;
     }
 
     /**

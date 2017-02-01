@@ -21,7 +21,7 @@ import java.net.URL;
 public class RegisterTest {
     private final String USER_AGENT = "Mozilla/5.0";
 
-    @Test
+    //@Test
     public void register() throws Exception {
         String USER_AGENT = "Mozilla/5.0";
 
