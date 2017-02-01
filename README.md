@@ -19,10 +19,20 @@ test username: user32
 
 test password: test#@!
 
-Authentication
+
+Dependencies:
 --
 
-Basic Auth
+R, Rscript must be installed and on the systems path.
+
+Additionally the followind R libraries must be installed:
+
+stringr
+textcat
+SnowballC
+igraph
+hash
+tools
 
 
 Usage:
