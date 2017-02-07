@@ -45,16 +45,8 @@ public class Controller {
      * @throws InterruptedException
      */
     @RequestMapping(value = "/summary", method = RequestMethod.POST)
-    public String postSummary(@RequestBody String transcript, @RequestParam(value="callbackurl") String callbackurl,@RequestParam(value="id") String id, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException, InterruptedException {
-        String[] bodyParams = transcript.split("&");
-        for(String param:bodyParams){
-            if(param.startsWith("transcript=")) {
-                transcript = param;
-                break;
-            }
-        }
+    public String postSummary(@RequestBody String transcript,@RequestHeader(value="id") String id ,@RequestHeader(value="callbackurl") String callbackurl, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException, InterruptedException {
         transcript = java.net.URLDecoder.decode(transcript,enc);
-        //transcript=transcript.substring(11);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
         String filename = "local_directory/input/meeting_"+ id + ".txt";

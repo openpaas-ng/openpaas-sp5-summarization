@@ -4,7 +4,7 @@ from_terms_to_keywords <-
     edges_df = from_terms_to_graph(terms_list = terms_list, w = window_size, overspan = to_overspan, processed = to_build_on_processed)$output
     
     # ensures that the encoding is UTF-8 so that it works for French
-    write.table(edges_df,paste0('~/',overall_wd,"/",edgelist_file_name,"_edgelist.txt"), col.names = FALSE, row.names = FALSE, quote=FALSE, fileEncoding = 'utf-8')
+    write.table(edges_df,paste0('',overall_wd,"/",edgelist_file_name,"_edgelist.txt"), col.names = FALSE, row.names = FALSE, quote=FALSE, fileEncoding = 'utf-8')
     
     output = assign_attributes_to_graph_initial(edges_df, weighted = TRUE, directed = TRUE)
     
