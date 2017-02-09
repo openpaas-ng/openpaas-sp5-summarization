@@ -54,7 +54,7 @@ public class Controller {
         try(  PrintWriter out = new PrintWriter( filename)  ){
             out.println(t.toString());
         }
-        String command = "Rscript --vanilla offline_exe.R " +infilename + " " + nkeys.toString();
+        String command = "Rscript --vanilla ./local_directory/offline_exe.R " +infilename + " " + nkeys.toString();
         Process u = Runtime.getRuntime().exec(command);
         u.waitFor();
 
@@ -71,21 +71,21 @@ public class Controller {
 
         SummaryResponse res=new SummaryResponse(s,keywordList);
         String jsonInString = gson.toJson(res);
-        String USER_AGENT = "Mozilla/5.0";
 
 
         String url = callbackurl;
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("POST");
-        con.setRequestProperty("User-Agent", USER_AGENT);
-        con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
+        con.setRequestProperty("Content-Type",  "application/json");
         String body = jsonInString;
         con.setDoOutput(true);
         DataOutputStream wr = new DataOutputStream(con.getOutputStream());
         wr.writeBytes(body);
-        wr.flush();
         wr.close();
+
+        con.getResponseCode();
+
         return "summary produced succesfully for meeting"+id;
     }
 
