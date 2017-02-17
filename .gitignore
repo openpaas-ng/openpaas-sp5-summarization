@@ -1,1 +1,6 @@
-target/*
+/target/
+/local_directory/input
+/local_directory/output
+.project
+.classpath
+/.settings
