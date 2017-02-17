@@ -1,6 +1,7 @@
 package service;
 
 import java.io.DataOutputStream;
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
@@ -51,23 +52,33 @@ public class Controller {
         Transcript t=gson.fromJson(transcript,Transcript.class);
         String filename = "local_directory/input/meeting_"+ id + ".txt";
         String infilename = "meeting_"+id + ".txt";
-        try(  PrintWriter out = new PrintWriter( filename)  ){
-            out.println(t.toString());
-        }
+        PrintWriter out = new PrintWriter( filename);
+        out.println(t.toString());
+        out.close();
+
+        // ensure potentially existing output files with the same name are remove
+        Files.deleteIfExists(new File("local_directory/output/meeting_"+id+".txt").toPath());
+        Files.deleteIfExists(new File("local_directory/output/keywords_meeting_"+id+".txt").toPath());
+
         String command = "Rscript --vanilla ./local_directory/offline_exe.R " +infilename + " " + nkeys.toString();
         Process u = Runtime.getRuntime().exec(command);
         u.waitFor();
 
-
-        gson = new Gson();
-        byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
-        String s = new String(encoded, enc);
+        String s = "";
         List<Keyword> keywordList=new ArrayList<>();
-        Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_"+id+".txt")).stream().forEach(l->
-        {
-            String[] parts = l.split(" ");
-            keywordList.add(new Keyword(parts[0],parts[1]));
-        });
+
+        // the process may have failed
+        if (Files.exists(Paths.get("local_directory/output/meeting_"+id+".txt"))) {
+            gson = new Gson();
+	        byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
+	        s = new String(encoded, enc);
+
+	        Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_"+id+".txt")).stream().forEach(l->
+              {
+	            String[] parts = l.split(" ");
+	            keywordList.add(new Keyword(parts[0],parts[1]));
+	        });
+        }
 
         SummaryResponse res=new SummaryResponse(s,keywordList);
         String jsonInString = gson.toJson(res);
