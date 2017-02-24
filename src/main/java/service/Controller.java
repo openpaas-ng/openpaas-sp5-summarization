@@ -45,7 +45,7 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/summary", method = RequestMethod.POST)
-    public String postSummary(@RequestBody String transcript,@RequestHeader(value="id") String id ,@RequestHeader(value="callbackurl") String callbackurl, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException {
+    public String postSummary(@RequestBody String transcript,@RequestParam(value="id") String id, @RequestParam(value="callbackurl") String callbackurl, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException {
         transcript = java.net.URLDecoder.decode(transcript,enc);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
