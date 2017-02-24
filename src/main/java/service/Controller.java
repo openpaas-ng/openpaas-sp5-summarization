@@ -43,10 +43,9 @@ public class Controller {
      * @param nkeys optional: the number of words that the summary will output. Default 20
      * @return
      * @throws IOException
-     * @throws InterruptedException
      */
     @RequestMapping(value = "/summary", method = RequestMethod.POST)
-    public String postSummary(@RequestBody String transcript,@RequestHeader(value="id") String id ,@RequestHeader(value="callbackurl") String callbackurl, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException, InterruptedException {
+    public String postSummary(@RequestBody String transcript,@RequestHeader(value="id") String id ,@RequestHeader(value="callbackurl") String callbackurl, @RequestParam(value="enc", defaultValue = "UTF-8") String enc,@RequestParam(value="nkeys", defaultValue = "20") Integer nkeys) throws IOException {
         transcript = java.net.URLDecoder.decode(transcript,enc);
         Gson gson = new Gson();
         Transcript t=gson.fromJson(transcript,Transcript.class);
@@ -62,42 +61,47 @@ public class Controller {
 
         String command = "Rscript --vanilla ./local_directory/offline_exe.R " +infilename + " " + nkeys.toString();
         Process u = Runtime.getRuntime().exec(command);
-        u.waitFor();
+        try{
+            u.waitFor();
 
-        String s = "";
-        List<Keyword> keywordList=new ArrayList<>();
+            String s = "";
+            List<Keyword> keywordList=new ArrayList<>();
 
-        // the process may have failed
-        if (Files.exists(Paths.get("local_directory/output/meeting_"+id+".txt"))) {
-            gson = new Gson();
-	        byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_"+id+".txt"));
-	        s = new String(encoded, enc);
+			// the process may have failed
+			if (Files.exists(Paths.get("local_directory/output/meeting_" + id + ".txt"))) {
+				gson = new Gson();
+				byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_" + id + ".txt"));
+				s = new String(encoded, enc);
 
-	        Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_"+id+".txt")).stream().forEach(l->
-              {
-	            String[] parts = l.split(" ");
-	            keywordList.add(new Keyword(parts[0],parts[1]));
-	        });
+				Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_" + id + ".txt")).stream()
+						.forEach(l -> {
+							String[] parts = l.split(" ");
+							keywordList.add(new Keyword(parts[0], parts[1]));
+						});
+			}
+
+            SummaryResponse res=new SummaryResponse(s,keywordList);
+            String jsonInString = gson.toJson(res);
+
+
+            String url = callbackurl;
+            URL obj = new URL(url);
+            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+            con.setRequestMethod("POST");
+            con.setRequestProperty("Content-Type",  "application/json");
+            String body = jsonInString;
+            con.setDoOutput(true);
+            DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+            wr.writeBytes(body);
+            wr.close();
+
+            con.getResponseCode();
+
+            return "summary produced succesfully for meeting"+id;
+        } catch(InterruptedException e) {
+			e.printStackTrace();
+			return "got exception trying to run process";
         }
-
-        SummaryResponse res=new SummaryResponse(s,keywordList);
-        String jsonInString = gson.toJson(res);
-
-
-        String url = callbackurl;
-        URL obj = new URL(url);
-        HttpURLConnection con = (HttpURLConnection) obj.openConnection();
-        con.setRequestMethod("POST");
-        con.setRequestProperty("Content-Type",  "application/json");
-        String body = jsonInString;
-        con.setDoOutput(true);
-        DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-        wr.writeBytes(body);
-        wr.close();
-
-        con.getResponseCode();
-
-        return "summary produced succesfully for meeting"+id;
     }
 
     /**
