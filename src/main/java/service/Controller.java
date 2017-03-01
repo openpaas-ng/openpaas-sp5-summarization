@@ -160,7 +160,7 @@ public class Controller {
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
     public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "email;so;wiki") String resources) throws IOException {
         Resources res=new Resources();
-        if(currentMeetings.contains(id)){
+        if(currentMeetings.containsKey(id)){
             if(resources.contains("email")){
                 EmailService email=new EmailService();
                 email.setKeywords(currentMeetings.get(id).getLatestKeywords());
