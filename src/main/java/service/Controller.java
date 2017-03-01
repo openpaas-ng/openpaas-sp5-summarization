@@ -162,16 +162,26 @@ public class Controller {
         Resources res=new Resources();
         if(currentMeetings.containsKey(id)){
             if(resources.contains("email")){
-                EmailService email=new EmailService();
-                email.setKeywords(currentMeetings.get(id).getLatestKeywords());
-                List<Email> emails = email.getEmails();
-                res.setMails(emails);
+                try {
+                    EmailService email = new EmailService();
+                    email.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                    List<Email> emails = email.getEmails();
+                    res.setMails(emails);
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from emails");
+                    e.printStackTrace();
+                }
             }
             if(resources.contains("so")) {
-                SOService so = new SOService();
-                so.setKeywords(currentMeetings.get(id).getLatestKeywords());
-                List<StackOverflow> soQuestions = so.getSOQuestions();
-                res.setSoArticles(soQuestions);
+                try {
+                    SOService so = new SOService();
+                    so.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                    List<StackOverflow> soQuestions = so.getSOQuestions();
+                    res.setSoArticles(soQuestions);
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from SO");
+                    e.printStackTrace();
+                }
             }
         }
         Gson gson = new Gson();
