@@ -183,6 +183,9 @@ public class Controller {
                     e.printStackTrace();
                 }
             }
+            if (resources.contains("keywords")) {
+                res.setKeywords(currentMeetings.get(id).getLatestKeywords());
+            }
         }
         Gson gson = new Gson();
         String jsonInString = gson.toJson(res,Resources.class);
