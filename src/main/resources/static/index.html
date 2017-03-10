@@ -29,7 +29,6 @@
     <script src="//cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
 
     <script src="./stomp.js"></script>
-    <script src="./wordcloud.js"></script>
 
     <input type="file" id="file-input"/>
 
@@ -103,11 +102,9 @@
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send();
             var response = JSON.parse(xhttp.responseText);
+            alert(xhttp.responseText)
             var keywords=response.keywords
-            for(var i in keywords)
-            {
-                alert(keywords[i]);
-            }
+
         }
 
 

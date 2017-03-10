@@ -3,8 +3,11 @@ package structures;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
+import me.xuender.unidecode.Unidecode;
+import org.apache.commons.lang3.StringUtils;
 import service.Settings;
 
+import java.text.Normalizer;
 import java.util.*;
 
 /**
@@ -13,24 +16,26 @@ import java.util.*;
 public class Transcript {
     List<TranscriptEntry> entries;
     //TODO check concurrency status of this map
-    HashMap<String,Double> latestKeywords;
+    HashMap<String, Double> latestKeywords;
     Double lastEntryTime;
 
     public Transcript(List<TranscriptEntry> entries) {
         this.entries = entries;
-        latestKeywords=new HashMap<>();
-        lastEntryTime=0.0;
+        latestKeywords = new HashMap<>();
+        lastEntryTime = 0.0;
     }
+
     public Transcript() {
         this.entries = new ArrayList<TranscriptEntry>();
-        latestKeywords=new HashMap<>();
-        lastEntryTime=0.0;
+        latestKeywords = new HashMap<>();
+        lastEntryTime = 0.0;
     }
 
 
-    public void add(TranscriptEntry e){
+    public void add(TranscriptEntry e) {
         this.entries.add(e);
     }
+
     public List<TranscriptEntry> getEntries() {
         return entries;
     }
@@ -41,9 +46,9 @@ public class Transcript {
 
     @Override
     public String toString() {
-        String out="";
-        for(TranscriptEntry e:entries){
-            out+=e.toString();
+        String out = "";
+        for (TranscriptEntry e : entries) {
+            out += e.toString();
         }
         return out;
     }
@@ -52,19 +57,19 @@ public class Transcript {
         return latestKeywords;
     }
 
-    public void updateKeywords(){
+    public void updateKeywords() {
         String text = getLatestEntriesText();
         GraphOfWords gow = new GraphOfWords(text);
-        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(gow.getGraph(), 10,0);
+        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(gow.getGraph(), 10, 0);
         Map<String, Double> map = decomposer.coreNumbers();
-        map= KCore.sortByValue(map);
+        map = KCore.sortByValue(map);
         latestKeywords.clear();
         int cc = 0;
-        for (Map.Entry<String,Double> e:map.entrySet()){
-
-            latestKeywords.put(e.getKey(),e.getValue());
+        for (Map.Entry<String, Double> e : map.entrySet()) {
+            System.out.println(StringUtils.stripAccents(e.getKey()));
+            latestKeywords.put(StringUtils.stripAccents(e.getKey()).replaceAll("'",""), e.getValue());
             cc++;
-            if(cc==Settings.NKEYWORDS)
+            if (cc == Settings.NKEYWORDS)
                 break;
         }
 
@@ -72,11 +77,11 @@ public class Transcript {
 
     private String getLatestEntriesText() {
         String out = "";
-        if(!this.entries.isEmpty()) {
+        if (!this.entries.isEmpty()) {
             lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
             for (TranscriptEntry e : entries) {
-                if (e.getUntil()>lastEntryTime - Settings.TIMEWINDOW)
-                    out += e.getText()+" ";
+                if (e.getUntil() > lastEntryTime - Settings.TIMEWINDOW)
+                    out += e.getText() + " ";
             }
         }
         return out;
