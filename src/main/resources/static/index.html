@@ -1,10 +1,86 @@
 <html>
+
+
 <head>
+
     <title>Chat WebSocket</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
+
     <script src="./stomp.js"></script>
+    <script src="./wordcloud.js"></script>
+
+    <input type="file" id="file-input"/>
+
+    <div>
+        <input type="text" id="from" placeholder="Register a meeting"/>
+    </div>
+    <br/>
+    <div>
+        <button id="connect" onclick="connect();">Connect</button>
+        <button id="disconnect" disabled="disabled" onclick="disconnect();">
+            Disconnect
+        </button>
+        <button onclick="sendNextMessage()">Continue</button>
+        <button onclick="callRecommendationService()">Recommend!</button>
+
+    </div>
+    <br/>
+    <div id="conversationDiv">
+        <input type="text" id="text" placeholder="Write a message..."/>
+        <button id="sendMessage" onclick="sendMessage();">Send</button>
+    </div>
+
+
+
     <script type="text/javascript">
         var stompClient = null;
+        var obb = null;
+        var counter = 0;
+
+        function readSingleFile(e) {
+            var file = e.target.files[0];
+            if (!file) {
+                return;
+            }
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                var contents = e.target.result;
+                displayContents(contents);
+                obb = JSON.parse(contents);
+            };
+            reader.readAsText(file);
+        }
+
+        function displayContents(contents) {
+            var element = document.getElementById('file-content');
+            //element.innerHTML = contents;
+        }
+
+        document.getElementById('file-input')
+                .addEventListener('change', readSingleFile, false);
+
 
         function setConnected(connected) {
             document.getElementById('connect').disabled = connected;
@@ -14,20 +90,42 @@
             document.getElementById('response').innerHTML = '';
         }
 
+        function callRegistrationService() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("GET", "http://localhost:8080/stream?action=START&id="+document.getElementById('from').value, false);
+            xhttp.send();
+            var response = xhttp.responseText;
+        }
+
+        function callRecommendationService() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("GET", "http://localhost:8080/resources?id="+document.getElementById('from').value, false);
+            xhttp.setRequestHeader("Content-type", "application/json");
+            xhttp.send();
+            var response = JSON.parse(xhttp.responseText);
+            var keywords=response.keywords
+            for(var i in keywords)
+            {
+                alert(keywords[i]);
+            }
+        }
+
+
         function connect() {
+            callRegistrationService();
             var socket = new SockJS('/chat');
             stompClient = Stomp.over(socket);
-            stompClient.connect({}, function(frame) {
+            stompClient.connect({}, function (frame) {
                 setConnected(true);
                 console.log('Connected: ' + frame);
-                stompClient.subscribe('/topic/messages', function(messageOutput) {
+                stompClient.subscribe('/topic/messages', function (messageOutput) {
                     showMessageOutput(JSON.parse(messageOutput.body));
                 });
             });
         }
 
         function disconnect() {
-            if(stompClient != null) {
+            if (stompClient != null) {
                 stompClient.disconnect();
             }
             setConnected(false);
@@ -38,38 +136,37 @@
             var from = document.getElementById('from').value;
             var text = document.getElementById('text').value;
             stompClient.send("/app/chat", {},
-                    JSON.stringify({'from':from, 'text':text}));
+                    JSON.stringify({'from': from, 'text': text}));
         }
+
+        function sendNextMessage() {
+            var from = document.getElementById('from').value;
+            var text = document.getElementById('text').value;
+            stompClient.send("/app/chat", {},
+                    JSON.stringify({'from': from, 'text': obb[counter].from +"\t"+obb[counter].until+"\t" +obb[counter].speaker + "\t" + obb[counter].text}));
+            counter++;
+        }
+
 
         function showMessageOutput(messageOutput) {
             var response = document.getElementById('response');
-            var p = document.createElement('p');
+            var p = document.createElement("p");
             p.style.wordWrap = 'break-word';
             p.appendChild(document.createTextNode(messageOutput.from + ": "
-                    + messageOutput.text + " (" + messageOutput.time + ")"));
+                    + messageOutput.text + " (" + messageOutput.time + ")"+"\n"));
             response.appendChild(p);
         }
     </script>
 </head>
 <body onload="disconnect()">
-<div>
-    <div>
-        <input type="text" id="from" placeholder="Choose a nickname"/>
+
+<div class="row">
+    <div id="transcript" class="col-sm-4"><h1>Transcript</h1></h1><p id="response"></p>
     </div>
-    <br />
-    <div>
-        <button id="connect" onclick="connect();">Connect</button>
-        <button id="disconnect" disabled="disabled" onclick="disconnect();">
-            Disconnect
-        </button>
-    </div>
-    <br />
-    <div id="conversationDiv">
-        <input type="text" id="text" placeholder="Write a message..."/>
-        <button id="sendMessage" onclick="sendMessage();">Send</button>
-        <p id="response"></p>
-    </div>
+    <div class="col-sm-4"><h1>Keywords</h1></div>
+    <div class="col-sm-4"><h1>Recommendations</h1></div>
 </div>
+
 
 </body>
 </html>
