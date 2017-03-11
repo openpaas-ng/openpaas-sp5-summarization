@@ -46,11 +46,10 @@
 
     </div>
     <br/>
-    <div  id="conversationDiv">
+    <div id="conversationDiv">
         <input hidden="True" type="text" id="text" placeholder="Write a message..."/>
         <button hidden="True" id="sendMessage" onclick="sendMessage();">Send</button>
     </div>
-
 
 
     <script type="text/javascript">
@@ -78,32 +77,32 @@
         }
 
         document.getElementById('file-input')
-                .addEventListener('change', readSingleFile, false);
+            .addEventListener('change', readSingleFile, false);
 
 
         function setConnected(connected) {
             document.getElementById('connect').disabled = connected;
             document.getElementById('disconnect').disabled = !connected;
             document.getElementById('conversationDiv').style.visibility
-                    = connected ? 'visible' : 'hidden';
+                = connected ? 'visible' : 'hidden';
             document.getElementById('response').innerHTML = '';
         }
 
         function callRegistrationService() {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", "http://localhost:8080/stream?action=START&id="+document.getElementById('from').value, false);
+            xhttp.open("GET", "http://localhost:8080/stream?action=START&id=" + document.getElementById('from').value, false);
             xhttp.send();
             var response = xhttp.responseText;
         }
 
         function callRecommendationService() {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", "http://localhost:8080/resources?id="+document.getElementById('from').value, false);
+            xhttp.open("GET", "http://localhost:8080/resources?id=" + document.getElementById('from').value, false);
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send();
             var response = JSON.parse(xhttp.responseText);
             alert(xhttp.responseText)
-            var keywords=response.keywords
+            var keywords = response.keywords
 
         }
 
@@ -133,14 +132,17 @@
             var from = document.getElementById('from').value;
             var text = document.getElementById('text').value;
             stompClient.send("/app/chat", {},
-                    JSON.stringify({'from': from, 'text': text}));
+                JSON.stringify({'from': from, 'text': text}));
         }
 
         function sendNextMessage() {
             var from = document.getElementById('from').value;
             var text = document.getElementById('text').value;
             stompClient.send("/app/chat", {},
-                    JSON.stringify({'from': from, 'text': obb[counter].from +"\t"+obb[counter].until+"\t" +obb[counter].speaker + "\t" + obb[counter].text}));
+                JSON.stringify({
+                    'from': from,
+                    'text': obb[counter].from + "\t" + obb[counter].until + "\t" + obb[counter].speaker + "\t" + obb[counter].text
+                }));
             counter++;
         }
 
@@ -150,7 +152,7 @@
             var p = document.createElement("p");
             p.style.wordWrap = 'break-word';
             p.appendChild(document.createTextNode(messageOutput.from + ": "
-                    + messageOutput.text + " (" + messageOutput.time + ")"+"\n"));
+                + messageOutput.text + " (" + messageOutput.time + ")" + "\n"));
             response.appendChild(p);
         }
     </script>
