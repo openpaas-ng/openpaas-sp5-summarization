@@ -1,5 +1,7 @@
 package structures;
 
+import service.Application;
+
 /**
  * Created by midas on 11/23/2016.
  */
@@ -36,7 +38,14 @@ public class TranscriptEntry {
         s = s.replaceAll("<laugh>", "");
         s = s.replaceAll("<UNK>", "");
         s = s.replaceAll("<!sil>", "");
-        return s;
+        String cleans = "";
+        String[] tokens = s.split(" ");
+        for(String t:tokens){
+            if(!Application.stopWordsEnglish.contains(t) && !Application.fillerWordsEnglish.contains(t) && !Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t))
+                cleans+=t+" ";
+        }
+        cleans=cleans.substring(0,cleans.length()-2);
+        return cleans;
     }
 
     public Double getFrom() {
