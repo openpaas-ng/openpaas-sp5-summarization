@@ -25,7 +25,7 @@ public class EmailService extends resourceService{
 
 
     public List<Email> getEmails() {
-        String query = getEmailServiceQuery(this.keywords.keySet());
+        String query = getEmailServiceQuery(this.keywords);
         SolrQuery solrQuery;
         solrQuery = new SolrQuery();
         if (query.startsWith(" AND")) {

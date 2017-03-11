@@ -41,8 +41,8 @@
         <button id="disconnect" disabled="disabled" onclick="disconnect();">
             Disconnect
         </button>
-        <button onclick="sendNextMessage()">Continue</button>
-        <button onclick="callRecommendationService()">Recommend!</button>
+        <button id="nextmsg" onclick="sendNextMessage()">Continue</button>
+        <button id="recommend" onclick="callRecommendationService()">Recommend!</button>
 
     </div>
     <br/>
@@ -56,6 +56,9 @@
         var stompClient = null;
         var obb = null;
         var counter = 0;
+        var keywords = null;
+        var soarticles = null;
+        var wikiarticles = null;
 
         function readSingleFile(e) {
             var file = e.target.files[0];
@@ -101,9 +104,9 @@
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send();
             var response = JSON.parse(xhttp.responseText);
-            alert(xhttp.responseText)
-            var keywords = response.keywords
-
+            //alert(xhttp.responseText);
+            keywords = response.keywords;
+            soarticles = response.soarticles;
         }
 
 
@@ -159,11 +162,70 @@
 </head>
 <body onload="disconnect()">
 
+
+<script>
+    $(document).ready(function () {
+        $("#recommend").click(function () {
+
+            $('#k1').html(keywords[0].key);
+            $('#k2').html(keywords[1].key);
+            $('#k3').html(keywords[2].key);
+            $('#k4').html(keywords[3].key);
+            $('#k5').html(keywords[4].key);
+            $('#k6').html(keywords[5].key);
+            $('#k7').html(keywords[6].key);
+            $('#k8').html(keywords[7].key);
+            $('#k9').html(keywords[8].key);
+
+            for (i = 0; i <Math.max(4, soarticles.length); i++) {
+                idx=i+1;
+                $('#l'+idx.toString()).html(soarticles[i].title+"<hr>");
+            }
+
+
+        });
+    });
+
+
+</script>
 <div class="row">
     <div id="transcript" class="col-sm-4"><h1>Transcript</h1></h1><p id="response"></p>
     </div>
-    <div class="col-sm-4"><h1>Keywords</h1></div>
-    <div class="col-sm-4"><h1>Recommendations</h1></div>
+    <div id='mytable' class="col-sm-4"><h1>Keywords</h1>
+        <table id="keys" style="width:100%">
+            <tr>
+                <td id="k1"></td>
+                <td id="k2"></td>
+                <td id="k3"></td>
+            </tr>
+            <tr>
+                <td id="k4"></td>
+                <td id="k5"></td>
+                <td id="k6"></td>
+            </tr>
+            <tr>
+                <td id="k7"></td>
+                <td id="k8"></td>
+                <td id="k9"></td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="col-sm-4"><h1></h1>
+        <div id='sotable' class="col-sm-4"><h1>Keywords</h1>
+            <table id="links" style="width:100%">
+                <tr id="l1">
+                </tr>
+                <tr  id="l2">
+                </tr>
+                <tr id="l3">
+                </tr>
+                <tr  id="l4">
+                </tr>
+            </table>
+
+        </div>
+    </div>
 </div>
 
 

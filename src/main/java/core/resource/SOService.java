@@ -6,6 +6,7 @@
 package core.resource;
 
 import com.google.gson.Gson;
+import structures.Keyword;
 import structures.resources.StackOverflow;
 import structures.resources.QuestionItems;
 
@@ -42,8 +43,8 @@ public class SOService extends resourceService {
 
     private  String getStackOverflowServiceQuery() {
         String tags = "";
-        for (Object key : this.keywords.keySet()) {
-            String s = key.toString();
+        for (Keyword key : this.keywords) {
+            String s = key.getKey().toString();
            tags += s + ";";
         }
         String query = "http://api.stackexchange.com/2.2/search?order=desc&sort=activity&tagged=" + tags.substring(0, tags.length() - 1) + "&site=stackoverflow&filter=!BHMIbze0EPheMk572h0ktETsgnphhV";

@@ -53,8 +53,14 @@ public class Transcript {
         return out;
     }
 
-    public HashMap<String, Double> getLatestKeywords() {
-        return latestKeywords;
+    public List<Keyword> getLatestKeywords() {
+        List<Keyword> l=new ArrayList<Keyword>();
+        for(String k:latestKeywords.keySet()){
+            if(k.length()>1)
+                l.add(new Keyword(k,latestKeywords.get(k).toString()));
+        }
+
+        return l;
     }
 
     public void updateKeywords() {

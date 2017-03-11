@@ -158,7 +158,7 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
-    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords") String resources) throws IOException {
+    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords;so") String resources) throws IOException {
         Resources res=new Resources();
         if(currentMeetings.containsKey(id)){
             if(resources.contains("email")){
@@ -177,7 +177,7 @@ public class Controller {
                     SOService so = new SOService();
                     so.setKeywords(currentMeetings.get(id).getLatestKeywords());
                     List<StackOverflow> soQuestions = so.getSOQuestions();
-                    res.setSoArticles(soQuestions);
+                    res.setSoarticles(soQuestions);
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from SO");
                     e.printStackTrace();
@@ -213,7 +213,7 @@ public class Controller {
     }
 
 
-    @Scheduled(fixedRate = 15000)
+    @Scheduled(fixedRate = 6000)
     public void reportCurrentTime() {
         currentMeetings.forEach((k,v)->{
             v.updateKeywords();

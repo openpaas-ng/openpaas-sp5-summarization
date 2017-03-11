@@ -5,6 +5,7 @@
  */
 package core.resource;
 
+import structures.Keyword;
 import structures.resources.Wikipedia;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -50,8 +51,8 @@ public class WikipediaService extends resourceService {
     private  String getWikipediaServiceQuery() {
         String q = "";
         String tags = "";
-        for (Object key : this.keywords.keySet()) {
-            String s = key.toString();
+        for (Keyword key : this.keywords) {
+            String s = key.getKey().toString();
             tags += s + "%20";
         }
         q = "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
