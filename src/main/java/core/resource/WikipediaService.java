@@ -33,16 +33,22 @@ public class WikipediaService extends resourceService {
         return list;
     }
 
-    public  List<Wikipedia> getWikipediaArticles() {
-        String query = getWikipediaServiceQuery();
-        String response = callWIKIAPI(query);
-        Document doc = Jsoup.parse(response, "", Parser.xmlParser());
+    public  List<Wikipedia> getWikipediaArticles(){
         List<Wikipedia> items=new ArrayList<Wikipedia>();
-        for (Element e : doc.select("p")) {
-            String title = e.attr("title");
-            items.add(new Wikipedia(title));
+        for (Keyword key : this.keywords) {
+            String query = getWikipediaServiceQuery(key);
+            String response = callWIKIAPI(query);
+            Document doc = Jsoup.parse(response, "", Parser.xmlParser());
+            try {
+                Thread.sleep(30);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            for (Element e : doc.select("p")) {
+                String title = e.attr("title");
+                items.add(new Wikipedia(title));
+            }
         }
-        System.out.println("WIKI query" + query);
 
         System.out.println("WIKI hits" + items.size());
         return items;
@@ -55,7 +61,15 @@ public class WikipediaService extends resourceService {
             String s = key.getKey().toString();
             tags += s + "%20";
         }
-        q = "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
+        q = "https://en.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
+        System.out.println(q);
+
+        return q;
+    }
+
+    private  String getWikipediaServiceQuery(Keyword key) {
+        String s = key.getKey().toString();
+        String q = "https://en.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + s + "&format=xml";
         return q;
     }
 

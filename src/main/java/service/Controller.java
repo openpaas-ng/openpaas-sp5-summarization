@@ -17,6 +17,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import core.resource.EmailService;
 import core.resource.SOService;
+import core.resource.WikipediaService;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -26,6 +27,7 @@ import structures.*;
 import structures.resources.Email;
 import structures.resources.Resources;
 import structures.resources.StackOverflow;
+import structures.resources.Wikipedia;
 
 @RestController
 public class Controller {
@@ -158,7 +160,7 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
-    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords;so") String resources) throws IOException {
+    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords;so;wiki") String resources) throws IOException {
         Resources res=new Resources();
         if(currentMeetings.containsKey(id)){
             if(resources.contains("email")){
@@ -178,6 +180,17 @@ public class Controller {
                     so.setKeywords(currentMeetings.get(id).getLatestKeywords());
                     List<StackOverflow> soQuestions = so.getSOQuestions();
                     res.setSoarticles(soQuestions);
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from SO");
+                    e.printStackTrace();
+                }
+            }
+            if(resources.contains("wiki")) {
+                try {
+                    WikipediaService wikis = new WikipediaService();
+                    wikis.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                    List<Wikipedia> WikipediaArticles = wikis.getWikipediaArticles();
+                    res.setWikiarticles(WikipediaArticles);
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from SO");
                     e.printStackTrace();

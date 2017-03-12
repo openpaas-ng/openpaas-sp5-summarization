@@ -107,6 +107,7 @@
             //alert(xhttp.responseText);
             keywords = response.keywords;
             soarticles = response.soarticles;
+            wikiarticles=response.wikiarticles;
         }
 
 
@@ -167,22 +168,20 @@
     $(document).ready(function () {
         $("#recommend").click(function () {
 
-            $('#k1').html(keywords[0].key);
-            $('#k2').html(keywords[1].key);
-            $('#k3').html(keywords[2].key);
-            $('#k4').html(keywords[3].key);
-            $('#k5').html(keywords[4].key);
-            $('#k6').html(keywords[5].key);
-            $('#k7').html(keywords[6].key);
-            $('#k8').html(keywords[7].key);
-            $('#k9').html(keywords[8].key);
-
-            for (i = 0; i <Math.max(4, soarticles.length); i++) {
-                idx=i+1;
-                $('#l'+idx.toString()).html(soarticles[i].title+"<hr>");
+            for (i = 0; i < Math.max(9, keywords.length); i++) {
+                idx = i + 1;
+                $('#k' + idx.toString()).html(keywords[i].key + "<hr>");
             }
 
+            for (i = 0; i < Math.max(4, soarticles.length); i++) {
+                idx = i + 1;
+                $('#l' + idx.toString()).html(soarticles[i].title + "<hr>");
+            }
 
+            for (i = 0; i < Math.max(2, wikiarticles.length); i++) {
+                idx = i + 1;
+                $('#w' + idx.toString()).html(wikiarticles[i].title + "<hr>");
+            }
         });
     });
 
@@ -211,19 +210,33 @@
         </table>
 
     </div>
-    <div class="col-sm-4"><h1></h1>
-        <div id='sotable' class="col-sm-4"><h1>Keywords</h1>
+
+    <div class="col-sm-2"><h1></h1>
+        <div id='sotable' class="col-sm-4"><h1>StackOverflow Articles</h1>
             <table id="links" style="width:100%">
                 <tr id="l1">
                 </tr>
-                <tr  id="l2">
+                <tr id="l2">
                 </tr>
                 <tr id="l3">
                 </tr>
-                <tr  id="l4">
+                <tr id="l4">
                 </tr>
             </table>
-
+        </div>
+    </div>
+    <div class="col-sm-2"><h1></h1>
+        <div id='wikitable' class="col-sm-4"><h1>Wikipedia Articles</h1>
+            <table id="wikis" style="width:100%">
+                <tr id="w1">
+                </tr>
+                <tr id="w2">
+                </tr>
+                <tr id="w3">
+                </tr>
+                <tr id="w4">
+                </tr>
+            </table>
         </div>
     </div>
 </div>
