@@ -39,15 +39,13 @@ public class WikipediaService extends resourceService {
             String query = getWikipediaServiceQuery(key);
             String response = callWIKIAPI(query);
             Document doc = Jsoup.parse(response, "", Parser.xmlParser());
-            try {
-                Thread.sleep(30);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
             for (Element e : doc.select("p")) {
                 String title = e.attr("title");
                 items.add(new Wikipedia(title));
             }
+            if(items.size()>4)
+                break;
         }
 
         System.out.println("WIKI hits" + items.size());

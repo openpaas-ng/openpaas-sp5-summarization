@@ -192,7 +192,7 @@ public class Controller {
                     List<Wikipedia> WikipediaArticles = wikis.getWikipediaArticles();
                     res.setWikiarticles(WikipediaArticles);
                 } catch (Exception e) {
-                    System.err.println("Exception while fetching from SO");
+                    System.err.println("Exception while fetching from wiki");
                     e.printStackTrace();
                 }
             }

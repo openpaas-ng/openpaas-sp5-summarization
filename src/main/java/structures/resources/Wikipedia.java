@@ -14,6 +14,7 @@ public class Wikipedia {
     String link;
     public Wikipedia(String title) {
         this.title = title;
+        this.link=getLink();
     }
 
     public String getTitle() {
