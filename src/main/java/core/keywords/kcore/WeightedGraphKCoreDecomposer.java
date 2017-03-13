@@ -153,4 +153,36 @@ public class WeightedGraphKCoreDecomposer implements KCoreDecomposer {
             return !s;
         }
     }
+
+    public Map<String,Double> coreRankNumbers() {
+        vi = verticesToInts();
+        iv = intsToVertices();
+        int[] degree = new int[numberOfNodes];
+        int maxDegree = -1;
+        Set<String> neighbors;
+        DefaultWeightedEdge edge;
+        Map<String, Double> cores = this.coreNumbers();
+        for (Map.Entry<String, Integer> entry : vi.entrySet()) {
+            neighbors = ni.neighborsOf(entry.getKey(), getNeighborBoolDirected(true));
+            for (String neighbor : neighbors) {
+                if (this.direction == 1) {
+                    edge = g.getEdge(neighbor, entry.getKey());
+                } else {
+                    edge = g.getEdge(entry.getKey(), neighbor);
+                }
+                degree[entry.getValue()] += g.getEdgeWeight(edge) ;
+            }
+
+            if (degree[entry.getValue()] > maxDegree) {
+                maxDegree = degree[entry.getValue()];
+            }
+        }
+        Map<String, Double> coreRankNumbers=new HashMap<>();
+        for (String v: cores.keySet()){
+            coreRankNumbers.put(v,cores.get(v)*degree[vi.get(v)]);
+        }
+
+        return coreRankNumbers;
+    }
+
 }

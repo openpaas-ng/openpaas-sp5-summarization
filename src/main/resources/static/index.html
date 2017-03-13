@@ -69,7 +69,7 @@
             reader.onload = function (e) {
                 var contents = e.target.result;
                 displayContents(contents);
-                obb = JSON.parse(contents);
+                obb = JSON.parse(contents).entries;
             };
             reader.readAsText(file);
         }

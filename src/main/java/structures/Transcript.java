@@ -66,7 +66,8 @@ public class Transcript {
         String text = getLatestEntriesText();
         GraphOfWords gow = new GraphOfWords(text);
         WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(gow.getGraph(), 10, 0);
-        Map<String, Double> map = decomposer.coreNumbers();
+
+        Map<String, Double> map = decomposer.coreRankNumbers();
         map = KCore.sortByValue(map);
         latestKeywords.clear();
         int cc = 0;
