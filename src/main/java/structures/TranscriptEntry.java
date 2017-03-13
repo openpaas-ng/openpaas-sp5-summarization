@@ -46,7 +46,7 @@ public class TranscriptEntry {
             if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t))
                 cleans+=t+" ";
         }
-        cleans=cleans.substring(0,cleans.length()-1);
+        //cleans=cleans.substring(0,cleans.length()-1);
         return cleans;
     }
 

@@ -49,7 +49,7 @@ public class WikipediaService extends resourceService {
                 if(intcc>1)
                     break;
             }
-            if(items.size()>6)
+            if(items.size()>9)
                 break;
         }
 

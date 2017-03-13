@@ -46,8 +46,9 @@
 
     </div>
     <br/>
+
     <div id="conversationDiv">
-        <input hidden="True" type="text" id="text" placeholder="Write a message..."/>
+        <input disabled="True" type="text" id="text" placeholder=""/>
         <button hidden="True" id="sendMessage" onclick="sendMessage();">Send</button>
     </div>
 
@@ -89,6 +90,7 @@
             document.getElementById('conversationDiv').style.visibility
                 = connected ? 'visible' : 'hidden';
             document.getElementById('response').innerHTML = '';
+            document.getElementById('text').value = 'Meeting registered!';
         }
 
         function callRegistrationService() {
@@ -104,7 +106,6 @@
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send();
             var response = JSON.parse(xhttp.responseText);
-            //alert(xhttp.responseText);
             keywords = response.keywords;
             soarticles = response.soarticles;
             wikiarticles=response.wikiarticles;
@@ -167,6 +168,12 @@
     $(document).ready(function () {
         $("#recommend").click(function () {
 
+            for (i = 0; i < 9; i++) {
+                idx = i + 1;
+                $('#k' + idx.toString()).html("");
+                $('#l' + idx.toString()).html("");
+                $('#w' + idx.toString()).html("");
+            }
             for (i = 0; i < Math.min(9, keywords.length); i++) {
                 idx = i + 1;
                 $('#k' + idx.toString()).html(keywords[i].key);
@@ -190,8 +197,8 @@
         });
     });
 
-
 </script>
+
 <div class="row">
     <div id="transcript" class="col-sm-4"><h1>Transcript</h1></h1><p id="response"></p>
     </div>
@@ -227,6 +234,14 @@
                 </tr>
                 <tr id="l4">
                 </tr>
+                <tr id="l5">
+                </tr>
+                <tr id="l6">
+                </tr>
+                <tr id="l7">
+                </tr>
+                <tr id="l8">
+                </tr>
             </table>
         </div>
     </div>
@@ -240,6 +255,14 @@
                 <tr id="w3">
                 </tr>
                 <tr id="w4">
+                </tr>
+                <tr id="w5">
+                </tr>
+                <tr id="w6">
+                </tr>
+                <tr id="w7">
+                </tr>
+                <tr id="w8">
                 </tr>
             </table>
         </div>
