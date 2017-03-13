@@ -33,18 +33,20 @@ public class TranscriptEntry {
     }
 
     private String cleanText(String s) {
+        s=s.toLowerCase();
         s = s.replaceAll("<noise>", "");
         s = s.replaceAll("<spoken-noise>", "");
         s = s.replaceAll("<laugh>", "");
         s = s.replaceAll("<UNK>", "");
         s = s.replaceAll("<!sil>", "");
+        s= s.replaceAll("-","");
         String cleans = "";
         String[] tokens = s.split(" ");
         for(String t:tokens){
-            if(!Application.stopWordsEnglish.contains(t) && !Application.fillerWordsEnglish.contains(t) && !Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t))
+            if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t))
                 cleans+=t+" ";
         }
-        cleans=cleans.substring(0,cleans.length()-2);
+        cleans=cleans.substring(0,cleans.length()-1);
         return cleans;
     }
 
@@ -77,7 +79,7 @@ public class TranscriptEntry {
     }
 
     public void setText(String text) {
-        this.text = text;
+        this.text = cleanText(text);
     }
 
     @Override

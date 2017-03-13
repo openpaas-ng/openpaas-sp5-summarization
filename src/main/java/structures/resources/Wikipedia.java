@@ -27,7 +27,7 @@ public class Wikipedia {
 
     public String getLink() {
         
-        return "https://en.wikipedia.org/wiki/"+this.title.replaceAll(" ", "_");
+        return "https://fr.wikipedia.org/wiki/"+this.title.replaceAll(" ", "_");
     }
 
 

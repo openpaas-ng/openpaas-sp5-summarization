@@ -3,7 +3,6 @@ package structures;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
-import me.xuender.unidecode.Unidecode;
 import org.apache.commons.lang3.StringUtils;
 import service.Settings;
 
@@ -72,7 +71,7 @@ public class Transcript {
         latestKeywords.clear();
         int cc = 0;
         for (Map.Entry<String, Double> e : map.entrySet()) {
-            System.out.println(StringUtils.stripAccents(e.getKey()));
+            System.out.println(e.getKey());
             latestKeywords.put(StringUtils.stripAccents(e.getKey()).replaceAll("'",""), e.getValue());
             cc++;
             if (cc == Settings.NKEYWORDS)

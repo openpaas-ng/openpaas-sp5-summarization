@@ -37,12 +37,12 @@
     </div>
     <br/>
     <div>
-        <button id="connect" onclick="connect();">Connect</button>
+        <button id="connect" onclick="connect();">Register a meeting</button>
         <button id="disconnect" disabled="disabled" onclick="disconnect();">
             Disconnect
         </button>
         <button id="nextmsg" onclick="sendNextMessage()">Continue</button>
-        <button id="recommend" onclick="callRecommendationService()">Recommend!</button>
+        <button id="recommend" onclick="callRecommendationService()">Get recommendations!</button>
 
     </div>
     <br/>
@@ -155,8 +155,7 @@
             var response = document.getElementById('response');
             var p = document.createElement("p");
             p.style.wordWrap = 'break-word';
-            p.appendChild(document.createTextNode(messageOutput.from + ": "
-                + messageOutput.text + " (" + messageOutput.time + ")" + "\n"));
+            p.appendChild(document.createTextNode("Meeting ID: "+messageOutput.from + "  Speaker:  "+ messageOutput.text.split("\t")[2]+"  Text:  " +messageOutput.text.split("\t")[3]+ " (" + messageOutput.time + ")" + "\n"));
             response.appendChild(p);
         }
     </script>
@@ -168,19 +167,25 @@
     $(document).ready(function () {
         $("#recommend").click(function () {
 
-            for (i = 0; i < Math.max(9, keywords.length); i++) {
+            for (i = 0; i < Math.min(9, keywords.length); i++) {
                 idx = i + 1;
-                $('#k' + idx.toString()).html(keywords[i].key + "<hr>");
+                $('#k' + idx.toString()).html(keywords[i].key);
             }
 
-            for (i = 0; i < Math.max(4, soarticles.length); i++) {
+            for (i = 0; i < Math.min(10, soarticles.length); i++) {
                 idx = i + 1;
-                $('#l' + idx.toString()).html(soarticles[i].title+ "<hr>");
+                $('#l' + idx.toString()).html("<a href="+soarticles[i].link +" target=\"_blank\">"+soarticles[i].title + "</a><hr>");
+            }
+            if(soarticles.length==0){
+                $('#l1').html("No suitable stackoverflow recommendations were found");
             }
 
-            for (i = 0; i < Math.max(2, wikiarticles.length); i++) {
+            for (i = 0; i < Math.min(10, wikiarticles.length); i++) {
                 idx = i + 1;
-                $('#w' + idx.toString()).html(wikiarticles[i].title + "<hr>");
+                $('#w' + idx.toString()).html("<a href="+wikiarticles[i].link +" target=\"_blank\">"+wikiarticles[i].title + "</a><hr>");
+            }
+            if(wikiarticles.length==0){
+                $('#w1').html("No suitable wikipedia recommendations were found");
             }
         });
     });

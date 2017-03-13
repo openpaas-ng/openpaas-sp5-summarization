@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -35,16 +36,20 @@ public class WikipediaService extends resourceService {
 
     public  List<Wikipedia> getWikipediaArticles(){
         List<Wikipedia> items=new ArrayList<Wikipedia>();
+        Collections.shuffle(this.keywords);
         for (Keyword key : this.keywords) {
             String query = getWikipediaServiceQuery(key);
             String response = callWIKIAPI(query);
             Document doc = Jsoup.parse(response, "", Parser.xmlParser());
-
+            int intcc = 0;
             for (Element e : doc.select("p")) {
                 String title = e.attr("title");
                 items.add(new Wikipedia(title));
+                intcc++;
+                if(intcc>1)
+                    break;
             }
-            if(items.size()>4)
+            if(items.size()>6)
                 break;
         }
 
@@ -59,7 +64,7 @@ public class WikipediaService extends resourceService {
             String s = key.getKey().toString();
             tags += s + "%20";
         }
-        q = "https://en.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
+        q = "https://fr.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
         System.out.println(q);
 
         return q;
@@ -67,7 +72,7 @@ public class WikipediaService extends resourceService {
 
     private  String getWikipediaServiceQuery(Keyword key) {
         String s = key.getKey().toString();
-        String q = "https://en.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + s + "&format=xml";
+        String q = "https://fr.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + s + "&format=xml";
         return q;
     }
 
