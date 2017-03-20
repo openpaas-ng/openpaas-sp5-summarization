@@ -16,6 +16,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
 import core.resourceservice.EmailService;
+import core.resourceservice.GoogleService;
 import core.resourceservice.SOService;
 import core.resourceservice.WikipediaService;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -24,10 +25,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
 import com.google.gson.Gson;
 import structures.*;
-import structures.resources.Email;
-import structures.resources.Resources;
-import structures.resources.StackOverflow;
-import structures.resources.Wikipedia;
+import structures.resources.*;
 
 @RestController
 public class Controller {
@@ -187,9 +185,9 @@ public class Controller {
             }
             if(resources.contains("wiki")) {
                 try {
-                    WikipediaService wikis = new WikipediaService();
+                    GoogleService wikis = new GoogleService("wikifr");
                     wikis.setKeywords(currentMeetings.get(id).getLatestKeywords());
-                    List<Wikipedia> WikipediaArticles = wikis.getWikipediaArticles();
+                    List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
                     res.setWikiarticles(WikipediaArticles);
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from wiki");

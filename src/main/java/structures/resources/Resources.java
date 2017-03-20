@@ -11,7 +11,7 @@ public class Resources {
     public List<Keyword> keywords;
     public List<Email> mails;
     public List<StackOverflow> soarticles;
-    public List<Wikipedia> wikiarticles;
+    public List<GoogleResource> wikiarticles;
 
     public List<Keyword> getKeywords() {
         return keywords;
@@ -29,11 +29,11 @@ public class Resources {
         this.soarticles = soarticles;
     }
 
-    public List<Wikipedia> getWikiarticles() {
+    public List<GoogleResource> getWikiarticles() {
         return wikiarticles;
     }
 
-    public void setWikiarticles(List<Wikipedia> wikiarticles) {
+    public void setWikiarticles(List<GoogleResource> wikiarticles) {
         this.wikiarticles = wikiarticles;
     }
 
