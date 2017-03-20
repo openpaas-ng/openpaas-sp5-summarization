@@ -1,6 +1,7 @@
 package structures;
 
 import service.Application;
+import org.tartarus.snowball.ext.FrenchStemmer;
 
 /**
  * Created by midas on 11/23/2016.
@@ -43,8 +44,13 @@ public class TranscriptEntry {
         String cleans = "";
         String[] tokens = s.split(" ");
         for(String t:tokens){
-            if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t))
-                cleans+=t+" ";
+            if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t)) {
+                FrenchStemmer stemmer = new FrenchStemmer();
+                stemmer.setCurrent(t);
+                if (stemmer.stem()) {
+                    cleans += t + " ";
+                }
+            }
         }
         //cleans=cleans.substring(0,cleans.length()-1);
         return cleans;

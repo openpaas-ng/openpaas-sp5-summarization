@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-import core.resource.EmailService;
-import core.resource.SOService;
-import core.resource.WikipediaService;
+import core.resourceservice.EmailService;
+import core.resourceservice.SOService;
+import core.resourceservice.WikipediaService;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.scheduling.annotation.Scheduled;

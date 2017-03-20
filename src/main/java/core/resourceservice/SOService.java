@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package core.resource;
+package core.resourceservice;
 
 import com.google.gson.Gson;
 import structures.Keyword;

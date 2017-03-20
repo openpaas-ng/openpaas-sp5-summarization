@@ -1,8 +1,7 @@
-package core.resource;
+package core.resourceservice;
 
 import structures.Keyword;
 
-import java.util.HashMap;
 import java.util.List;
 
 /**

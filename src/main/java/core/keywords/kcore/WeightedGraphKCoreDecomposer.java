@@ -179,6 +179,7 @@ public class WeightedGraphKCoreDecomposer implements KCoreDecomposer {
         }
         Map<String, Double> coreRankNumbers=new HashMap<>();
         for (String v: cores.keySet()){
+        //    g.neighborListOf(v);
             coreRankNumbers.put(v,cores.get(v)*degree[vi.get(v)]);
         }
 

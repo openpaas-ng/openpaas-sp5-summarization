@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package core.resource;
+package core.resourceservice;
 
 import structures.Keyword;
 import structures.resources.Wikipedia;
@@ -44,6 +44,8 @@ public class WikipediaService extends resourceService {
             int intcc = 0;
             for (Element e : doc.select("p")) {
                 String title = e.attr("title");
+                if(title.contains("porn"))
+                    continue;
                 items.add(new Wikipedia(title));
                 intcc++;
                 if(intcc>1)
@@ -64,7 +66,7 @@ public class WikipediaService extends resourceService {
             String s = key.getKey().toString();
             tags += s + "%20";
         }
-        q = "https://fr.wikipedia.org/w/api.php?action=query&srwhat=text&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
+        q = "https://fr.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";
         System.out.println(q);
 
         return q;
