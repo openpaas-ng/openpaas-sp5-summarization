@@ -17,7 +17,8 @@ public class Application {
     public static List<String> stopWordsFrench;
     public static List<String> stopWordsEnglish;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Settings.init();
         loadResources();
         SpringApplication.run(Application.class, args);
     }
