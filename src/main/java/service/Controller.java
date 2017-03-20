@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
@@ -73,7 +74,7 @@ public class Controller {
 				byte[] encoded = Files.readAllBytes(Paths.get("local_directory/output/meeting_" + id + ".txt"));
 				s = new String(encoded, enc);
 
-				Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_" + id + ".txt")).stream()
+				Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_" + id + ".txt"), Charset.forName("utf-8")).stream()
 						.forEach(l -> {
 							String[] parts = l.split(" ");
 							keywordList.add(new Keyword(parts[0], parts[1]));
