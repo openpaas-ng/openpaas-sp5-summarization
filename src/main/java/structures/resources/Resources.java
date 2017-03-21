@@ -10,7 +10,7 @@ import java.util.List;
 public class Resources {
     public List<Keyword> keywords;
     public List<Email> mails;
-    public List<StackOverflow> soarticles;
+    public List<GoogleResource> soarticles;
     public List<GoogleResource> wikiarticles;
 
     public List<Keyword> getKeywords() {
@@ -21,11 +21,11 @@ public class Resources {
         this.keywords = keywords;
     }
 
-    public List<StackOverflow> getSoarticles() {
+    public List<GoogleResource> getSoarticles() {
         return soarticles;
     }
 
-    public void setSoarticles(List<StackOverflow> soarticles) {
+    public void setSoarticles(List<GoogleResource> soarticles) {
         this.soarticles = soarticles;
     }
 

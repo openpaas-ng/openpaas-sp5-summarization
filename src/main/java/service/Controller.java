@@ -175,9 +175,9 @@ public class Controller {
             }
             if(resources.contains("so")) {
                 try {
-                    SOService so = new SOService();
+                    GoogleService so = new GoogleService("so");
                     so.setKeywords(currentMeetings.get(id).getLatestKeywords());
-                    List<StackOverflow> soQuestions = so.getSOQuestions();
+                    List<GoogleResource> soQuestions = so.getGoogleRecommendations();
                     res.setSoarticles(soQuestions);
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from SO");
