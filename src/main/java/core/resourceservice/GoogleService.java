@@ -12,9 +12,11 @@ import structures.resources.GoogleResource;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -86,14 +88,15 @@ public class GoogleService extends resourceService {
         return output;
     }
 
-    private  String getGoogleServiceQuery() {
+    private  String getGoogleServiceQuery() throws UnsupportedEncodingException {
         String q = "";
         String tags = "";
         for (Keyword key : this.keywords) {
             String s = key.getKey().toString();
-            tags += s + "%20";
+            tags += s + " ";
         }
-        tags=tags.substring(0,tags.length()-3);
+        //tags=tags.substring(0,tags.length()-3);
+        tags= URLEncoder.encode(tags, "UTF-8");
         return tags;
     }
 }

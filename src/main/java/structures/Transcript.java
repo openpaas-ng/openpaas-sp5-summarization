@@ -73,7 +73,7 @@ public class Transcript {
         int cc = 0;
         for (Map.Entry<String, Double> e : map.entrySet()) {
             System.out.println(e.getKey()+" "+e.getValue());
-            latestKeywords.put(StringUtils.stripAccents(e.getKey()), e.getValue());
+            latestKeywords.put(e.getKey(), e.getValue());
             cc++;
             if (cc == Settings.NKEYWORDS)
                 break;
