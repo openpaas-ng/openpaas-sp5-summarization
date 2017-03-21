@@ -72,8 +72,8 @@ public class Transcript {
         latestKeywords.clear();
         int cc = 0;
         for (Map.Entry<String, Double> e : map.entrySet()) {
-            System.out.println(e.getKey());
-            latestKeywords.put(StringUtils.stripAccents(e.getKey()).replaceAll("'",""), e.getValue());
+            System.out.println(e.getKey()+" "+e.getValue());
+            latestKeywords.put(StringUtils.stripAccents(e.getKey()), e.getValue());
             cc++;
             if (cc == Settings.NKEYWORDS)
                 break;

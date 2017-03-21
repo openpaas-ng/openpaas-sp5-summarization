@@ -60,11 +60,13 @@ public class GoogleService extends resourceService {
         JsonObject o = parser.parse(output).getAsJsonObject();
         JsonArray items = o.getAsJsonArray("items");
         List<GoogleResource> results = new ArrayList();
-        for (JsonElement item : items) {
-            String title = item.getAsJsonObject().get("title").getAsString();
-            String link = item.getAsJsonObject().get("formattedUrl").getAsString();
-            GoogleResource g = new GoogleResource(title, link);
-            results.add(g);
+        if(items!=null && items.size()>0){
+            for (JsonElement item : items) {
+                String title = item.getAsJsonObject().get("title").getAsString();
+                String link = item.getAsJsonObject().get("formattedUrl").getAsString();
+                GoogleResource g = new GoogleResource(title, link);
+                results.add(g);
+            }
         }
         return results;
     }

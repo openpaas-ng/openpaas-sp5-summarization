@@ -34,7 +34,8 @@ public class TranscriptEntry {
     }
 
     private String cleanText(String s) {
-        s=s.toLowerCase();
+        //s=s.toLowerCase();
+        s=s.replaceAll("'"," ");
         s = s.replaceAll("<noise>", "");
         s = s.replaceAll("<spoken-noise>", "");
         s = s.replaceAll("<laugh>", "");
@@ -52,6 +53,7 @@ public class TranscriptEntry {
                 }
             }
         }
+        cleans=cleans.toLowerCase();
         //cleans=cleans.substring(0,cleans.length()-1);
         return cleans;
     }
