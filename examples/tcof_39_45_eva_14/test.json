@@ -1,0 +1,28 @@
+{
+  "entries": [{
+    "from": 0,
+    "until": 4.919,
+    "speaker": "39_45_eva_14_spk-002",
+    "text": "alors euh je voulais savoir si vous pouviez me raconter euh u- un"
+  }, {
+    "from": 4.919,
+    "until": 9.181,
+    "speaker": "39_45_eva_14_spk-002",
+    "text": "<noise> évènement de votre vie qui vous à particulièrement marqué <noise>"
+  }, {
+    "from": 9.181,
+    "until": 14.247,
+    "speaker": "39_45_eva_14_spk-002",
+    "text": "oui oui j' ai un évènement de ma vie qui m' a particulièrement marqué <noise>"
+  }, {
+    "from": 14.247,
+    "until": 19.92,
+    "speaker": "39_45_eva_14_spk-002",
+    "text": "surtout que c' était vraiment il y a très très longtemps que j' étais toute petite"
+  }, {
+    "from": 19.92,
+    "until": 24.262,
+    "speaker": "39_45_eva_14_spk-002",
+    "text": "j' avais deux ans et demi au mois de septembre mille neuf cent trente-neuf"
+  }]
+}
