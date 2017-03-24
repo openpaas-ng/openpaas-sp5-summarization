@@ -229,7 +229,7 @@ public class Controller {
     public void reportCurrentTime() {
         currentMeetings.forEach((k,v)->{
             v.updateKeywords();
-            System.out.println(k+" "+v.getEntries().size());
+            //System.out.println(k+" "+v.getEntries().size());
 
         });
         SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");

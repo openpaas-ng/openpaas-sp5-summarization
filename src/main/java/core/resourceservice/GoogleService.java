@@ -95,7 +95,7 @@ public class GoogleService extends resourceService {
             String s = key.getKey().toString();
             tags += s + " ";
         }
-        //tags=tags.substring(0,tags.length()-3);
+        tags=tags.substring(0,tags.length()-4);
         tags= URLEncoder.encode(tags, "UTF-8");
         return tags;
     }

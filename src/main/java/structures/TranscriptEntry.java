@@ -1,7 +1,13 @@
 package structures;
 
-import service.Application;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.util.CoreMap;
 import org.tartarus.snowball.ext.FrenchStemmer;
+import service.Application;
+
+import java.util.List;
 
 /**
  * Created by midas on 11/23/2016.
@@ -29,8 +35,6 @@ public class TranscriptEntry {
         this.text = cleanText(e[3]);
 
 
-
-
     }
 
     private String cleanText(String s) {
@@ -42,17 +46,7 @@ public class TranscriptEntry {
         s = s.replaceAll("<UNK>", "");
         s = s.replaceAll("<!sil>", "");
         s= s.replaceAll("-","");
-        String cleans = "";
-        String[] tokens = s.split(" ");
-        for(String t:tokens){
-            if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t)) {
-                FrenchStemmer stemmer = new FrenchStemmer();
-                stemmer.setCurrent(t);
-                if (stemmer.stem()) {
-                    cleans += t + " ";
-                }
-            }
-        }
+        String cleans = s;
         cleans=cleans.toLowerCase();
         //cleans=cleans.substring(0,cleans.length()-1);
         return cleans;

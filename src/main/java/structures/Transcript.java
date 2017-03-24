@@ -3,7 +3,14 @@ package structures;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
+import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.util.CoreMap;
 import org.apache.commons.lang3.StringUtils;
+import org.jgrapht.WeightedGraph;
+import org.tartarus.snowball.ext.FrenchStemmer;
+import service.Application;
 import service.Settings;
 
 import java.text.Normalizer;
@@ -64,19 +71,72 @@ public class Transcript {
 
     public void updateKeywords() {
         String text = getLatestEntriesText();
-        GraphOfWords gow = new GraphOfWords(text);
-        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(gow.getGraph(), 10, 0);
+        if(text.length()==0)
+            return;
+        String cleanText = "";
+        System.out.println("-Annotation-");
+        Annotation annotation = new Annotation(text);
+        Application.frenchPOSpipeline.annotate(annotation);
+        System.out.println("-Done-");
+
+        List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+        System.out.println("------------------------------");
+        for (CoreMap sentence : sentences) {
+            for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                String word = token.get(CoreAnnotations.TextAnnotation.class);
+                // this is the POS tag of the token
+                String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                if(!pos.equals("V"))
+                    cleanText+=word+" ";
+                //System.out.println(word + "/" + pos);
+            }
+        }
+
+        String[] tokens = cleanText.split(" ");
+        cleanText = "";
+        for(String t:tokens){
+            if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t) && !Application.stopWordsFrench2.contains(t)) {
+                FrenchStemmer stemmer = new FrenchStemmer();
+                stemmer.setCurrent(t);
+                if (stemmer.stem()) {
+                    cleanText += t + " ";
+                }
+            }
+
+        }
+
+
+        GraphOfWords gow = new GraphOfWords(cleanText);
+        WeightedGraph graph = gow.getGraph();
+        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 10, 0);
 
         Map<String, Double> map = decomposer.coreRankNumbers();
         map = KCore.sortByValue(map);
+        LinkedHashMap<String, Double> topKeys = new LinkedHashMap<>();
+
+        Object[] it =  map.keySet().toArray();
+
+        for(int i=0;i<Settings.NKEYWORDS;i++){
+            String key1 = (String) it[i];
+            String finalKey=key1;
+            Double finalScore=map.get(key1);
+            //for(int j=i+1;j<Settings.NKEYWORDS;j++){
+            //    String key2 = (String) it[j];
+            //    if(graph.containsEdge(key1,key2)){
+            //        finalKey=key1+" "+key2;
+            //        finalScore+=map.get(key2);
+            //    }
+            // }
+
+            topKeys.put(finalKey,finalScore);
+        }
+
         latestKeywords.clear();
         int cc = 0;
-        for (Map.Entry<String, Double> e : map.entrySet()) {
+        for (Map.Entry<String, Double> e : topKeys.entrySet()) {
             System.out.println(e.getKey()+" "+e.getValue());
             latestKeywords.put(e.getKey(), e.getValue());
             cc++;
-            if (cc == Settings.NKEYWORDS)
-                break;
         }
 
     }
