@@ -1,0 +1,8 @@
+/target/
+/local_directory/input
+/local_directory/output
+.project
+.classpath
+.idea/
+OpenpaasService.iml
+/.settings
