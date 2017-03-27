@@ -60,7 +60,7 @@ public class Controller {
         Files.deleteIfExists(new File("local_directory/output/meeting_"+id+".txt").toPath());
         Files.deleteIfExists(new File("local_directory/output/keywords_meeting_"+id+".txt").toPath());
 
-        String command = "Rscript --vanilla ./local_directory/offline_exe.R " +infilename + " " + nkeys.toString();
+        String command = "Rscript --vanilla offline_exe.R " +infilename + " " + nkeys.toString();
         Process u = Runtime.getRuntime().exec(command);
         try{
             u.waitFor();
@@ -77,7 +77,15 @@ public class Controller {
 				Files.readAllLines(Paths.get("local_directory/output/keywords_meeting_" + id + ".txt"), Charset.forName("utf-8")).stream()
 						.forEach(l -> {
 							String[] parts = l.split(" ");
-							keywordList.add(new Keyword(parts[0], parts[1]));
+                            String keyword = parts[0];
+							for (String tt:t.getTokens()){
+							    if(tt.contains(parts[0])) {
+                                    keyword = tt;
+                                    break;
+                                }
+                            }
+
+							keywordList.add(new Keyword(keyword, parts[1]));
 						});
 			}
 
@@ -93,11 +101,13 @@ public class Controller {
             String body = jsonInString;
             con.setDoOutput(true);
             DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-            wr.writeBytes(body);
+            wr.write(body.getBytes("UTF-8"));
             wr.close();
-
             con.getResponseCode();
 
+            Files.deleteIfExists(new File("local_directory/output/meeting_"+id+".txt").toPath());
+            Files.deleteIfExists(new File("local_directory/output/keywords_meeting_"+id+".txt").toPath());
+            Files.deleteIfExists(new File("local_directory/input/meeting_"+id+".txt").toPath());
             return "summary produced succesfully for meeting"+id;
         } catch(InterruptedException e) {
 			e.printStackTrace();

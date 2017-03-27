@@ -19,6 +19,7 @@ import structures.Transcript;
 import structures.TranscriptEntry;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.io.BufferedReader;
@@ -33,7 +34,7 @@ public class SummaryAPITest {
     public void makeSureThatBatchAPIWorks() throws Exception {
         String USER_AGENT = "Mozilla/5.0";
 
-        CSVReader reader = new CSVReader(new FileReader("local_directory/input/asr_info_english.txt"),'\t');
+        CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream("local_directory/input/meeting_34.txt"), Charset.forName("UTF8")),'\t');
         Gson gson = new Gson();
 
         List myEntries = reader.readAll();
@@ -46,16 +47,17 @@ public class SummaryAPITest {
                 System.out.println(s);
             });
         String jsonInString = gson.toJson(t);
-        String url = "http://localhost:8080/summary";
+        String url = "http://localhost:8080/summary?id=1&callbackurl=localhost";
 
 
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost(url);
         post.addHeader("Content-Type", "application/json");
-        post.addHeader("id", "9");
-        post.addHeader("callbackurl", "localhost");
+        //post.addHeader("id", "9");
+        //post.addHeader("callbackurl", "localhost");
 
-        StringEntity entity = new StringEntity(jsonInString);
+        StringEntity entity = new StringEntity(jsonInString,"UTF-8");
+        entity.setContentEncoding("UTF-8");
         post.setEntity(entity);
 
         try {

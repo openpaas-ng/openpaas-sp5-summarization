@@ -59,6 +59,14 @@ public class Transcript {
         return out;
     }
 
+    public List<String > getTokens() {
+        List<String> tokens=new ArrayList<>();
+        for (TranscriptEntry e : entries) {
+            Collections.addAll(tokens, e.getText().split(" "));
+        }
+        return tokens;
+    }
+
     public List<Keyword> getLatestKeywords() {
         List<Keyword> l=new ArrayList<Keyword>();
         for(String k:latestKeywords.keySet()){
