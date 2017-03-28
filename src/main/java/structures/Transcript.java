@@ -124,7 +124,7 @@ public class Transcript {
 
         Object[] it =  map.keySet().toArray();
 
-        for(int i=0;i<Settings.NKEYWORDS;i++){
+        for(int i=0;i<Settings.NKEYWORDS && i<it.length;i++){
             String key1 = (String) it[i];
             String finalKey=key1;
             Double finalScore=map.get(key1);
