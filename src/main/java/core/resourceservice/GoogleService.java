@@ -54,6 +54,7 @@ public class GoogleService extends resourceService {
         }
 
         String qry = getGoogleServiceQuery();
+        System.out.println("qry: "+qry);
         URL url = new URL(
                 "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx + "&q=" + qry + "&alt=json&num=10&queriefields=queries(request(totalResults))");
 
@@ -95,7 +96,7 @@ public class GoogleService extends resourceService {
             String s = key.getKey().toString();
             tags += s + " ";
         }
-        tags=tags.substring(0,tags.length()-4);
+        //tags=tags.substring(0,tags.length()-4);
         tags= URLEncoder.encode(tags, "UTF-8");
         return tags;
     }

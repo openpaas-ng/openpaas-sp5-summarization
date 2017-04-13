@@ -86,7 +86,7 @@ public class Transcript {
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 // this is the POS tag of the token
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                if(!pos.equals("V"))
+                if(!pos.startsWith("V"))
                     cleanText+=word+" ";
                 //System.out.println(word + "/" + pos);
             }
@@ -116,7 +116,7 @@ public class Transcript {
 
         Object[] it =  map.keySet().toArray();
 
-        for(int i=0;i<Settings.NKEYWORDS;i++){
+        for(int i=0;i<Math.min(Settings.NKEYWORDS,it.length);i++){
             String key1 = (String) it[i];
             String finalKey=key1;
             Double finalScore=map.get(key1);
@@ -133,6 +133,7 @@ public class Transcript {
 
         latestKeywords.clear();
         int cc = 0;
+        topKeys=normalizeKeyScores(topKeys);
         for (Map.Entry<String, Double> e : topKeys.entrySet()) {
             System.out.println(e.getKey()+" "+e.getValue());
             latestKeywords.put(e.getKey(), e.getValue());
@@ -141,6 +142,17 @@ public class Transcript {
 
     }
 
+    private LinkedHashMap<String,Double> normalizeKeyScores(LinkedHashMap<String, Double> topKeys) {
+        Double min = Collections.min(topKeys.values());
+        Double max = Collections.max(topKeys.values());
+        topKeys.replaceAll((k, v) -> scale(v,min,max,10.0,30.0));
+        return topKeys;
+    }
+    private static double scale(final double valueIn, final double baseMin, final double baseMax, final double limitMin, final double limitMax) {
+        if(limitMin==limitMax)
+            return valueIn;
+        return ((limitMax - limitMin) * (valueIn - baseMin) / (baseMax - baseMin)) + limitMin;
+    }
     private String getLatestEntriesText() {
         String out = "";
         if (!this.entries.isEmpty()) {

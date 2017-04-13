@@ -225,7 +225,7 @@ public class Controller {
     }
 
 
-    @Scheduled(fixedRate = 6000)
+    @Scheduled(fixedRate = 1000)
     public void reportCurrentTime() {
         currentMeetings.forEach((k,v)->{
             v.updateKeywords();

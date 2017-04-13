@@ -49,7 +49,7 @@
 
     <div id="conversationDiv">
         <input  type="text" id="text" placeholder=""/>
-        <button id="sendMessage" onclick="sendMessage();">Send</button>
+        <button hidden="true" id="sendMessage" onclick="sendMessage();">Send</button>
     </div>
 
 
@@ -60,6 +60,7 @@
         var keywords = null;
         var soarticles = null;
         var wikiarticles = null;
+        var clearInput=false;
 
         function readSingleFile(e) {
             var file = e.target.files[0];
@@ -109,6 +110,7 @@
             keywords = response.keywords;
             soarticles = response.soarticles;
             wikiarticles=response.wikiarticles;
+            clearInput=true;
         }
 
 
@@ -153,10 +155,18 @@
 
 
         function showMessageOutput(messageOutput) {
+            if(clearInput)
+                document.getElementById('response').innerHTML = '';
+            clearInput=false;
             var response = document.getElementById('response');
             var p = document.createElement("p");
             p.style.wordWrap = 'break-word';
-            p.appendChild(document.createTextNode("Meeting ID: "+messageOutput.from + "  Speaker:  "+ messageOutput.text.split("\t")[2]+"  Text:  " +messageOutput.text.split("\t")[3]+ " (" + messageOutput.time + ")" + "\n"));
+            var date = new Date(messageOutput.text.split("\t")[0]*1000);
+            var hours = date.getHours();
+            var minutes = "0" + date.getMinutes();
+            var seconds = "0" + date.getSeconds();
+            var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+            p.appendChild(document.createTextNode("Meeting ID: "+messageOutput.from + "  Speaker:  "+ messageOutput.text.split("\t")[2]+"  Text:  " +messageOutput.text.split("\t")[3]+ " (" + formattedTime + ")" + "\n"));
             response.appendChild(p);
         }
     </script>
@@ -165,6 +175,24 @@
 
 
 <script>
+    window.setInterval(function(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "http://localhost:8080/resources?resources=keywords&id=" + document.getElementById('from').value, false);
+        xhttp.setRequestHeader("Content-type", "application/json");
+        xhttp.send();
+        var response = JSON.parse(xhttp.responseText);
+        keywords = response.keywords;
+        for (i = 0; i < 9; i++) {
+            idx = i + 1;
+            $('#k' + idx.toString()).html("");
+        }
+        for (i = 0; i < Math.min(9, keywords.length); i++) {
+            idx = i + 1;
+            $('#k' + idx.toString()).html("<p style=\"font-size:"+keywords[i].value+"px\">"+keywords[i].key+"</p>");
+        }
+    }, 5000);
+
+
     $(document).ready(function () {
         $("#recommend").click(function () {
 
@@ -176,7 +204,7 @@
             }
             for (i = 0; i < Math.min(9, keywords.length); i++) {
                 idx = i + 1;
-                $('#k' + idx.toString()).html(keywords[i].key);
+                $('#k' + idx.toString()).html("<p style=\"font-size:"+keywords[i].value+"px\">"+keywords[i].key+"</p>");
             }
 
             for (i = 0; i < Math.min(10, soarticles.length); i++) {
@@ -184,7 +212,7 @@
                 $('#l' + idx.toString()).html("<a href="+soarticles[i].link +" target=\"_blank\">"+soarticles[i].title + "</a><hr>");
             }
             if(soarticles.length==0){
-                $('#l1').html("No suitable stackoverflow recommendations were found");
+                $('#l1').html("No suitable recommendations were found");
             }
 
             for (i = 0; i < Math.min(10, wikiarticles.length); i++) {
@@ -192,7 +220,7 @@
                 $('#w' + idx.toString()).html("<a href="+wikiarticles[i].link +" target=\"_blank\">"+wikiarticles[i].title + "</a><hr>");
             }
             if(wikiarticles.length==0){
-                $('#w1').html("No suitable wikipedia recommendations were found");
+                $('#w1').html("No suitable recommendations were found");
             }
         });
     });
@@ -224,7 +252,7 @@
     </div>
 
     <div class="col-sm-2"><h1></h1>
-        <div id='sotable' class="col-sm-4"><h1>StackOverflow Articles</h1>
+        <div id='sotable' class="col-sm-4"><h1>Websites</h1>
             <table id="links" style="width:100%">
                 <tr id="l1">
                 </tr>
@@ -246,7 +274,7 @@
         </div>
     </div>
     <div class="col-sm-2"><h1></h1>
-        <div id='wikitable' class="col-sm-4"><h1>Wikipedia Articles</h1>
+        <div id='wikitable' class="col-sm-4"><h1>Wikipedia</h1>
             <table id="wikis" style="width:100%">
                 <tr id="w1">
                 </tr>
