@@ -15,7 +15,7 @@ library(tools)
 cat('packages loaded in',proc.time()['elapsed'] - tt0, 'second(s)')
 
 tt = proc.time()['elapsed']
-hide = lapply(list("from_keyword_to_summary_submodularity.R","concept_submodularity_objective.R","from_terms_to_keywords.R","assign_attributes_to_graph_nocomm.R","sentence_extraction_submodularity.R","cores_dec.R","assign_attributes_to_graph_initial.R","clean_utterances.R","cleaning_meeting_text.R","cleaning_transcript.R","from_cleaned_transcript_to_terms_list.R","from_terms_to_graph.R","keyword_extraction.R","keyword_extraction_inner.R","sentence_selection_greedy.R","string_join.R","utterance_collapse.R","get_elbow_point.R"), function(x) {source(paste0('~/local_directory/',x))})
+hide = lapply(list("from_keyword_to_summary_submodularity.R","concept_submodularity_objective.R","from_terms_to_keywords.R","assign_attributes_to_graph_nocomm.R","sentence_extraction_submodularity.R","cores_dec.R","assign_attributes_to_graph_initial.R","clean_utterances.R","cleaning_meeting_text.R","cleaning_transcript.R","from_cleaned_transcript_to_terms_list.R","from_terms_to_graph.R","keyword_extraction.R","keyword_extraction_inner.R","sentence_selection_greedy.R","string_join.R","utterance_collapse.R","get_elbow_point.R"), function(x) {source(paste0('local_directory/',x))})
 cat('\n functions loaded in',proc.time()['elapsed'] - tt, 'second(s)')
 
 ########## variables passed from command line ##########
@@ -47,7 +47,7 @@ cat('\n internal variables defined')
 ########## text loading ##########
 
 # the file passed should be utf-8 encoded, with 4 tab-separated columns devoid of any header
-asr_info = read.delim(paste0('~/local_directory/input/',input_file_name), stringsAsFactors=FALSE, header=FALSE, fileEncoding = 'utf-8', col.names = c('start', 'end', 'role', 'text'))
+asr_info = read.delim(paste0('local_directory/input/',input_file_name), stringsAsFactors=FALSE, header=FALSE, fileEncoding = 'utf-8', col.names = c('start', 'end', 'role', 'text'))
 cat('\n input file read')
 
 detected_language = textcat(paste(asr_info[,'text'],collapse=' '))
@@ -56,19 +56,19 @@ cat('\n language detected:', detected_language)
 if (detected_language=='french') {
 
 	if (operating_system == 'unix'){
-		custom_stopwords = readLines(paste0('~/local_directory/resources/custom_stopwords_full_french.txt'), encoding='utf-8')
-		filler_words = readLines(paste0('~/local_directory/resources/filler_words_french.txt'), encoding='utf-8')
+		custom_stopwords = readLines(paste0('local_directory/resources/custom_stopwords_full_french.txt'), encoding='utf-8')
+		filler_words = readLines(paste0('local_directory/resources/filler_words_french.txt'), encoding='utf-8')
 	} else if (operating_system == 'windows'){
-		custom_stopwords = read.csv(paste0('~/local_directory/resources/custom_stopwords_full_french.csv'),header=FALSE,stringsAsFactors=FALSE)[,1]
-		filler_words = read.csv(paste0('~/local_directory/resources/filler_words_french.csv'),header=FALSE,stringsAsFactors=FALSE)[,1]
+		custom_stopwords = read.csv(paste0('local_directory/resources/custom_stopwords_full_french.csv'),header=FALSE,stringsAsFactors=FALSE)[,1]
+		filler_words = read.csv(paste0('local_directory/resources/filler_words_french.csv'),header=FALSE,stringsAsFactors=FALSE)[,1]
 	}
 	
 	cat('\n French stopwords and filler words loaded')
 
 } else if (detected_language=='english') {
 
-	custom_stopwords = read.csv(paste0('~/local_directory/resources/custom_stopwords_full.csv'),header=FALSE,stringsAsFactors = FALSE)[,1]
-	filler_words = read.csv(paste0('~/local_directory/resources/filler_words.csv'),header=FALSE,stringsAsFactors = FALSE)[,1]
+	custom_stopwords = read.csv(paste0('local_directory/resources/custom_stopwords_full.csv'),header=FALSE,stringsAsFactors = FALSE)[,1]
+	filler_words = read.csv(paste0('local_directory/resources/filler_words.csv'),header=FALSE,stringsAsFactors = FALSE)[,1]
 	cat('\n English stopwords and filler words loaded')
 
 }
@@ -105,7 +105,7 @@ cat('\n keywords extracted in',proc.time()['elapsed'] - tt, 'second(s)')
 
 df_wc = data.frame(words = keywords_scores$extracted_keywords, freq = round(as.numeric(keywords_scores$scores),4))
 
-write.table(df_wc, paste0('~/local_directory/output/keywords_',input_file_name), col.names = FALSE, row.names = FALSE, quote=FALSE)
+write.table(df_wc, paste0('local_directory/output/keywords_',input_file_name), col.names = FALSE, row.names = FALSE, quote=FALSE)
 
 cat('\n keywords written to disk')
 
@@ -115,7 +115,7 @@ tt = proc.time()['elapsed']
 my_summary = from_keyword_to_summary_submodularity(graph_keywords_scores_temp = keywords_scores, utterances = utterances, start_time = start_time, to_stem=T, max_summary_length=user_summary_size, scaling_factor=scaling_factor, weighted_sum_concepts=T, negative_terms=FALSE, lambda=lambda)$my_summary
 cat('\n summary of',user_summary_size,'words generated in',proc.time()['elapsed'] - tt, 'second(s)')
 
-writeLines(my_summary, paste0('~/local_directory/output/',input_file_name))
+writeLines(my_summary, paste0('local_directory/output/',input_file_name))
 cat('\n summary written to disk')
 cat('\n')
 
