@@ -86,7 +86,7 @@ public class Transcript {
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 // this is the POS tag of the token
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                if(!pos.startsWith("V"))
+                if(!pos.startsWith("V") && pos.startsWith("N"))
                     cleanText+=word+" ";
                 //System.out.println(word + "/" + pos);
             }

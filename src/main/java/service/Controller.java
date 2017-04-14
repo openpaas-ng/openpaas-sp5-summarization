@@ -196,9 +196,11 @@ public class Controller {
             }
             if(resources.contains("wiki")) {
                 try {
-                    GoogleService wikis = new GoogleService("wikifr");
+                    //GoogleService wikis = new GoogleService("wikifr");
+                    WikipediaService wikis= new WikipediaService();
                     wikis.setKeywords(currentMeetings.get(id).getLatestKeywords());
-                    List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
+                    //List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
+                    List<Wikipedia> WikipediaArticles = wikis.getWikipediaArticles();
                     res.setWikiarticles(WikipediaArticles);
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from wiki");
