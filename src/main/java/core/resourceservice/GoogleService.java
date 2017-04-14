@@ -94,7 +94,7 @@ public class GoogleService extends resourceService {
         String tags = "";
         for (Keyword key : this.keywords) {
             String s = key.getKey().toString();
-            tags += s + " OR ";
+            tags += s + " ";
         }
         //tags=tags.substring(0,tags.length()-4);
         tags= URLEncoder.encode(tags, "UTF-8");

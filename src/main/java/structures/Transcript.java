@@ -141,11 +141,17 @@ public class Transcript {
         }
 
     }
-
+    public List<String > getTokens() {
+        List<String> tokens=new ArrayList<>();
+        for (TranscriptEntry e : entries) {
+            Collections.addAll(tokens, e.getText().split(" "));
+        }
+        return tokens;
+    }
     private LinkedHashMap<String,Double> normalizeKeyScores(LinkedHashMap<String, Double> topKeys) {
         Double min = Collections.min(topKeys.values());
         Double max = Collections.max(topKeys.values());
-        topKeys.replaceAll((k, v) -> scale(v,min,max,10.0,30.0));
+        topKeys.replaceAll((k, v) -> scale(v,min,max,20.0,40.0));
         return topKeys;
     }
     private static double scale(final double valueIn, final double baseMin, final double baseMax, final double limitMin, final double limitMax) {
