@@ -166,8 +166,8 @@
             var minutes = "0" + date.getMinutes();
             var seconds = "0" + date.getSeconds();
             var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
-            p.appendChild(document.createTextNode("Meeting ID: "+messageOutput.from + "  Speaker:  "+ messageOutput.text.split("\t")[2]+"  Text:  " +messageOutput.text.split("\t")[3]+ " (" + formattedTime + ")" + "\n"));
-            response.appendChild(p);
+            p.appendChild(document.createTextNode("Speaker:  "+ messageOutput.text.split("\t")[2]+"  Utterance:  " +messageOutput.text.split("\t")[3]+ " (" + formattedTime + ")" + "\n"));
+            response.insertBefore(p,response.firstChild);
         }
     </script>
 </head>
