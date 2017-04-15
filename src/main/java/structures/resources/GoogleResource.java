@@ -9,7 +9,10 @@ public class GoogleResource {
 
     public GoogleResource(String title, String link) {
         this.title = title;
-        this.link = link;
+        if(!link.startsWith("http://") || !link.startsWith("https://"))
+            this.link = "http://"+link;
+        else
+            this.link = link;
     }
 
     public String getTitle() {

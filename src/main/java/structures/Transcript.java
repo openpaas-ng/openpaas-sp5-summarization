@@ -97,9 +97,12 @@ public class Transcript {
         for(String t:tokens){
             if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t) && !Application.stopWordsFrench2.contains(t)) {
                 FrenchStemmer stemmer = new FrenchStemmer();
+                //cleanText += t + " ";
                 stemmer.setCurrent(t);
                 if (stemmer.stem()) {
-                    cleanText += t + " ";
+                    String tok = t;
+                    //if(tok.length()>3)
+                        cleanText += tok + " ";
                 }
             }
 
@@ -151,7 +154,7 @@ public class Transcript {
     private LinkedHashMap<String,Double> normalizeKeyScores(LinkedHashMap<String, Double> topKeys) {
         Double min = Collections.min(topKeys.values());
         Double max = Collections.max(topKeys.values());
-        topKeys.replaceAll((k, v) -> scale(v,min,max,20.0,40.0));
+        topKeys.replaceAll((k, v) -> scale(v,min,max,20.0,35.0));
         return topKeys;
     }
     private static double scale(final double valueIn, final double baseMin, final double baseMax, final double limitMin, final double limitMax) {

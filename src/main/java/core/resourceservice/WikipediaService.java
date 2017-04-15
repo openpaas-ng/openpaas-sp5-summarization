@@ -48,7 +48,7 @@ public class WikipediaService extends resourceService {
                     continue;
                 items.add(new Wikipedia(title));
                 intcc++;
-                if(intcc>1)
+                if(intcc>=1)
                     break;
             }
             if(items.size()>9)
