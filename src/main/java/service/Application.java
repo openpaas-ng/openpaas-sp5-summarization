@@ -1,14 +1,12 @@
 package service;
 
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import edu.stanford.nlp.util.PropertiesUtils;
 import edu.stanford.nlp.util.StringUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -23,6 +21,8 @@ public class Application {
     public static List<String> stopWordsFrench2;
     public static List<String> stopWordsEnglish;
     public static StanfordCoreNLP frenchPOSpipeline;
+    public static StanfordCoreNLP enPOSpipeline;
+
     public static void main(String[] args) throws IOException {
         Settings.init();
         loadResources();
@@ -31,11 +31,19 @@ public class Application {
 
     public static void loadResources() {
         //Properties props = PropertiesUtils.asProperties("props", "StanfordCoreNLP-french.properties");
-        Properties props = StringUtils.argsToProperties(
+        Properties frenchProps = StringUtils.argsToProperties(
                 new String[]{"-props", "StanfordCoreNLP-french.properties"});
-        props.setProperty("annotators","tokenize, ssplit, pos");
+        frenchProps.setProperty("annotators","tokenize, ssplit, pos");
 
-        frenchPOSpipeline = new StanfordCoreNLP(props);
+        frenchPOSpipeline = new StanfordCoreNLP(frenchProps);
+
+
+        Properties enProps = new Properties();
+        enProps.setProperty("annotators","tokenize, ssplit, pos");
+
+        enPOSpipeline = new StanfordCoreNLP(enProps);
+
+
         fillerWordsFrench = null;
         try {
             fillerWordsFrench = Files.readAllLines(Paths.get("local_directory/resources/filler_words_french.txt"));

@@ -1,19 +1,12 @@
 package structures;
 
+import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.util.CoreMap;
-import org.apache.commons.lang3.StringUtils;
 import org.jgrapht.WeightedGraph;
-import org.tartarus.snowball.ext.FrenchStemmer;
-import service.Application;
 import service.Settings;
 
-import java.text.Normalizer;
 import java.util.*;
 
 /**
@@ -73,42 +66,7 @@ public class Transcript {
         String text = getLatestEntriesText();
         if(text.length()==0)
             return;
-        String cleanText = "";
-        System.out.println("-Annotation-");
-        Annotation annotation = new Annotation(text);
-        Application.frenchPOSpipeline.annotate(annotation);
-        System.out.println("-Done-");
-
-        List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
-        System.out.println("------------------------------");
-        for (CoreMap sentence : sentences) {
-            for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                String word = token.get(CoreAnnotations.TextAnnotation.class);
-                // this is the POS tag of the token
-                String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                if(!pos.startsWith("V") && pos.startsWith("N"))
-                    cleanText+=word+" ";
-                //System.out.println(word + "/" + pos);
-            }
-        }
-
-        String[] tokens = cleanText.split(" ");
-        cleanText = "";
-        for(String t:tokens){
-            if(!Application.stopWordsFrench.contains(t) && !Application.fillerWordsFrench.contains(t) && !Application.stopWordsFrench2.contains(t)) {
-                FrenchStemmer stemmer = new FrenchStemmer();
-                //cleanText += t + " ";
-                stemmer.setCurrent(t);
-                if (stemmer.stem()) {
-                    String tok = t;
-                    //if(tok.length()>3)
-                        cleanText += tok + " ";
-                }
-            }
-
-        }
-
-
+        String cleanText = new TextPreProcess(text).getText();
         GraphOfWords gow = new GraphOfWords(cleanText);
         WeightedGraph graph = gow.getGraph();
         WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 10, 0);

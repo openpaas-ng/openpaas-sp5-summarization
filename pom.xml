@@ -22,6 +22,13 @@
             <groupId>org.webjars</groupId>
             <artifactId>webjars-locator</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>1.14</version>
+        </dependency>
+
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>sockjs-client</artifactId>
@@ -105,7 +112,12 @@
             <version>3.7.0</version>
             <classifier>models-french</classifier>
         </dependency>
-
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.7.0</version>
+            <classifier>models</classifier>
+        </dependency>
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>

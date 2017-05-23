@@ -1,11 +1,31 @@
 package service;
 
+import com.google.gson.Gson;
+import core.keywords.TextPreProcess;
+import core.keywords.kcore.KCore;
+import core.keywords.kcore.WeightedGraphKCoreDecomposer;
+import core.keywords.wordgraph.GraphOfWords;
+import core.resourceservice.EmailService;
+import core.resourceservice.GoogleService;
+import core.resourceservice.WikipediaService;
+import org.jgrapht.WeightedGraph;
+import org.springframework.messaging.handler.annotation.MessageMapping;
+import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.web.bind.annotation.*;
+import structures.*;
+import structures.resources.Email;
+import structures.resources.GoogleResource;
+import structures.resources.Resources;
+import structures.resources.Wikipedia;
+
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLDecoder;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -13,20 +33,9 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
-
-import core.resourceservice.EmailService;
-import core.resourceservice.GoogleService;
-import core.resourceservice.SOService;
-import core.resourceservice.WikipediaService;
-import org.springframework.messaging.handler.annotation.MessageMapping;
-import org.springframework.messaging.handler.annotation.SendTo;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.web.bind.annotation.*;
-import com.google.gson.Gson;
-import structures.*;
-import structures.resources.*;
 
 @RestController
 public class Controller {
@@ -114,7 +123,35 @@ public class Controller {
 			return "got exception trying to run process";
         }
     }
+    @RequestMapping(value = "/keywords", method = RequestMethod.POST)
+    public String postKeywords(@RequestBody String text,@RequestParam(value="nkeys", defaultValue = "-1") Integer nkeys,@RequestParam(value="language", defaultValue = "none") String language) throws IOException {
+        String rawText = URLDecoder.decode(text, "UTF-8");
+        if(language.equals("none"))
+            rawText=new TextPreProcess(rawText).getText();
+        else
+            rawText=new TextPreProcess(rawText,language).getText();
+        GraphOfWords gow = new GraphOfWords(rawText);
+        WeightedGraph graph = gow.getGraph();
+        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 10, 0);
 
+        Map<String, Double> map = decomposer.coreRankNumbers();
+        map = KCore.sortByValue(map);
+
+        if(nkeys==-1)
+            nkeys=map.size();
+        int maxLength = Math.min(map.size(), nkeys);
+        Object[] it =  map.keySet().toArray();
+        List<Keyword> topKeys=new ArrayList<>();
+        for(int i=0;i<maxLength;i++){
+            String key1 = (String) it[i];
+            String finalKey=key1;
+            Double finalScore=map.get(key1);
+            topKeys.add(new Keyword(finalKey,finalScore.toString()));
+        }
+        Gson gson = new Gson();
+        String response = gson.toJson(topKeys);
+        return response;
+    }
     /**
      *
      * @param id
