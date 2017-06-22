@@ -19,17 +19,16 @@ public class TextPreProcess {
     public TextPreProcess(String text, String language) {
         this.text = text;
         this.language = language;
-        process();
+        process(language);
     }
 
     public TextPreProcess(String text) {
         this.text = text;
         String lang = new LanguageIdentifier(text).getLanguage();
-        System.out.println(lang);
-        process();
+        process(lang);
     }
 
-    private void process(){
+    private void process(String language){
         String cleanText = "";
         Annotation annotation = null;
         List<CoreMap> sentences =null;
