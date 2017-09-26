@@ -13,4 +13,12 @@ RUN mvn package && cp target/openpaas-summary-service-0.1.0.jar .
 
 EXPOSE 8080
 
+# ensure we will have a proper locale installed
+# (avoid issue with accented characters)
+
+RUN apt install -y language-pack-en
+
+ENV LANG='en_US.utf8'
+ENV LC_ALL='en_US.utf8'
+
 CMD java -jar ./openpaas-summary-service-*.jar
