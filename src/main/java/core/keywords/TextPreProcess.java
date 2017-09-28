@@ -4,6 +4,7 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.util.CoreMap;
 import org.apache.tika.language.LanguageIdentifier;
+import org.tartarus.snowball.ext.EnglishStemmer;
 import org.tartarus.snowball.ext.FrenchStemmer;
 import service.Application;
 
@@ -53,7 +54,7 @@ public class TextPreProcess {
                     cleanText = "";
                     for(String t:tokens){
                         if(!Application.stopWordsEnglish.contains(t) && !Application.fillerWordsEnglish.contains(t)) {
-                            FrenchStemmer stemmer = new FrenchStemmer();
+                            EnglishStemmer stemmer = new EnglishStemmer();
                             //cleanText += t + " ";
                             stemmer.setCurrent(t);
                             if (stemmer.stem()) {
