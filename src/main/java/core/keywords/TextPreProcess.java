@@ -26,6 +26,7 @@ public class TextPreProcess {
         this.text = text;
         String lang = new LanguageIdentifier(text).getLanguage();
         System.out.println(lang);
+        language=lang;
         process();
     }
 
