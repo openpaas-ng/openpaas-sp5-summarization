@@ -1,11 +1,8 @@
 /**
  * Created by midas on 11/23/2016.
  */
-import static com.jayway.restassured.RestAssured.given;
-
 import com.google.gson.Gson;
 import com.opencsv.CSVReader;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
 import org.apache.http.client.HttpClient;
@@ -14,19 +11,15 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
-import org.junit.Test;
 import structures.Transcript;
 import structures.TranscriptEntry;
 
-import java.io.*;
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
+import java.io.FileInputStream;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
+import java.nio.charset.Charset;
+import java.util.List;
+
+import static com.jayway.restassured.RestAssured.given;
 public class SummaryAPITest {
     private final String USER_AGENT = "Mozilla/5.0";
 
