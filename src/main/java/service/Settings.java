@@ -21,10 +21,11 @@ public class Settings {
     public static String SOKEY;
     public static String SOCX;
 
+    public static String BABELKEY;
+
     public static void init() throws IOException {
         Properties prop = new Properties();
         InputStream input = null;
-
 
         input = new FileInputStream("config.properties");
 
@@ -38,15 +39,9 @@ public class Settings {
         WIKIFRCX = prop.getProperty("WIKIFRCX");
         SOKEY = prop.getProperty("SOKEY");
         SOCX = prop.getProperty("SOCX");
+        BABELKEY = prop.getProperty("BABELKEY");
 
-        if (input != null) {
-            try {
-                input.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-
+        input.close();
     }
 }
 

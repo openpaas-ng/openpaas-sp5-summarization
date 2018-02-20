@@ -27,16 +27,13 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class Controller {
-    private Map<String, Transcript> currentMeetings = new ConcurrentHashMap<>();
+    private Map<String, Meeting> currentMeetings = new ConcurrentHashMap<>();
     private final AtomicLong counter = new AtomicLong();
 
     /**
@@ -124,10 +121,7 @@ public class Controller {
     @RequestMapping(value = "/keywords", method = RequestMethod.POST)
     public String postKeywords(@RequestBody String text, @RequestParam(value = "nkeys", defaultValue = "-1") Integer nkeys, @RequestParam(value = "language", defaultValue = "none") String language) throws IOException {
         String rawText = URLDecoder.decode(text, "UTF-8");
-        if (language.equals("none"))
-            rawText = new TextPreProcess(rawText).getText();
-        else
-            rawText = new TextPreProcess(rawText, language).getText();
+        rawText = new TextPreProcess(rawText, language).getText();
         GraphOfWords gow = new GraphOfWords(rawText);
         WeightedGraph graph = gow.getGraph();
         WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 10, 0);
@@ -184,7 +178,7 @@ public class Controller {
     @RequestMapping(value = "/stream", method = RequestMethod.GET)
     public String initStream(@RequestParam(value = "id") String id, @RequestParam String action) {
         if (action.equals("START")) {
-            currentMeetings.putIfAbsent(id, new Transcript());
+            currentMeetings.putIfAbsent(id, new Meeting());
             return "START SUCCESS";
         } else if (action.equals("STOP")) {
             currentMeetings.remove(id);
@@ -202,10 +196,11 @@ public class Controller {
     public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords;so;wiki") String resources) throws IOException {
         Resources res=new Resources();
         if(currentMeetings.containsKey(id)){
+            Meeting meeting = currentMeetings.get(id);
             if(resources.contains("email")){
                 try {
                     EmailService email = new EmailService();
-                    email.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                    email.setKeywords(meeting.getLatestKeywords());
                     List<Email> emails = email.getEmails();
                     res.setMails(emails);
                 } catch (Exception e) {
@@ -216,7 +211,9 @@ public class Controller {
             if(resources.contains("so")) {
                 try {
                     GoogleService so = new GoogleService("so");
-                    so.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                    so.setText(meeting.getLatestEntriesText());
+                    so.setKeywords(meeting.getLatestKeywords());
+                    so.setLanguage(meeting.getLanguage());
                     List<GoogleResource> soQuestions = so.getGoogleRecommendations();
                     res.setSoarticles(soQuestions);
                 } catch (Exception e) {
@@ -228,7 +225,7 @@ public class Controller {
                 try {
                     //GoogleService wikis = new GoogleService("wikifr");
                     WikipediaService wikis= new WikipediaService();
-                    wikis.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                    wikis.setKeywords(meeting.getLatestKeywords());
                     //List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
                     List<Wikipedia> WikipediaArticles = wikis.getWikipediaArticles();
                     res.setWikiarticles(WikipediaArticles);
@@ -238,12 +235,10 @@ public class Controller {
                 }
             }
             if (resources.contains("keywords")) {
-                res.setKeywords(currentMeetings.get(id).getLatestKeywords());
+                res.setKeywords(meeting.getLatestKeywords());
             }
         }
-        Gson gson = new Gson();
-        String jsonInString = gson.toJson(res,Resources.class);
-        return jsonInString;
+        return new Gson().toJson(res,Resources.class);
     }
 
     /**
@@ -282,13 +277,14 @@ public class Controller {
      *
      * @param id   The id of the corresponding group
      * @param text An array of the words that were added since the previous request
-     * @param enc  Optional: the encoding that must be used. Default UTF-8
      */
     @CrossOrigin
     @RequestMapping(value = "/pad", method = RequestMethod.POST)
-    public void postPad(@RequestParam(value = "id") String id, @RequestParam(value = "words[]") String[] text, @RequestParam(value = "enc", defaultValue = "UTF-8") String enc) {
-        System.out.println(text);
-        System.out.println(id);
-        System.out.println(enc);
+    public void postPad(@RequestParam(value = "id") String id, @RequestParam(value = "words[]") String[] text) {
+        id = "ge"; // TODO remove after testing
+        if( currentMeetings.containsKey(id)){
+            currentMeetings.get(id).addPad(text);
+            System.out.println("Text [" + Arrays.toString(text) + "] was received from Cryptpad");
+        }
     }
 }

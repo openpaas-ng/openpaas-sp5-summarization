@@ -4,6 +4,8 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import core.queryexpansion.BabelExpander;
+import core.queryexpansion.QueryExpander;
 import service.Settings;
 import structures.Keyword;
 import structures.resources.Email;
@@ -90,12 +92,17 @@ public class GoogleService extends resourceService {
     }
 
     private  String getGoogleServiceQuery() throws UnsupportedEncodingException {
-        String q = "";
         String tags = "";
         for (Keyword key : this.keywords) {
-            String s = key.getKey().toString();
-            tags += s + " ";
+            tags += key.getKey() + " ";
         }
+        QueryExpander qe = new BabelExpander();
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+        String remove_it_after_testing = tags;
+        tags = qe.expand(this.getText(), this.keywords, this.getLanguage());
+        System.out.println("Previous tags: " + remove_it_after_testing);
+        System.out.println("New tags: " + tags);
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
         //tags=tags.substring(0,tags.length()-4);
         tags= URLEncoder.encode(tags, "UTF-8");
         return tags;

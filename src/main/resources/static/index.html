@@ -188,7 +188,13 @@
         }
         for (i = 0; i < Math.min(9, keywords.length); i++) {
             idx = i + 1;
-            $('#k' + idx.toString()).html("<p style=\"font-size:"+keywords[i].value+"px\">"+keywords[i].key+"</p>");
+            var size = keywords[i].value;
+            var color = "red";
+            if (size < 0) {
+                size = -1 * size;
+                color = "black";
+            }
+            $('#k' + idx.toString()).html("<p style=\"font-size:" + size + "px;color:"+ color + "\">"+keywords[i].key+"</p>");
         }
     }, 5000);
 

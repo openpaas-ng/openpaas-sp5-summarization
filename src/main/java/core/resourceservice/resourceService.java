@@ -10,10 +10,30 @@ import java.util.List;
 public class resourceService {
     List<Keyword> keywords;
 
-    public void setKeywords(List<Keyword> keywords){
-        this.keywords=keywords;
+    private String text;
+    private String language;
+
+    public void setKeywords(List<Keyword> keywords) {
+        this.keywords = keywords;
     }
 
+    public void setText(String text) {
+        this.text = text;
+    }
 
+    public String getText() {
+        return this.text;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+    protected String getLanguage() {
+        if(this.language.equalsIgnoreCase("none")){
+            return "fr";
+        }
+        return this.language;
+    }
 
 }
