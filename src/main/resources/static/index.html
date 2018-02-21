@@ -61,7 +61,7 @@
         var soarticles = null;
         var wikiarticles = null;
         var clearInput=false;
-
+        var server="localhost:8080";
         function readSingleFile(e) {
             var file = e.target.files[0];
             if (!file) {
@@ -96,14 +96,14 @@
 
         function callRegistrationService() {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", "http://localhost:8080/stream?action=START&id=" + document.getElementById('from').value, false);
+            xhttp.open("GET", "http://"+server+"/stream?action=START&id=" + document.getElementById('from').value, false);
             xhttp.send();
             var response = xhttp.responseText;
         }
 
         function callRecommendationService() {
             var xhttp = new XMLHttpRequest();
-            xhttp.open("GET", "http://localhost:8080/resources?id=" + document.getElementById('from').value, false);
+            xhttp.open("GET", "http://"+server+"/resources?id=" + document.getElementById('from').value, false);
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send();
             var response = JSON.parse(xhttp.responseText);
@@ -177,7 +177,7 @@
 <script>
     window.setInterval(function(){
         var xhttp = new XMLHttpRequest();
-        xhttp.open("GET", "http://localhost:8080/resources?resources=keywords&id=" + document.getElementById('from').value, false);
+        xhttp.open("GET", "http://"+server+"/resources?resources=keywords&id=" + document.getElementById('from').value, false);
         xhttp.setRequestHeader("Content-type", "application/json");
         xhttp.send();
         var response = JSON.parse(xhttp.responseText);

@@ -2,11 +2,16 @@ package service;
 
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.StringUtils;
+import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
+import org.deeplearning4j.models.embeddings.wordvectors.WordVectors;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -22,9 +27,12 @@ public class Application {
     public static List<String> stopWordsEnglish;
     public static StanfordCoreNLP frenchPOSpipeline;
     public static StanfordCoreNLP enPOSpipeline;
+    public static WordVectors enWordVectors;
+    public static WordVectors frWordVectors;
 
     public static void main(String[] args) throws IOException {
         Settings.init();
+        System.out.println("loading static resources");
         loadResources();
         SpringApplication.run(Application.class, args);
     }
@@ -42,7 +50,13 @@ public class Application {
         enProps.setProperty("annotators","tokenize, ssplit, pos");
 
         enPOSpipeline = new StanfordCoreNLP(enProps);
-
+        try {
+             enWordVectors = WordVectorSerializer.loadTxtVectors(new File("local_directory/resources//embeddings/glove.6B.300d.txt"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
 
         fillerWordsFrench = null;
         try {

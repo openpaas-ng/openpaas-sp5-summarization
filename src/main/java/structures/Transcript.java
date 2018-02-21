@@ -4,15 +4,24 @@ import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
+import org.deeplearning4j.clustering.cluster.Cluster;
+import org.deeplearning4j.clustering.cluster.ClusterSet;
+import org.deeplearning4j.clustering.cluster.Point;
+import org.deeplearning4j.clustering.kmeans.KMeansClustering;
 import org.jgrapht.WeightedGraph;
+import org.nd4j.linalg.api.ndarray.INDArray;
+import org.nd4j.linalg.ops.transforms.Transforms;
+import service.Application;
 import service.Settings;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by midas on 11/23/2016.
  */
 public class Transcript {
+
     List<TranscriptEntry> entries;
     //TODO check concurrency status of this map
     HashMap<String, Double> latestKeywords;
@@ -73,25 +82,47 @@ public class Transcript {
 
         Map<String, Double> map = decomposer.coreRankNumbers();
         map = KCore.sortByValue(map);
-        LinkedHashMap<String, Double> topKeys = new LinkedHashMap<>();
+        final Map<String,Double> rankedKeywords=map;
+        Map<String, Double> topKeys = new LinkedHashMap<>();
 
-        Object[] it =  map.keySet().toArray();
+        Object[] it =  rankedKeywords.keySet().toArray();
+        int size = Math.min(Settings.NKEYWORDS, it.length);
+        String distanceFunction = "cosinesimilarity";
+        KMeansClustering kmc = KMeansClustering.setup(2, 15, distanceFunction);
+        List<Point> pointsLst =new ArrayList<>();
+        INDArray mean = Application.enWordVectors.getWordVectorsMean(rankedKeywords.keySet());
 
-        for(int i=0;i<Math.min(Settings.NKEYWORDS,it.length);i++){
+        for(int i=0;i<size;i++){
             String key1 = (String) it[i];
-            String finalKey=key1;
-            Double finalScore=map.get(key1);
-            //for(int j=i+1;j<Settings.NKEYWORDS;j++){
-            //    String key2 = (String) it[j];
-            //    if(graph.containsEdge(key1,key2)){
-            //        finalKey=key1+" "+key2;
-            //        finalScore+=map.get(key2);
-            //    }
-            // }
-
-            topKeys.put(finalKey,finalScore);
+            if(Application.enWordVectors.hasWord(key1)) {
+                pointsLst.add(new Point(key1,(Application.enWordVectors.getWordVectorMatrix(key1))));
+            }
         }
+        INDArray X = Application.enWordVectors.getWordVectors(rankedKeywords.keySet());
+        X.mul(X.transpose());
+        ClusterSet cs = kmc.applyTo(pointsLst);
+        List<Cluster> clsterLst = cs.getClusters();
+        System.out.println("\nCluster Centers:");
+        double maxClusterScore = 0;
 
+        for(Cluster c: clsterLst) {
+            double score=0;
+            Point clusterCenter = c.getCenter();
+            System.out.println("------"+clusterCenter.getId());
+            double similarirty = Transforms.cosineSim(clusterCenter.getArray(), mean);
+            score=c.getPoints().stream().mapToDouble(p->rankedKeywords.get(p.getId())).sum()*similarirty;
+            System.out.println(score);
+            c.getPoints().forEach(p->{
+                System.out.println(p.getId()+" "+rankedKeywords.get(p.getId()));
+                    }
+            );
+            if(score>maxClusterScore){
+                maxClusterScore=score;
+                topKeys.clear();
+                topKeys=c.getPoints().stream().collect(Collectors.toMap(x->x.getId(),x->rankedKeywords.get(x.getId())));
+            }
+
+        }
         latestKeywords.clear();
         int cc = 0;
         topKeys=normalizeKeyScores(topKeys);
@@ -109,7 +140,7 @@ public class Transcript {
         }
         return tokens;
     }
-    private LinkedHashMap<String,Double> normalizeKeyScores(LinkedHashMap<String, Double> topKeys) {
+    private Map<String,Double> normalizeKeyScores(Map<String, Double> topKeys) {
         Double min = Collections.min(topKeys.values());
         Double max = Collections.max(topKeys.values());
         topKeys.replaceAll((k, v) -> scale(v,min,max,20.0,35.0));
