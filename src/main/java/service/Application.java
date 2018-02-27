@@ -51,7 +51,7 @@ public class Application {
 
         enPOSpipeline = new StanfordCoreNLP(enProps);
         try {
-             enWordVectors = WordVectorSerializer.loadTxtVectors(new File("local_directory/resources//embeddings/glove.6B.300d.txt"));
+             enWordVectors = WordVectorSerializer.loadTxtVectors(new File("local_directory/resources//embeddings/glove.6B.50d.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {

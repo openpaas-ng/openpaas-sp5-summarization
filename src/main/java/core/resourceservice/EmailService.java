@@ -5,16 +5,18 @@
  */
 package core.resourceservice;
 
-import structures.resources.Email;
-
-import java.util.*;
-
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
+import structures.resources.Email;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.ListIterator;
 
 /**
  *
@@ -25,7 +27,7 @@ public class EmailService extends resourceService{
 
 
     public List<Email> getEmails() {
-        String query = getEmailServiceQuery(this.keywords);
+        String query = getEmailServiceQuery(this.queries);
         SolrQuery solrQuery;
         solrQuery = new SolrQuery();
         if (query.startsWith(" AND")) {

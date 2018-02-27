@@ -4,7 +4,7 @@ sentence_extraction = function(utterances, extracted_keywords_temp, scores_temp,
   
   # scores_internal = scores_temp
   # names(scores_internal) = extracted_keywords_temp
-  # # the names of the scores, i.e. the keywords
+  # # the names of the scores, i.e. the queries
   # names_scores_internal = extracted_keywords_temp
   # l_n_s = length(names_scores_internal)
   
@@ -54,7 +54,7 @@ sentence_extraction = function(utterances, extracted_keywords_temp, scores_temp,
   # normalize scores
   scores_internal = round(scores_temp/sum(scores_temp),4)
   names(scores_internal) = extracted_keywords_temp
-  # the names of the scores, i.e. the keywords
+  # the names of the scores, i.e. the queries
   names_scores_internal = extracted_keywords_temp
   l_n_s = length(names_scores_internal)
  

@@ -4,9 +4,9 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import core.queryexpansion.BabelExpander;
+import core.queryexpansion.QueryExpander;
 import service.Settings;
-import structures.Keyword;
-import structures.resources.Email;
 import structures.resources.GoogleResource;
 
 import java.io.BufferedReader;
@@ -18,6 +18,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -53,22 +54,23 @@ public class GoogleService extends resourceService {
                 break;
         }
 
-        String qry = getGoogleServiceQuery();
-        System.out.println("qry: "+qry);
-        URL url = new URL(
-                "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx + "&q=" + qry + "&alt=json&num=10&queriefields=queries(request(totalResults))");
-
-        String output = fetch(url);
-        JsonParser parser = new JsonParser();
-        JsonObject o = parser.parse(output).getAsJsonObject();
-        JsonArray items = o.getAsJsonArray("items");
+        List<String> queries = getGoogleServiceQueries();
         List<GoogleResource> results = new ArrayList();
-        if(items!=null && items.size()>0){
-            for (JsonElement item : items) {
-                String title = item.getAsJsonObject().get("title").getAsString();
-                String link = item.getAsJsonObject().get("formattedUrl").getAsString();
-                GoogleResource g = new GoogleResource(title, link);
-                results.add(g);
+        for(String query:queries) {
+            URL url = new URL(
+                    "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx + "&q=" + query + "&alt=json&num=10&queriefields=queries(request(totalResults))");
+
+            String output = fetch(url);
+            JsonParser parser = new JsonParser();
+            JsonObject o = parser.parse(output).getAsJsonObject();
+            JsonArray items = o.getAsJsonArray("items");
+            if (items != null && items.size() > 0) {
+                for (JsonElement item : items) {
+                    String title = item.getAsJsonObject().get("title").getAsString();
+                    String link = item.getAsJsonObject().get("formattedUrl").getAsString();
+                    GoogleResource g = new GoogleResource(title, link);
+                    results.add(g);
+                }
             }
         }
         return results;
@@ -89,15 +91,21 @@ public class GoogleService extends resourceService {
         return output;
     }
 
-    private  String getGoogleServiceQuery() throws UnsupportedEncodingException {
-        String q = "";
-        String tags = "";
-        for (Keyword key : this.keywords) {
-            String s = key.getKey().toString();
-            tags += s + " ";
+    private  List<String> getGoogleServiceQueries() throws UnsupportedEncodingException {
+        List<String> result=new ArrayList<String>();
+        for(String query:this.queries) {
+            String tags = query;
+            QueryExpander qe = new BabelExpander();
+            System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            String remove_it_after_testing = tags;
+            tags = qe.expand(this.getText(), new ArrayList<>(Arrays.asList(query.split(" "))), this.getLanguage());
+            System.out.println("Previous tags: " + remove_it_after_testing);
+            System.out.println("New tags: " + tags);
+            System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            //tags=tags.substring(0,tags.length()-4);
+            tags = URLEncoder.encode(tags, "UTF-8");
+            result.add(tags);
         }
-        //tags=tags.substring(0,tags.length()-4);
-        tags= URLEncoder.encode(tags, "UTF-8");
-        return tags;
+        return result;
     }
 }
