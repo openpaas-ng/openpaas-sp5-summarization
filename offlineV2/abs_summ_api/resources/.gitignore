@@ -1,0 +1,9 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!requirements_python_venv.txt
+!stopwords.en.txt
+!stopwords.fr.txt
+!filler_words.en.txt
+!filler_words.fr.txt

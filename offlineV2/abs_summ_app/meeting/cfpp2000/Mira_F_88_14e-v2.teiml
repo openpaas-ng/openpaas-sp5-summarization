@@ -1,0 +1,5072 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_speechTrans.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="0.5">
+<teiHeader>
+<fileDesc>
+<publicationStmt/>
+<titleStmt>
+<title>Fichier TEI obtenu à partir du fichier Transcriber : http://cfpp2000.univ-paris3.fr/data/public/14eme/Mira_F_88_14e/Mira_F_88_14e-v2.trs</title>
+</titleStmt>
+<sourceDesc>
+<recordingStmt>
+<recording recordingLocation="http://cfpp2000.univ-paris3.fr/transcriptions-TEI/Mira_F_88_14e-v2.teiml" recordingName="Mira_F_88_14e-v2.teiml">
+<media mediaLocation="http://cfpp2000.univ-paris3.fr/data/public/14eme/Mira_F_88_14e/Mira_F_88_14e.wav" mediaName="Mira_F_88_14e.wav"/>
+<date dur="2637.327">31-OCT-2010</date>
+</recording>
+</recordingStmt>
+</sourceDesc>
+<notesStmt>
+<metadata type=""/>
+<note type="scribe">Noalig Tanguy</note>
+</notesStmt>
+</fileDesc>
+<profileDesc>
+<settingDesc/>
+<particDesc>
+<person check="no" code="spk1" dialect="native" name="Sonia Branca-Rosoff (ENQ)" scope="local"/>
+<person check="no" code="spk2" dialect="native" name="Mira" scope="local"/>
+</particDesc>
+</profileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="Transcriber"/>
+</appInfo>
+</encodingDesc>
+<revisionDesc>19</revisionDesc>
+<templateDesc>
+<template code="ortho" parent="-" type="Symbolic Association">Orthographic Line</template>
+<template code="com" parent="ortho" type="Symbolic Association"/>
+</templateDesc>
+</teiHeader>
+<text>
+<timeline unit="s">
+<when absolute="00:00:00" xml:id="T0"/>
+<when interval="19.841" since="#T0" xml:id="T1"/>
+<when interval="75.001" since="#T0" xml:id="T2"/>
+<when interval="75.984" since="#T0" xml:id="T3"/>
+<when interval="77.682" since="#T0" xml:id="T4"/>
+<when interval="109.583" since="#T0" xml:id="T5"/>
+<when interval="110.68" since="#T0" xml:id="T6"/>
+<when interval="129.837" since="#T0" xml:id="T7"/>
+<when interval="131.344" since="#T0" xml:id="T8"/>
+<when interval="133.204" since="#T0" xml:id="T9"/>
+<when interval="163.675" since="#T0" xml:id="T10"/>
+<when interval="169.665" since="#T0" xml:id="T11"/>
+<when interval="204.025" since="#T0" xml:id="T12"/>
+<when interval="204.431" since="#T0" xml:id="T13"/>
+<when interval="211.328" since="#T0" xml:id="T14"/>
+<when interval="212.907" since="#T0" xml:id="T15"/>
+<when interval="227.316" since="#T0" xml:id="T16"/>
+<when interval="234.523" since="#T0" xml:id="T17"/>
+<when interval="234.885" since="#T0" xml:id="T18"/>
+<when interval="257.935" since="#T0" xml:id="T19"/>
+<when interval="264.756" since="#T0" xml:id="T20"/>
+<when interval="267.861" since="#T0" xml:id="T21"/>
+<when interval="268.748" since="#T0" xml:id="T22"/>
+<when interval="278.669" since="#T0" xml:id="T23"/>
+<when interval="279.332" since="#T0" xml:id="T24"/>
+<when interval="281.674" since="#T0" xml:id="T25"/>
+<when interval="284.254" since="#T0" xml:id="T26"/>
+<when interval="285.017" since="#T0" xml:id="T27"/>
+<when interval="286.901" since="#T0" xml:id="T28"/>
+<when interval="288.189" since="#T0" xml:id="T29"/>
+<when interval="291.552" since="#T0" xml:id="T30"/>
+<when interval="291.819" since="#T0" xml:id="T31"/>
+<when interval="297.924" since="#T0" xml:id="T32"/>
+<when interval="298.52" since="#T0" xml:id="T33"/>
+<when interval="300.094" since="#T0" xml:id="T34"/>
+<when interval="328.936" since="#T0" xml:id="T35"/>
+<when interval="329.699" since="#T0" xml:id="T36"/>
+<when interval="360.304" since="#T0" xml:id="T37"/>
+<when interval="362.928" since="#T0" xml:id="T38"/>
+<when interval="365.866" since="#T0" xml:id="T39"/>
+<when interval="368.112" since="#T0" xml:id="T40"/>
+<when interval="369.114" since="#T0" xml:id="T41"/>
+<when interval="373.001" since="#T0" xml:id="T42"/>
+<when interval="375.577" since="#T0" xml:id="T43"/>
+<when interval="377.418" since="#T0" xml:id="T44"/>
+<when interval="378.205" since="#T0" xml:id="T45"/>
+<when interval="379.402" since="#T0" xml:id="T46"/>
+<when interval="380.666" since="#T0" xml:id="T47"/>
+<when interval="427.379" since="#T0" xml:id="T48"/>
+<when interval="427.975" since="#T0" xml:id="T49"/>
+<when interval="431.233" since="#T0" xml:id="T50"/>
+<when interval="431.788" since="#T0" xml:id="T51"/>
+<when interval="432.754" since="#T0" xml:id="T52"/>
+<when interval="436.946" since="#T0" xml:id="T53"/>
+<when interval="454.806" since="#T0" xml:id="T54"/>
+<when interval="455.361" since="#T0" xml:id="T55"/>
+<when interval="494.744" since="#T0" xml:id="T56"/>
+<when interval="498.888" since="#T0" xml:id="T57"/>
+<when interval="501.205" since="#T0" xml:id="T58"/>
+<when interval="503.539" since="#T0" xml:id="T59"/>
+<when interval="506.911" since="#T0" xml:id="T60"/>
+<when interval="510.234" since="#T0" xml:id="T61"/>
+<when interval="510.741" since="#T0" xml:id="T62"/>
+<when interval="511.465" since="#T0" xml:id="T63"/>
+<when interval="511.827" since="#T0" xml:id="T64"/>
+<when interval="513.782" since="#T0" xml:id="T65"/>
+<when interval="514.965" since="#T0" xml:id="T66"/>
+<when interval="522.053" since="#T0" xml:id="T67"/>
+<when interval="523.188" since="#T0" xml:id="T68"/>
+<when interval="526.101" since="#T0" xml:id="T69"/>
+<when interval="527.525" since="#T0" xml:id="T70"/>
+<when interval="529.939" since="#T0" xml:id="T71"/>
+<when interval="530.511" since="#T0" xml:id="T72"/>
+<when interval="542.506" since="#T0" xml:id="T73"/>
+<when interval="547.961" since="#T0" xml:id="T74"/>
+<when interval="579.596" since="#T0" xml:id="T75"/>
+<when interval="580.175" since="#T0" xml:id="T76"/>
+<when interval="580.537" since="#T0" xml:id="T77"/>
+<when interval="596.966" since="#T0" xml:id="T78"/>
+<when interval="605.358" since="#T0" xml:id="T79"/>
+<when interval="639.442" since="#T0" xml:id="T80"/>
+<when interval="642.676" since="#T0" xml:id="T81"/>
+<when interval="665.545" since="#T0" xml:id="T82"/>
+<when interval="668.586" since="#T0" xml:id="T83"/>
+<when interval="669.576" since="#T0" xml:id="T84"/>
+<when interval="672.224" since="#T0" xml:id="T85"/>
+<when interval="707.463" since="#T0" xml:id="T86"/>
+<when interval="709.266" since="#T0" xml:id="T87"/>
+<when interval="731.347" since="#T0" xml:id="T88"/>
+<when interval="736.947" since="#T0" xml:id="T89"/>
+<when interval="737.929" since="#T0" xml:id="T90"/>
+<when interval="739.015" since="#T0" xml:id="T91"/>
+<when interval="742.805" since="#T0" xml:id="T92"/>
+<when interval="743.377" since="#T0" xml:id="T93"/>
+<when interval="747.142" since="#T0" xml:id="T94"/>
+<when interval="747.601" since="#T0" xml:id="T95"/>
+<when interval="749.573" since="#T0" xml:id="T96"/>
+<when interval="814.274" since="#T0" xml:id="T97"/>
+<when interval="820.995" since="#T0" xml:id="T98"/>
+<when interval="831.004" since="#T0" xml:id="T99"/>
+<when interval="832.848" since="#T0" xml:id="T100"/>
+<when interval="873.555" since="#T0" xml:id="T101"/>
+<when interval="875.396" since="#T0" xml:id="T102"/>
+<when interval="878.739" since="#T0" xml:id="T103"/>
+<when interval="881.863" since="#T0" xml:id="T104"/>
+<when interval="884.224" since="#T0" xml:id="T105"/>
+<when interval="887.873" since="#T0" xml:id="T106"/>
+<when interval="891.646" since="#T0" xml:id="T107"/>
+<when interval="905.673" since="#T0" xml:id="T108"/>
+<when interval="906.293" since="#T0" xml:id="T109"/>
+<when interval="908.46" since="#T0" xml:id="T110"/>
+<when interval="908.726" since="#T0" xml:id="T111"/>
+<when interval="909.274" since="#T0" xml:id="T112"/>
+<when interval="910.522" since="#T0" xml:id="T113"/>
+<when interval="965.295" since="#T0" xml:id="T114"/>
+<when interval="966.019" since="#T0" xml:id="T115"/>
+<when interval="967.419" since="#T0" xml:id="T116"/>
+<when interval="967.846" since="#T0" xml:id="T117"/>
+<when interval="969.777" since="#T0" xml:id="T118"/>
+<when interval="970.985" since="#T0" xml:id="T119"/>
+<when interval="976.004" since="#T0" xml:id="T120"/>
+<when interval="995.184" since="#T0" xml:id="T121"/>
+<when interval="996.584" since="#T0" xml:id="T122"/>
+<when interval="999.287" since="#T0" xml:id="T123"/>
+<when interval="1031.744" since="#T0" xml:id="T124"/>
+<when interval="1032.219" since="#T0" xml:id="T125"/>
+<when interval="1038.004" since="#T0" xml:id="T126"/>
+<when interval="1042.373" since="#T0" xml:id="T127"/>
+<when interval="1042.776" since="#T0" xml:id="T128"/>
+<when interval="1043.669" since="#T0" xml:id="T129"/>
+<when interval="1044.683" since="#T0" xml:id="T130"/>
+<when interval="1045.134" since="#T0" xml:id="T131"/>
+<when interval="1045.858" since="#T0" xml:id="T132"/>
+<when interval="1048.441" since="#T0" xml:id="T133"/>
+<when interval="1049.399" since="#T0" xml:id="T134"/>
+<when interval="1049.954" since="#T0" xml:id="T135"/>
+<when interval="1050.534" since="#T0" xml:id="T136"/>
+<when interval="1079.451" since="#T0" xml:id="T137"/>
+<when interval="1079.928" since="#T0" xml:id="T138"/>
+<when interval="1097.374" since="#T0" xml:id="T139"/>
+<when interval="1098.38" since="#T0" xml:id="T140"/>
+<when interval="1098.833" since="#T0" xml:id="T141"/>
+<when interval="1115.999" since="#T0" xml:id="T142"/>
+<when interval="1119.867" since="#T0" xml:id="T143"/>
+<when interval="1144.371" since="#T0" xml:id="T144"/>
+<when interval="1149.312" since="#T0" xml:id="T145"/>
+<when interval="1151.029" since="#T0" xml:id="T146"/>
+<when interval="1154.749" since="#T0" xml:id="T147"/>
+<when interval="1156.228" since="#T0" xml:id="T148"/>
+<when interval="1190.43" since="#T0" xml:id="T149"/>
+<when interval="1193.177" since="#T0" xml:id="T150"/>
+<when interval="1205.626" since="#T0" xml:id="T151"/>
+<when interval="1206.132" since="#T0" xml:id="T152"/>
+<when interval="1209.571" since="#T0" xml:id="T153"/>
+<when interval="1211.102" since="#T0" xml:id="T154"/>
+<when interval="1250.68" since="#T0" xml:id="T155"/>
+<when interval="1251.543" since="#T0" xml:id="T156"/>
+<when interval="1252.187" since="#T0" xml:id="T157"/>
+<when interval="1254.357" since="#T0" xml:id="T158"/>
+<when interval="1256.599" since="#T0" xml:id="T159"/>
+<when interval="1257.128" since="#T0" xml:id="T160"/>
+<when interval="1258.082" since="#T0" xml:id="T161"/>
+<when interval="1258.822" since="#T0" xml:id="T162"/>
+<when interval="1259.399" since="#T0" xml:id="T163"/>
+<when interval="1264.526" since="#T0" xml:id="T164"/>
+<when interval="1265.194" since="#T0" xml:id="T165"/>
+<when interval="1269.534" since="#T0" xml:id="T166"/>
+<when interval="1269.725" since="#T0" xml:id="T167"/>
+<when interval="1283.982" since="#T0" xml:id="T168"/>
+<when interval="1285.06" since="#T0" xml:id="T169"/>
+<when interval="1285.661" since="#T0" xml:id="T170"/>
+<when interval="1291.27" since="#T0" xml:id="T171"/>
+<when interval="1293.698" since="#T0" xml:id="T172"/>
+<when interval="1294.275" since="#T0" xml:id="T173"/>
+<when interval="1296.04" since="#T0" xml:id="T174"/>
+<when interval="1297.237" since="#T0" xml:id="T175"/>
+<when interval="1312.213" since="#T0" xml:id="T176"/>
+<when interval="1315.218" since="#T0" xml:id="T177"/>
+<when interval="1336.899" since="#T0" xml:id="T178"/>
+<when interval="1345.847" since="#T0" xml:id="T179"/>
+<when interval="1348.165" since="#T0" xml:id="T180"/>
+<when interval="1359.545" since="#T0" xml:id="T181"/>
+<when interval="1360.957" since="#T0" xml:id="T182"/>
+<when interval="1362.178" since="#T0" xml:id="T183"/>
+<when interval="1362.943" since="#T0" xml:id="T184"/>
+<when interval="1364.608" since="#T0" xml:id="T185"/>
+<when interval="1366.129" since="#T0" xml:id="T186"/>
+<when interval="1367.642" since="#T0" xml:id="T187"/>
+<when interval="1385.72" since="#T0" xml:id="T188"/>
+<when interval="1386.292" since="#T0" xml:id="T189"/>
+<when interval="1387.926" since="#T0" xml:id="T190"/>
+<when interval="1389.246" since="#T0" xml:id="T191"/>
+<when interval="1394.387" since="#T0" xml:id="T192"/>
+<when interval="1396.19" since="#T0" xml:id="T193"/>
+<when interval="1396.714" since="#T0" xml:id="T194"/>
+<when interval="1398.469" since="#T0" xml:id="T195"/>
+<when interval="1405.847" since="#T0" xml:id="T196"/>
+<when interval="1406.981" since="#T0" xml:id="T197"/>
+<when interval="1408.285" since="#T0" xml:id="T198"/>
+<when interval="1413.37" since="#T0" xml:id="T199"/>
+<when interval="1419.621" since="#T0" xml:id="T200"/>
+<when interval="1420.128" since="#T0" xml:id="T201"/>
+<when interval="1421.431" since="#T0" xml:id="T202"/>
+<when interval="1422.107" since="#T0" xml:id="T203"/>
+<when interval="1434.155" since="#T0" xml:id="T204"/>
+<when interval="1435.145" since="#T0" xml:id="T205"/>
+<when interval="1454.219" since="#T0" xml:id="T206"/>
+<when interval="1455.45" since="#T0" xml:id="T207"/>
+<when interval="1457.091" since="#T0" xml:id="T208"/>
+<when interval="1467.911" since="#T0" xml:id="T209"/>
+<when interval="1471.693" since="#T0" xml:id="T210"/>
+<when interval="1472.024" since="#T0" xml:id="T211"/>
+<when interval="1487.005" since="#T0" xml:id="T212"/>
+<when interval="1490.956" since="#T0" xml:id="T213"/>
+<when interval="1496.621" since="#T0" xml:id="T214"/>
+<when interval="1497.458" since="#T0" xml:id="T215"/>
+<when interval="1504.892" since="#T0" xml:id="T216"/>
+<when interval="1505.954" since="#T0" xml:id="T217"/>
+<when interval="1537.088" since="#T0" xml:id="T218"/>
+<when interval="1537.757" since="#T0" xml:id="T219"/>
+<when interval="1540.984" since="#T0" xml:id="T220"/>
+<when interval="1542.377" since="#T0" xml:id="T221"/>
+<when interval="1543.07" since="#T0" xml:id="T222"/>
+<when interval="1566.547" since="#T0" xml:id="T223"/>
+<when interval="1567.971" since="#T0" xml:id="T224"/>
+<when interval="1568.575" since="#T0" xml:id="T225"/>
+<when interval="1569.63" since="#T0" xml:id="T226"/>
+<when interval="1571.192" since="#T0" xml:id="T227"/>
+<when interval="1611.562" since="#T0" xml:id="T228"/>
+<when interval="1614.91" since="#T0" xml:id="T229"/>
+<when interval="1616.134" since="#T0" xml:id="T230"/>
+<when interval="1617.502" since="#T0" xml:id="T231"/>
+<when interval="1627.301" since="#T0" xml:id="T232"/>
+<when interval="1632.973" since="#T0" xml:id="T233"/>
+<when interval="1656.156" since="#T0" xml:id="T234"/>
+<when interval="1657.436" since="#T0" xml:id="T235"/>
+<when interval="1659.649" since="#T0" xml:id="T236"/>
+<when interval="1660.542" since="#T0" xml:id="T237"/>
+<when interval="1668.796" since="#T0" xml:id="T238"/>
+<when interval="1669.545" since="#T0" xml:id="T239"/>
+<when interval="1678.178" since="#T0" xml:id="T240"/>
+<when interval="1681.388" since="#T0" xml:id="T241"/>
+<when interval="1682.088" since="#T0" xml:id="T242"/>
+<when interval="1683.343" since="#T0" xml:id="T243"/>
+<when interval="1683.826" since="#T0" xml:id="T244"/>
+<when interval="1686.812" since="#T0" xml:id="T245"/>
+<when interval="1689.773" since="#T0" xml:id="T246"/>
+<when interval="1690.377" since="#T0" xml:id="T247"/>
+<when interval="1697.248" since="#T0" xml:id="T248"/>
+<when interval="1698.19" since="#T0" xml:id="T249"/>
+<when interval="1699.293" since="#T0" xml:id="T250"/>
+<when interval="1700.155" since="#T0" xml:id="T251"/>
+<when interval="1700.896" since="#T0" xml:id="T252"/>
+<when interval="1701.733" since="#T0" xml:id="T253"/>
+<when interval="1704.678" since="#T0" xml:id="T254"/>
+<when interval="1705.129" since="#T0" xml:id="T255"/>
+<when interval="1736.182" since="#T0" xml:id="T256"/>
+<when interval="1738.909" since="#T0" xml:id="T257"/>
+<when interval="1762.42" since="#T0" xml:id="T258"/>
+<when interval="1763.185" since="#T0" xml:id="T259"/>
+<when interval="1764.826" since="#T0" xml:id="T260"/>
+<when interval="1769.195" since="#T0" xml:id="T261"/>
+<when interval="1772.639" since="#T0" xml:id="T262"/>
+<when interval="1777.37" since="#T0" xml:id="T263"/>
+<when interval="1778.497" since="#T0" xml:id="T264"/>
+<when interval="1785.882" since="#T0" xml:id="T265"/>
+<when interval="1787.21" since="#T0" xml:id="T266"/>
+<when interval="1808.043" since="#T0" xml:id="T267"/>
+<when interval="1814.48" since="#T0" xml:id="T268"/>
+<when interval="1816.355" since="#T0" xml:id="T269"/>
+<when interval="1819.493" since="#T0" xml:id="T270"/>
+<when interval="1829.526" since="#T0" xml:id="T271"/>
+<when interval="1830.605" since="#T0" xml:id="T272"/>
+<when interval="1831.925" since="#T0" xml:id="T273"/>
+<when interval="1845.144" since="#T0" xml:id="T274"/>
+<when interval="1855.08" since="#T0" xml:id="T275"/>
+<when interval="1855.901" since="#T0" xml:id="T276"/>
+<when interval="1858.242" since="#T0" xml:id="T277"/>
+<when interval="1874.769" since="#T0" xml:id="T278"/>
+<when interval="1875.179" since="#T0" xml:id="T279"/>
+<when interval="1876.266" since="#T0" xml:id="T280"/>
+<when interval="1877.417" since="#T0" xml:id="T281"/>
+<when interval="1878.552" since="#T0" xml:id="T282"/>
+<when interval="1879.945" since="#T0" xml:id="T283"/>
+<when interval="1880.155" since="#T0" xml:id="T284"/>
+<when interval="1886.447" since="#T0" xml:id="T285"/>
+<when interval="1886.568" since="#T0" xml:id="T286"/>
+<when interval="1886.995" since="#T0" xml:id="T287"/>
+<when interval="1893.801" since="#T0" xml:id="T288"/>
+<when interval="1894.308" since="#T0" xml:id="T289"/>
+<when interval="1900.994" since="#T0" xml:id="T290"/>
+<when interval="1901.88" since="#T0" xml:id="T291"/>
+<when interval="1903.345" since="#T0" xml:id="T292"/>
+<when interval="1914.278" since="#T0" xml:id="T293"/>
+<when interval="1914.978" since="#T0" xml:id="T294"/>
+<when interval="1943.364" since="#T0" xml:id="T295"/>
+<when interval="1944.781" since="#T0" xml:id="T296"/>
+<when interval="1955.441" since="#T0" xml:id="T297"/>
+<when interval="1955.972" since="#T0" xml:id="T298"/>
+<when interval="1957.172" since="#T0" xml:id="T299"/>
+<when interval="1959.458" since="#T0" xml:id="T300"/>
+<when interval="1959.982" since="#T0" xml:id="T301"/>
+<when interval="1965.647" since="#T0" xml:id="T302"/>
+<when interval="1968.488" since="#T0" xml:id="T303"/>
+<when interval="1970.822" since="#T0" xml:id="T304"/>
+<when interval="1971.177" since="#T0" xml:id="T305"/>
+<when interval="1972.091" since="#T0" xml:id="T306"/>
+<when interval="1972.453" since="#T0" xml:id="T307"/>
+<when interval="1975.036" since="#T0" xml:id="T308"/>
+<when interval="1975.367" since="#T0" xml:id="T309"/>
+<when interval="1981.225" since="#T0" xml:id="T310"/>
+<when interval="1982.087" since="#T0" xml:id="T311"/>
+<when interval="1992.699" since="#T0" xml:id="T312"/>
+<when interval="1996.247" since="#T0" xml:id="T313"/>
+<when interval="1997.237" since="#T0" xml:id="T314"/>
+<when interval="1998.074" since="#T0" xml:id="T315"/>
+<when interval="2012.145" since="#T0" xml:id="T316"/>
+<when interval="2012.628" since="#T0" xml:id="T317"/>
+<when interval="2042.307" since="#T0" xml:id="T318"/>
+<when interval="2048.334" since="#T0" xml:id="T319"/>
+<when interval="2049.63" since="#T0" xml:id="T320"/>
+<when interval="2050.789" since="#T0" xml:id="T321"/>
+<when interval="2052.302" since="#T0" xml:id="T322"/>
+<when interval="2080.518" since="#T0" xml:id="T323"/>
+<when interval="2105.016" since="#T0" xml:id="T324"/>
+<when interval="2144.827" since="#T0" xml:id="T325"/>
+<when interval="2145.672" since="#T0" xml:id="T326"/>
+<when interval="2159.301" since="#T0" xml:id="T327"/>
+<when interval="2165.238" since="#T0" xml:id="T328"/>
+<when interval="2166.1" since="#T0" xml:id="T329"/>
+<when interval="2181.708" since="#T0" xml:id="T330"/>
+<when interval="2182.304" since="#T0" xml:id="T331"/>
+<when interval="2195.675" since="#T0" xml:id="T332"/>
+<when interval="2213.06" since="#T0" xml:id="T333"/>
+<when interval="2213.487" since="#T0" xml:id="T334"/>
+<when interval="2214.477" since="#T0" xml:id="T335"/>
+<when interval="2230.906" since="#T0" xml:id="T336"/>
+<when interval="2231.937" since="#T0" xml:id="T337"/>
+<when interval="2245.059" since="#T0" xml:id="T338"/>
+<when interval="2245.663" since="#T0" xml:id="T339"/>
+<when interval="2252.727" since="#T0" xml:id="T340"/>
+<when interval="2259.751" since="#T0" xml:id="T341"/>
+<when interval="2260.275" since="#T0" xml:id="T342"/>
+<when interval="2262.078" since="#T0" xml:id="T343"/>
+<when interval="2263.278" since="#T0" xml:id="T344"/>
+<when interval="2279.465" since="#T0" xml:id="T345"/>
+<when interval="2279.9" since="#T0" xml:id="T346"/>
+<when interval="2293.626" since="#T0" xml:id="T347"/>
+<when interval="2294.174" since="#T0" xml:id="T348"/>
+<when interval="2296.073" since="#T0" xml:id="T349"/>
+<when interval="2297.497" since="#T0" xml:id="T350"/>
+<when interval="2322.489" since="#T0" xml:id="T351"/>
+<when interval="2323.189" since="#T0" xml:id="T352"/>
+<when interval="2323.962" since="#T0" xml:id="T353"/>
+<when interval="2349.497" since="#T0" xml:id="T354"/>
+<when interval="2349.835" since="#T0" xml:id="T355"/>
+<when interval="2351.911" since="#T0" xml:id="T356"/>
+<when interval="2354.293" since="#T0" xml:id="T357"/>
+<when interval="2359.724" since="#T0" xml:id="T358"/>
+<when interval="2361.334" since="#T0" xml:id="T359"/>
+<when interval="2376.811" since="#T0" xml:id="T360"/>
+<when interval="2388.992" since="#T0" xml:id="T361"/>
+<when interval="2389.892" since="#T0" xml:id="T362"/>
+<when interval="2390.44" since="#T0" xml:id="T363"/>
+<when interval="2391.019" since="#T0" xml:id="T364"/>
+<when interval="2392.001" since="#T0" xml:id="T365"/>
+<when interval="2392.605" since="#T0" xml:id="T366"/>
+<when interval="2394.07" since="#T0" xml:id="T367"/>
+<when interval="2396.315" since="#T0" xml:id="T368"/>
+<when interval="2416.316" since="#T0" xml:id="T369"/>
+<when interval="2416.623" since="#T0" xml:id="T370"/>
+<when interval="2417.46" since="#T0" xml:id="T371"/>
+<when interval="2418.635" since="#T0" xml:id="T372"/>
+<when interval="2418.828" since="#T0" xml:id="T373"/>
+<when interval="2419.448" since="#T0" xml:id="T374"/>
+<when interval="2420.382" since="#T0" xml:id="T375"/>
+<when interval="2421.195" since="#T0" xml:id="T376"/>
+<when interval="2421.388" since="#T0" xml:id="T377"/>
+<when interval="2425.846" since="#T0" xml:id="T378"/>
+<when interval="2426.177" since="#T0" xml:id="T379"/>
+<when interval="2427.594" since="#T0" xml:id="T380"/>
+<when interval="2427.997" since="#T0" xml:id="T381"/>
+<when interval="2430.041" since="#T0" xml:id="T382"/>
+<when interval="2435.882" since="#T0" xml:id="T383"/>
+<when interval="2436.382" since="#T0" xml:id="T384"/>
+<when interval="2439.536" since="#T0" xml:id="T385"/>
+<when interval="2439.802" since="#T0" xml:id="T386"/>
+<when interval="2441.17" since="#T0" xml:id="T387"/>
+<when interval="2446.69" since="#T0" xml:id="T388"/>
+<when interval="2455.347" since="#T0" xml:id="T389"/>
+<when interval="2455.806" since="#T0" xml:id="T390"/>
+<when interval="2472.307" since="#T0" xml:id="T391"/>
+<when interval="2472.645" since="#T0" xml:id="T392"/>
+<when interval="2491.174" since="#T0" xml:id="T393"/>
+<when interval="2491.843" since="#T0" xml:id="T394"/>
+<when interval="2493.477" since="#T0" xml:id="T395"/>
+<when interval="2494.146" since="#T0" xml:id="T396"/>
+<when interval="2494.525" since="#T0" xml:id="T397"/>
+<when interval="2499.36" since="#T0" xml:id="T398"/>
+<when interval="2499.673" since="#T0" xml:id="T399"/>
+<when interval="2502.079" since="#T0" xml:id="T400"/>
+<when interval="2502.441" since="#T0" xml:id="T401"/>
+<when interval="2511.533" since="#T0" xml:id="T402"/>
+<when interval="2513.143" since="#T0" xml:id="T403"/>
+<when interval="2513.98" since="#T0" xml:id="T404"/>
+<when interval="2515.791" since="#T0" xml:id="T405"/>
+<when interval="2520.828" since="#T0" xml:id="T406"/>
+<when interval="2521.576" since="#T0" xml:id="T407"/>
+<when interval="2522.493" since="#T0" xml:id="T408"/>
+<when interval="2523.765" since="#T0" xml:id="T409"/>
+<when interval="2524.361" since="#T0" xml:id="T410"/>
+<when interval="2534.643" since="#T0" xml:id="T411"/>
+<when interval="2535.167" since="#T0" xml:id="T412"/>
+<when interval="2535.836" since="#T0" xml:id="T413"/>
+<when interval="2536.987" since="#T0" xml:id="T414"/>
+<when interval="2537.76" since="#T0" xml:id="T415"/>
+<when interval="2538.187" since="#T0" xml:id="T416"/>
+<when interval="2538.477" since="#T0" xml:id="T417"/>
+<when interval="2619.999" since="#T0" xml:id="T418"/>
+<when interval="2622.967" since="#T0" xml:id="T419"/>
+<when interval="2624.415" since="#T0" xml:id="T420"/>
+<when interval="2637.327" since="#T0" xml:id="T421"/>
+</timeline>
+<div end="#T421" start="#T0" type="report">
+<annotatedU end="#T1" start="#T0" wh="spk1" xml:id="au0">
+<u type="ortho">
+<anchor synch="#T0"/>
+<seg>donc moi de toute façon même si <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh même si tu penses que c'est pas intéressant je me suis enfin ce que tu as à dire je me suis rendu compte que je ne savais même pas quand tu étais arrivée à Paris comment tu étais arrivée à Paris dans quelles conditions <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>en fait je ne sais rien </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T2" start="#T1" wh="spk2" xml:id="au1">
+<u type="ortho">
+<seg>ah bon bah écoute ça je peux te <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bah ça je peux te dire bien sûr <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on est a- on est arrivés cinquante-deux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à Paris <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>par le train <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que la Yougoslavie il y avait des changements de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de de comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était la le Royaume après c'est Tito qui est venu et la guerre et tous ces choses-là et on (n') avait pas suffisamment <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>là-bas de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>liberté pour peindre parce que bon dans les beaux-arts <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on travaillait mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après il fallait qu'ils apprennent vraiment c'était fallait peindre peindre les ouvriers qui sont </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T3" start="#T2" wh="spk1" xml:id="au2">
+<link target="#au3"/>
+<u type="ortho">
+<anchor synch="#T2"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T3" start="#T2" wh="spk2" xml:id="au3">
+<link target="#au2"/>
+<u type="ortho">
+<anchor synch="#T2"/>
+<seg>souriants </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T4" start="#T3" wh="spk1" xml:id="au4">
+<u type="ortho">
+<seg>c'était le réalisme socialiste </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T5" start="#T4" wh="spk2" xml:id="au5">
+<u type="ortho">
+<seg>oui le réalisme socialiste et nous n'avons pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>eu envie de faire ça malgré qu'on /ait, est/ pour gagner de la vie pour gagner quelque chose on nous commandait le portrait de Lénine Staline je sais pas quoi de là-bas mais après nous avons il y avait des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des bourses des gens qui à Paris et finalement nous on <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après ça a commencé à se radoucir un peu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et on nous a laissés partir </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T6" start="#T5" wh="spk1" xml:id="au6">
+<link target="#au7"/>
+<u type="ortho">
+<anchor synch="#T5"/>
+<seg>sans bourse </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T6" start="#T5" wh="spk2" xml:id="au7">
+<link target="#au6"/>
+<u type="ortho">
+<anchor synch="#T5"/>
+<seg>sans </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T7" start="#T6" wh="spk2" xml:id="au8">
+<u type="ortho">
+<seg>sans bourse <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh comme ça on nous a laissés partir et mais avant de partir <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh nous avons <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>eu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après les beaux-arts toujours eu des expositions chacun avait l'exposition et </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T8" start="#T7" wh="spk1" xml:id="au9">
+<u type="ortho">
+<seg>et quelle peinture vous faisiez </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T9" start="#T8" wh="spk2" xml:id="au10">
+<link target="#au11"/>
+<u type="ortho">
+<anchor synch="#T8"/>
+<seg>euh c'est qu'on </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T9" start="#T8" wh="spk1" xml:id="au11">
+<link target="#au10"/>
+<u type="ortho">
+<anchor synch="#T8"/>
+<seg>à ce moment-là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T10" start="#T9" wh="spk2" xml:id="au12">
+<u type="ortho">
+<seg>ah on a fait la peinture classique <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bah aux beaux-arts on faisait bien sûr on faisait moi j'ai surtout aimé f- j'ai fait des copies de fresques de mais pas pas comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>spéciales euh exactes j'ai fait assez libre j- pour moi <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais autrement on faisait la peinture à dessiner </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T11" start="#T10" wh="spk1" xml:id="au13">
+<u type="ortho">
+<seg>bon mais quand même tu as appris aussi il y a un aspect d'artisan dans la peinture il y a pas que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T12" start="#T11" wh="spk2" xml:id="au14">
+<u type="ortho">
+<seg>oui oui oui oui c'est ça qu'on apprend à l'école on apprend le chose les techniques les couleurs de dessin des gens <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et après après on a après nous avons travaillé <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on voyageait quelques fois comme ça en groupe on faisait la peinture dans la nature et après on a fait chacun une exposition et Vlada a vend- vendu la une toile <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à l'ambassadrice française </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T13" start="#T12" wh="spk1" xml:id="au15">
+<link target="#au16"/>
+<u type="ortho">
+<anchor synch="#T12"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T13" start="#T12" wh="spk2" xml:id="au16">
+<link target="#au15"/>
+<u type="ortho">
+<anchor synch="#T12"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T14" start="#T13" wh="spk2" xml:id="au17">
+<u type="ortho">
+<seg>elle a dit vous avez vous allez à Paris sûrement et on vous paiera là-bas c'est comme ça que nous sommes venus </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T15" start="#T14" wh="spk1" xml:id="au18">
+<u type="ortho">
+<seg>vous aviez quel âge </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T16" start="#T15" wh="spk2" xml:id="au19">
+<u type="ortho">
+<seg>euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>si vous voulez cinquante-deux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>cinquante-deux ça veut dire euh je suis née vingt-deux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>trente ans </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T17" start="#T16" wh="spk1" xml:id="au20">
+<u type="ortho">
+<seg>ah oui dis je croyais que vous étiez venus beaucoup plus jeunes <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>non vous étiez déjà des artistes installés dans la vie un </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T18" start="#T17" wh="spk2" xml:id="au21">
+<link target="#au22"/>
+<u type="ortho">
+<anchor synch="#T17"/>
+<seg>pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T18" start="#T17" wh="spk1" xml:id="au22">
+<link target="#au21"/>
+<u type="ortho">
+<anchor synch="#T17"/>
+<seg>peu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T19" start="#T18" wh="spk2" xml:id="au23">
+<u type="ortho">
+<seg>tout à fait installés c'était parce que tout était tu sais à cause de la guerre tout a été en retard <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était tout était bous- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>boulversé alors euh je veux bah maintenant tu me demandes et et moi je constate j'ai pensé aussi que j- nous sommes venus en vingt-deux ans ici dans <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est bon </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T20" start="#T19" wh="spk1" xml:id="au24">
+<u type="ortho">
+<seg>et donc voilà vous voilà prenant le train avec quelques économies quand même </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T21" start="#T20" wh="spk2" xml:id="au25">
+<u type="ortho">
+<seg>avec euh pff je me rappelle plus du tout comment </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T22" start="#T21" wh="spk1" xml:id="au26">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T23" start="#T22" wh="spk2" xml:id="au27">
+<u type="ortho">
+<seg>parce que dans le temps vu les sans argent mais tout de même oui oui c'est l'a- l'a- l'a- on avait l'a- l'argent de cette </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T24" start="#T23" wh="spk1" xml:id="au28">
+<u type="ortho">
+<seg>de cet- cette </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T25" start="#T24" wh="spk2" xml:id="au29">
+<link target="#au30"/>
+<u type="ortho">
+<anchor synch="#T24"/>
+<seg>de cette toile de de cette toile </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T25" start="#T24" wh="spk1" xml:id="au30">
+<link target="#au29"/>
+<u type="ortho">
+<anchor synch="#T24"/>
+<seg>toile oui d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T26" start="#T25" wh="spk1" xml:id="au31">
+<u type="ortho">
+<seg>qui avait été vendue à un à un </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T27" start="#T26" wh="spk2" xml:id="au32">
+<link target="#au33"/>
+<u type="ortho">
+<anchor synch="#T26"/>
+<seg>là-bas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T27" start="#T26" wh="spk1" xml:id="au33">
+<link target="#au32"/>
+<u type="ortho">
+<anchor synch="#T26"/>
+<seg>prix </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T28" start="#T27" wh="spk1" xml:id="au34">
+<u type="ortho">
+<seg>un prix qui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T29" start="#T28" wh="spk2" xml:id="au35">
+<link target="#au36"/>
+<u type="ortho">
+<anchor synch="#T28"/>
+<seg>si elle a elle a </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T29" start="#T28" wh="spk1" xml:id="au36">
+<link target="#au35"/>
+<u type="ortho">
+<anchor synch="#T28"/>
+<seg>déjà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T30" start="#T29" wh="spk2" xml:id="au37">
+<u type="ortho">
+<seg>payé un prix que bon pour on a pu tout de même vivre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T31" start="#T30" wh="spk1" xml:id="au38">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T32" start="#T31" wh="spk2" xml:id="au39">
+<u type="ortho">
+<seg>les premières mois <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ici <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T33" start="#T32" wh="spk1" xml:id="au40">
+<u type="ortho">
+<seg>et alors c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T34" start="#T33" wh="spk2" xml:id="au41">
+<link target="#au42"/>
+<u type="ortho">
+<anchor synch="#T33"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T34" start="#T33" wh="spk1" xml:id="au42">
+<link target="#au41"/>
+<u type="ortho">
+<anchor synch="#T33"/>
+<seg>où </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T35" start="#T34" wh="spk2" xml:id="au43">
+<u type="ortho">
+<seg>on s'est arrêtés parce que tu sais c'est <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quatre ans de guerre c'est c'est terrible <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et tout était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à Belgrade gris et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ruiné les ru- les choses affreux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>nous nous sommes arrêtés à Venise nous descendus du train à Venise <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et c'était le rêve bien sûr </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T36" start="#T35" wh="spk1" xml:id="au44">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T37" start="#T36" wh="spk2" xml:id="au45">
+<u type="ortho">
+<seg>après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>avant bien sûr nous sommes venus en train d'accord <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à en arrivant à <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à Milano les grands affiches grandes expositions de Van Gogh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>alors bien sûr <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>là c'est le bagage tout de suite c'est <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T38" start="#T37" wh="spk1" xml:id="au46">
+<u type="ortho">
+<seg>oui parce qu'on pouvait laisser les bagages à la gare en c' </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T39" start="#T38" wh="spk2" xml:id="au47">
+<link target="#au48"/>
+<u type="ortho">
+<anchor synch="#T38"/>
+<seg>à la gare <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T39" start="#T38" wh="spk1" xml:id="au48">
+<link target="#au47"/>
+<u type="ortho">
+<anchor synch="#T38"/>
+<seg>temps-là on peut plus maintenant on peut plus </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T40" start="#T39" wh="spk1" xml:id="au49">
+<u type="ortho">
+<seg>à cause des attentats les gens ont peur </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T41" start="#T40" wh="spk2" xml:id="au50">
+<u type="ortho">
+<seg>ah c'est vrai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T42" start="#T41" wh="spk1" xml:id="au51">
+<u type="ortho">
+<seg>peut-être pas en Italie mais en France tu ne le fais plus </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T43" start="#T42" wh="spk2" xml:id="au52">
+<link target="#au53"/>
+<u type="ortho">
+<anchor synch="#T42"/>
+<seg>je ne savais pas tu vois je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T43" start="#T42" wh="spk1" xml:id="au53">
+<link target="#au52"/>
+<u type="ortho">
+<anchor synch="#T42"/>
+<seg>bon mais c'est des c'est des bêtises </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T44" start="#T43" wh="spk1" xml:id="au54">
+<u type="ortho">
+<seg>que je te raconte mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T45" start="#T44" wh="spk2" xml:id="au55">
+<u type="ortho">
+<seg>ah je savais pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T46" start="#T45" wh="spk1" xml:id="au56">
+<u type="ortho">
+<seg>ça ça ne serait plus possible </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T47" start="#T46" wh="spk2" xml:id="au57">
+<link target="#au58"/>
+<u type="ortho">
+<anchor synch="#T46"/>
+<seg>non non ça non /là,la/ le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T47" start="#T46" wh="spk1" xml:id="au58">
+<link target="#au57"/>
+<u type="ortho">
+<anchor synch="#T46"/>
+<seg>en France </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T48" start="#T47" wh="spk2" xml:id="au59">
+<u type="ortho">
+<seg>c'est le euh le bagage(s) c'était le matin on est allés le plus tôt possible c'était la une merveille et après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de la gare de Lyon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme on avait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>déjà pris le plan de Paris bien sûr et donc on connaissait Paris <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Paris comme ça des livres des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>cartes des je sais pas quoi de tous les histoires et tout et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et et Vlada a voulu aller à <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>directement Gare de Lyon Etoile <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>une fête <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ce jour-là </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T49" start="#T48" wh="spk1" xml:id="au60">
+<link target="#au61"/>
+<u type="ortho">
+<anchor synch="#T48"/>
+<seg>tu veux dire que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T49" start="#T48" wh="spk2" xml:id="au61">
+<link target="#au60"/>
+<u type="ortho">
+<anchor synch="#T48"/>
+<seg>parce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T50" start="#T49" wh="spk1" xml:id="au62">
+<u type="ortho">
+<seg>vous aviez nan vous aviez laissé les bagages à nouveau </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T51" start="#T50" wh="spk2" xml:id="au63">
+<link target="#au64"/>
+<u type="ortho">
+<anchor synch="#T50"/>
+<seg>les bagages </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T51" start="#T50" wh="spk1" xml:id="au64">
+<link target="#au63"/>
+<u type="ortho">
+<anchor synch="#T50"/>
+<seg>gare de Lyon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T52" start="#T51" wh="spk2" xml:id="au65">
+<u type="ortho">
+<seg>de nouveau </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T53" start="#T52" wh="spk1" xml:id="au66">
+<link target="#au67"/>
+<u type="ortho">
+<anchor synch="#T52"/>
+<seg>oui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>là oui mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T53" start="#T52" wh="spk2" xml:id="au67">
+<link target="#au66"/>
+<u type="ortho">
+<anchor synch="#T52"/>
+<seg>pour aller <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à l'Etoile direct </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T54" start="#T53" wh="spk2" xml:id="au68">
+<u type="ortho">
+<seg>et il y avait une énorme dra- un énorme drapeau qui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui était sous sous l'Etoile <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et et en p- en plus moi c'était la première fois que j'ai j'ai vu quelque chose <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de énorme </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T55" start="#T54" wh="spk1" xml:id="au69">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T56" start="#T55" wh="spk2" xml:id="au70">
+<u type="ortho">
+<seg>une porte <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>grande comme une grande maison une très grande maison j'étais vraiment étonnée fascinée <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après on j'ai ch- j'ai choisi parce que j'aime <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>la Seine on ha- on habitait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>un hôtel <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>un hôtel rue de la Bûcherie <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>sur la Seine qui donnait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>juste <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et de comment dire l'hôtel donnait sur la Seine était la deux- la d- c'était pas sur les quais c'était la première rue qui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tu sais tu sais où elle est la rue de la Bûcherie </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T57" start="#T56" wh="spk1" xml:id="au71">
+<u type="ortho">
+<seg>euh c'est à par rapport à Saint-Michel je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T58" start="#T57" wh="spk2" xml:id="au72">
+<link target="#au73"/>
+<u type="ortho">
+<anchor synch="#T57"/>
+<seg>après Saint-Michel </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T58" start="#T57" wh="spk1" xml:id="au73">
+<link target="#au72"/>
+<u type="ortho">
+<anchor synch="#T57"/>
+<seg>sais plus si c'est oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T59" start="#T58" wh="spk2" xml:id="au74">
+<u type="ortho">
+<seg>c'est <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à à l- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T60" start="#T59" wh="spk1" xml:id="au75">
+<link target="#au76"/>
+<u type="ortho">
+<anchor synch="#T59"/>
+<seg>c'est quand on va vers Saint-Séverin mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T60" start="#T59" wh="spk2" xml:id="au76">
+<link target="#au75"/>
+<u type="ortho">
+<anchor synch="#T59"/>
+<seg>le le long le long de la place </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T61" start="#T60" wh="spk2" xml:id="au77">
+<u type="ortho">
+<seg>Notre-Dame <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ça commence </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T62" start="#T61" wh="spk1" xml:id="au78">
+<link target="#au79"/>
+<u type="ortho">
+<anchor synch="#T61"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T62" start="#T61" wh="spk2" xml:id="au79">
+<link target="#au78"/>
+<u type="ortho">
+<anchor synch="#T61"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T63" start="#T62" wh="spk2" xml:id="au80">
+<u type="ortho">
+<seg>euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T64" start="#T63" wh="spk1" xml:id="au81">
+<u type="ortho">
+<seg>oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T65" start="#T64" wh="spk2" xml:id="au82">
+<u type="ortho">
+<seg>je sais pas comment s'appelle Saint-Jacques rue Saint-Jacques </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T66" start="#T65" wh="spk1" xml:id="au83">
+<u type="ortho">
+<seg>oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T67" start="#T66" wh="spk2" xml:id="au84">
+<u type="ortho">
+<seg>et jusqu'à la fin de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de Notre-Dame <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>alors l- nos fenêtres donnaient sur <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Notre-Dame </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T68" start="#T67" wh="spk1" xml:id="au85">
+<u type="ortho">
+<seg>c'est merveilleux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T69" start="#T68" wh="spk2" xml:id="au86">
+<u type="ortho">
+<seg>c'est d- c'est un hôtel <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>allez </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T70" start="#T69" wh="spk1" xml:id="au87">
+<link target="#au88"/>
+<u type="ortho">
+<anchor synch="#T69"/>
+<seg>modeste <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T70" start="#T69" wh="spk2" xml:id="au88">
+<link target="#au87"/>
+<u type="ortho">
+<anchor synch="#T69"/>
+<seg>long dans les </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T71" start="#T70" wh="spk2" xml:id="au89">
+<u type="ortho">
+<seg>couloirs le le water pour tout le monde </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T72" start="#T71" wh="spk1" xml:id="au90">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T73" start="#T72" wh="spk2" xml:id="au91">
+<u type="ortho">
+<seg>pour tout le monde deux waters je crois quelque chose comme ça mais c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>par mois payé par mois <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>voilà <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T74" start="#T73" wh="spk1" xml:id="au92">
+<u type="ortho">
+<seg>et vous connaissiez des Yougoslaves euh à Paris ou vous étiez seuls euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T75" start="#T74" wh="spk2" xml:id="au93">
+<u type="ortho">
+<seg>on (n') était on ne c- euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on connaissait ah oui oui le le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Vlada avait l'oncle euh qui vivait à Paris depuis d- des années marié avec une <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>femme <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>française <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>avec une fille <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>peut-être que c'ét- ils nous ils nous ils nous n'ont pas attendus <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais je crois qu- ils sont ils sont pas sortis à la gare mais euh on </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T76" start="#T75" wh="spk1" xml:id="au94">
+<u type="ortho">
+<seg>vous êtes allés </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T77" start="#T76" wh="spk1" xml:id="au95">
+<link target="#au96"/>
+<u type="ortho">
+<anchor synch="#T76"/>
+<seg>dîner </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T77" start="#T76" wh="spk2" xml:id="au96">
+<link target="#au95"/>
+<u type="ortho">
+<anchor synch="#T76"/>
+<seg>on </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T78" start="#T77" wh="spk2" xml:id="au97">
+<u type="ortho">
+<seg>il fallait on ils ont dit qu'on peut dormir chez eux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pour trouver l'hôtel pendant que pendant quelques jours comme ça et bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après on a trouvé cet hôtel <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T79" start="#T78" wh="spk1" xml:id="au98">
+<u type="ortho">
+<seg>mais ça c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>donc des conditions de vie minable(s) <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tu étais pas habituée à ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T80" start="#T79" wh="spk2" xml:id="au99">
+<u type="ortho">
+<seg>oui je sais pas comment te dire non c'était la vie était tellement minable <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à Belgrade <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tellement dure <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>la guerre et tout ça ça c'était horrible comme ça tu descends tu suffis de voir Paris les femmes par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh avec les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pff vestes rouges ou jaunes ou je sais pas quoi que là-bas tout était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>/qu-, c-/ décoloré et c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était gai pour nous <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T81" start="#T80" wh="spk1" xml:id="au100">
+<u type="ortho">
+<seg>tu avais cette impression de fête en arrivant à Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T82" start="#T81" wh="spk2" xml:id="au101">
+<u type="ortho">
+<seg>oui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>absolument tout de suite <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tout de suite c'était la fête <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>d'abord cet ce énorme drapeau tu peux imaginer le drapeau jusque je crois que jusqu'à la terre et mais je ne sais pas quelle fête Vlada peut-être sait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était pas le quatorze juillet mais </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T83" start="#T82" wh="spk1" xml:id="au102">
+<u type="ortho">
+<seg>quand tu es arrivée tu parlais français déjà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T84" start="#T83" wh="spk2" xml:id="au103">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T85" start="#T84" wh="spk1" xml:id="au104">
+<u type="ortho">
+<seg>c'est le français de l'école </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T86" start="#T85" wh="spk2" xml:id="au105">
+<u type="ortho">
+<seg>un peu euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à l'école bien sûr on appren- on a- apprenait le français officiellement le français et allemand <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et mais moi j'ai <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'avais des leçons de j'avais une Française <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui a qui m'a donné des leçons <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>une Française qui venait comme ça chez nous <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui me donnait des leçons et aussi l'anglais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais l'anglais pour moi c'était plus facile après bon c'était pff mais je me débrouillais je me débrouillais </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T87" start="#T86" wh="spk1" xml:id="au106">
+<u type="ortho">
+<seg>parce que tu as un français </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T88" start="#T87" wh="spk2" xml:id="au107">
+<u type="ortho">
+<seg>mais c'était un autre français <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ce que tu apprends ce n'est pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>acheter les les choses dans les boutiques <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est tout de même l- une langue <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>différente <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme maintenant <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>par exemple pour moi <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est très difficile de suivre <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quand les enfants parlent </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T89" start="#T88" wh="spk1" xml:id="au108">
+<u type="ortho">
+<seg>c'est quelques fois difficile pour les parents hein <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>oui donc ça ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T90" start="#T89" wh="spk2" xml:id="au109">
+<link target="#au110"/>
+<u type="ortho">
+<anchor synch="#T89"/>
+<seg>c'est une langue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T90" start="#T89" wh="spk1" xml:id="au110">
+<link target="#au109"/>
+<u type="ortho">
+<anchor synch="#T89"/>
+<seg>m'explique je me suis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T91" start="#T90" wh="spk2" xml:id="au111">
+<u type="ortho">
+<seg>un peu spéciale </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T92" start="#T91" wh="spk1" xml:id="au112">
+<u type="ortho">
+<seg>toujours demandé pourquoi ton français était de si bonne qualité </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T93" start="#T92" wh="spk2" xml:id="au113">
+<link target="#au114"/>
+<u type="ortho">
+<anchor synch="#T92"/>
+<seg>que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T93" start="#T92" wh="spk1" xml:id="au114">
+<link target="#au113"/>
+<u type="ortho">
+<anchor synch="#T92"/>
+<seg>donc c- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T94" start="#T93" wh="spk1" xml:id="au115">
+<u type="ortho">
+<seg>de très bonne qualité tu as <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>un français </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T95" start="#T94" wh="spk2" xml:id="au116">
+<u type="ortho">
+<seg>moi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T96" start="#T95" wh="spk1" xml:id="au117">
+<u type="ortho">
+<seg>oui très châtié très </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T97" start="#T96" wh="spk2" xml:id="au118">
+<u type="ortho">
+<seg>ah oui parce que mon père insistait mon père était très mathématicien alors il voulait les précisions <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et toujours il me <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh me demandait les choses par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des-z-verbes de temps de choses comme ça il fallait que je dise mais ça finalement bon ça a servi peut-être je sais pas pourquoi mais ça n'a pas servi beaucoup après il fallait apprendre mais à l'hôtel nous avons <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>trouvé tout de suite <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh des jeunes des amis sympathiques <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>un couple par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>un étudiant roumain <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>avec s- et marié avec une Française <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ils habitaient dans une chambre on habitait l'autre mais elle avait sa mère était première main chez Dior </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T98" start="#T97" wh="spk1" xml:id="au119">
+<u type="ortho">
+<seg>mm mm mais en même temps ils n'avaient pas assez d'argent pour trouver autre chose qu'une chambre d'hôtel </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T99" start="#T98" wh="spk2" xml:id="au120">
+<u type="ortho">
+<seg>oui il(s) avai(en)t pas bon il(s) avai(en)t pas d'argent <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>peut-être <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>la la mère n'était pas contente qu'elle se <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qu'elle-z-a choisi un roumain sans </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T100" start="#T99" wh="spk1" xml:id="au121">
+<u type="ortho">
+<seg>d'accord <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>sans fortune </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T101" start="#T100" wh="spk2" xml:id="au122">
+<u type="ortho">
+<seg>je ne sais même pas de quoi ils vivaient <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah je sais pas parce que les Roumains en ce moment étaient assez riches <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il y avait une église roumaine <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh là en haut de de la place Maubert <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Maubert <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et lui il allait toujours il <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on lui donnait des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des tasses des tasses de café des je sais pas des tas de choses les Roumains et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et elle <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>elle faisait les écharpes <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et moi j'ai commencé à f- travailler avec elle <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T102" start="#T101" wh="spk1" xml:id="au123">
+<link target="#au124"/>
+<u type="ortho">
+<anchor synch="#T101"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T102" start="#T101" wh="spk2" xml:id="au124">
+<link target="#au123"/>
+<u type="ortho">
+<anchor synch="#T101"/>
+<seg>sur la soie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T103" start="#T102" wh="spk2" xml:id="au125">
+<u type="ortho">
+<seg>comme ça là maintenant <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme ça là dans le temps </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T104" start="#T103" wh="spk1" xml:id="au126">
+<link target="#au127"/>
+<u type="ortho">
+<anchor synch="#T103"/>
+<seg>oui nan elle peut plus maintenant malheureusement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T104" start="#T103" wh="spk2" xml:id="au127">
+<link target="#au126"/>
+<u type="ortho">
+<anchor synch="#T103"/>
+<seg>euh le temps elle t- elle t- elle travaille pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T105" start="#T104" wh="spk1" xml:id="au128">
+<u type="ortho">
+<seg>elle tremble trop elle </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T106" start="#T105" wh="spk1" xml:id="au129">
+<link target="#au130"/>
+<u type="ortho">
+<anchor synch="#T105"/>
+<seg>tremble trop elle ne contrôle pas sa main </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T106" start="#T105" wh="spk2" xml:id="au130">
+<link target="#au129"/>
+<u type="ortho">
+<anchor synch="#T105"/>
+<seg>ah oui ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T107" start="#T106" wh="spk1" xml:id="au131">
+<u type="ortho">
+<seg>pour le moment </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T108" start="#T107" wh="spk2" xml:id="au132">
+<u type="ortho">
+<seg>et je me rappelle oui je me rappelle que on a travaillé <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh cet ami roumain il est allé <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh pour montrer tu sais la librairie Shakespeare </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T109" start="#T108" wh="spk1" xml:id="au133">
+<u type="ortho">
+<seg>mm mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T110" start="#T109" wh="spk2" xml:id="au134">
+<u type="ortho">
+<seg>et bah ça c'est rue de la Bûcherie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T111" start="#T110" wh="spk1" xml:id="au135">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T112" start="#T111" wh="spk2" xml:id="au136">
+<link target="#au137"/>
+<u type="ortho">
+<anchor synch="#T111"/>
+<seg>c'est à côt- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T112" start="#T111" wh="spk1" xml:id="au137">
+<link target="#au136"/>
+<u type="ortho">
+<anchor synch="#T111"/>
+<seg>alors je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T113" start="#T112" wh="spk1" xml:id="au138">
+<u type="ortho">
+<seg>vois très bien où c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T114" start="#T113" wh="spk2" xml:id="au139">
+<u type="ortho">
+<seg>voilà voilà <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et de temps en temps ils je sais pas comment mais il il exposait des écharpes il vendait les écharpes je ne sais Vlada après elle a il a trouvé parce qu'il y avait des émigrés je crois il y avait quelques émigrés <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah oui il y avait un ami <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui était professeur <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>marié avec une Française il était professeur à la Sorbonne <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il donnait des leçons <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de serbe et on a co- on a connu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et je crois que Vlada a fait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Vlada est ah oui parce que nous sommes venus avec les Rabanovitch <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>en même temps <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>nous quatre <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est-à-dire le d- deux jours avant <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>avant le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et il travaillait à la peinture bâtiment <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pour vivre </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T115" start="#T114" wh="spk1" xml:id="au140">
+<link target="#au141"/>
+<u type="ortho">
+<anchor synch="#T114"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T115" start="#T114" wh="spk2" xml:id="au141">
+<link target="#au140"/>
+<u type="ortho">
+<anchor synch="#T114"/>
+<seg>moi j'ai fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T116" start="#T115" wh="spk2" xml:id="au142">
+<u type="ortho">
+<seg>des écharpes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T117" start="#T116" wh="spk1" xml:id="au143">
+<link target="#au144"/>
+<u type="ortho">
+<anchor synch="#T116"/>
+<seg>et Vlada </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T117" start="#T116" wh="spk2" xml:id="au144">
+<link target="#au143"/>
+<u type="ortho">
+<anchor synch="#T116"/>
+<seg>mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T118" start="#T117" wh="spk1" xml:id="au145">
+<u type="ortho">
+<seg>aussi <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>a fait </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T119" start="#T118" wh="spk2" xml:id="au146">
+<u type="ortho">
+<seg>si </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T120" start="#T119" wh="spk1" xml:id="au147">
+<u type="ortho">
+<seg>alors attends <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh il faut que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>oui ça marche </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T121" start="#T120" wh="spk2" xml:id="au148">
+<u type="ortho">
+<seg>en tout cas c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>merveilleux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je me rappelle pas la seule chose que je me rappelle le problème c'était de prolonger le visa chaque <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je sais pas combien est-ce que c'était chaque trois <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>semaines ou chaque trois mois je me rappelle plus </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T122" start="#T121" wh="spk1" xml:id="au149">
+<link target="#au150"/>
+<u type="ortho">
+<anchor synch="#T121"/>
+<seg>ah d'accord c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T122" start="#T121" wh="spk2" xml:id="au150">
+<link target="#au149"/>
+<u type="ortho">
+<anchor synch="#T121"/>
+<seg>parce qu'il y a longtemps </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T123" start="#T122" wh="spk1" xml:id="au151">
+<u type="ortho">
+<seg>et c'était difficile déjà en ce temps-là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T124" start="#T123" wh="spk2" xml:id="au152">
+<u type="ortho">
+<seg>et c'était difficile oui et après bon j'ai l'impression que tout de même et oui on nous a dit toujours que les Français sont pas faciles à contacter ils euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et pour nous c'était pas du tout <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ça alors tout de suite ils euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme ça voilà par par <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>par exemple voilà la la <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>la la <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tante <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de Vlada était française et c'est c'est c'est un </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T125" start="#T124" wh="spk1" xml:id="au153">
+<link target="#au154"/>
+<u type="ortho">
+<anchor synch="#T124"/>
+<seg>ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T125" start="#T124" wh="spk2" xml:id="au154">
+<link target="#au153"/>
+<u type="ortho">
+<anchor synch="#T124"/>
+<seg>c'est un </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T126" start="#T125" wh="spk2" xml:id="au155">
+<u type="ortho">
+<seg>milieu un type mariée avec un français à l'hôtel il y avait la <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+</annotatedU>
+<annotatedU end="#T127" start="#T126" wh="spk2" xml:id="au156">
+<u type="ortho">
+<seg>et donc ça vous a fait un réseau de Français au-delà d'eux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T128" start="#T127" wh="spk1" xml:id="au157">
+<link target="#au158"/>
+<u type="ortho">
+<anchor synch="#T127"/>
+<seg>parce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T128" start="#T127" wh="spk2" xml:id="au158">
+<link target="#au157"/>
+<u type="ortho">
+<anchor synch="#T127"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T129" start="#T128" wh="spk1" xml:id="au159">
+<u type="ortho">
+<seg>c'est un peu spécial </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T130" start="#T129" wh="spk2" xml:id="au160">
+<u type="ortho">
+<seg>et en plus </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T131" start="#T130" wh="spk1" xml:id="au161">
+<u type="ortho">
+<seg>c'est toujours </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T132" start="#T131" wh="spk2" xml:id="au162">
+<link target="#au163"/>
+<u type="ortho">
+<anchor synch="#T131"/>
+<seg>cette </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T132" start="#T131" wh="spk1" xml:id="au163">
+<link target="#au162"/>
+<u type="ortho">
+<anchor synch="#T131"/>
+<seg>mariés </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T133" start="#T132" wh="spk2" xml:id="au164">
+<u type="ortho">
+<seg>Française qui faisait le </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T134" start="#T133" wh="spk1" xml:id="au165">
+<u type="ortho">
+<seg>la la couture </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T135" start="#T134" wh="spk2" xml:id="au166">
+<u type="ortho">
+<seg>qui faisait la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T136" start="#T135" wh="spk1" xml:id="au167">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T137" start="#T136" wh="spk2" xml:id="au168">
+<u type="ortho">
+<seg>la peinture <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>elle elle euh j- euh jouait à la guitare et tout de suite on a appris les anciens c'est-à-dire appris pas nous nous n'avons pas chanté mais les /ph-, f-/ les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>elle chantait les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>chansons de Moyen-Age et c'était vraiment <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>extraordinaire et d- du Moyen-Age et tous les chansons populaires </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T138" start="#T137" wh="spk1" xml:id="au169">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T139" start="#T138" wh="spk2" xml:id="au170">
+<u type="ortho">
+<seg>parce que je crois <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je sais pas qu'est-ce qu'il s'est passé avec son père <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>est-ce qu'elle a j'en sais rien elle était seule <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qu'est-ce que je voulais dire à cause de ça <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T140" start="#T139" wh="spk1" xml:id="au171">
+<u type="ortho">
+<seg>non tu parlais des chansons </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T141" start="#T140" wh="spk2" xml:id="au172">
+<link target="#au173"/>
+<u type="ortho">
+<anchor synch="#T140"/>
+<seg>oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T141" start="#T140" wh="spk1" xml:id="au173">
+<link target="#au172"/>
+<u type="ortho">
+<anchor synch="#T140"/>
+<seg>chansons </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T142" start="#T141" wh="spk2" xml:id="au174">
+<u type="ortho">
+<seg>parce que c'était euh tu sais il y a tout de même <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des f- des femmes spéciales dans la mode sa mère était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>très belle très coquette la tante chez <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>la tante chez Yves Saint Laurent et la mère <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>chez Dior première main enfin bon </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T143" start="#T142" wh="spk1" xml:id="au175">
+<link target="#au176"/>
+<u type="ortho">
+<anchor synch="#T142"/>
+<seg>donc ils savaient coudre des habits jolis <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T143" start="#T142" wh="spk2" xml:id="au176">
+<link target="#au175"/>
+<u type="ortho">
+<anchor synch="#T142"/>
+<seg>et elle et c'était c'était comme </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T144" start="#T143" wh="spk2" xml:id="au177">
+<u type="ortho">
+<seg>Anastasia et Bettina la mère était pff comme ça et l'autre la fille qui s'est mariée avec le Roumain elle était adorable mais les autres étaient adorables aussi mais coquettes mais elle n'était pas coquette du tout <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>elle était très simple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>elle <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ça je c'est vraiment le souvenir </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit (mm mm mm mm)</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T145" start="#T144" wh="spk1" xml:id="au178">
+<u type="ortho">
+<seg>et pourquoi vous avez quitté ce quartier comment vous êtes arrivés alors euh dans ton </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T146" start="#T145" wh="spk2" xml:id="au179">
+<link target="#au180"/>
+<u type="ortho">
+<anchor synch="#T145"/>
+<seg>ah ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T146" start="#T145" wh="spk1" xml:id="au180">
+<link target="#au179"/>
+<u type="ortho">
+<anchor synch="#T145"/>
+<seg>quartier oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T147" start="#T146" wh="spk2" xml:id="au181">
+<u type="ortho">
+<seg>après mon frère est venu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à Paris </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T148" start="#T147" wh="spk1" xml:id="au182">
+<u type="ortho">
+<seg>ton frère est architecte </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T149" start="#T148" wh="spk2" xml:id="au183">
+<u type="ortho">
+<seg>mon frère architecte <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et il est venu à Paris et à ce moment-là on on <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh comment dire on a restauré Saint-Malo et on avait besoin beaucoup de de d'architectes et on a téléphoné à à mon frère parce que des autres jeunes et un architecte qui est venu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et il est venu pff il a travaillé à Saint-Malo <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>plusieurs mois je crois tout de suite en venant <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>en venant le s- il est venu le soir à la gare de Lyon et il est </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T150" start="#T149" wh="spk1" xml:id="au184">
+<link target="#au185"/>
+<u type="ortho">
+<anchor synch="#T149"/>
+<seg>parti avec le travail mm mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T150" start="#T149" wh="spk2" xml:id="au185">
+<link target="#au184"/>
+<u type="ortho">
+<anchor synch="#T149"/>
+<seg>parti le len- le lendemain </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T151" start="#T150" wh="spk2" xml:id="au186">
+<u type="ortho">
+<seg>matin pour vraiment <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et il a c- il a connu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh il était très ami avec <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les les jeunes architectes </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T152" start="#T151" wh="spk1" xml:id="au187">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T153" start="#T152" wh="spk2" xml:id="au188">
+<u type="ortho">
+<seg>et un des jeunes architectes était Teyssere </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T154" start="#T153" wh="spk1" xml:id="au189">
+<u type="ortho">
+<seg>d'accord oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T155" start="#T154" wh="spk2" xml:id="au190">
+<u type="ortho">
+<seg>et et et ici il y avait une dame qui habitait une peintre <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>elle est morte et ici l'a- l'appartement était plein des des c'était les beaux-arts vraiment il a <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>accepté tous les les jeunes de venir ici c'était l'atelier des des étudiants et après il a dit à mon frère de venir <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de lui donner une une chambre après il nous a donné à nous une chambre à pourquoi à l'hôtel pourquoi vous venez pas et après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>sa mère a décidé de nous donner l'appartement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T156" start="#T155" wh="spk1" xml:id="au191">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T157" start="#T156" wh="spk2" xml:id="au192">
+<u type="ortho">
+<seg>et depuis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T158" start="#T157" wh="spk1" xml:id="au193">
+<u type="ortho">
+<seg>de vous louer <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pas de vous donner </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T159" start="#T158" wh="spk2" xml:id="au194">
+<u type="ortho">
+<seg>pas de nous donner mais écoute parce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T160" start="#T159" wh="spk1" xml:id="au195">
+<link target="#au196"/>
+<u type="ortho">
+<anchor synch="#T159"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T160" start="#T159" wh="spk2" xml:id="au196">
+<link target="#au195"/>
+<u type="ortho">
+<anchor synch="#T159"/>
+<seg>tout le monde </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T161" start="#T160" wh="spk2" xml:id="au197">
+<u type="ortho">
+<seg>a voulu le louer </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T162" start="#T161" wh="spk1" xml:id="au198">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T163" start="#T162" wh="spk2" xml:id="au199">
+<link target="#au200"/>
+<u type="ortho">
+<anchor synch="#T162"/>
+<seg>mais bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T163" start="#T162" wh="spk1" xml:id="au200">
+<link target="#au199"/>
+<u type="ortho">
+<anchor synch="#T162"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T164" start="#T163" wh="spk2" xml:id="au201">
+<u type="ortho">
+<seg>et on pes- enfin enfin on payait un peu la comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pour rentrer </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T165" start="#T164" wh="spk1" xml:id="au202">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T166" start="#T165" wh="spk2" xml:id="au203">
+<u type="ortho">
+<seg>tout le monde <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>paie pour rentrer alors nous aussi je me rappelle plus du tout </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T167" start="#T166" wh="spk1" xml:id="au204">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T168" start="#T167" wh="spk2" xml:id="au205">
+<u type="ortho">
+<seg>il y a trop longtemps <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et je sais qu'on a payé on payait le loyer et il a dit <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme vous êtes peintres vous vous occupez de l'appartement je <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on ne fait pas de dépenses pour le </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T169" start="#T168" wh="spk1" xml:id="au206">
+<u type="ortho">
+<seg>pour le mettre en état </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T170" start="#T169" wh="spk2" xml:id="au207">
+<link target="#au208"/>
+<u type="ortho">
+<anchor synch="#T169"/>
+<seg>pour le mettre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T170" start="#T169" wh="spk1" xml:id="au208">
+<link target="#au207"/>
+<u type="ortho">
+<anchor synch="#T169"/>
+<seg>le rénover </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T171" start="#T170" wh="spk2" xml:id="au209">
+<u type="ortho">
+<seg>en état <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>alors c'est après </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T172" start="#T171" wh="spk1" xml:id="au210">
+<u type="ortho">
+<seg>et ça te plaisait de changer de quartier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T173" start="#T172" wh="spk2" xml:id="au211">
+<u type="ortho">
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T174" start="#T173" wh="spk1" xml:id="au212">
+<u type="ortho">
+<seg>non hein tu aimais la Seine et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T175" start="#T174" wh="spk2" xml:id="au213">
+<link target="#au214"/>
+<u type="ortho">
+<anchor synch="#T174"/>
+<seg>j'aimais la Seine </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T175" start="#T174" wh="spk1" xml:id="au214">
+<link target="#au213"/>
+<u type="ortho">
+<anchor synch="#T174"/>
+<seg>ses quartiers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T176" start="#T175" wh="spk2" xml:id="au215">
+<u type="ortho">
+<seg>et ici <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ça m'a paru <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>normal pff j'étais pas mais d'abord on a habité <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh dans des chambres et tous les toutes les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les jeunes architectes travaillaient ici dans l'atelier bon </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T177" start="#T176" wh="spk1" xml:id="au216">
+<u type="ortho">
+<seg>ah oui vous n'aviez pas non plus d'intimité alors </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T178" start="#T177" wh="spk2" xml:id="au217">
+<u type="ortho">
+<seg>oh bah c'était très court <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>très je me rappelle plus de combien ça a duré mais très peu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>peut-être un an ou même pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'en sais rien je me rappelle pas de ça seulement euh c'était sympathique <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>très sympathique et après on a eu ça et Vlada a fait la <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il a peint l'a- l'appartement </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T179" start="#T178" wh="spk1" xml:id="au218">
+<u type="ortho">
+<seg>d'accord <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et ce quartier c'était quand même euh le Montparnasse euh d'après-guerre c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était assez vivant il y avait plein d'artistes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T180" start="#T179" wh="spk2" xml:id="au219">
+<link target="#au220"/>
+<u type="ortho">
+<anchor synch="#T179"/>
+<seg>ah oui oui oui ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T180" start="#T179" wh="spk1" xml:id="au220">
+<link target="#au219"/>
+<u type="ortho">
+<anchor synch="#T179"/>
+<seg>d'artistes <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T181" start="#T180" wh="spk2" xml:id="au221">
+<u type="ortho">
+<seg>il y avait ça aussi <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>nous avons euh eu euh nous avons eu Vlada a eu l'atelier dans le l'Académie de Sciences dans la coupole de l'Académie de Sciences </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T182" start="#T181" wh="spk1" xml:id="au222">
+<link target="#au223"/>
+<u type="ortho">
+<anchor synch="#T181"/>
+<seg>c'est pas vrai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T182" start="#T181" wh="spk2" xml:id="au223">
+<link target="#au222"/>
+<u type="ortho">
+<anchor synch="#T181"/>
+<seg>à Belgrade </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T183" start="#T182" wh="spk1" xml:id="au224">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T184" start="#T183" wh="spk2" xml:id="au225">
+<u type="ortho">
+<seg>il a eu </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T185" start="#T184" wh="spk1" xml:id="au226">
+<link target="#au227"/>
+<u type="ortho">
+<anchor synch="#T184"/>
+<seg>oui oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T185" start="#T184" wh="spk2" xml:id="au227">
+<link target="#au226"/>
+<u type="ortho">
+<anchor synch="#T184"/>
+<seg>parce que c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T186" start="#T185" wh="spk2" xml:id="au228">
+<u type="ortho">
+<seg>moitié en ruine oui mais mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T187" start="#T186" wh="spk1" xml:id="au229">
+<link target="#au230"/>
+<u type="ortho">
+<anchor synch="#T186"/>
+<seg>ah d'accord mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T187" start="#T186" wh="spk2" xml:id="au230">
+<link target="#au229"/>
+<u type="ortho">
+<anchor synch="#T186"/>
+<seg>mais tout de même </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T188" start="#T187" wh="spk2" xml:id="au231">
+<u type="ortho">
+<seg>on a on a été là-bas et à côté de nous il y avait un sculpteur celui-ci qui a fait cette sulpture <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui était très ami de Zadkine et après comme nous sommes venus on a découvert Zadkine ici c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>arrière Notre-Dame de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T189" start="#T188" wh="spk1" xml:id="au232">
+<link target="#au233"/>
+<u type="ortho">
+<anchor synch="#T188"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T189" start="#T188" wh="spk2" xml:id="au233">
+<link target="#au232"/>
+<u type="ortho">
+<anchor synch="#T188"/>
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T190" start="#T189" wh="spk2" xml:id="au234">
+<u type="ortho">
+<seg>rue d'Assas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T191" start="#T190" wh="spk1" xml:id="au235">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T192" start="#T191" wh="spk2" xml:id="au236">
+<u type="ortho">
+<seg>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et comme ça il y avait bon il y avait Beckett il y avait Ionesco </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T193" start="#T192" wh="spk1" xml:id="au237">
+<u type="ortho">
+<seg>tu as connu Beckett </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T194" start="#T193" wh="spk2" xml:id="au238">
+<u type="ortho">
+<seg>si </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T195" start="#T194" wh="spk1" xml:id="au239">
+<u type="ortho">
+<seg>tu l'as connu Beckett </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T196" start="#T195" wh="spk2" xml:id="au240">
+<u type="ortho">
+<seg>oui oui j'ai connu Beckett parce que Bettina <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>son mari était premier éditeur <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de Beckett </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T197" start="#T196" wh="spk1" xml:id="au241">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T198" start="#T197" wh="spk2" xml:id="au242">
+<u type="ortho">
+<seg>John </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T199" start="#T198" wh="spk1" xml:id="au243">
+<u type="ortho">
+<seg>mais connu d'amitié ou comme ça de loin vous êtes devenus amis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T200" start="#T199" wh="spk2" xml:id="au244">
+<u type="ortho">
+<seg>bof amis je ne sais peux pas dire amis <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bon ben on se voyait à de temps en temps à </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T201" start="#T200" wh="spk1" xml:id="au245">
+<u type="ortho">
+<seg>à la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T202" start="#T201" wh="spk2" xml:id="au246">
+<link target="#au247"/>
+<u type="ortho">
+<anchor synch="#T201"/>
+<seg>à la Closerie des Lilas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T202" start="#T201" wh="spk1" xml:id="au247">
+<link target="#au246"/>
+<u type="ortho">
+<anchor synch="#T201"/>
+<seg>Closerie des Lilas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T203" start="#T202" wh="spk1" xml:id="au248">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T204" start="#T203" wh="spk2" xml:id="au249">
+<u type="ortho">
+<seg>parce qu'à ce moment-là il venait tout le temps à la Closerie <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les autres venaient <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les autres <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à au Dôme par exemple Ionesco était toujours </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T205" start="#T204" wh="spk1" xml:id="au250">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T206" start="#T205" wh="spk2" xml:id="au251">
+<u type="ortho">
+<seg>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et /c'est, ses/ comment sa <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>sa femme et bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ils ils se faisaient le rendez-vous à <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>au coin de Simone de Beauvoir et </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T207" start="#T206" wh="spk1" xml:id="au252">
+<u type="ortho">
+<seg>et Sartre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T208" start="#T207" wh="spk2" xml:id="au253">
+<u type="ortho">
+<seg>et Sartre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T209" start="#T208" wh="spk1" xml:id="au254">
+<u type="ortho">
+<seg>mais donc ça c'est un monde qui t'a plu qui t'a <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui t'a intéressée ou au fond <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tu étais ailleurs tu t'en fichais un peu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T210" start="#T209" wh="spk2" xml:id="au255">
+<u type="ortho">
+<seg>mais non parce que tu sais quand tu viens <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de quelque part </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T211" start="#T210" wh="spk1" xml:id="au256">
+<link target="#au257"/>
+<u type="ortho">
+<anchor synch="#T210"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T211" start="#T210" wh="spk2" xml:id="au257">
+<link target="#au256"/>
+<u type="ortho">
+<anchor synch="#T210"/>
+<seg>tout est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T212" start="#T211" wh="spk2" xml:id="au258">
+<u type="ortho">
+<seg>intéressant et c'est tout de même quelque chose <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était des gens spécials et en plus c'était des gens <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>très spécials et Beckett et Zadkine et Ionesco c'était des gens <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>vraiment </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T213" start="#T212" wh="spk1" xml:id="au259">
+<u type="ortho">
+<seg>donc ils venaient chez vous de temps en temps <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ou c'était à une vie de café plutôt </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T214" start="#T213" wh="spk2" xml:id="au260">
+<u type="ortho">
+<seg>c'était c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on on allait chez Zadkine je crois que c'était samedi qu'il recevait </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T215" start="#T214" wh="spk1" xml:id="au261">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T216" start="#T215" wh="spk2" xml:id="au262">
+<u type="ortho">
+<seg>et avec Beckett c'était la Closerie des Lilas et l'autre ben finalement on allait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on sortait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T217" start="#T216" wh="spk1" xml:id="au263">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T218" start="#T217" wh="spk2" xml:id="au264">
+<u type="ortho">
+<seg>on après bon après il y avait beaucoup de monde qui venait chez moi <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était facile à ce moment-là bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>d'inviter les gens <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mm il y avait quand <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Vlada eut la galerie <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>rive gauche <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh on a connu aussi beaucoup de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de peintres par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Dubuffet <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Dubu- Dubuffet ou Jörg il était dans la même galerie que Vlada </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T219" start="#T218" wh="spk1" xml:id="au265">
+<link target="#au266"/>
+<u type="ortho">
+<anchor synch="#T218"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T219" start="#T218" wh="spk2" xml:id="au266">
+<link target="#au265"/>
+<u type="ortho">
+<anchor synch="#T218"/>
+<seg>ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T220" start="#T219" wh="spk2" xml:id="au267">
+<u type="ortho">
+<seg>rive gauche <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et comme ça les </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T221" start="#T220" wh="spk1" xml:id="au268">
+<u type="ortho">
+<seg>donc ça ça s'est fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T222" start="#T221" wh="spk2" xml:id="au269">
+<link target="#au270"/>
+<u type="ortho">
+<anchor synch="#T221"/>
+<seg>après </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T222" start="#T221" wh="spk1" xml:id="au270">
+<link target="#au269"/>
+<u type="ortho">
+<anchor synch="#T221"/>
+<seg>vite </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T223" start="#T222" wh="spk2" xml:id="au271">
+<u type="ortho">
+<seg>oui on a vu que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh c'était les Français euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bien sûr les serbes aussi invitent les gens à la maison <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>irrégulier le matin le midi le soir n'importe quand et ici c'était les dîners </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T224" start="#T223" wh="spk1" xml:id="au272">
+<u type="ortho">
+<seg>oui oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T225" start="#T224" wh="spk2" xml:id="au273">
+<u type="ortho">
+<anchor synch="#T224"/>
+<seg/>
+</u>
+<link target="#au274"/>
+</annotatedU>
+<annotatedU end="#T225" start="#T224" wh="spk1" xml:id="au274">
+<link target="#au273"/>
+<u type="ortho">
+<anchor synch="#T224"/>
+<seg>on (n') arrive </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T226" start="#T225" wh="spk1" xml:id="au275">
+<u type="ortho">
+<seg>pas à l'improviste </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T227" start="#T226" wh="spk2" xml:id="au276">
+<link target="#au277"/>
+<u type="ortho">
+<anchor synch="#T226"/>
+<seg>on (n') arrive pas à l'impro- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T227" start="#T226" wh="spk1" xml:id="au277">
+<link target="#au276"/>
+<u type="ortho">
+<anchor synch="#T226"/>
+<seg>chez les gens </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T228" start="#T227" wh="spk2" xml:id="au278">
+<u type="ortho">
+<seg>à l'improviste et puis quand c'est le dîner c'est presque <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>un spectacle <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+<incident type="Event">
+<desc type="desc">rires</desc>
+</incident>et comme ça moi j'ai <incident type="Event">
+<desc type="desc">rires</desc>
+</incident>j'ai décidé de faire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était tout de même on entrait tout de même dans <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>dans un monde <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui s'intéressait de l'art <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui était dans l'art alors c'était tout de même des gens un peu spéciales <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et les femmes <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de peintres <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>s- sont je peux dire merveilleux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les femmes tous les femmes de peintres c'était des femmes extraordinaires <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T229" start="#T228" wh="spk1" xml:id="au279">
+<u type="ortho">
+<seg>tu veux dire que elles tenaient le moral des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T230" start="#T229" wh="spk2" xml:id="au280">
+<u type="ortho">
+<seg>ils tenaient le moral </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T231" start="#T230" wh="spk1" xml:id="au281">
+<link target="#au282"/>
+<u type="ortho">
+<anchor synch="#T230"/>
+<seg>des maris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T231" start="#T230" wh="spk2" xml:id="au282">
+<link target="#au281"/>
+<u type="ortho">
+<anchor synch="#T230"/>
+<seg>ils étaient </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T232" start="#T231" wh="spk2" xml:id="au283">
+<u type="ortho">
+<seg>euh accueillants ils étaient t- tolérantes des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des maris ils <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je sais pas comment dire un monde </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T233" start="#T232" wh="spk1" xml:id="au284">
+<u type="ortho">
+<seg>mais toi tu étais un peu à part parce que tu es femme de peintre mais tu es d'abord <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>peintre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T234" start="#T233" wh="spk2" xml:id="au285">
+<u type="ortho">
+<seg>non j'ai été peintre <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'ai Vlad- parce que Vlada ne supporte pas il a tout de suite voulu que j'expose quand j'ai mais après après j'ai laissé comme ça j'ai travaillé mais j'ai pas exposé <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>beaucoup et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je suis lente et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Vlada bon il avait ses ses galeries </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T235" start="#T234" wh="spk1" xml:id="au286">
+<link target="#au287"/>
+<u type="ortho">
+<anchor synch="#T234"/>
+<seg>et donc Vlada </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T235" start="#T234" wh="spk2" xml:id="au287">
+<link target="#au286"/>
+<u type="ortho">
+<anchor synch="#T234"/>
+<seg>donc c'était c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T236" start="#T235" wh="spk1" xml:id="au288">
+<u type="ortho">
+<seg>vous êtes arrivés en cinquante-deux tu as dit </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T237" start="#T236" wh="spk2" xml:id="au289">
+<link target="#au290"/>
+<u type="ortho">
+<anchor synch="#T236"/>
+<seg>c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T237" start="#T236" wh="spk1" xml:id="au290">
+<link target="#au289"/>
+<u type="ortho">
+<anchor synch="#T236"/>
+<seg>et Vlada </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T238" start="#T237" wh="spk1" xml:id="au291">
+<u type="ortho">
+<seg>a commencé à avoir euh cette galerie rive gauche assez vite <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il a fallu quelques année de de vaches </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T239" start="#T238" wh="spk2" xml:id="au292">
+<link target="#au293"/>
+<u type="ortho">
+<anchor synch="#T238"/>
+<seg>ah non non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T239" start="#T238" wh="spk1" xml:id="au293">
+<link target="#au292"/>
+<u type="ortho">
+<anchor synch="#T238"/>
+<seg>enragées </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T240" start="#T239" wh="spk2" xml:id="au294">
+<u type="ortho">
+<seg>il f- il fallait bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il fallait tout de même <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je ne sais pas dire exactement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quatre cinq ans six ans </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T241" start="#T240" wh="spk1" xml:id="au295">
+<u type="ortho">
+<seg>donc il y a eu six ans très durs quand même </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T242" start="#T241" wh="spk2" xml:id="au296">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T243" start="#T242" wh="spk1" xml:id="au297">
+<u type="ortho">
+<seg>mais dont tu gardes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T244" start="#T243" wh="spk2" xml:id="au298">
+<u type="ortho">
+<seg>non mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T245" start="#T244" wh="spk1" xml:id="au299">
+<link target="#au300"/>
+<u type="ortho">
+<anchor synch="#T244"/>
+<seg>pas le souvenir <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de ces </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T245" start="#T244" wh="spk2" xml:id="au300">
+<link target="#au299"/>
+<u type="ortho">
+<anchor synch="#T244"/>
+<seg>mais ça je le oui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T246" start="#T245" wh="spk2" xml:id="au301">
+<u type="ortho">
+<seg>que par exemple il faisait la peinture <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bâtiment </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T247" start="#T246" wh="spk1" xml:id="au302">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T248" start="#T247" wh="spk2" xml:id="au303">
+<u type="ortho">
+<seg>après il faisait par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh Krief <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>était ami de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T249" start="#T248" wh="spk1" xml:id="au304">
+<link target="#au305"/>
+<u type="ortho">
+<anchor synch="#T248"/>
+<seg>Claude Krief </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T249" start="#T248" wh="spk2" xml:id="au305">
+<link target="#au304"/>
+<u type="ortho">
+<anchor synch="#T248"/>
+<seg>tu sais le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T250" start="#T249" wh="spk2" xml:id="au306">
+<u type="ortho">
+<seg>le Claude Krief </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T251" start="#T250" wh="spk1" xml:id="au307">
+<u type="ortho">
+<seg>le journaliste </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T252" start="#T251" wh="spk2" xml:id="au308">
+<u type="ortho">
+<seg>le journaliste </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T253" start="#T252" wh="spk1" xml:id="au309">
+<link target="#au310"/>
+<u type="ortho">
+<anchor synch="#T252"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T253" start="#T252" wh="spk2" xml:id="au310">
+<link target="#au309"/>
+<u type="ortho">
+<anchor synch="#T252"/>
+<seg>était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T254" start="#T253" wh="spk2" xml:id="au311">
+<u type="ortho">
+<seg>a- a- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>après ils ont connu Charles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T255" start="#T254" wh="spk1" xml:id="au312">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T256" start="#T255" wh="spk2" xml:id="au313">
+<u type="ortho">
+<seg>dont le Vlada et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et Pierre ils ont connu ça et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et Claude Krief a <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comment c'était eux ils ont habité l'hôtel et ils ont fait connaissance avec <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>beaucoup de peintres de cet hôtel à comme c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mm <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>rue rue Monsieur-le-prince ou quelque chose comme ça mais comme nous rue de la Bûcherie c'était </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T257" start="#T256" wh="spk1" xml:id="au314">
+<link target="#au315"/>
+<u type="ortho">
+<anchor synch="#T256"/>
+<seg>des hôtels très pauvres et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T257" start="#T256" wh="spk2" xml:id="au315">
+<link target="#au314"/>
+<u type="ortho">
+<anchor synch="#T256"/>
+<seg>aussi groupés là c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T258" start="#T257" wh="spk2" xml:id="au316">
+<u type="ortho">
+<seg>comme ça des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des peintres <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et il y avait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des peintres qui étaient plus âgés un peu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et qui ont <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bon estimé est aussi très bon peintre <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et Vlada est tombé comme ça avec <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>avec Jörg </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T259" start="#T258" wh="spk1" xml:id="au317">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T260" start="#T259" wh="spk2" xml:id="au318">
+<u type="ortho">
+<seg>Dubuffet </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T261" start="#T260" wh="spk1" xml:id="au319">
+<u type="ortho">
+<seg>et Vlada quand même avait à Paris beaucoup de notoriété hein à un moment donné hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T262" start="#T261" wh="spk2" xml:id="au320">
+<link target="#au321"/>
+<u type="ortho">
+<anchor synch="#T261"/>
+<seg>c'était un des bons peintres de l'école de Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T262" start="#T261" wh="spk1" xml:id="au321">
+<link target="#au320"/>
+<u type="ortho">
+<anchor synch="#T261"/>
+<seg>ouh oui non non non Vlada a toujours il a toujours </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T263" start="#T262" wh="spk2" xml:id="au322">
+<u type="ortho">
+<seg>exposé il a d'abord exposé <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>rive gauche après Jean Buchet et </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T264" start="#T263" wh="spk1" xml:id="au323">
+<link target="#au324"/>
+<u type="ortho">
+<anchor synch="#T263"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T264" start="#T263" wh="spk2" xml:id="au324">
+<link target="#au323"/>
+<u type="ortho">
+<anchor synch="#T263"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T265" start="#T264" wh="spk2" xml:id="au325">
+<u type="ortho">
+<seg>et le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et Aregal <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais maintenant c'est un peu la crise /de, des/ </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T266" start="#T265" wh="spk1" xml:id="au326">
+<link target="#au327"/>
+<u type="ortho">
+<anchor synch="#T265"/>
+<seg>de la peinture </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T266" start="#T265" wh="spk2" xml:id="au327">
+<link target="#au326"/>
+<u type="ortho">
+<anchor synch="#T265"/>
+<seg>un moment il y avait la crise </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T267" start="#T266" wh="spk2" xml:id="au328">
+<u type="ortho">
+<seg>terrible dans la peinture parce que les prix <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les galeries faisaient des prix vraiment énormes <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais ça je crois <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ça a dû être vingt <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>une vingtaine d'années euh que la peinture était très <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>estimée </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T268" start="#T267" wh="spk1" xml:id="au329">
+<u type="ortho">
+<seg>oui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et puis il y a eu un moment où le marché s'est un peu déplacé de Paris à New-York </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T269" start="#T268" wh="spk2" xml:id="au330">
+<link target="#au331"/>
+<u type="ortho">
+<anchor synch="#T268"/>
+<seg>euh non c'était beaucoup beaucoup plus tard </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T269" start="#T268" wh="spk1" xml:id="au331">
+<link target="#au330"/>
+<u type="ortho">
+<anchor synch="#T268"/>
+<seg>non ça vous n'avez pas s- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T270" start="#T269" wh="spk1" xml:id="au332">
+<u type="ortho">
+<seg>oui ça vous n'avez pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>souffert peut-être </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T271" start="#T270" wh="spk2" xml:id="au333">
+<u type="ortho">
+<seg>oui oui après nous sommes allés ailleurs <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah mais oui c'est vrai <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>nous sommes allés à New-York en soixante <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mille neuf cent soixante </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T272" start="#T271" wh="spk1" xml:id="au334">
+<u type="ortho">
+<seg>cinquante-deux soixante </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T273" start="#T272" wh="spk2" xml:id="au335">
+<link target="#au336"/>
+<u type="ortho">
+<anchor synch="#T272"/>
+<seg>c'est vrai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T273" start="#T272" wh="spk1" xml:id="au336">
+<link target="#au335"/>
+<u type="ortho">
+<anchor synch="#T272"/>
+<seg>tu vois c'est rapide </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T274" start="#T273" wh="spk1" xml:id="au337">
+<u type="ortho">
+<seg>maintenant je pense oui oui ça ça n'a pas duré <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>si longtemps <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que quand nous sommes allés à New-York Vlada avait déjà <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>galerie Arial il a passé par rive gauche et Jean Buchet il était </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T275" start="#T274" wh="spk1" xml:id="au338">
+<u type="ortho">
+<seg>oui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>donc ce quartier <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pour revenir à mes quartiers de Paris tu tu y es allée parce que c'était commode mais tu ne l'as pas choisi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T276" start="#T275" wh="spk1" xml:id="au339">
+<link target="#au340"/>
+<u type="ortho">
+<anchor synch="#T275"/>
+<seg>et maintenant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T276" start="#T275" wh="spk2" xml:id="au340">
+<u type="ortho">
+<anchor synch="#T275"/>
+<seg/>
+</u>
+<link target="#au339"/>
+</annotatedU>
+<annotatedU end="#T277" start="#T276" wh="spk1" xml:id="au341">
+<u type="ortho">
+<seg>tu l'aimes ou tu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ce quartier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T278" start="#T277" wh="spk2" xml:id="au342">
+<u type="ortho">
+<seg>ah ou- maintenant j'aime oui après j'ai- j'aime beau- maintenant j'aime beaucoup mais je j'adore <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les quais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les quais de la Seine mais ici c'est tout de même <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tout près de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de Luxembourg la Closerie des Lilas je </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T279" start="#T278" wh="spk1" xml:id="au343">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T280" start="#T279" wh="spk2" xml:id="au344">
+<u type="ortho">
+<seg>maintenant maintenant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T281" start="#T280" wh="spk1" xml:id="au345">
+<u type="ortho">
+<seg>ce que tu aimes c'est le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T282" start="#T281" wh="spk2" xml:id="au346">
+<link target="#au347"/>
+<u type="ortho">
+<anchor synch="#T281"/>
+<seg>maintenant je suis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T282" start="#T281" wh="spk1" xml:id="au347">
+<link target="#au346"/>
+<u type="ortho">
+<anchor synch="#T281"/>
+<seg>Luxembourg en fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T283" start="#T282" wh="spk2" xml:id="au348">
+<u type="ortho">
+<seg>dans le Luxembourg je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T284" start="#T283" wh="spk1" xml:id="au349">
+<link target="#au350"/>
+<u type="ortho">
+<anchor synch="#T283"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T284" start="#T283" wh="spk2" xml:id="au350">
+<link target="#au349"/>
+<u type="ortho">
+<anchor synch="#T283"/>
+<seg>j'aime </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T285" start="#T284" wh="spk2" xml:id="au351">
+<u type="ortho">
+<seg>beaucoup mais je vais jamais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est-à-dire je passe comme ça par le Luxembourg mais je suis pas de ceux qui </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T286" start="#T285" wh="spk1" xml:id="au352">
+<u type="ortho">
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T287" start="#T286" wh="spk2" xml:id="au353">
+<link target="#au354"/>
+<u type="ortho">
+<anchor synch="#T286"/>
+<seg>qui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T287" start="#T286" wh="spk1" xml:id="au354">
+<link target="#au353"/>
+<u type="ortho">
+<anchor synch="#T286"/>
+<seg>justement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T288" start="#T287" wh="spk1" xml:id="au355">
+<u type="ortho">
+<seg>ce quartier tu t'y promènes euh tu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ou ou en fait tu sors du métro et tu rentres chez toi </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T289" start="#T288" wh="spk2" xml:id="au356">
+<u type="ortho">
+<seg>maintenant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T290" start="#T289" wh="spk1" xml:id="au357">
+<u type="ortho">
+<seg>oui mainten- ou en général tu as vécu des années des années là qu'est qu'est-ce que c'était ton </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T291" start="#T290" wh="spk2" xml:id="au358">
+<u type="ortho">
+<seg>oui c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T292" start="#T291" wh="spk1" xml:id="au359">
+<link target="#au360"/>
+<u type="ortho">
+<anchor synch="#T291"/>
+<seg>ton espace à toi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T292" start="#T291" wh="spk2" xml:id="au360">
+<link target="#au359"/>
+<u type="ortho">
+<anchor synch="#T291"/>
+<seg>on faisait c'est pour ça j'ai </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T293" start="#T292" wh="spk2" xml:id="au361">
+<u type="ortho">
+<seg>dit le les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh ici <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on était invités à dîner <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>chez des chez eux chez l'autre comme ça et après il fallait que </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T294" start="#T293" wh="spk1" xml:id="au362">
+<link target="#au363"/>
+<u type="ortho">
+<anchor synch="#T293"/>
+<seg>rendre les dîners </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T294" start="#T293" wh="spk2" xml:id="au363">
+<link target="#au362"/>
+<u type="ortho">
+<anchor synch="#T293"/>
+<seg>il fallait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T295" start="#T294" wh="spk2" xml:id="au364">
+<u type="ortho">
+<seg>rendre ça <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et c'est pour ça que je te dis <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est à la maison beaucoup beaucoup de monde <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>même mais on s'est trouvés dans <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>par exemple au Select parce qu'au Select à ce moment-là n'était pas un café <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh mondain c'était ben disons que la Closerie des Lilas était un peu mais mais bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était pas mondain à ce moment-là <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ni la Coupole par exemple après les </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T296" start="#T295" wh="spk1" xml:id="au365">
+<link target="#au366"/>
+<u type="ortho">
+<anchor synch="#T295"/>
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T296" start="#T295" wh="spk2" xml:id="au366">
+<link target="#au365"/>
+<u type="ortho">
+<anchor synch="#T295"/>
+<seg>vernissages </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T297" start="#T296" wh="spk2" xml:id="au367">
+<u type="ortho">
+<seg>on allait à la Coupole parce que la Coupole est grande on peut <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>être quarante à dîner <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T298" start="#T297" wh="spk1" xml:id="au368">
+<u type="ortho">
+<seg>c'est drôle </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T299" start="#T298" wh="spk2" xml:id="au369">
+<link target="#au370"/>
+<u type="ortho">
+<anchor synch="#T298"/>
+<seg>c'était c'ét- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T299" start="#T298" wh="spk1" xml:id="au370">
+<link target="#au369"/>
+<u type="ortho">
+<anchor synch="#T298"/>
+<seg>je ne t'imaginais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T300" start="#T299" wh="spk1" xml:id="au371">
+<u type="ortho">
+<seg>pas comme un pilier de café </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T301" start="#T300" wh="spk2" xml:id="au372">
+<u type="ortho"/>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T302" start="#T301" wh="spk1" xml:id="au373">
+<u type="ortho">
+<seg>je ne savais pas que tu allais beaucoup dans les cafés je te voyais pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme quelqu'un qui avait aimé la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T303" start="#T302" wh="spk2" xml:id="au374">
+<link target="#au375"/>
+<u type="ortho">
+<anchor synch="#T302"/>
+<seg>non non j'étais pas je n'étais pas beaucoup </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T303" start="#T302" wh="spk1" xml:id="au375">
+<link target="#au374"/>
+<u type="ortho">
+<anchor synch="#T302"/>
+<seg>les cafés la vie des cafés <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+</annotatedU>
+<annotatedU end="#T304" start="#T303" wh="spk2" xml:id="au376">
+<u type="ortho">
+<seg>dans les cafés <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T305" start="#T304" wh="spk1" xml:id="au377">
+<u type="ortho">
+<seg>c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T306" start="#T305" wh="spk2" xml:id="au378">
+<link target="#au379"/>
+<u type="ortho">
+<anchor synch="#T305"/>
+<seg>c'est on se </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T306" start="#T305" wh="spk1" xml:id="au379">
+<link target="#au378"/>
+<u type="ortho">
+<anchor synch="#T305"/>
+<seg>le rendez-vous </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T307" start="#T306" wh="spk1" xml:id="au380">
+<u type="ortho">
+<seg>des amis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T308" start="#T307" wh="spk2" xml:id="au381">
+<u type="ortho">
+<seg>c'était très oui c'était très facile </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T309" start="#T308" wh="spk1" xml:id="au382">
+<link target="#au383"/>
+<u type="ortho">
+<anchor synch="#T308"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T309" start="#T308" wh="spk2" xml:id="au383">
+<link target="#au382"/>
+<u type="ortho">
+<anchor synch="#T308"/>
+<seg>parce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T310" start="#T309" wh="spk2" xml:id="au384">
+<u type="ortho">
+<seg>tout le monde n'avait pas euh on venait chez nous <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais tout le monde n'avait pas euh des </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T311" start="#T310" wh="spk1" xml:id="au385">
+<link target="#au386"/>
+<u type="ortho">
+<anchor synch="#T310"/>
+<seg>de l'espace </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T311" start="#T310" wh="spk2" xml:id="au386">
+<link target="#au385"/>
+<u type="ortho">
+<anchor synch="#T310"/>
+<seg>des appartements </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T312" start="#T311" wh="spk2" xml:id="au387">
+<u type="ortho">
+<seg>et des ateliers comme ça et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bah mais comme maintenant les rendez-vous c'est toujours dans les cafés </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T313" start="#T312" wh="spk1" xml:id="au388">
+<u type="ortho">
+<seg>c'est vrai <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>oui oui oui et sinon le quartier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T314" start="#T313" wh="spk2" xml:id="au389">
+<u type="ortho">
+<seg>mais là-bas par </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T315" start="#T314" wh="spk1" xml:id="au390">
+<link target="#au391"/>
+<u type="ortho">
+<anchor synch="#T314"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T315" start="#T314" wh="spk2" xml:id="au391">
+<link target="#au390"/>
+<u type="ortho">
+<anchor synch="#T314"/>
+<seg>exemple </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T316" start="#T315" wh="spk2" xml:id="au392">
+<u type="ortho">
+<seg>quand <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quand je suis venue <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était absolument inimaginable je j'ai jamais allée dans un café <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est mon grand-père qui allait dans le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>café <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quelques fois et même pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T317" start="#T316" wh="spk1" xml:id="au393">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T318" start="#T317" wh="spk2" xml:id="au394">
+<u type="ortho">
+<seg>souvent <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et où on nous invitait par exemple dans les restaurants à manger <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et quand je suis venue à Paris ici <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah je me suis dit mais comment c'est possible <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>que les jeunes vont dans des cafés parce qu'il fallait avoir de l'argent <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais c'était pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>écoute le café était très bon marché mais tout de même le café <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et j'ai dit comment c'est possible parce que pour de mon avis <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>que les vieux qui vont dans les cafés <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les jeunes je sais pas </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T319" start="#T318" wh="spk1" xml:id="au395">
+<u type="ortho">
+<seg>c'était jeunes vieux c'était pas hommes femmes <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>le café n'était pas interdit aux femmes c'était un problème d'âge </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T320" start="#T319" wh="spk2" xml:id="au396">
+<u type="ortho">
+<seg>problème d'âge </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T321" start="#T320" wh="spk1" xml:id="au397">
+<link target="#au398"/>
+<u type="ortho">
+<anchor synch="#T320"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T321" start="#T320" wh="spk2" xml:id="au398">
+<u type="ortho">
+<anchor synch="#T320"/>
+<seg/>
+</u>
+<link target="#au397"/>
+</annotatedU>
+<annotatedU end="#T322" start="#T321" wh="spk1" xml:id="au399">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T323" start="#T322" wh="spk2" xml:id="au400">
+<u type="ortho">
+<seg>voilà tout d'un coup <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je pense à ça mais j'ai complètement si tu m'as pas demandé je <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de temps en temps j'ai des des des comment dire des images de tout ça mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>maintenant puisque tu me demandes je me rappelle de tout et je vois que vraiment <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on avait de la chance <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>d'abord de dire de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de vivre <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ce Paris vraiment </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T324" start="#T323" wh="spk1" xml:id="au401">
+<u type="ortho">
+<seg>mm tu l'as vu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>changer <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quand quand est-ce que ça a commencé à tout à l'heure tu me disais que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>que tu es saisie par l'angoisse des gens et la tristesse et quand est-ce que tu dirais que ça a basculé ton Paris <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh de jeunesse pour euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>cette ville <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui souffre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T325" start="#T324" wh="spk2" xml:id="au402">
+<u type="ortho">
+<seg>je ne peux pas te <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je ne peux pas dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des années je <incident type="Event">
+<desc type="desc">rires</desc>
+</incident>quelques fois je pense que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ça s'est passé il y a <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh une fois on <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on me <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>dit <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh je j'ai fait une exposition et après ils m'ont invitée <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de nouveau à faire je sais pas une exposition spéciale <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>avec beaucoup de tableaux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>dans un salon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et moi je dis mais c'est gentil puis vous vous m'avez pas oubliée il y a dix ans que j'ai <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il y a dix que j'ai exposé elle dit comment dix ans trente-cinq <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah <incident type="Event">
+<desc type="desc">rires</desc>
+</incident>c'est pour ça je te </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T326" start="#T325" wh="spk1" xml:id="au403">
+<link target="#au404"/>
+<u type="ortho">
+<anchor synch="#T325"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T326" start="#T325" wh="spk2" xml:id="au404">
+<link target="#au403"/>
+<u type="ortho">
+<anchor synch="#T325"/>
+<seg>dis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T327" start="#T326" wh="spk2" xml:id="au405">
+<u type="ortho">
+<seg>l'âge pour euh les années ça <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je n- je n'ai pas le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>souvenir exact de <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je sais t- je sais seulement qu'on est allés <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>soixante à New-York première fois <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qu'on est allés </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T328" start="#T327" wh="spk1" xml:id="au406">
+<u type="ortho">
+<seg>mais vous n'avez jamais pensé vous installer définitivement en Amérique </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T329" start="#T328" wh="spk2" xml:id="au407">
+<link target="#au408"/>
+<u type="ortho">
+<anchor synch="#T328"/>
+<seg>euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T329" start="#T328" wh="spk1" xml:id="au408">
+<link target="#au407"/>
+<u type="ortho">
+<anchor synch="#T328"/>
+<seg>vous étiez </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T330" start="#T329" wh="spk2" xml:id="au409">
+<u type="ortho">
+<seg>non non Vlada était bon j'étais fascinée par New-York <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>aussi picturalement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'ai jamais euh pensé d'habiter à New-York Vlada était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>très </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T331" start="#T330" wh="spk1" xml:id="au410">
+<u type="ortho">
+<seg>plus tenté </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T332" start="#T331" wh="spk2" xml:id="au411">
+<u type="ortho">
+<seg>tenté plus beaucoup plus tenté <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais à ce moment-là voilà c'est pour ça je je me rappelle que c'était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>déjà c- déjà il avait cette galerie <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>déjà il avait oui il ét- il était chez Polack </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T333" start="#T332" wh="spk1" xml:id="au412">
+<u type="ortho">
+<seg>et alors euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>oui tu es quoi au bout de toutes ces années <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>d'abord parisienne <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh en même temps un peu serbe euh beaucoup <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>française au bout du compte je sais même pas si tu as la nationalité française peut-être que non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T334" start="#T333" wh="spk2" xml:id="au413">
+<u type="ortho">
+<seg>j'ai la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T335" start="#T334" wh="spk1" xml:id="au414">
+<link target="#au415"/>
+<u type="ortho">
+<anchor synch="#T334"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T335" start="#T334" wh="spk2" xml:id="au415">
+<link target="#au414"/>
+<u type="ortho">
+<anchor synch="#T334"/>
+<seg>nationalité </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T336" start="#T335" wh="spk2" xml:id="au416">
+<u type="ortho">
+<seg>parce que aussi nous entre tous ces peintres et tout ça <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>nous avons connu un un ami qui était la possibilité de nous donner le mais il y a longtemps il a dit ah parce qu'il savait que nous avons beaucoup de problèmes pour les </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T337" start="#T336" wh="spk1" xml:id="au417">
+<u type="ortho">
+<seg>les visas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T338" start="#T337" wh="spk2" xml:id="au418">
+<u type="ortho">
+<seg>les visas alors il dit pour <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pour nous maintenant ça simplifie <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh que qu'on <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>que vous prenez la nationalité française <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>alors ils nous ont donné je n'en ai même pas demandé </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T339" start="#T338" wh="spk1" xml:id="au419">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T340" start="#T339" wh="spk2" xml:id="au420">
+<u type="ortho">
+<seg>ils nous ont donné la nationalité française <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je peux pas te dire quelle année </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T341" start="#T340" wh="spk1" xml:id="au421">
+<u type="ortho">
+<seg>bon c'est <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>c'est pas grave c'est ça change rien <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh et tu pouvais garder également la nationalité </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T342" start="#T341" wh="spk2" xml:id="au422">
+<link target="#au423"/>
+<u type="ortho">
+<anchor synch="#T341"/>
+<seg>oui on a fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T342" start="#T341" wh="spk1" xml:id="au423">
+<link target="#au422"/>
+<u type="ortho">
+<anchor synch="#T341"/>
+<seg>yougoslave </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T343" start="#T342" wh="spk2" xml:id="au424">
+<u type="ortho">
+<seg>oui on a pu garder la </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T344" start="#T343" wh="spk1" xml:id="au425">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T345" start="#T344" wh="spk2" xml:id="au426">
+<u type="ortho">
+<seg>ah je me suis <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>finalement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comme ce que tu me demandes comment je me sens <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je me sens ah je ne peux absolument pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j- je vis ici je ne peux pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>changer </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T346" start="#T345" wh="spk1" xml:id="au427">
+<link target="#au428"/>
+<u type="ortho">
+<anchor synch="#T345"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T346" start="#T345" wh="spk2" xml:id="au428">
+<link target="#au427"/>
+<u type="ortho">
+<anchor synch="#T345"/>
+<seg>maintenant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T347" start="#T346" wh="spk2" xml:id="au429">
+<u type="ortho">
+<seg>je vis ici beaucoup plus que là-bas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je ne peux p- je je suis tout de même serbe <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T348" start="#T347" wh="spk1" xml:id="au430">
+<link target="#au431"/>
+<u type="ortho">
+<anchor synch="#T347"/>
+<seg>mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T348" start="#T347" wh="spk2" xml:id="au431">
+<link target="#au430"/>
+<u type="ortho">
+<anchor synch="#T347"/>
+<seg>et j'ai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T349" start="#T348" wh="spk2" xml:id="au432">
+<u type="ortho">
+<seg>par exemple je j'ai jamais voté </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T350" start="#T349" wh="spk1" xml:id="au433">
+<link target="#au434"/>
+<u type="ortho">
+<anchor synch="#T349"/>
+<seg>ah tu n'as jamais voté </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T350" start="#T349" wh="spk2" xml:id="au434">
+<link target="#au433"/>
+<u type="ortho">
+<anchor synch="#T349"/>
+<seg>ni là-bas ni ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T351" start="#T350" wh="spk2" xml:id="au435">
+<u type="ortho">
+<seg>jamais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je trouve que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je suis t- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je trouve que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les Français avec moi j'ai <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>que des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comment te dire louanges pour les Français pour la comment on était là comment on était accueillis comment <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tout était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>bien <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et après la la crise a commencé dans les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>dans les de l'art <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>à cause de </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T352" start="#T351" wh="spk1" xml:id="au436">
+<link target="#au437"/>
+<u type="ortho">
+<anchor synch="#T351"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T352" start="#T351" wh="spk2" xml:id="au437">
+<link target="#au436"/>
+<u type="ortho">
+<anchor synch="#T351"/>
+<seg>ces </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T353" start="#T352" wh="spk1" xml:id="au438">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T354" start="#T353" wh="spk2" xml:id="au439">
+<u type="ortho">
+<seg>les problèmes de galerie et des des <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>collectionneurs <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh je sais pas pourquoi je te dis ça parce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh je me je ne me sentais pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>le droit de voter <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ni en Yougoslavie parce que je n'étais pas je ne sais pas pour qui voter </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T355" start="#T354" wh="spk1" xml:id="au440">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T356" start="#T355" wh="spk2" xml:id="au441">
+<link target="#au442"/>
+<u type="ortho">
+<anchor synch="#T355"/>
+<seg>je ne voulais pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T356" start="#T355" wh="spk1" xml:id="au442">
+<link target="#au441"/>
+<u type="ortho">
+<anchor synch="#T355"/>
+<seg>tu n'es plus dans cette vie là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T357" start="#T356" wh="spk1" xml:id="au443">
+<u type="ortho">
+<seg>parce que tu te sens extérieure maintenant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T358" start="#T357" wh="spk2" xml:id="au444">
+<u type="ortho">
+<seg>euh là-bas je ne savais pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quand j'étais en Yougoslavie mais j'ai j'ai eu le temps de voter </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T359" start="#T358" wh="spk1" xml:id="au445">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T360" start="#T359" wh="spk2" xml:id="au446">
+<u type="ortho">
+<seg>j'ai pu voter <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais j'ai jamais voté là-bas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et ici aussi je n'ai pas voté parce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'ai tout de même <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je trouve que c'est formidable que les que tout le monde </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T361" start="#T360" wh="spk1" xml:id="au447">
+<u type="ortho">
+<seg>euh ce soir on va <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on va bientôt arrêter mais je veux juste que tu termines <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ce que tu disais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que j'étais complètement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>étonnée tu as dit je ne vote pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T362" start="#T361" wh="spk2" xml:id="au448">
+<u type="ortho">
+<seg>ah oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T363" start="#T362" wh="spk1" xml:id="au449">
+<u type="ortho">
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T364" start="#T363" wh="spk1" xml:id="au450">
+<link target="#au451"/>
+<u type="ortho">
+<anchor synch="#T363"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T364" start="#T363" wh="spk2" xml:id="au451">
+<link target="#au450"/>
+<u type="ortho">
+<anchor synch="#T363"/>
+<seg>ah oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T365" start="#T364" wh="spk1" xml:id="au452">
+<u type="ortho">
+<seg>et tu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T366" start="#T365" wh="spk2" xml:id="au453">
+<link target="#au454"/>
+<u type="ortho">
+<anchor synch="#T365"/>
+<seg>voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T366" start="#T365" wh="spk1" xml:id="au454">
+<link target="#au453"/>
+<u type="ortho">
+<anchor synch="#T365"/>
+<seg>le droit </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T367" start="#T366" wh="spk1" xml:id="au455">
+<u type="ortho">
+<seg>de vote ça parait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T368" start="#T367" wh="spk2" xml:id="au456">
+<link target="#au457"/>
+<u type="ortho">
+<anchor synch="#T367"/>
+<seg>j'ai le d- je ne suis pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T368" start="#T367" wh="spk1" xml:id="au457">
+<link target="#au456"/>
+<u type="ortho">
+<anchor synch="#T367"/>
+<seg>quand même quelque chose de fondamental </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T369" start="#T368" wh="spk2" xml:id="au458">
+<u type="ortho">
+<seg>du tout quelqu'un <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui aime la responsabilité <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je suis quelqu'un qui <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui accepte les choses <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>qui voit <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les choses <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je n'ose je n'ose pas du tout </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T370" start="#T369" wh="spk1" xml:id="au459">
+<u type="ortho">
+<seg>donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T371" start="#T370" wh="spk1" xml:id="au460">
+<link target="#au461"/>
+<u type="ortho">
+<anchor synch="#T370"/>
+<seg>le ch- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T371" start="#T370" wh="spk2" xml:id="au461">
+<link target="#au460"/>
+<u type="ortho">
+<anchor synch="#T370"/>
+<seg>décider </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T372" start="#T371" wh="spk1" xml:id="au462">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T373" start="#T372" wh="spk2" xml:id="au463">
+<link target="#au464"/>
+<u type="ortho">
+<anchor synch="#T372"/>
+<seg>je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T373" start="#T372" wh="spk1" xml:id="au464">
+<link target="#au463"/>
+<u type="ortho">
+<anchor synch="#T372"/>
+<seg>mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T374" start="#T373" wh="spk1" xml:id="au465">
+<u type="ortho">
+<seg>tu as des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T375" start="#T374" wh="spk2" xml:id="au466">
+<link target="#au467"/>
+<u type="ortho">
+<anchor synch="#T374"/>
+<seg>je décide c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T375" start="#T374" wh="spk1" xml:id="au467">
+<link target="#au466"/>
+<u type="ortho">
+<anchor synch="#T374"/>
+<seg>opinions politiques </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T376" start="#T375" wh="spk2" xml:id="au468">
+<u type="ortho">
+<seg>pour ça que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T377" start="#T376" wh="spk1" xml:id="au469">
+<u type="ortho">
+<anchor synch="#T376"/>
+<seg/>
+</u>
+<link target="#au470"/>
+</annotatedU>
+<annotatedU end="#T377" start="#T376" wh="spk2" xml:id="au470">
+<link target="#au469"/>
+<u type="ortho">
+<anchor synch="#T376"/>
+<seg>par </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T378" start="#T377" wh="spk2" xml:id="au471">
+<u type="ortho">
+<seg>exemple la la peinture me convient <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que je fais ce que je veux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T379" start="#T378" wh="spk1" xml:id="au472">
+<link target="#au473"/>
+<u type="ortho">
+<anchor synch="#T378"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T379" start="#T378" wh="spk2" xml:id="au473">
+<link target="#au472"/>
+<u type="ortho">
+<anchor synch="#T378"/>
+<seg>je n'ai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T380" start="#T379" wh="spk2" xml:id="au474">
+<u type="ortho">
+<seg>pas obligé d'exposer je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T381" start="#T380" wh="spk1" xml:id="au475">
+<link target="#au476"/>
+<u type="ortho">
+<anchor synch="#T380"/>
+<seg>mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T381" start="#T380" wh="spk2" xml:id="au476">
+<u type="ortho">
+<anchor synch="#T380"/>
+<seg/>
+</u>
+<link target="#au475"/>
+</annotatedU>
+<annotatedU end="#T382" start="#T381" wh="spk1" xml:id="au477">
+<u type="ortho">
+<seg>tu as des opinions politiques </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T383" start="#T382" wh="spk2" xml:id="au478">
+<u type="ortho">
+<seg>ah j'ai des opinions politiques <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah mais d'abord j'ai été <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>terriblement déçue en Yougoslavie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T384" start="#T383" wh="spk1" xml:id="au479">
+<link target="#au480"/>
+<u type="ortho">
+<anchor synch="#T383"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T384" start="#T383" wh="spk2" xml:id="au480">
+<link target="#au479"/>
+<u type="ortho">
+<anchor synch="#T383"/>
+<seg>parce </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T385" start="#T384" wh="spk2" xml:id="au481">
+<u type="ortho">
+<seg>que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>moi j'ai pensé que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T386" start="#T385" wh="spk1" xml:id="au482">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T387" start="#T386" wh="spk2" xml:id="au483">
+<link target="#au484"/>
+<u type="ortho">
+<anchor synch="#T386"/>
+<seg>que le communisme hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T387" start="#T386" wh="spk1" xml:id="au484">
+<link target="#au483"/>
+<u type="ortho">
+<anchor synch="#T386"/>
+<seg>vous vous avez vous étiez </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T388" start="#T387" wh="spk1" xml:id="au485">
+<u type="ortho">
+<seg>jeunes au moment de la guerre et vous avez été engagés en tout cas Vlada très engagé </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T389" start="#T388" wh="spk2" xml:id="au486">
+<u type="ortho">
+<seg>bah oui Vlada a été engagé on était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on pensant que le communisme c'était d'idéalisme merveilleux tout </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T390" start="#T389" wh="spk1" xml:id="au487">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T391" start="#T390" wh="spk2" xml:id="au488">
+<u type="ortho">
+<seg>et après on a vu que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>Tito était tout sauf communiste euh le plus grand luxe le p- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>pff <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais il y avait sûrement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>des bonnes choses euh comment dire dans dans l'organisation il y avait pas <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>
+</seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T392" start="#T391" wh="spk1" xml:id="au489">
+<u type="ortho">
+<anchor synch="#T391"/>
+<seg/>
+</u>
+<link target="#au490"/>
+</annotatedU>
+<annotatedU end="#T392" start="#T391" wh="spk2" xml:id="au490">
+<u type="ortho">
+<anchor synch="#T391"/>
+<seg/>
+</u>
+<link target="#au489"/>
+</annotatedU>
+<annotatedU end="#T393" start="#T392" wh="spk2" xml:id="au491">
+<u type="ortho">
+<seg>il y /a, a-/ avait comme en France ça existe <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh ce que ce que <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>comment dire on a <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on a les <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>l'aide de l'Etat tout le monde peut travailler tout le monde peut étudier tout le monde <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ah c'est c'est l'Etat </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T394" start="#T393" wh="spk1" xml:id="au492">
+<link target="#au493"/>
+<u type="ortho">
+<anchor synch="#T393"/>
+<seg>ça ça a été </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T394" start="#T393" wh="spk2" xml:id="au493">
+<link target="#au492"/>
+<u type="ortho">
+<anchor synch="#T393"/>
+<seg>tout de même </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T395" start="#T394" wh="spk1" xml:id="au494">
+<u type="ortho">
+<seg>installé par les communistes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T396" start="#T395" wh="spk2" xml:id="au495">
+<u type="ortho">
+<seg>ça a été </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T397" start="#T396" wh="spk1" xml:id="au496">
+<link target="#au497"/>
+<u type="ortho">
+<anchor synch="#T396"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T397" start="#T396" wh="spk2" xml:id="au497">
+<link target="#au496"/>
+<u type="ortho">
+<anchor synch="#T396"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T398" start="#T397" wh="spk2" xml:id="au498">
+<u type="ortho">
+<seg>mais c'est ça <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et ça bon après De Gaulle a installé ic- j'ai euh </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T399" start="#T398" wh="spk2" xml:id="au499">
+<link target="#au500"/>
+<u type="ortho">
+<anchor synch="#T398"/>
+<seg>j'ai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T399" start="#T398" wh="spk1" xml:id="au500">
+<link target="#au499"/>
+<u type="ortho">
+<anchor synch="#T398"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T400" start="#T399" wh="spk2" xml:id="au501">
+<u type="ortho">
+<seg>compris que c'est De Gaulle <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>si /je, j'ai/ </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T401" start="#T400" wh="spk1" xml:id="au502">
+<link target="#au503"/>
+<u type="ortho">
+<anchor synch="#T400"/>
+<seg>euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T401" start="#T400" wh="spk2" xml:id="au503">
+<link target="#au502"/>
+<u type="ortho">
+<anchor synch="#T400"/>
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T402" start="#T401" wh="spk2" xml:id="au504">
+<u type="ortho">
+<seg>qui a fait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>le premier les euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quoi <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>les retraites pas les retraites qu'est-ce qu'il a fait </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T403" start="#T402" wh="spk1" xml:id="au505">
+<u type="ortho">
+<seg>euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T404" start="#T403" wh="spk2" xml:id="au506">
+<u type="ortho">
+<seg>l'aide </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T405" start="#T404" wh="spk1" xml:id="au507">
+<u type="ortho">
+<seg>écoute il m- alors c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T406" start="#T405" wh="spk2" xml:id="au508">
+<u type="ortho">
+<seg>les je crois que les le <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>l'aide dans les hôpitaux </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T407" start="#T406" wh="spk1" xml:id="au509">
+<u type="ortho">
+<seg>non la Sécurité </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T408" start="#T407" wh="spk2" xml:id="au510">
+<link target="#au511"/>
+<u type="ortho">
+<anchor synch="#T407"/>
+<seg>les maladies </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T408" start="#T407" wh="spk1" xml:id="au511">
+<link target="#au510"/>
+<u type="ortho">
+<anchor synch="#T407"/>
+<seg>Sociale </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T409" start="#T408" wh="spk1" xml:id="au512">
+<u type="ortho">
+<seg>c'est plus ancien </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T410" start="#T409" wh="spk2" xml:id="au513">
+<u type="ortho">
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T411" start="#T410" wh="spk1" xml:id="au514">
+<u type="ortho">
+<seg>écoute je ne sais plus <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'ai honte de ne pas savoir mais je pense que c'est <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il y a eu le Front Populaire aussi donc <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>en trente-six quand même il y a eu beaucoup de lois qui ont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T412" start="#T411" wh="spk2" xml:id="au515">
+<u type="ortho">
+<seg>je ne sais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T413" start="#T412" wh="spk1" xml:id="au516">
+<link target="#au517"/>
+<u type="ortho">
+<anchor synch="#T412"/>
+<seg>je ne sais pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T413" start="#T412" wh="spk2" xml:id="au517">
+<link target="#au516"/>
+<u type="ortho">
+<anchor synch="#T412"/>
+<seg>mais j- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T414" start="#T413" wh="spk2" xml:id="au518">
+<u type="ortho">
+<seg>je j'ai comme ça entendu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T415" start="#T414" wh="spk1" xml:id="au519">
+<link target="#au520"/>
+<u type="ortho">
+<anchor synch="#T414"/>
+<seg>mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T415" start="#T414" wh="spk2" xml:id="au520">
+<u type="ortho">
+<anchor synch="#T414"/>
+<seg/>
+</u>
+<link target="#au519"/>
+</annotatedU>
+<annotatedU end="#T416" start="#T415" wh="spk2" xml:id="au521">
+<u type="ortho">
+<seg>et bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T417" start="#T416" wh="spk1" xml:id="au522">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T418" start="#T417" wh="spk2" xml:id="au523">
+<u type="ortho">
+<seg>et <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je n'étais pas du tout <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>(j'ai je) <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'avais des amis de tous les côtés <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais je n'ai jamais comment dire fait <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>fait la différence <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>parce que on (n') était p- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je ne sais pas mon père <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>était p- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>politique il était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>blessé dans la guerre de quatorze on a même on a écrit dans les journaux <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>euh comment dire <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>gloire aux aux soldats morts pour la patrie <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>on et finalement on l'a ramassé il était vivant et bon <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et il était <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>dans la politique <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>il /s'est, s'ét-/ il s- était au courant <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>toujours <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>de tout <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais après <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>quand le titisme est venu <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>ce n'était pas ce qu'on a <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>imaginé <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et mes amis qui étaient par exemple <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>super idéalistes communistes parce que moi je n'étais pas politisée <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>tellement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais /j'ai, j'é-/ <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>j'étais toujours pour l'égalité pour le les choses de de gauche finalement <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>mais ce n'était pas tel- <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>exactement ça </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">un autre locuteur dit mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+<span type="com">un autre locuteur dit mm mm</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T419" start="#T418" wh="spk1" xml:id="au524">
+<u type="ortho">
+<seg>et du coup ça a tu étais trop déçue pour t'y </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T420" start="#T419" wh="spk2" xml:id="au525">
+<link target="#au526"/>
+<u type="ortho">
+<anchor synch="#T419"/>
+<seg>et moi je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T420" start="#T419" wh="spk1" xml:id="au526">
+<link target="#au525"/>
+<u type="ortho">
+<anchor synch="#T419"/>
+<seg>intéresser en France </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T421" start="#T420" wh="spk2" xml:id="au527">
+<u type="ortho">
+<seg>je n'étais pas sûre de rien <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et je <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>et comme je ne <incident type="Event">
+<desc type="desc">pause</desc>
+</incident>je ne connaissais pas suffisamment le </seg>
+</u>
+<spanGrp>
+<span type="com">un autre locuteur dit mm</span>
+</spanGrp>
+</annotatedU>
+</div>
+</text>
+</TEI>

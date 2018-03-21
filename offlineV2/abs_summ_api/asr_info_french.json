@@ -1,0 +1,1586 @@
+[
+  {
+    "start": 1,
+    "end": 10,
+    "role": "part1",
+    "text": "Bon c'est parti"
+  },
+  {
+    "start": 2,
+    "end": 20,
+    "role": "part2",
+    "text": "on va le mettre là puis On va essayer de l'oublier ."
+  },
+  {
+    "start": 3,
+    "end": 30,
+    "role": "part1",
+    "text": "bon Juste pour t'expliquer en fait on refait un peu comme comme hier sauf qu'on chacun détaille un petit peu plus ce qu'il a fait et puis puis on essaye de de discuter puis sur sur des points plus en detail que ce qu'on a ce qu'on a deja discuté hier"
+  },
+  {
+    "start": 4,
+    "end": 40,
+    "role": "part2",
+    "text": "Ilyès au fait tu tu avais pas aussi une une il n'y avait pas une stagaire là qui travaillait avec toi"
+  },
+  {
+    "start": 5,
+    "end": 50,
+    "role": "part1",
+    "text": "oui"
+  },
+  {
+    "start": 6,
+    "end": 60,
+    "role": "part2",
+    "text": "je me souviens plus de de de de son prénom et elle elle continue à travailler avec toi"
+  },
+  {
+    "start": 7,
+    "end": 70,
+    "role": "part1",
+    "text": "oui elle est en train de travailler avec moi"
+  },
+  {
+    "start": 8,
+    "end": 80,
+    "role": "part2",
+    "text": "ok tu tu la parce que ça serait peut-être pas mal si elle participait aussi donc aux réunions et puis qu'on parle aussi de de ce qu'elle fait ouais qu'est-ce-que t'en penses"
+  },
+  {
+    "start": 9,
+    "end": 90,
+    "role": "part1",
+    "text": "ok"
+  },
+  {
+    "start": 10,
+    "end": 100,
+    "role": "part2",
+    "text": "ok donc"
+  },
+  {
+    "start": 11,
+    "end": 110,
+    "role": "part1",
+    "text": "j'ai pas bien entendu"
+  },
+  {
+    "start": 12,
+    "end": 120,
+    "role": "part2",
+    "text": "ah tu comprends pas bien le le son est pas bon la parce que je suis sur le le wifi en fait"
+  },
+  {
+    "start": 13,
+    "end": 130,
+    "role": "part1",
+    "text": "si tu veux on peut non mais il n'y a pas de cable c'est pas assez long ça me parait un peu un peu limite"
+  },
+  {
+    "start": 14,
+    "end": 140,
+    "role": "part2",
+    "text": "non ça va pas être assez long ouais mais si je me mets là bas ça va quand même être un peu bizarre quoi tandis que là hop ouais mais laisse tomber"
+  },
+  {
+    "start": 15,
+    "end": 150,
+    "role": "part1",
+    "text": "tu tu est-ce-que tu entends la c'est c'est c'est haché ou non c'est bien ça va ouais ça va oui donc ce que je disais c'est à propos de de de la stagiaire qui qui travaille avec toi donc t'es sur le sur le modèle en langue arabe ça serait peut être bien qu'elle participe aussi aux réunions"
+  },
+  {
+    "start": 16,
+    "end": 160,
+    "role": "part2",
+    "text": "en fait c'est un jour férié"
+  },
+  {
+    "start": 17,
+    "end": 170,
+    "role": "part1",
+    "text": "ah aujourd'hui"
+  },
+  {
+    "start": 18,
+    "end": 180,
+    "role": "part2",
+    "text": "oui aujourd'hui demain et après demain"
+  },
+  {
+    "start": 19,
+    "end": 190,
+    "role": "part1",
+    "text": "ah d'accord"
+  },
+  {
+    "start": 20,
+    "end": 200,
+    "role": "part2",
+    "text": "c'est l'Eid chez vous"
+  },
+  {
+    "start": 21,
+    "end": 210,
+    "role": "part1",
+    "text": "comment"
+  },
+  {
+    "start": 22,
+    "end": 220,
+    "role": "part2",
+    "text": "c'est l'Eid chez vous"
+  },
+  {
+    "start": 23,
+    "end": 230,
+    "role": "part1",
+    "text": "oui"
+  },
+  {
+    "start": 24,
+    "end": 240,
+    "role": "part2",
+    "text": "c'est aujourd'hui l'Eid"
+  },
+  {
+    "start": 25,
+    "end": 250,
+    "role": "part1",
+    "text": "non c'est demain l'Eid mais c'est un jour férié"
+  },
+  {
+    "start": 26,
+    "end": 260,
+    "role": "part2",
+    "text": "ok d'accord"
+  },
+  {
+    "start": 27,
+    "end": 270,
+    "role": "part1",
+    "text": "ok donc bah tu bon non là je comprends mais donc tu tu es peut être pas du coup Linagora c'est fermé aujourd'hui"
+  },
+  {
+    "start": 28,
+    "end": 280,
+    "role": "part2",
+    "text": "oui oui"
+  },
+  {
+    "start": 29,
+    "end": 290,
+    "role": "part1",
+    "text": "ah ok donc tu es chez toi peut être"
+  },
+  {
+    "start": 30,
+    "end": 300,
+    "role": "part2",
+    "text": "ouai"
+  },
+  {
+    "start": 31,
+    "end": 310,
+    "role": "part1",
+    "text": "ok ok bon mais pour la semaine prochaine peut-être on on pourra la la faire participer"
+  },
+  {
+    "start": 32,
+    "end": 320,
+    "role": "part2",
+    "text": "ouais oui ok"
+  },
+  {
+    "start": 33,
+    "end": 330,
+    "role": "part1",
+    "text": "d'accord"
+  },
+  {
+    "start": 34,
+    "end": 340,
+    "role": "part2",
+    "text": "d'accord"
+  },
+  {
+    "start": 35,
+    "end": 350,
+    "role": "part1",
+    "text": "bon très bien"
+  },
+  {
+    "start": 36,
+    "end": 360,
+    "role": "part2",
+    "text": "bah tu tu pourras lui raconter quand même bah tu t'as qu'à commencer tiens Ilyès et puis tu peux aussi nous nous nous nous parler de ce que tu fais avec elle"
+  },
+  {
+    "start": 37,
+    "end": 370,
+    "role": "part1",
+    "text": "ok en fait au début elle a commencé à faire tourner Kaldi donc je lui demandais d'installer et de lancer un petit un petit exemple pour comprendre de quoi il s'agit comprendre les étapes et comment fonctionne Kaldi"
+  },
+  {
+    "start": 38,
+    "end": 380,
+    "role": "part2",
+    "text": "ensuite je lui donnais la base de langue arabe donc bon son ordinateur n'est pas très puissant donc ça prend beaucoup de temps pour faire l'apprentissage et tous les etapes lancer tous les etapes"
+  },
+  {
+    "start": 39,
+    "end": 390,
+    "role": "part1",
+    "text": "donc je lui demandais de voir d'autres choses par exemple les caractéristiques comment que extrait quelques caractéristiques changer des paramètres défaire des paramètres pour enfin si ça refonctionne sur une petit base voir l'effet de ces paramètres elle peut le lancer par exemple sur la langue arabe ou bien le français etcetera elle a fait ça et maintenant j'ai lui donné la base de langue française pour faire ça pour tester ça donc donc déjà juste je lui ai demandé d'utiliser au lieu d'utiliser  toute la base française donc juste utiliser une partie et faire calculer et changer les paramètres et de jouer sur cette partie pour ensuite un peu alncer ça sur toute la base et voir la performance en changeant les paramètres"
+  },
+  {
+    "start": 40,
+    "end": 400,
+    "role": "part2",
+    "text": "ok et la la base que vous utilisez pour la langue arabe c'est quoi"
+  },
+  {
+    "start": 41,
+    "end": 410,
+    "role": "part1",
+    "text": "c'est une base d'un challenge"
+  },
+  {
+    "start": 42,
+    "end": 420,
+    "role": "part2",
+    "text": "ah oui le challenge du de Al-Jazeera c'est ça"
+  },
+  {
+    "start": 43,
+    "end": 430,
+    "role": "part1",
+    "text": "oui c'est ça"
+  },
+  {
+    "start": 44,
+    "end": 440,
+    "role": "part2",
+    "text": "ok"
+  },
+  {
+    "start": 45,
+    "end": 450,
+    "role": "part1",
+    "text": "et là il y a ya a vraiment du beaucoup de beaucoup de d'informations"
+  },
+  {
+    "start": 46,
+    "end": 460,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 47,
+    "end": 470,
+    "role": "part1",
+    "text": "combien d'heures"
+  },
+  {
+    "start": 48,
+    "end": 480,
+    "role": "part2",
+    "text": "je sais pas exactement mais c'est cent quarante giga le la taille des données"
+  },
+  {
+    "start": 49,
+    "end": 490,
+    "role": "part1",
+    "text": "donc je pense c'est plus que mille heures"
+  },
+  {
+    "start": 50,
+    "end": 500,
+    "role": "part2",
+    "text": "ah oui ok non mais c'est pour avoir un ordre d'idée hein"
+  },
+  {
+    "start": 51,
+    "end": 510,
+    "role": "part1",
+    "text": "c'est mille deux cent heures"
+  },
+  {
+    "start": 52,
+    "end": 520,
+    "role": "part2",
+    "text": "mille deux cent heures ok"
+  },
+  {
+    "start": 53,
+    "end": 530,
+    "role": "part1",
+    "text": "oui"
+  },
+  {
+    "start": 54,
+    "end": 540,
+    "role": "part2",
+    "text": "avec un grand nombre de locuteurs aussi"
+  },
+  {
+    "start": 55,
+    "end": 550,
+    "role": "part1",
+    "text": "oui un nombre donc dataframe Jazeera"
+  },
+  {
+    "start": 56,
+    "end": 560,
+    "role": "part2",
+    "text": "ouais donc ça c'est c'est intéressant d'avoir pu récupérer ça voilà bon après il va falloir effectivement un ordinateur suffisament puissant pour pour pour pouvoir calculer calculer quoi"
+  },
+  {
+    "start": 57,
+    "end": 570,
+    "role": "part1",
+    "text": "ouais non on arrête on a commandé la commande est partie pour le pour la la la carte GPU enfin le serveur donc le le serveur de calcul donc on devrait on devrait recevoir en petits morceaux hein d'après ce que ce que j'ai compris de de de la commande en fait c'est parti chez Amazon"
+  },
+  {
+    "start": 58,
+    "end": 580,
+    "role": "part2",
+    "text": "c'était rapide au final enfin une fois que"
+  },
+  {
+    "start": 59,
+    "end": 590,
+    "role": "part1",
+    "text": "ah oui oui oui oui c'était rapide oui une fois que une fois que le processus a été enclenché ca a été suffisament rapide j'ai fait la la demande d'achat Michel l'a signé tout de suite et puis et puis Valérie a fait la la commande"
+  },
+  {
+    "start": 60,
+    "end": 600,
+    "role": "part2",
+    "text": "Ben je pense qu'avec la wishlist ça lui a"
+  },
+  {
+    "start": 61,
+    "end": 610,
+    "role": "part1",
+    "text": "facilité"
+  },
+  {
+    "start": 62,
+    "end": 620,
+    "role": "part2",
+    "text": "ça lui a peut être facilité le travail"
+  },
+  {
+    "start": 63,
+    "end": 630,
+    "role": "part1",
+    "text": "c'est sur"
+  },
+  {
+    "start": 64,
+    "end": 640,
+    "role": "part2",
+    "text": "du coup du du coup on devrait recevoir on commence à recevoir des morceaux je crois à la fin de la semaine mais"
+  },
+  {
+    "start": 65,
+    "end": 650,
+    "role": "part1",
+    "text": "ça ça dépend quoi"
+  },
+  {
+    "start": 66,
+    "end": 660,
+    "role": "part2",
+    "text": "ça sera surtout la semaine prochaine"
+  },
+  {
+    "start": 67,
+    "end": 670,
+    "role": "part1",
+    "text": "surtout la semaine prochaine"
+  },
+  {
+    "start": 68,
+    "end": 680,
+    "role": "part2",
+    "text": "bon"
+  },
+  {
+    "start": 69,
+    "end": 690,
+    "role": "part1",
+    "text": "je serais pas là"
+  },
+  {
+    "start": 70,
+    "end": 700,
+    "role": "part2",
+    "text": "oui ah oui du coup t'es pas la ouais donc on recueillera les les morceaux on verra ouais enfin bon faut pas ouais bon il faut peut être attendre de toute manière d'avoir tous les morceaux ah oui c'est tellement mieux pour commencer sinon c'est un jeu de construction on va on va être déçus s'il manque puis s'il manque la le le ventilo ou l'alim bon c'est des pièces quand même s'il manque la carte mère ça va être difficile ouais ouais pour le monter s'il y a tout le reste"
+  },
+  {
+    "start": 71,
+    "end": 710,
+    "role": "part1",
+    "text": "bon en en tout état de cause donc c'est parti mais a mon avis avant qu'on puisse l'utiliser il faut bien il faut bien compter compter deux deux semaines quoi entre le la réception du matériel l'installation l'installation et puis du système si on met deux ou trois semaines ça sera ça sera déjà bien à mon avis"
+  },
+  {
+    "start": 72,
+    "end": 720,
+    "role": "part2",
+    "text": "ok donc donc en tout cas pour pour le pour cette pour cette partie la faudra en tout cas faudra faudra attendre un peu quoi"
+  },
+  {
+    "start": 73,
+    "end": 730,
+    "role": "part1",
+    "text": "ok et donc sinon sur le pour le toi t'as continué à travailler sur la base donc en français"
+  },
+  {
+    "start": 74,
+    "end": 740,
+    "role": "part2",
+    "text": "oui"
+  },
+  {
+    "start": 75,
+    "end": 750,
+    "role": "part1",
+    "text": "ok tu tu peux élaborer un peu"
+  },
+  {
+    "start": 76,
+    "end": 760,
+    "role": "part2",
+    "text": "ok donc j'ai travaillé surtout sur la construction de la base avoir plus de données pour l'apprentissage parce qu'en fait trente heures c'est très négligeable par rapport à ce que les autres utilisent pour faire l'apprentissage même si j'ai utilisé trente heures donc le le test c'est pas très mauvais c'est environ trente trente pourcent quarante pourcent donc et aussi sans changer les paramètres sans utiliser les réseaux de neurones je pense c'est pas très mauvais ce que j'ai obtenu jusqu'à maintenant faut juste on doit juste utiliser plus de données dans l'apprentissage jouer aussi sur les méthodes d'apprentissage les réseaux de neurones les paramètres etcetera je pense qu'on peut obtenir enfin de très bons résultats"
+  },
+  {
+    "start": 77,
+    "end": 770,
+    "role": "part1",
+    "text": "dès lors qu'on aura plus de plus de de de données quoi"
+  },
+  {
+    "start": 78,
+    "end": 780,
+    "role": "part2",
+    "text": "oui oui"
+  },
+  {
+    "start": 79,
+    "end": 790,
+    "role": "part1",
+    "text": "plus de données donc on peut avoir de bons résultats des d'autres bases utilisent cent heures mille heures donc trente heures c'est c'est rien par rapport à les autres modèles des autres langues"
+  },
+  {
+    "start": 80,
+    "end": 800,
+    "role": "part2",
+    "text": "mais du coup tu penses que tu vas réussir à atteindre une base de quelle taille toi à la main en faisant ce que tu fais actuellement"
+  },
+  {
+    "start": 81,
+    "end": 810,
+    "role": "part1",
+    "text": "on peut obtenir ce qu'on peut veut ce qu'on veut mais ça prend du temps"
+  },
+  {
+    "start": 82,
+    "end": 820,
+    "role": "part2",
+    "text": "beh oui"
+  },
+  {
+    "start": 83,
+    "end": 830,
+    "role": "part1",
+    "text": "mais c'est ça le problème oui"
+  },
+  {
+    "start": 84,
+    "end": 840,
+    "role": "part2",
+    "text": "oui c'est ça le problème"
+  },
+  {
+    "start": 85,
+    "end": 850,
+    "role": "part1",
+    "text": "donc le j'ai passé presque un mois environ un mois pour préparer une base de trente heures"
+  },
+  {
+    "start": 86,
+    "end": 860,
+    "role": "part2",
+    "text": "oui du coup"
+  },
+  {
+    "start": 87,
+    "end": 870,
+    "role": "part1",
+    "text": "on peut accélerer ça si on partage ces taches sur plusieurs personnes mais au minimum on peut obtenir une base de cent heures c'est bien si on on obtient en première étape une base de cent heures et tester vraiment la performance et jouer sur tous les paramètres"
+  },
+  {
+    "start": 88,
+    "end": 880,
+    "role": "part2",
+    "text": "ouais vasy attends il y a Jessica qui veut dire quelque chose"
+  },
+  {
+    "start": 89,
+    "end": 890,
+    "role": "part1",
+    "text": "du coup Elyès depuis vendredi tu sais les les fichiers que que j'ai mis sur le le serveur là Mega tu les a inclus dans le corpus ou ou pas"
+  },
+  {
+    "start": 90,
+    "end": 900,
+    "role": "part2",
+    "text": "j'ai pas encore tout utilisé j'ai téléchargé j'ai regardé ok de quoi il s'agit mais"
+  },
+  {
+    "start": 91,
+    "end": 910,
+    "role": "part1",
+    "text": "parce que je les ai j'en ai encore mis ce matin mais du coup quand tu dis préparer les données enfin au dela de juste les récolter t'en fait quoi en fait"
+  },
+  {
+    "start": 92,
+    "end": 920,
+    "role": "part2",
+    "text": "non c'est pas seulement utiliser  comme le format que tu as mis il faut préparer seulement il faut avoir seulement le texte oui il faut filtrer les texte ah oui dans dans ces fichiers donc récupérer seulement le texte ouais prononcé ensuite il faut segmenter ces fichiers parole des segments de dix quinze secondes donc c'est faire ça semi-automatique attends j'utilise un programme automatique pour faire la segmentation des fichiers audio en se basant sur les silences du coup et ensuite je segmente la transcription manuellement c'est ça le problème donc mais pourquoi ça prend du temps tu coupes les fichiers audio en sachant que la plupart ils sont pas super longs"
+  },
+  {
+    "start": 93,
+    "end": 930,
+    "role": "part1",
+    "text": "j'ai pas entendu"
+  },
+  {
+    "start": 94,
+    "end": 940,
+    "role": "part2",
+    "text": "pourquoi tu les coupes enfin il y en a quelques un ils ils sont super longs mais quand ça fait une minute tu gagnes quoi à les segmenter en trucs de dix secondes"
+  },
+  {
+    "start": 95,
+    "end": 950,
+    "role": "part1",
+    "text": "s'il y a beaucoup de texte donc il faut les segmenter"
+  },
+  {
+    "start": 96,
+    "end": 960,
+    "role": "part2",
+    "text": "en fait c'est recommandé d'utiliser des segments d'accord de courte durée"
+  },
+  {
+    "start": 97,
+    "end": 970,
+    "role": "part1",
+    "text": "et c'est combien de de en en gros le la durée de d'un segment"
+  },
+  {
+    "start": 98,
+    "end": 980,
+    "role": "part2",
+    "text": "en général c'est dix quinze secondes j'ai vérifié pour d'autres bases pour l'ang pour l'anglais et j'ai trouvé cinq dix quinze secondes mais en fait pour moi même il y a des segments de trente quarante secondes"
+  },
+  {
+    "start": 99,
+    "end": 990,
+    "role": "part1",
+    "text": "mais ce que je comprends pas c'est c'est du coup tu fais l'apprentisssage sur des des segments super courts et t'es d'accord que dans la vraie utilisation du logiciel qu'on va développer on va pas parler par segments enfin justement le si on segmentait pas peut être ça serait moins précis au début mais ça serait plus  comment dire plus réaliste quoi je sais pas j'avais jamais vu je sais pas"
+  },
+  {
+    "start": 100,
+    "end": 1000,
+    "role": "part2",
+    "text": "mais en fait ce sont des segments une minute segment une minute c'est la même chose de d'un segment de trente ou dix secondes en fait c'est en temps réel  qu'on va faire la reconnaissance"
+  },
+  {
+    "start": 101,
+    "end": 1010,
+    "role": "part1",
+    "text": "ouais ce que en fait quand tu fais la reconnaissance ensuite quand le système derrière il fait la reconnaissance il doit prendre des des des fenêtres ouais d'accord qu'il déplace ouais tu vois il y a une espèce enfin je fenêtre de Hamming ouais voilà"
+  },
+  {
+    "start": 102,
+    "end": 1020,
+    "role": "part2",
+    "text": "ouais voilà et du coup du coup ça doit correspondre à ce à cet intervalle de segmentation quoi ouai"
+  },
+  {
+    "start": 103,
+    "end": 1030,
+    "role": "part1",
+    "text": "ça me semble être énormement de travail en fait de segmenter pour je sais pas enfin fin il y a surement une théorie derrière s'il le fait mais pour un mois pour trente heures de corpus ça me semble énorme quoi"
+  },
+  {
+    "start": 104,
+    "end": 1040,
+    "role": "part2",
+    "text": "ouais ouais au début je sais parce que au début t'avais t'avais essayé sans sans segmenter de mémoire et et alors les résultats étaient extrêmement mauvais d'accord ouais et ça prend du temps pour le décodage"
+  },
+  {
+    "start": 105,
+    "end": 1050,
+    "role": "part1",
+    "text": "c'est pas la même chose le decodage d'un segment d'une minute ou de cinq minutes qu'un segment de dix secondes mais c'est j'ai j'ai cherché sur internet et j'ai trouvé que c'est recommandé d'utiliser des segments d'utiliser des segments de courte durée c'est pour ça j'ai fait ça d'accord"
+  },
+  {
+    "start": 106,
+    "end": 1060,
+    "role": "part2",
+    "text": ""
+  },
+  {
+    "start": 107,
+    "end": 1070,
+    "role": "part1",
+    "text": "d'accord"
+  },
+  {
+    "start": 108,
+    "end": 1080,
+    "role": "part2",
+    "text": "ok et du coup du coup pour faire ça evidemment euh ça veut dire que il faut faut prendre le le le le donc en fait toi ce que tu tu obtiens pour l'instant c'est d'une part le texte"
+  },
+  {
+    "start": 109,
+    "end": 1090,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 110,
+    "end": 1100,
+    "role": "part2",
+    "text": "d'autre part le euh le le"
+  },
+  {
+    "start": 111,
+    "end": 1110,
+    "role": "part1",
+    "text": "fichier audio"
+  },
+  {
+    "start": 112,
+    "end": 1120,
+    "role": "part2",
+    "text": "fichier mp3 euh et audio"
+  },
+  {
+    "start": 113,
+    "end": 1130,
+    "role": "part1",
+    "text": "ouais en sachant que deja le texte c'est souvent des formats bizarres en fonction de des gens qui ont récoltés les corpus des fois y a des lignes avec des numéros en début enfin vous voyez ce il y a du texte mais aussi"
+  },
+  {
+    "start": 114,
+    "end": 1140,
+    "role": "part2",
+    "text": "des métadonnées quoi"
+  },
+  {
+    "start": 115,
+    "end": 1150,
+    "role": "part1",
+    "text": "ouais voila des trucs inutiles"
+  },
+  {
+    "start": 116,
+    "end": 1160,
+    "role": "part2",
+    "text": "ben ça dépend par exemple ben s'il y a une métadonnée qui indique le temps"
+  },
+  {
+    "start": 117,
+    "end": 1170,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 118,
+    "end": 1180,
+    "role": "part2",
+    "text": "du coup on peut imaginer segmenter le fichier texte de manière automatique par rapport à comment on a segmenté le fichier audio"
+  },
+  {
+    "start": 119,
+    "end": 1190,
+    "role": "part1",
+    "text": "ouais dès lors qu'on a un outil qui qui sait euh"
+  },
+  {
+    "start": 120,
+    "end": 1200,
+    "role": "part2",
+    "text": "enfin oui ça peut se parser euh si c'est un si c'est un format pas trop compliqué tu peux faire un parter quoi qui va faire ouais la segmentation"
+  },
+  {
+    "start": 121,
+    "end": 1210,
+    "role": "part1",
+    "text": "oui soit tu le fais l'outil soit tu parce que euh il y a peut être des outils qui euh font ça je suis que cette chaîne de de de production auquel on on est euh"
+  },
+  {
+    "start": 122,
+    "end": 1220,
+    "role": "part2",
+    "text": "il faudra voir avec les fichiers de sous-titres"
+  },
+  {
+    "start": 123,
+    "end": 1230,
+    "role": "part1",
+    "text": "confronté"
+  },
+  {
+    "start": 124,
+    "end": 1240,
+    "role": "part2",
+    "text": "parce que c'est le"
+  },
+  {
+    "start": 125,
+    "end": 1250,
+    "role": "part1",
+    "text": "ouais ce genre de truc"
+  },
+  {
+    "start": 126,
+    "end": 1260,
+    "role": "part2",
+    "text": "les gens qui font des sous-titrages de film doivent avoir des trucs"
+  },
+  {
+    "start": 127,
+    "end": 1270,
+    "role": "part1",
+    "text": "il  y a peut-être des standards"
+  },
+  {
+    "start": 128,
+    "end": 1280,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 129,
+    "end": 1290,
+    "role": "part1",
+    "text": "enfin si ça c'est le pire en fait parce que ça sert à tu vois la y a"
+  },
+  {
+    "start": 130,
+    "end": 1300,
+    "role": "part2",
+    "text": "en fait ça identifie la personne qui parle peut-être"
+  },
+  {
+    "start": 131,
+    "end": 1310,
+    "role": "part1",
+    "text": "peut-être pas"
+  },
+  {
+    "start": 132,
+    "end": 1320,
+    "role": "part2",
+    "text": "ouais genre le texte hotesse client"
+  },
+  {
+    "start": 133,
+    "end": 1330,
+    "role": "part1",
+    "text": "ah ouais même pas"
+  },
+  {
+    "start": 134,
+    "end": 1340,
+    "role": "part2",
+    "text": "ouais d'accord c'est pourri là"
+  },
+  {
+    "start": 135,
+    "end": 1350,
+    "role": "part1",
+    "text": "là c'est même pas du temps et puis des fois il y a le temps mais des fois il y a"
+  },
+  {
+    "start": 136,
+    "end": 1360,
+    "role": "part2",
+    "text": "c'est l'espèce de moment"
+  },
+  {
+    "start": 137,
+    "end": 1370,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 138,
+    "end": 1380,
+    "role": "part2",
+    "text": "enfin ça ressemble après aux aux métadonnées peut-être que que par exemple euh l'école polytechnique nous a demandé d'inclure"
+  },
+  {
+    "start": 139,
+    "end": 1390,
+    "role": "part1",
+    "text": "peut-être ouais"
+  },
+  {
+    "start": 140,
+    "end": 1400,
+    "role": "part2",
+    "text": "à l'issue de la transcription tu sais à l'issue de la transcription il faut mettre des métadonnées euh le temps euh le la personne"
+  },
+  {
+    "start": 141,
+    "end": 1410,
+    "role": "part1",
+    "text": "ouais c'est"
+  },
+  {
+    "start": 142,
+    "end": 1420,
+    "role": "part2",
+    "text": "la y a les personnes la"
+  },
+  {
+    "start": 143,
+    "end": 1430,
+    "role": "part1",
+    "text": "mais chacun ils ont tous des donéées différentes"
+  },
+  {
+    "start": 144,
+    "end": 1440,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 145,
+    "end": 1450,
+    "role": "part1",
+    "text": "là juste je change de sujet mais ça me fait penser dans ton rapport tu tu l'as décrit le euh le euh la structure là du du fichier de l'école polytechnique"
+  },
+  {
+    "start": 146,
+    "end": 1460,
+    "role": "part2",
+    "text": "oui"
+  },
+  {
+    "start": 147,
+    "end": 1470,
+    "role": "part1",
+    "text": "ok"
+  },
+  {
+    "start": 148,
+    "end": 1480,
+    "role": "part2",
+    "text": "c'est euh non mais t'as décrit les métadonnées exactement qu'est-ce qu'ils veulent et cetera"
+  },
+  {
+    "start": 149,
+    "end": 1490,
+    "role": "part1",
+    "text": "oui"
+  },
+  {
+    "start": 150,
+    "end": 1500,
+    "role": "part2",
+    "text": "ok c'est juste pour euh pour pour mémoire euh ok donc euh alors après parce que euh peut-être euh si c'est du coup peut-être on on pourrait pour t'aider un peu plus euh illyès peut-être qu'on pourrait essayer de euh de fournir les des données qui seraient plus proche de ce dont tu tu tu as besoin mais ce qui veut dire qu'il faudrait prendre en charge une partie la de de ce ce traitement euh tu dis que tu segmente le fichier de parole de manière semi-automatique avec un avec un un un un outil qui détecte les blancs"
+  },
+  {
+    "start": 151,
+    "end": 1510,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 152,
+    "end": 1520,
+    "role": "part2",
+    "text": "c'est quoi cet outil c'est toi qui l'as développé ou c'est c'est un outil qui euh du commerce enfin qui est dispo qu'on peut récupérer"
+  },
+  {
+    "start": 153,
+    "end": 1530,
+    "role": "part1",
+    "text": "ouais en fait c'est euh c'est un programme sur matlab c'est euh gratuit on peut l'utiliser"
+  },
+  {
+    "start": 154,
+    "end": 1540,
+    "role": "part2",
+    "text": "ouais enfin matlab c'est pas gratuit"
+  },
+  {
+    "start": 155,
+    "end": 1550,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 156,
+    "end": 1560,
+    "role": "part2",
+    "text": "peut-être octave peut-être octave"
+  },
+  {
+    "start": 157,
+    "end": 1570,
+    "role": "part1",
+    "text": "matlab matlab c'est pas gratuit"
+  },
+  {
+    "start": 158,
+    "end": 1580,
+    "role": "part2",
+    "text": "non"
+  },
+  {
+    "start": 159,
+    "end": 1590,
+    "role": "part1",
+    "text": "ya octave qui c'est son clone gratuit quoi mais euh y a pas forcement tous le programmes en fait"
+  },
+  {
+    "start": 160,
+    "end": 1600,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 161,
+    "end": 1610,
+    "role": "part1",
+    "text": "toi c'est matlab ou c'est son euh équivalent euh opensource ou gratuit"
+  },
+  {
+    "start": 162,
+    "end": 1620,
+    "role": "part2",
+    "text": "opensource"
+  },
+  {
+    "start": 163,
+    "end": 1630,
+    "role": "part1",
+    "text": "ouais euh j'utilise matlab"
+  },
+  {
+    "start": 164,
+    "end": 1640,
+    "role": "part2",
+    "text": "matlab oui euh"
+  },
+  {
+    "start": 165,
+    "end": 1650,
+    "role": "part1",
+    "text": "c'est quoi c'est quoi le nom du truc sous matlab que t'utilises"
+  },
+  {
+    "start": 166,
+    "end": 1660,
+    "role": "part2",
+    "text": "euh voicebox il y a d'outil qui permet de voicebox"
+  },
+  {
+    "start": 167,
+    "end": 1670,
+    "role": "part1",
+    "text": "merci"
+  },
+  {
+    "start": 168,
+    "end": 1680,
+    "role": "part2",
+    "text": "y a beaucoup de gens quand même que qu'on voit qui qu'utilises matlab dans ce domaine"
+  },
+  {
+    "start": 169,
+    "end": 1690,
+    "role": "part1",
+    "text": "ben ouais"
+  },
+  {
+    "start": 170,
+    "end": 1700,
+    "role": "part2",
+    "text": "ouais c'est parce que c'est un outil traditionnel"
+  },
+  {
+    "start": 171,
+    "end": 1710,
+    "role": "part1",
+    "text": "pour le traitement du signal ouais ouais"
+  },
+  {
+    "start": 172,
+    "end": 1720,
+    "role": "part2",
+    "text": "ouais c'est c'est"
+  },
+  {
+    "start": 173,
+    "end": 1730,
+    "role": "part1",
+    "text": "parce que le traitement du signal c'est vrai que"
+  },
+  {
+    "start": 174,
+    "end": 1740,
+    "role": "part2",
+    "text": "ouais à l'insa on le laisse tomber euh pour python en ce moment"
+  },
+  {
+    "start": 175,
+    "end": 1750,
+    "role": "part1",
+    "text": "ouais voila la y a python qui est u peu en train de prendre la place mais"
+  },
+  {
+    "start": 176,
+    "end": 1760,
+    "role": "part2",
+    "text": "vous aussi c'est ce que vous utilisiez ouais"
+  },
+  {
+    "start": 177,
+    "end": 1770,
+    "role": "part1",
+    "text": "ouais matlab ouais c'est ce qu'on utilise pour le calcul numérique"
+  },
+  {
+    "start": 178,
+    "end": 1780,
+    "role": "part2",
+    "text": "moi tous mes cours de traitement du signal je crois que c'était sous octave mais"
+  },
+  {
+    "start": 179,
+    "end": 1790,
+    "role": "part1",
+    "text": "sous octave"
+  },
+  {
+    "start": 180,
+    "end": 1800,
+    "role": "part2",
+    "text": "j'ai l'impression qu'il y a un équivalent octave qui existait euh à voicebox"
+  },
+  {
+    "start": 181,
+    "end": 1810,
+    "role": "part1",
+    "text": "j'ai trouvé un truc comme celui la ouais"
+  },
+  {
+    "start": 182,
+    "end": 1820,
+    "role": "part2",
+    "text": "et juste pour euh un petit détail en fait pour la segmentation en fait la segmentation est pertinente pour pour l'extraction du euh de du signal pertinent de de le signal pertinent dont on a besoin parce que si pardon si on a un un un enregistrement de de de de cinquante cinquante minutes ou un truc comme ça avec euh mélangé des gens qui parle et après y a des y a de la musique y a du bruit et cetera si on segmente pas ben donc on a va faire travailler notre système d'apprentissage dans le vide un petit peu en fait donc euh il va prendre il va prendre les moments où y a où y a du vide donc il va travailler la phase d'apprentissage sur celui la mais du coup les résultats ça ça sert à rien on va dire donc euh c'est pas c'est pas optimal donc par contre la segmentation si on passe d'un segment à un autre par exemple d'un premier segment où il y a pas de musique donc voila il le balance il passe au deuxième segment et cetera dès qu'il trouve un signal un signal il commence à à le traiter donc je pense que c'est pour ça qu'à chaque fois c'est ça donne de meilleur résultat donc euh la segmentation nous permet juste en fait de"
+  },
+  {
+    "start": 183,
+    "end": 1830,
+    "role": "part1",
+    "text": "oui mais du coup euh la fréquence enfin non la c'est pas la fréquence la période de dix à quinze secondes c'est peut-être petit non"
+  },
+  {
+    "start": 184,
+    "end": 1840,
+    "role": "part2",
+    "text": "ouais c'est petit mais mais euh ça reste intéressant quand même euh à chaque fois qu'on"
+  },
+  {
+    "start": 185,
+    "end": 1850,
+    "role": "part1",
+    "text": "ouais remarque ouais ça t'évite de"
+  },
+  {
+    "start": 186,
+    "end": 1860,
+    "role": "part2",
+    "text": "voila donc faut pas trop réduire non plus à une seconde"
+  },
+  {
+    "start": 187,
+    "end": 1870,
+    "role": "part1",
+    "text": "oui oui parce la du coup"
+  },
+  {
+    "start": 188,
+    "end": 1880,
+    "role": "part2",
+    "text": "ça va être ça va donner de meilleur résultat je sais pas mais euh mais euh dix quinze secondes ça paraît plus plutôt raisonnable"
+  },
+  {
+    "start": 189,
+    "end": 1890,
+    "role": "part1",
+    "text": "ben non s'il fait l'apprentissage en voyant jamais de blanc comment il fait pour euh traiter le blanc euh parce qu'il y en a quand on parle tu vois ce que je veux dire"
+  },
+  {
+    "start": 190,
+    "end": 1900,
+    "role": "part2",
+    "text": "tu veux dire euh"
+  },
+  {
+    "start": 191,
+    "end": 1910,
+    "role": "part1",
+    "text": "en vrai en fait"
+  },
+  {
+    "start": 192,
+    "end": 1920,
+    "role": "part2",
+    "text": "ouais si tu segmente euh c'est ce que ce à quoi euh ce à quoi j'ai du mal la c'est si tu segmente les fichiers d'apprentissage ouais  de façon à ce que ce soit entre enfin pas pas parfait mais ce soit vraiment des des moments de parole et t'enlève le blanc ça veut dire euh que ton logiciel la il est jamais confronté à ça  mais quand nous on parle là y a des ya du blanc quoi"
+  },
+  {
+    "start": 193,
+    "end": 1930,
+    "role": "part1",
+    "text": "après bon ça dépend du ça dépend de ça dépend de du modèle"
+  },
+  {
+    "start": 194,
+    "end": 1940,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 195,
+    "end": 1950,
+    "role": "part1",
+    "text": "parce que kaldi quand on dit des modèles qui utilise le blanc donc euh le blanc parfois il le traduit par noise au départ en premier ou un truc comme ça mais donc entre crochet je l'ai deja essayé quand le micro ne marche pas j'ai fait un enregistrement et j'ai eu des noise noise noise pendant voila"
+  },
+  {
+    "start": 196,
+    "end": 1960,
+    "role": "part2",
+    "text": "d'accord euh c'est deja"
+  },
+  {
+    "start": 197,
+    "end": 1970,
+    "role": "part1",
+    "text": "c'est deja pas le ça dépend du modèle après si ton modèle tu l'as appris euh à faire du blanc en tu lui dis tout ce qu'il le detecte y a pas de soucis ben effectivement alors s'il a pas appris il aura du mal quoi"
+  },
+  {
+    "start": 198,
+    "end": 1980,
+    "role": "part2",
+    "text": "ah ok"
+  },
+  {
+    "start": 199,
+    "end": 1990,
+    "role": "part1",
+    "text": "ouais voila"
+  },
+  {
+    "start": 200,
+    "end": 2000,
+    "role": "part2",
+    "text": "ok donc on pourrait euh peut-être donc il faudrait euh essayer de se rapprocher un peu plus de de ce dont t'as besoin illyès pour euh ouais pour euh pour l'aider"
+  },
+  {
+    "start": 201,
+    "end": 2010,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 202,
+    "end": 2020,
+    "role": "part2",
+    "text": "euh"
+  },
+  {
+    "start": 203,
+    "end": 2030,
+    "role": "part1",
+    "text": "bon en premier pour en premier lieu on peut tester en utilisant tous les fichier comme ça sans les segmenter pour voir si ça va fonctionner ou non si si euh c'est bon donc on peut on peut terminer comme ça  sinon on doit les segmenter"
+  },
+  {
+    "start": 204,
+    "end": 2040,
+    "role": "part2",
+    "text": "ah tu tu tu penses qu'on peut faire un essai euh"
+  },
+  {
+    "start": 205,
+    "end": 2050,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 206,
+    "end": 2060,
+    "role": "part2",
+    "text": "un un toute manière on on on recueille le euh le jeu de données"
+  },
+  {
+    "start": 207,
+    "end": 2070,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 208,
+    "end": 2080,
+    "role": "part2",
+    "text": "on peut peut-être il faudrait essayer peut-être de se donner un un objectif ouais parce que sinon on on est en on on le fait au fur et à mesure et on et puis et puis on sait plus trop ou est-ce qu'on en est donc là euh le le ce qu'on a actuellement c'est trente heures"
+  },
+  {
+    "start": 209,
+    "end": 2090,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 210,
+    "end": 2100,
+    "role": "part2",
+    "text": "euh on a un modèle pour trente heures donc on pourrait se dire on se donne un modèle pour cent heures ça serait deja deja ça serait deja un coefficient trois et même plus euh euh même si au mille deux cent heures d'aljazira c'est pas beaucoup euh bon c'est peut-etre euh c'est c'est c'est deja un premier un premier step"
+  },
+  {
+    "start": 211,
+    "end": 2110,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 212,
+    "end": 2120,
+    "role": "part2",
+    "text": "donc sur un modèle alors euh tu toi jessica t'as fait deja des des des euh t'avais deja récupéré des trucs la semaine dernière"
+  },
+  {
+    "start": 213,
+    "end": 2130,
+    "role": "part1",
+    "text": "ah oui j'ai j'ai mis énorme en fait on a un serveur en fait c'est un truc d'illyès sur lequel je dépose plein de fichiers et depuis la semaine dernière j'ai déposé en gros deja deux énormes corpus mais en fait je me rendais pas compte que euh en fait il m'avait dit que qu'il y avait du travail à faire en amont donc je je deposais ça comme ça en fait"
+  },
+  {
+    "start": 214,
+    "end": 2140,
+    "role": "part2",
+    "text": "donc tes deux énormes corpus ils font quelle tu sais quelle taille il font en fin de compte"
+  },
+  {
+    "start": 215,
+    "end": 2150,
+    "role": "part1",
+    "text": "euh je sais en giga après en heures c'est dur parce que les fichiers audio sont pas tous au même endroit mais je dois avoir quatre giga à peu près euh de fichier audio c'est pas les cent les cent et quelques d'aljazira"
+  },
+  {
+    "start": 216,
+    "end": 2160,
+    "role": "part2",
+    "text": "non non mais mais c'est déjà beaucoup  ouais on doit atteindre nos cent heures"
+  },
+  {
+    "start": 217,
+    "end": 2170,
+    "role": "part1",
+    "text": "non pas sur"
+  },
+  {
+    "start": 218,
+    "end": 2180,
+    "role": "part2",
+    "text": "ça dépend"
+  },
+  {
+    "start": 219,
+    "end": 2190,
+    "role": "part1",
+    "text": "faudrait que je je sais pas si"
+  },
+  {
+    "start": 220,
+    "end": 2200,
+    "role": "part2",
+    "text": "quatre giga"
+  },
+  {
+    "start": 221,
+    "end": 2210,
+    "role": "part1",
+    "text": "ça dépend du format des fichiers"
+  },
+  {
+    "start": 222,
+    "end": 2220,
+    "role": "part2",
+    "text": "des fichiers ouais"
+  },
+  {
+    "start": 223,
+    "end": 2230,
+    "role": "part1",
+    "text": "comment on pourrait mesurer ça facilement"
+  },
+  {
+    "start": 224,
+    "end": 2240,
+    "role": "part2",
+    "text": "non mais je crois que je peux voir sur internet"
+  },
+  {
+    "start": 225,
+    "end": 2250,
+    "role": "part1",
+    "text": "en général ils le publient quand ils"
+  },
+  {
+    "start": 226,
+    "end": 2260,
+    "role": "part2",
+    "text": "ouais je vais retrouver le lien des corpus"
+  },
+  {
+    "start": 227,
+    "end": 2270,
+    "role": "part1",
+    "text": ""
+  },
+  {
+    "start": 228,
+    "end": 2280,
+    "role": "part2",
+    "text": "mais c'est vrai que en fait il faudrait peut être un protocole parce que moi depuis une semaine je cherche des corpus et et et fin y a pas vraiment de ouais y a pas d'objectifs enfin Elyès il m'avait pas dit qu'il y avait un traitement à faire après ni rien donc c'est un peu flou quoi"
+  },
+  {
+    "start": 229,
+    "end": 2290,
+    "role": "part1",
+    "text": "ouais tu sais pas trop où tu vas ouais"
+  },
+  {
+    "start": 230,
+    "end": 2300,
+    "role": "part2",
+    "text": "ouais du coup celui là ils le disent pas"
+  },
+  {
+    "start": 231,
+    "end": 2310,
+    "role": "part1",
+    "text": "ah oui ils le disent pas ouais"
+  },
+  {
+    "start": 232,
+    "end": 2320,
+    "role": "part2",
+    "text": "dialogue"
+  },
+  {
+    "start": 233,
+    "end": 2330,
+    "role": "part1",
+    "text": "et celui là"
+  },
+  {
+    "start": 234,
+    "end": 2340,
+    "role": "part2",
+    "text": "en fait vu que c'est plein de fichiers divers et variés et l'autre non ils le disent pas"
+  },
+  {
+    "start": 235,
+    "end": 2350,
+    "role": "part1",
+    "text": "cent vingt quatre mille mots mais c'est tout ça nous aide pas trop"
+  },
+  {
+    "start": 236,
+    "end": 2360,
+    "role": "part2",
+    "text": "bon beh c'est c'est pas grave on va on va le mesurer enfin vous allez je sais pas vous allez regarder voir comment on peut on peut ouais mesurer ça je suppose que peut etre on peut faire au pire on fait une mesure statistique mais ouais on regarde combien combien il y en a"
+  },
+  {
+    "start": 237,
+    "end": 2370,
+    "role": "part1",
+    "text": "ils sont tous à plat dans le même dossier les fichiers audio ou tu es obligée de"
+  },
+  {
+    "start": 238,
+    "end": 2380,
+    "role": "part2",
+    "text": "là à l'heure actuelle sur mon ordi non et sur sur sur le serveur plus"
+  },
+  {
+    "start": 239,
+    "end": 2390,
+    "role": "part1",
+    "text": "donc on se dit on se donne un objectif d'un modèle de cent heures"
+  },
+  {
+    "start": 240,
+    "end": 2400,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 241,
+    "end": 2410,
+    "role": "part1",
+    "text": "alors ce qui Ilyès ce que tu nous dit c'est que on on pourrait faire un premier essai sans sous échantillon ouvre un terminal sans sous échantillonner"
+  },
+  {
+    "start": 242,
+    "end": 2420,
+    "role": "part2",
+    "text": "ouais"
+  },
+  {
+    "start": 243,
+    "end": 2430,
+    "role": "part1",
+    "text": "sans segmentation"
+  },
+  {
+    "start": 244,
+    "end": 2440,
+    "role": "part2",
+    "text": "sans segmentation"
+  },
+  {
+    "start": 245,
+    "end": 2450,
+    "role": "part1",
+    "text": "donc"
+  },
+  {
+    "start": 246,
+    "end": 2460,
+    "role": "part2",
+    "text": "ffmpeg"
+  },
+  {
+    "start": 247,
+    "end": 2470,
+    "role": "part1",
+    "text": "ffmpeg"
+  },
+  {
+    "start": 248,
+    "end": 2480,
+    "role": "part2",
+    "text": "ffmpeg"
+  },
+  {
+    "start": 249,
+    "end": 2490,
+    "role": "part1",
+    "text": "donc sans un modèle dans un premier temps sans segmentation donc il faut quand même qu'on sâche très précisément qu'est ce que t'as besoin qu'est ce que t'as besoin même si on segmente pas quels sont les formats des fichiers comment doivent être comment doivent être les textes s'il doit être complétement épuré il faut il faudrait"
+  },
+  {
+    "start": 250,
+    "end": 2500,
+    "role": "part2",
+    "text": "c'est quoi le format"
+  },
+  {
+    "start": 251,
+    "end": 2510,
+    "role": "part1",
+    "text": "il faudrait l'épurer etcetera"
+  },
+  {
+    "start": 252,
+    "end": 2520,
+    "role": "part2",
+    "text": "ils donnent pas de durée"
+  },
+  {
+    "start": 253,
+    "end": 2530,
+    "role": "part1",
+    "text": "si tu les tries par type et que tu les ouvres avec VLC est ce qu'il te dit"
+  },
+  {
+    "start": 254,
+    "end": 2540,
+    "role": "part2",
+    "text": "non on verra ça tout a lheure"
+  },
+  {
+    "start": 255,
+    "end": 2550,
+    "role": "part1",
+    "text": "donc est ce qu'on peut est ce qu'on peut deja s'attaquer à cette à cette tache donc de de le mettre en format compatible avec ce dont Ilyès a besoin sans sans segmentation"
+  },
+  {
+    "start": 256,
+    "end": 2560,
+    "role": "part2",
+    "text": "et on dit que ah je sais pas Jessica et Florianne vous vous mettez à ça"
+  },
+  {
+    "start": 257,
+    "end": 2570,
+    "role": "part1",
+    "text": "ouais"
+  },
+  {
+    "start": 258,
+    "end": 2580,
+    "role": "part2",
+    "text": "d'accord"
+  },
+  {
+    "start": 259,
+    "end": 2590,
+    "role": "part1",
+    "text": "et et on essaie aussi d'evaluer le nombre d'heures et et comment et Elyès qui lance l'apprentissage là dessus"
+  },
+  {
+    "start": 260,
+    "end": 2600,
+    "role": "part2",
+    "text": "ok"
+  },
+  {
+    "start": 261,
+    "end": 2610,
+    "role": "part1",
+    "text": "et ensuite apprenti j'imagine que du coup même si on arrive à un truc qui qui avoisine les cent heures ça va nous limer pendant un certain temps pour l'instant parce qu'on a pas de on a rien on a rien il faudrait idéalement il faudrait faire l'apprentissage en mode GMM-HMM et en mode DNN-HMM"
+  },
+  {
+    "start": 262,
+    "end": 2620,
+    "role": "part2",
+    "text": "qu'est ce que t'en penses Ilyès"
+  },
+  {
+    "start": 263,
+    "end": 2630,
+    "role": "part1",
+    "text": "ça nous permettrait de de d'avoir les deux déjà deux deux les deux modèles un GMM et puis un réseau de neurones"
+  },
+  {
+    "start": 264,
+    "end": 2640,
+    "role": "part2",
+    "text": "et ensuite on peut modifier quelque chose et voir la performance combiner par exemple les deux modèles"
+  }
+]

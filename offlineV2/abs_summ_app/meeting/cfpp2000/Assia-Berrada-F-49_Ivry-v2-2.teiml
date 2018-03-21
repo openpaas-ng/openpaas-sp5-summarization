@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_speechTrans.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="0.5">
+<teiHeader>
+<fileDesc>
+<publicationStmt/>
+<titleStmt>
+<title>Fichier TEI obtenu à partir du fichier Transcriber Assia-Berrada-F-49_Ivry-v2-2.trs</title>
+</titleStmt>
+<sourceDesc>
+<recordingStmt>
+<recording recordingLocation="http://cfpp2000.univ-paris3.fr/transcriptions-TEI/Assia-Berrada-F-49_Ivry-v2-2.teiml" recordingName="Assia-Berrada-F-49_Ivry-v2-2.teiml">
+<media mediaLocation="http://cfpp2000.univ-paris3.fr/data/public/Ivry/Assia-Berrada-F-49_Ivry/Assia-Berrada-F-49_Ivry-2.wav" mediaName="Assia-Berrada-F-49_Ivry-2.wav" type="audio"/>
+<date dur="92.648">151119</date>
+</recording>
+</recordingStmt>
+</sourceDesc>
+<notesStmt>
+<metadata type=""/>
+<note type="scribe">Pierre</note>
+</notesStmt>
+</fileDesc>
+<profileDesc>
+<settingDesc/>
+<particDesc>
+<person check="no" code="spk1" dialect="native" name="Laurence Lefebure (ENQ)" scope="local"/>
+<person check="no" code="spk2" dialect="native" name="speaker2" scope="local"/>
+<person check="no" code="spk3" dialect="native" name="Assia" scope="local"/>
+</particDesc>
+</profileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="Transcriber"/>
+</appInfo>
+</encodingDesc>
+<revisionDesc>6</revisionDesc>
+<templateDesc>
+<template code="ortho" parent="-" type="Symbolic Association">Orthographic Line</template>
+</templateDesc>
+</teiHeader>
+<text>
+<timeline unit="s">
+<when absolute="00:00:00" xml:id="T0"/>
+<when interval="4.41" since="#T0" xml:id="T1"/>
+<when interval="6.425" since="#T0" xml:id="T2"/>
+<when interval="10.975" since="#T0" xml:id="T3"/>
+<when interval="12.573" since="#T0" xml:id="T4"/>
+<when interval="13.903" since="#T0" xml:id="T5"/>
+<when interval="15.122" since="#T0" xml:id="T6"/>
+<when interval="18.937" since="#T0" xml:id="T7"/>
+<when interval="21.604" since="#T0" xml:id="T8"/>
+<when interval="25.773" since="#T0" xml:id="T9"/>
+<when interval="26.602" since="#T0" xml:id="T10"/>
+<when interval="29.127" since="#T0" xml:id="T11"/>
+<when interval="30.896" since="#T0" xml:id="T12"/>
+<when interval="36.477" since="#T0" xml:id="T13"/>
+<when interval="37.939" since="#T0" xml:id="T14"/>
+<when interval="39.049" since="#T0" xml:id="T15"/>
+<when interval="40.409" since="#T0" xml:id="T16"/>
+<when interval="45.511" since="#T0" xml:id="T17"/>
+<when interval="46.905" since="#T0" xml:id="T18"/>
+<when interval="47.306" since="#T0" xml:id="T19"/>
+<when interval="48.504" since="#T0" xml:id="T20"/>
+<when interval="52.766" since="#T0" xml:id="T21"/>
+<when interval="54.440" since="#T0" xml:id="T22"/>
+<when interval="65.105" since="#T0" xml:id="T23"/>
+<when interval="68.279" since="#T0" xml:id="T24"/>
+<when interval="70.584" since="#T0" xml:id="T25"/>
+<when interval="71.679" since="#T0" xml:id="T26"/>
+<when interval="73.091" since="#T0" xml:id="T27"/>
+<when interval="75.018" since="#T0" xml:id="T28"/>
+<when interval="82.337" since="#T0" xml:id="T29"/>
+<when interval="85.185" since="#T0" xml:id="T30"/>
+<when interval="85.879" since="#T0" xml:id="T31"/>
+<when interval="87.256" since="#T0" xml:id="T32"/>
+<when interval="88.675" since="#T0" xml:id="T33"/>
+<when interval="90.566" since="#T0" xml:id="T34"/>
+<when interval="92.648" since="#T0" xml:id="T35"/>
+</timeline>
+<div end="#T35" start="#T0" type="report">
+<annotationGrp end="#T1" start="#T0" wh="spk1" xml:id="au0">
+<u type="ortho">
+<anchor synch="#T0"/>
+<seg>voilà bon ben écoutez <incident subtype="noise" type="Event">
+<desc type="desc">reniflement</desc>
+<desc type="extent">previous</desc>
+</incident>je sais plus ce que je voulais vous dire euh enfin </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T2" start="#T1" wh="spk3" xml:id="au1">
+<link target="#au2"/>
+<u type="ortho">
+<anchor synch="#T1"/>
+<seg>excusez moi pour le téléphone hein </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T2" start="#T1" wh="spk1" xml:id="au2">
+<link target="#au1"/>
+<u type="ortho">
+<anchor synch="#T1"/>
+<seg>j'ai vu oui oui ça c'est rien </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T3" start="#T2" wh="spk1" xml:id="au3">
+<u type="ortho">
+<seg>donc ça c'était votre déplacement type dans la journée ah oui vous l- le déjeuner voilà </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T4" start="#T3" wh="spk3" xml:id="au4">
+<link target="#au5"/>
+<u type="ortho">
+<anchor synch="#T3"/>
+<seg>ah oui ben oui on a une heure </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T4" start="#T3" wh="spk1" xml:id="au5">
+<link target="#au4"/>
+<u type="ortho">
+<anchor synch="#T3"/>
+<seg>le déjeuner </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T5" start="#T4" wh="spk3" xml:id="au6">
+<u type="ortho">
+<seg>à pour euh </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T6" start="#T5" wh="spk3" xml:id="au7">
+<link target="#au8"/>
+<u type="ortho">
+<anchor synch="#T5"/>
+<seg>la pause oui </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T6" start="#T5" wh="spk1" xml:id="au8">
+<link target="#au7"/>
+<u type="ortho">
+<anchor synch="#T5"/>
+<seg>pour déjeuner ? </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T7" start="#T6" wh="spk3" xml:id="au9">
+<u type="ortho">
+<seg>bon voilà <pause type="short"/>on peut sortir on peut y aller au restaurant </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T8" start="#T7" wh="spk3" xml:id="au10">
+<link target="#au11"/>
+<u type="ortho">
+<anchor synch="#T7"/>
+<seg>on peut manger XXX <pause type="short"/>moi j'apporte </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T8" start="#T7" wh="spk1" xml:id="au11">
+<link target="#au10"/>
+<u type="ortho">
+<anchor synch="#T7"/>
+<seg>et vous vous apportez quelque chose ? </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T9" start="#T8" wh="spk3" xml:id="au12">
+<u type="ortho">
+<seg>avec moi de temps en temps et à manger ou sinon je fais à manger à la là-bas où je travaille </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T10" start="#T9" wh="spk3" xml:id="au13">
+<link target="#au14"/>
+<u type="ortho">
+<anchor synch="#T9"/>
+<seg>
+<incident subtype="noise" type="Event">
+<desc type="desc">inspiration</desc>
+<desc type="extent">instantaneous</desc>
+</incident>j'ai une petite </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T10" start="#T9" wh="spk1" xml:id="au14">
+<link target="#au13"/>
+<u type="ortho">
+<anchor synch="#T9"/>
+<seg>mm </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T11" start="#T10" wh="spk3" xml:id="au15">
+<u type="ortho">
+<seg>plaque j'ai un frigo j'ai un micro-ondes </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T12" start="#T11" wh="spk3" xml:id="au16">
+<link target="#au17"/>
+<u type="ortho">
+<anchor synch="#T11"/>
+<seg>et euh voilà oui je </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T12" start="#T11" wh="spk1" xml:id="au17">
+<link target="#au16"/>
+<u type="ortho">
+<anchor synch="#T11"/>
+<seg>ah oui vous faites à manger en fait </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T13" start="#T12" wh="spk3" xml:id="au18">
+<u type="ortho">
+<seg>peux je peux faire quelque chose léger quoi voilà sinon je je peux apporter avec moi aussi </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T14" start="#T13" wh="spk3" xml:id="au19">
+<link target="#au20"/>
+<u type="ortho">
+<anchor synch="#T13"/>
+<seg>
+<pause type="short"/>voilà mm </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T14" start="#T13" wh="spk1" xml:id="au20">
+<link target="#au19"/>
+<u type="ortho">
+<anchor synch="#T13"/>
+<seg>mm un casse-croûte </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T15" start="#T14" wh="spk3" xml:id="au21">
+<u type="ortho">
+<seg>voilà mm </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T16" start="#T15" wh="spk1" xml:id="au22">
+<u type="ortho">
+<seg>d'accord donc ça dépend </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T17" start="#T16" wh="spk3" xml:id="au23">
+<link target="#au24"/>
+<u type="ortho">
+<anchor synch="#T16"/>
+<seg>voilà ah non non y a pas de cantine non non y a pas de cantine voilà </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T17" start="#T16" wh="spk1" xml:id="au24">
+<link target="#au23"/>
+<u type="ortho">
+<anchor synch="#T16"/>
+<seg>il y a pas de cantine ou comme ça ? <pause type="short"/>non enfin vous pouvez euh quand même faire comme ça </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T18" start="#T17" wh="spk1" xml:id="au25">
+<u type="ortho">
+<seg>bon ben merci beaucoup </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T19" start="#T18" wh="spk3" xml:id="au26">
+<u type="ortho">
+<seg>de rien </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T20" start="#T19" wh="spk3" xml:id="au27">
+<link target="#au28"/>
+<u type="ortho">
+<anchor synch="#T19"/>
+<seg>ça y est ? </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T20" start="#T19" wh="spk1" xml:id="au28">
+<link target="#au27"/>
+<u type="ortho">
+<anchor synch="#T19"/>
+<seg>est-ce que y a v- </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T21" start="#T20" wh="spk1" xml:id="au29">
+<u type="ortho">
+<seg>y a autre chose euh que vous voyez à à dire sur votre quartier ou </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T22" start="#T21" wh="spk3" xml:id="au30">
+<link target="#au31"/>
+<u type="ortho">
+<anchor synch="#T21"/>
+<seg>euh non y a rien à dire </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T22" start="#T21" wh="spk1" xml:id="au31">
+<link target="#au30"/>
+<u type="ortho">
+<anchor synch="#T21"/>
+<seg>ou euh </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T23" start="#T22" wh="spk3" xml:id="au32">
+<u type="ortho">
+<seg>euh comme je viens de vous dire que <incident subtype="noise" type="Event">
+<desc type="desc">inspiration</desc>
+<desc type="extent">instantaneous</desc>
+</incident>j'ai de la chance d'avoir euh cet appartement dans cet endroit euh la vérité je suis très très bien <pause type="short"/>voilà </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T24" start="#T23" wh="spk1" xml:id="au33">
+<u type="ortho">
+<seg>d'accord  y a c'est un appartement qui fait trois pièces y a ? </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T25" start="#T24" wh="spk3" xml:id="au34">
+<u type="ortho">
+<seg>euh soixante-sept mètres carrés quand même </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T26" start="#T25" wh="spk3" xml:id="au35">
+<link target="#au36"/>
+<u type="ortho">
+<anchor synch="#T25"/>
+<seg>oui </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T26" start="#T25" wh="spk1" xml:id="au36">
+<link target="#au35"/>
+<u type="ortho">
+<anchor synch="#T25"/>
+<seg>ah oui c'est grand ça </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T27" start="#T26" wh="spk3" xml:id="au37">
+<u type="ortho">
+<seg>c'est un grand séjour </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T28" start="#T27" wh="spk3" xml:id="au38">
+<link target="#au39"/>
+<u type="ortho">
+<anchor synch="#T27"/>
+<seg>plus grand que ça </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T28" start="#T27" wh="spk1" xml:id="au39">
+<link target="#au38"/>
+<u type="ortho">
+<anchor synch="#T27"/>
+<seg>oui oui oui oui </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T29" start="#T28" wh="spk3" xml:id="au40">
+<u type="ortho">
+<seg>et deux pièces plus euh salle de bains les toilettes c'est normal et la cuisine et je suis au plein soleil la lumière toute la journée </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T30" start="#T29" wh="spk3" xml:id="au41">
+<link target="#au42"/>
+<u type="ortho">
+<anchor synch="#T29"/>
+<seg>voilà je suis très très bien y a rien à dire </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T30" start="#T29" wh="spk1" xml:id="au42">
+<link target="#au41"/>
+<u type="ortho">
+<anchor synch="#T29"/>
+<seg>d'accord <pause type="short"/>ben c'est super </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T31" start="#T30" wh="spk3" xml:id="au43">
+<u type="ortho">
+<seg>voilà </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T32" start="#T31" wh="spk1" xml:id="au44">
+<u type="ortho">
+<seg>bon eh ben très bien </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T33" start="#T32" wh="spk3" xml:id="au45">
+<link target="#au46"/>
+<u type="ortho">
+<anchor synch="#T32"/>
+<seg>voilà on a fini alors ? </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T33" start="#T32" wh="spk1" xml:id="au46">
+<link target="#au45"/>
+<u type="ortho">
+<anchor synch="#T32"/>
+<seg>on va on va </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T34" start="#T33" wh="spk1" xml:id="au47">
+<u type="ortho">
+<seg>arrêter là sur cette note positive </seg>
+</u>
+</annotationGrp>
+<annotationGrp end="#T35" start="#T34" wh="spk3" xml:id="au48">
+<u type="ortho">
+<seg>
+<incident subtype="noise" type="Event">
+<desc type="desc">rire en fond</desc>
+<desc type="extent">previous</desc>
+</incident>d'accord allez arrêtez </seg>
+</u>
+</annotationGrp>
+</div>
+</text>
+</TEI>

@@ -1,0 +1,5105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "http://ct3.ortolang.fr/tei-corpo/tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="0.9">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Fichier TEI obtenu à partir du fichier Transcriber Catherine_Lecuyer_F_39_SO.trs</title>
+</titleStmt>
+<publicationStmt>
+<distributor>tei_corpo</distributor>
+</publicationStmt>
+<notesStmt>
+<note type="COMMENTS_DESC">
+<note type="scribe">Justine T.</note>
+<note type="version">36</note>
+<note type="version_date">160106</note>
+</note>
+<note type="TEMPLATE_DESC">
+<note>
+<note type="type">-</note>
+<note type="parent">-</note>
+<note type="code">spk1</note>
+</note>
+<note>
+<note type="type">-</note>
+<note type="parent">-</note>
+<note type="code">spk2</note>
+</note>
+<note>
+<note type="type">-</note>
+<note type="parent">-</note>
+<note type="code">spk3</note>
+</note>
+</note>
+</notesStmt>
+<sourceDesc>
+<recordingStmt>
+<recording>
+<media mimeType="audio/x-wav" url="Catherine_Lecuyer_F_39_SO.wav"/>
+<date dur="3141.776">160106</date>
+</recording>
+</recordingStmt>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<settingDesc>
+<setting>
+<activity>no setting information</activity>
+</setting>
+</settingDesc>
+<particDesc>
+<listPerson>
+<person>
+<note type="check">no</note>
+<note type="dialect">nonnative</note>
+<altGrp>
+<alt type="spk1"/>
+</altGrp>
+<persName>Mat Pires (ENQ)</persName>
+<note type="scope">local</note>
+</person>
+<person>
+<note type="check">no</note>
+<note type="dialect">native</note>
+<altGrp>
+<alt type="spk2"/>
+</altGrp>
+<persName>Catherine Lecuyer</persName>
+<note type="scope">local</note>
+</person>
+<person>
+<altGrp>
+<alt type="spk3"/>
+</altGrp>
+<persName>unknown</persName>
+</person>
+</listPerson>
+</particDesc>
+</profileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="Transcriber" version="36">
+<desc>Transcription created with Transcriber and converted to TEI_CORPO - Soft version: 1.1</desc>
+</application>
+</appInfo>
+</encodingDesc>
+<revisionDesc>
+<list>
+<item>2017-07-04:11:42:20<desc>date</desc>
+</item>
+<item>C:\SergeFleury\SF-WORK\06-CORPUS\CFPP2000\TEI\trs\Catherine_Lecuyer_F_39_SO.trs<desc>from</desc>
+</item>
+<item>C:\SergeFleury\SF-WORK\06-CORPUS\CFPP2000\TEI\trs\Catherine_Lecuyer_F_39_SO.tei_corpo.xml<desc>to</desc>
+</item>
+</list>
+</revisionDesc>
+</teiHeader>
+<text>
+<timeline unit="s">
+<when absolute="0" xml:id="T0"/>
+<when interval="20.6" since="#T0" xml:id="T1"/>
+<when interval="41.91" since="#T0" xml:id="T2"/>
+<when interval="43.603" since="#T0" xml:id="T3"/>
+<when interval="44.544" since="#T0" xml:id="T4"/>
+<when interval="45.941" since="#T0" xml:id="T5"/>
+<when interval="59.679" since="#T0" xml:id="T6"/>
+<when interval="61.181" since="#T0" xml:id="T7"/>
+<when interval="64.851" since="#T0" xml:id="T8"/>
+<when interval="66.819" since="#T0" xml:id="T9"/>
+<when interval="68.184" since="#T0" xml:id="T10"/>
+<when interval="76.287" since="#T0" xml:id="T11"/>
+<when interval="78.109" since="#T0" xml:id="T12"/>
+<when interval="82.435" since="#T0" xml:id="T13"/>
+<when interval="83.133" since="#T0" xml:id="T14"/>
+<when interval="90.736" since="#T0" xml:id="T15"/>
+<when interval="91.347" since="#T0" xml:id="T16"/>
+<when interval="104.358" since="#T0" xml:id="T17"/>
+<when interval="104.654" since="#T0" xml:id="T18"/>
+<when interval="109.987" since="#T0" xml:id="T19"/>
+<when interval="110.84" since="#T0" xml:id="T20"/>
+<when interval="113.21" since="#T0" xml:id="T21"/>
+<when interval="132.442" since="#T0" xml:id="T22"/>
+<when interval="132.853" since="#T0" xml:id="T23"/>
+<when interval="138.245" since="#T0" xml:id="T24"/>
+<when interval="139.421" since="#T0" xml:id="T25"/>
+<when interval="140.438" since="#T0" xml:id="T26"/>
+<when interval="143.029" since="#T0" xml:id="T27"/>
+<when interval="144.241" since="#T0" xml:id="T28"/>
+<when interval="145.835" since="#T0" xml:id="T29"/>
+<when interval="147.105" since="#T0" xml:id="T30"/>
+<when interval="152.988" since="#T0" xml:id="T31"/>
+<when interval="154.321" since="#T0" xml:id="T32"/>
+<when interval="157.85" since="#T0" xml:id="T33"/>
+<when interval="159.219" since="#T0" xml:id="T34"/>
+<when interval="160.31" since="#T0" xml:id="T35"/>
+<when interval="161.326" since="#T0" xml:id="T36"/>
+<when interval="163.009" since="#T0" xml:id="T37"/>
+<when interval="183.661" since="#T0" xml:id="T38"/>
+<when interval="184.063" since="#T0" xml:id="T39"/>
+<when interval="185.437" since="#T0" xml:id="T40"/>
+<when interval="187.942" since="#T0" xml:id="T41"/>
+<when interval="189.38" since="#T0" xml:id="T42"/>
+<when interval="191.17" since="#T0" xml:id="T43"/>
+<when interval="193.607" since="#T0" xml:id="T44"/>
+<when interval="195.511" since="#T0" xml:id="T45"/>
+<when interval="196.383" since="#T0" xml:id="T46"/>
+<when interval="197.204" since="#T0" xml:id="T47"/>
+<when interval="204.552" since="#T0" xml:id="T48"/>
+<when interval="206.819" since="#T0" xml:id="T49"/>
+<when interval="208.956" since="#T0" xml:id="T50"/>
+<when interval="216.704" since="#T0" xml:id="T51"/>
+<when interval="217.546" since="#T0" xml:id="T52"/>
+<when interval="220.666" since="#T0" xml:id="T53"/>
+<when interval="222.253" since="#T0" xml:id="T54"/>
+<when interval="238.548" since="#T0" xml:id="T55"/>
+<when interval="240.6" since="#T0" xml:id="T56"/>
+<when interval="242.763" since="#T0" xml:id="T57"/>
+<when interval="243.483" since="#T0" xml:id="T58"/>
+<when interval="244.905" since="#T0" xml:id="T59"/>
+<when interval="246.408" since="#T0" xml:id="T60"/>
+<when interval="254.797" since="#T0" xml:id="T61"/>
+<when interval="255.309" since="#T0" xml:id="T62"/>
+<when interval="257.891" since="#T0" xml:id="T63"/>
+<when interval="258.3" since="#T0" xml:id="T64"/>
+<when interval="258.932" since="#T0" xml:id="T65"/>
+<when interval="262.96" since="#T0" xml:id="T66"/>
+<when interval="264.441" since="#T0" xml:id="T67"/>
+<when interval="272.584" since="#T0" xml:id="T68"/>
+<when interval="273.117" since="#T0" xml:id="T69"/>
+<when interval="276.481" since="#T0" xml:id="T70"/>
+<when interval="276.793" since="#T0" xml:id="T71"/>
+<when interval="277.46" since="#T0" xml:id="T72"/>
+<when interval="291.289" since="#T0" xml:id="T73"/>
+<when interval="293.659" since="#T0" xml:id="T74"/>
+<when interval="294.871" since="#T0" xml:id="T75"/>
+<when interval="295.262" since="#T0" xml:id="T76"/>
+<when interval="300.719" since="#T0" xml:id="T77"/>
+<when interval="301.549" since="#T0" xml:id="T78"/>
+<when interval="305.636" since="#T0" xml:id="T79"/>
+<when interval="307.329" since="#T0" xml:id="T80"/>
+<when interval="309.054" since="#T0" xml:id="T81"/>
+<when interval="309.668" since="#T0" xml:id="T82"/>
+<when interval="313.314" since="#T0" xml:id="T83"/>
+<when interval="315.388" since="#T0" xml:id="T84"/>
+<when interval="317.273" since="#T0" xml:id="T85"/>
+<when interval="318.196" since="#T0" xml:id="T86"/>
+<when interval="331.454" since="#T0" xml:id="T87"/>
+<when interval="332.745" since="#T0" xml:id="T88"/>
+<when interval="344.092" since="#T0" xml:id="T89"/>
+<when interval="344.853" since="#T0" xml:id="T90"/>
+<when interval="345.576" since="#T0" xml:id="T91"/>
+<when interval="347.649" since="#T0" xml:id="T92"/>
+<when interval="348.863" since="#T0" xml:id="T93"/>
+<when interval="351.169" since="#T0" xml:id="T94"/>
+<when interval="355.195" since="#T0" xml:id="T95"/>
+<when interval="356.444" since="#T0" xml:id="T96"/>
+<when interval="366.673" since="#T0" xml:id="T97"/>
+<when interval="368.302" since="#T0" xml:id="T98"/>
+<when interval="374.338" since="#T0" xml:id="T99"/>
+<when interval="375.417" since="#T0" xml:id="T100"/>
+<when interval="377.921" since="#T0" xml:id="T101"/>
+<when interval="379.85" since="#T0" xml:id="T102"/>
+<when interval="381.735" since="#T0" xml:id="T103"/>
+<when interval="385.357" since="#T0" xml:id="T104"/>
+<when interval="386.119" since="#T0" xml:id="T105"/>
+<when interval="387.541" since="#T0" xml:id="T106"/>
+<when interval="395.393" since="#T0" xml:id="T107"/>
+<when interval="396.392" since="#T0" xml:id="T108"/>
+<when interval="403.266" since="#T0" xml:id="T109"/>
+<when interval="403.801" since="#T0" xml:id="T110"/>
+<when interval="409.936" since="#T0" xml:id="T111"/>
+<when interval="410.931" since="#T0" xml:id="T112"/>
+<when interval="415.42" since="#T0" xml:id="T113"/>
+<when interval="417.986" since="#T0" xml:id="T114"/>
+<when interval="426.824" since="#T0" xml:id="T115"/>
+<when interval="427.543" since="#T0" xml:id="T116"/>
+<when interval="435.989" since="#T0" xml:id="T117"/>
+<when interval="437.199" since="#T0" xml:id="T118"/>
+<when interval="439.95" since="#T0" xml:id="T119"/>
+<when interval="442.578" since="#T0" xml:id="T120"/>
+<when interval="455.546" since="#T0" xml:id="T121"/>
+<when interval="469.149" since="#T0" xml:id="T122"/>
+<when interval="469.683" since="#T0" xml:id="T123"/>
+<when interval="470.427" since="#T0" xml:id="T124"/>
+<when interval="471.252" since="#T0" xml:id="T125"/>
+<when interval="474.535" since="#T0" xml:id="T126"/>
+<when interval="475.147" since="#T0" xml:id="T127"/>
+<when interval="489.932" since="#T0" xml:id="T128"/>
+<when interval="491.369" since="#T0" xml:id="T129"/>
+<when interval="493.177" since="#T0" xml:id="T130"/>
+<when interval="502.426" since="#T0" xml:id="T131"/>
+<when interval="502.835" since="#T0" xml:id="T132"/>
+<when interval="504.116" since="#T0" xml:id="T133"/>
+<when interval="505.83" since="#T0" xml:id="T134"/>
+<when interval="518.577" since="#T0" xml:id="T135"/>
+<when interval="519.47" since="#T0" xml:id="T136"/>
+<when interval="521.801" since="#T0" xml:id="T137"/>
+<when interval="532.384" since="#T0" xml:id="T138"/>
+<when interval="533.41" since="#T0" xml:id="T139"/>
+<when interval="535.974" since="#T0" xml:id="T140"/>
+<when interval="549.206" since="#T0" xml:id="T141"/>
+<when interval="549.641" since="#T0" xml:id="T142"/>
+<when interval="555.034" since="#T0" xml:id="T143"/>
+<when interval="559.583" since="#T0" xml:id="T144"/>
+<when interval="575.607" since="#T0" xml:id="T145"/>
+<when interval="579.217" since="#T0" xml:id="T146"/>
+<when interval="582.178" since="#T0" xml:id="T147"/>
+<when interval="584.328" since="#T0" xml:id="T148"/>
+<when interval="586.617" since="#T0" xml:id="T149"/>
+<when interval="606.038" since="#T0" xml:id="T150"/>
+<when interval="607.033" since="#T0" xml:id="T151"/>
+<when interval="610.851" since="#T0" xml:id="T152"/>
+<when interval="611.694" since="#T0" xml:id="T153"/>
+<when interval="612.798" since="#T0" xml:id="T154"/>
+<when interval="615.718" since="#T0" xml:id="T155"/>
+<when interval="627.772" since="#T0" xml:id="T156"/>
+<when interval="628.595" since="#T0" xml:id="T157"/>
+<when interval="631.014" since="#T0" xml:id="T158"/>
+<when interval="631.322" since="#T0" xml:id="T159"/>
+<when interval="636.981" since="#T0" xml:id="T160"/>
+<when interval="637.976" since="#T0" xml:id="T161"/>
+<when interval="643.428" since="#T0" xml:id="T162"/>
+<when interval="643.798" since="#T0" xml:id="T163"/>
+<when interval="648.797" since="#T0" xml:id="T164"/>
+<when interval="649.897" since="#T0" xml:id="T165"/>
+<when interval="654.236" since="#T0" xml:id="T166"/>
+<when interval="658.607" since="#T0" xml:id="T167"/>
+<when interval="658.95" since="#T0" xml:id="T168"/>
+<when interval="660.83" since="#T0" xml:id="T169"/>
+<when interval="662.63" since="#T0" xml:id="T170"/>
+<when interval="663.119" since="#T0" xml:id="T171"/>
+<when interval="677.447" since="#T0" xml:id="T172"/>
+<when interval="678.208" since="#T0" xml:id="T173"/>
+<when interval="686.258" since="#T0" xml:id="T174"/>
+<when interval="687.697" since="#T0" xml:id="T175"/>
+<when interval="688.882" since="#T0" xml:id="T176"/>
+<when interval="691.465" since="#T0" xml:id="T177"/>
+<when interval="693.158" since="#T0" xml:id="T178"/>
+<when interval="704.975" since="#T0" xml:id="T179"/>
+<when interval="705.927" since="#T0" xml:id="T180"/>
+<when interval="708.327" since="#T0" xml:id="T181"/>
+<when interval="709.49" since="#T0" xml:id="T182"/>
+<when interval="724.388" since="#T0" xml:id="T183"/>
+<when interval="724.732" since="#T0" xml:id="T184"/>
+<when interval="739.134" since="#T0" xml:id="T185"/>
+<when interval="739.769" since="#T0" xml:id="T186"/>
+<when interval="745.866" since="#T0" xml:id="T187"/>
+<when interval="747.58" since="#T0" xml:id="T188"/>
+<when interval="749.86" since="#T0" xml:id="T189"/>
+<when interval="752.144" since="#T0" xml:id="T190"/>
+<when interval="757.874" since="#T0" xml:id="T191"/>
+<when interval="758.538" since="#T0" xml:id="T192"/>
+<when interval="759.49" since="#T0" xml:id="T193"/>
+<when interval="765.355" since="#T0" xml:id="T194"/>
+<when interval="765.929" since="#T0" xml:id="T195"/>
+<when interval="769.526" since="#T0" xml:id="T196"/>
+<when interval="770.63" since="#T0" xml:id="T197"/>
+<when interval="787.352" since="#T0" xml:id="T198"/>
+<when interval="790.187" since="#T0" xml:id="T199"/>
+<when interval="793.52" since="#T0" xml:id="T200"/>
+<when interval="794.794" since="#T0" xml:id="T201"/>
+<when interval="798.242" since="#T0" xml:id="T202"/>
+<when interval="812.467" since="#T0" xml:id="T203"/>
+<when interval="813.299" since="#T0" xml:id="T204"/>
+<when interval="825.112" since="#T0" xml:id="T205"/>
+<when interval="825.643" since="#T0" xml:id="T206"/>
+<when interval="846.981" since="#T0" xml:id="T207"/>
+<when interval="848.861" since="#T0" xml:id="T208"/>
+<when interval="851.421" since="#T0" xml:id="T209"/>
+<when interval="881.762" since="#T0" xml:id="T210"/>
+<when interval="886.357" since="#T0" xml:id="T211"/>
+<when interval="887.711" since="#T0" xml:id="T212"/>
+<when interval="893.231" since="#T0" xml:id="T213"/>
+<when interval="905.252" since="#T0" xml:id="T214"/>
+<when interval="911.768" since="#T0" xml:id="T215"/>
+<when interval="913.155" since="#T0" xml:id="T216"/>
+<when interval="915.127" since="#T0" xml:id="T217"/>
+<when interval="920.193" since="#T0" xml:id="T218"/>
+<when interval="920.933" since="#T0" xml:id="T219"/>
+<when interval="934.926" since="#T0" xml:id="T220"/>
+<when interval="937.888" since="#T0" xml:id="T221"/>
+<when interval="943.378" since="#T0" xml:id="T222"/>
+<when interval="944.584" since="#T0" xml:id="T223"/>
+<when interval="948.642" since="#T0" xml:id="T224"/>
+<when interval="948.985" since="#T0" xml:id="T225"/>
+<when interval="950.498" since="#T0" xml:id="T226"/>
+<when interval="952.36" since="#T0" xml:id="T227"/>
+<when interval="953.486" since="#T0" xml:id="T228"/>
+<when interval="955.077" since="#T0" xml:id="T229"/>
+<when interval="955.826" since="#T0" xml:id="T230"/>
+<when interval="960.227" since="#T0" xml:id="T231"/>
+<when interval="967.175" since="#T0" xml:id="T232"/>
+<when interval="970.098" since="#T0" xml:id="T233"/>
+<when interval="974.457" since="#T0" xml:id="T234"/>
+<when interval="974.765" since="#T0" xml:id="T235"/>
+<when interval="978.074" since="#T0" xml:id="T236"/>
+<when interval="981.036" since="#T0" xml:id="T237"/>
+<when interval="982.256" since="#T0" xml:id="T238"/>
+<when interval="988.745" since="#T0" xml:id="T239"/>
+<when interval="997.635" since="#T0" xml:id="T240"/>
+<when interval="997.808" since="#T0" xml:id="T241"/>
+<when interval="999.048" since="#T0" xml:id="T242"/>
+<when interval="1002.653" since="#T0" xml:id="T243"/>
+<when interval="1003.238" since="#T0" xml:id="T244"/>
+<when interval="1004.233" since="#T0" xml:id="T245"/>
+<when interval="1006.755" since="#T0" xml:id="T246"/>
+<when interval="1007.356" since="#T0" xml:id="T247"/>
+<when interval="1011.016" since="#T0" xml:id="T248"/>
+<when interval="1014.312" since="#T0" xml:id="T249"/>
+<when interval="1015.158" since="#T0" xml:id="T250"/>
+<when interval="1016.093" since="#T0" xml:id="T251"/>
+<when interval="1017.261" since="#T0" xml:id="T252"/>
+<when interval="1018.882" since="#T0" xml:id="T253"/>
+<when interval="1021.087" since="#T0" xml:id="T254"/>
+<when interval="1024.524" since="#T0" xml:id="T255"/>
+<when interval="1046.952" since="#T0" xml:id="T256"/>
+<when interval="1047.566" since="#T0" xml:id="T257"/>
+<when interval="1054.192" since="#T0" xml:id="T258"/>
+<when interval="1054.637" since="#T0" xml:id="T259"/>
+<when interval="1061.068" since="#T0" xml:id="T260"/>
+<when interval="1061.686" since="#T0" xml:id="T261"/>
+<when interval="1069.074" since="#T0" xml:id="T262"/>
+<when interval="1069.438" since="#T0" xml:id="T263"/>
+<when interval="1070.329" since="#T0" xml:id="T264"/>
+<when interval="1077.253" since="#T0" xml:id="T265"/>
+<when interval="1077.803" since="#T0" xml:id="T266"/>
+<when interval="1094.822" since="#T0" xml:id="T267"/>
+<when interval="1095.266" since="#T0" xml:id="T268"/>
+<when interval="1099.925" since="#T0" xml:id="T269"/>
+<when interval="1100.204" since="#T0" xml:id="T270"/>
+<when interval="1102.677" since="#T0" xml:id="T271"/>
+<when interval="1103.241" since="#T0" xml:id="T272"/>
+<when interval="1124.294" since="#T0" xml:id="T273"/>
+<when interval="1127.066" since="#T0" xml:id="T274"/>
+<when interval="1150.181" since="#T0" xml:id="T275"/>
+<when interval="1150.749" since="#T0" xml:id="T276"/>
+<when interval="1156.004" since="#T0" xml:id="T277"/>
+<when interval="1159.347" since="#T0" xml:id="T278"/>
+<when interval="1159.927" since="#T0" xml:id="T279"/>
+<when interval="1162.191" since="#T0" xml:id="T280"/>
+<when interval="1163.778" since="#T0" xml:id="T281"/>
+<when interval="1187.027" since="#T0" xml:id="T282"/>
+<when interval="1187.489" since="#T0" xml:id="T283"/>
+<when interval="1187.814" since="#T0" xml:id="T284"/>
+<when interval="1188.639" since="#T0" xml:id="T285"/>
+<when interval="1191.516" since="#T0" xml:id="T286"/>
+<when interval="1197.892" since="#T0" xml:id="T287"/>
+<when interval="1205.167" since="#T0" xml:id="T288"/>
+<when interval="1221.056" since="#T0" xml:id="T289"/>
+<when interval="1223.066" since="#T0" xml:id="T290"/>
+<when interval="1225.55" since="#T0" xml:id="T291"/>
+<when interval="1226.608" since="#T0" xml:id="T292"/>
+<when interval="1229.585" since="#T0" xml:id="T293"/>
+<when interval="1230.918" since="#T0" xml:id="T294"/>
+<when interval="1232.92" since="#T0" xml:id="T295"/>
+<when interval="1239.065" since="#T0" xml:id="T296"/>
+<when interval="1263.957" since="#T0" xml:id="T297"/>
+<when interval="1264.342" since="#T0" xml:id="T298"/>
+<when interval="1280.002" since="#T0" xml:id="T299"/>
+<when interval="1280.514" since="#T0" xml:id="T300"/>
+<when interval="1287.082" since="#T0" xml:id="T301"/>
+<when interval="1289.494" since="#T0" xml:id="T302"/>
+<when interval="1297.622" since="#T0" xml:id="T303"/>
+<when interval="1299.156" since="#T0" xml:id="T304"/>
+<when interval="1304.363" since="#T0" xml:id="T305"/>
+<when interval="1305.055" since="#T0" xml:id="T306"/>
+<when interval="1308.15" since="#T0" xml:id="T307"/>
+<when interval="1308.933" since="#T0" xml:id="T308"/>
+<when interval="1310.287" since="#T0" xml:id="T309"/>
+<when interval="1318.208" since="#T0" xml:id="T310"/>
+<when interval="1322.63" since="#T0" xml:id="T311"/>
+<when interval="1324.597" since="#T0" xml:id="T312"/>
+<when interval="1325.486" since="#T0" xml:id="T313"/>
+<when interval="1332.442" since="#T0" xml:id="T314"/>
+<when interval="1347.084" since="#T0" xml:id="T315"/>
+<when interval="1356.921" since="#T0" xml:id="T316"/>
+<when interval="1359.545" since="#T0" xml:id="T317"/>
+<when interval="1368.27" since="#T0" xml:id="T318"/>
+<when interval="1370.893" since="#T0" xml:id="T319"/>
+<when interval="1371.193" since="#T0" xml:id="T320"/>
+<when interval="1372.687" since="#T0" xml:id="T321"/>
+<when interval="1377.109" since="#T0" xml:id="T322"/>
+<when interval="1378.488" since="#T0" xml:id="T323"/>
+<when interval="1381.662" since="#T0" xml:id="T324"/>
+<when interval="1391.377" since="#T0" xml:id="T325"/>
+<when interval="1391.826" since="#T0" xml:id="T326"/>
+<when interval="1396.573" since="#T0" xml:id="T327"/>
+<when interval="1397.868" since="#T0" xml:id="T328"/>
+<when interval="1398.566" since="#T0" xml:id="T329"/>
+<when interval="1419.532" since="#T0" xml:id="T330"/>
+<when interval="1419.974" since="#T0" xml:id="T331"/>
+<when interval="1426.701" since="#T0" xml:id="T332"/>
+<when interval="1428.517" since="#T0" xml:id="T333"/>
+<when interval="1433.065" since="#T0" xml:id="T334"/>
+<when interval="1434.567" since="#T0" xml:id="T335"/>
+<when interval="1434.869" since="#T0" xml:id="T336"/>
+<when interval="1454.316" since="#T0" xml:id="T337"/>
+<when interval="1456.284" since="#T0" xml:id="T338"/>
+<when interval="1461.789" since="#T0" xml:id="T339"/>
+<when interval="1462.411" since="#T0" xml:id="T340"/>
+<when interval="1479.597" since="#T0" xml:id="T341"/>
+<when interval="1480.676" since="#T0" xml:id="T342"/>
+<when interval="1497.775" since="#T0" xml:id="T343"/>
+<when interval="1498.735" since="#T0" xml:id="T344"/>
+<when interval="1499.014" since="#T0" xml:id="T345"/>
+<when interval="1502.336" since="#T0" xml:id="T346"/>
+<when interval="1510.103" since="#T0" xml:id="T347"/>
+<when interval="1510.854" since="#T0" xml:id="T348"/>
+<when interval="1514.925" since="#T0" xml:id="T349"/>
+<when interval="1516.131" since="#T0" xml:id="T350"/>
+<when interval="1519.547" since="#T0" xml:id="T351"/>
+<when interval="1521.896" since="#T0" xml:id="T352"/>
+<when interval="1526.246" since="#T0" xml:id="T353"/>
+<when interval="1528.129" since="#T0" xml:id="T354"/>
+<when interval="1533.973" since="#T0" xml:id="T355"/>
+<when interval="1534.713" since="#T0" xml:id="T356"/>
+<when interval="1542.253" since="#T0" xml:id="T357"/>
+<when interval="1546.95" since="#T0" xml:id="T358"/>
+<when interval="1562.2" since="#T0" xml:id="T359"/>
+<when interval="1564.379" since="#T0" xml:id="T360"/>
+<when interval="1568.24" since="#T0" xml:id="T361"/>
+<when interval="1569.256" since="#T0" xml:id="T362"/>
+<when interval="1581.298" since="#T0" xml:id="T363"/>
+<when interval="1582.864" since="#T0" xml:id="T364"/>
+<when interval="1605.685" since="#T0" xml:id="T365"/>
+<when interval="1608.034" since="#T0" xml:id="T366"/>
+<when interval="1625.873" since="#T0" xml:id="T367"/>
+<when interval="1629.491" since="#T0" xml:id="T368"/>
+<when interval="1634.704" since="#T0" xml:id="T369"/>
+<when interval="1641.03" since="#T0" xml:id="T370"/>
+<when interval="1643.56" since="#T0" xml:id="T371"/>
+<when interval="1644.935" since="#T0" xml:id="T372"/>
+<when interval="1649.128" since="#T0" xml:id="T373"/>
+<when interval="1651.477" since="#T0" xml:id="T374"/>
+<when interval="1653.369" since="#T0" xml:id="T375"/>
+<when interval="1654.533" since="#T0" xml:id="T376"/>
+<when interval="1661.041" since="#T0" xml:id="T377"/>
+<when interval="1685.062" since="#T0" xml:id="T378"/>
+<when interval="1716.127" since="#T0" xml:id="T379"/>
+<when interval="1716.444" since="#T0" xml:id="T380"/>
+<when interval="1738.421" since="#T0" xml:id="T381"/>
+<when interval="1746.228" since="#T0" xml:id="T382"/>
+<when interval="1767.559" since="#T0" xml:id="T383"/>
+<when interval="1771.858" since="#T0" xml:id="T384"/>
+<when interval="1790.317" since="#T0" xml:id="T385"/>
+<when interval="1796.495" since="#T0" xml:id="T386"/>
+<when interval="1798.869" since="#T0" xml:id="T387"/>
+<when interval="1800.075" since="#T0" xml:id="T388"/>
+<when interval="1803.591" since="#T0" xml:id="T389"/>
+<when interval="1805.559" since="#T0" xml:id="T390"/>
+<when interval="1823.629" since="#T0" xml:id="T391"/>
+<when interval="1823.885" since="#T0" xml:id="T392"/>
+<when interval="1844.855" since="#T0" xml:id="T393"/>
+<when interval="1845.917" since="#T0" xml:id="T394"/>
+<when interval="1852.264" since="#T0" xml:id="T395"/>
+<when interval="1853.69" since="#T0" xml:id="T396"/>
+<when interval="1858.56" since="#T0" xml:id="T397"/>
+<when interval="1860.595" since="#T0" xml:id="T398"/>
+<when interval="1863.244" since="#T0" xml:id="T399"/>
+<when interval="1863.856" since="#T0" xml:id="T400"/>
+<when interval="1865.322" since="#T0" xml:id="T401"/>
+<when interval="1865.813" since="#T0" xml:id="T402"/>
+<when interval="1870.62" since="#T0" xml:id="T403"/>
+<when interval="1880.272" since="#T0" xml:id="T404"/>
+<when interval="1881.203" since="#T0" xml:id="T405"/>
+<when interval="1883.111" since="#T0" xml:id="T406"/>
+<when interval="1883.367" since="#T0" xml:id="T407"/>
+<when interval="1886.756" since="#T0" xml:id="T408"/>
+<when interval="1887.977" since="#T0" xml:id="T409"/>
+<when interval="1892.955" since="#T0" xml:id="T410"/>
+<when interval="1894.013" since="#T0" xml:id="T411"/>
+<when interval="1895.202" since="#T0" xml:id="T412"/>
+<when interval="1895.764" since="#T0" xml:id="T413"/>
+<when interval="1906.939" since="#T0" xml:id="T414"/>
+<when interval="1911.149" since="#T0" xml:id="T415"/>
+<when interval="1913.969" since="#T0" xml:id="T416"/>
+<when interval="1914.693" since="#T0" xml:id="T417"/>
+<when interval="1918.95" since="#T0" xml:id="T418"/>
+<when interval="1924.988" since="#T0" xml:id="T419"/>
+<when interval="1926.596" since="#T0" xml:id="T420"/>
+<when interval="1929.158" since="#T0" xml:id="T421"/>
+<when interval="1931.764" since="#T0" xml:id="T422"/>
+<when interval="1932.191" since="#T0" xml:id="T423"/>
+<when interval="1942.178" since="#T0" xml:id="T424"/>
+<when interval="1944.696" since="#T0" xml:id="T425"/>
+<when interval="1945.775" since="#T0" xml:id="T426"/>
+<when interval="1981.508" since="#T0" xml:id="T427"/>
+<when interval="1984.576" since="#T0" xml:id="T428"/>
+<when interval="1989.484" since="#T0" xml:id="T429"/>
+<when interval="1990.055" since="#T0" xml:id="T430"/>
+<when interval="1991.223" since="#T0" xml:id="T431"/>
+<when interval="1992.306" since="#T0" xml:id="T432"/>
+<when interval="1995.226" since="#T0" xml:id="T433"/>
+<when interval="1996.817" since="#T0" xml:id="T434"/>
+<when interval="1997.308" since="#T0" xml:id="T435"/>
+<when interval="1999.132" since="#T0" xml:id="T436"/>
+<when interval="2001.565" since="#T0" xml:id="T437"/>
+<when interval="2003.114" since="#T0" xml:id="T438"/>
+<when interval="2005.737" since="#T0" xml:id="T439"/>
+<when interval="2021.114" since="#T0" xml:id="T440"/>
+<when interval="2022.037" since="#T0" xml:id="T441"/>
+<when interval="2046.642" since="#T0" xml:id="T442"/>
+<when interval="2047.091" since="#T0" xml:id="T443"/>
+<when interval="2066.033" since="#T0" xml:id="T444"/>
+<when interval="2066.964" since="#T0" xml:id="T445"/>
+<when interval="2081.52" since="#T0" xml:id="T446"/>
+<when interval="2085.4" since="#T0" xml:id="T447"/>
+<when interval="2085.866" since="#T0" xml:id="T448"/>
+<when interval="2087.208" since="#T0" xml:id="T449"/>
+<when interval="2089.598" since="#T0" xml:id="T450"/>
+<when interval="2107.099" since="#T0" xml:id="T451"/>
+<when interval="2110.15" since="#T0" xml:id="T452"/>
+<when interval="2111.504" since="#T0" xml:id="T453"/>
+<when interval="2122.916" since="#T0" xml:id="T454"/>
+<when interval="2124.207" since="#T0" xml:id="T455"/>
+<when interval="2141.076" since="#T0" xml:id="T456"/>
+<when interval="2142.705" since="#T0" xml:id="T457"/>
+<when interval="2156.355" since="#T0" xml:id="T458"/>
+<when interval="2158.115" since="#T0" xml:id="T459"/>
+<when interval="2160.21" since="#T0" xml:id="T460"/>
+<when interval="2161.187" since="#T0" xml:id="T461"/>
+<when interval="2165.736" since="#T0" xml:id="T462"/>
+<when interval="2175.832" since="#T0" xml:id="T463"/>
+<when interval="2176.223" since="#T0" xml:id="T464"/>
+<when interval="2184.839" since="#T0" xml:id="T465"/>
+<when interval="2185.508" since="#T0" xml:id="T466"/>
+<when interval="2202.976" since="#T0" xml:id="T467"/>
+<when interval="2205.54" since="#T0" xml:id="T468"/>
+<when interval="2207.19" since="#T0" xml:id="T469"/>
+<when interval="2244.947" since="#T0" xml:id="T470"/>
+<when interval="2245.159" since="#T0" xml:id="T471"/>
+<when interval="2266.798" since="#T0" xml:id="T472"/>
+<when interval="2267.615" since="#T0" xml:id="T473"/>
+<when interval="2276.992" since="#T0" xml:id="T474"/>
+<when interval="2279.403" since="#T0" xml:id="T475"/>
+<when interval="2281.459" since="#T0" xml:id="T476"/>
+<when interval="2282.052" since="#T0" xml:id="T477"/>
+<when interval="2287.066" since="#T0" xml:id="T478"/>
+<when interval="2292.681" since="#T0" xml:id="T479"/>
+<when interval="2293.574" since="#T0" xml:id="T480"/>
+<when interval="2301.491" since="#T0" xml:id="T481"/>
+<when interval="2302.299" since="#T0" xml:id="T482"/>
+<when interval="2305.05" since="#T0" xml:id="T483"/>
+<when interval="2308.371" since="#T0" xml:id="T484"/>
+<when interval="2309.433" since="#T0" xml:id="T485"/>
+<when interval="2309.602" since="#T0" xml:id="T486"/>
+<when interval="2311.07" since="#T0" xml:id="T487"/>
+<when interval="2313.038" since="#T0" xml:id="T488"/>
+<when interval="2314.544" since="#T0" xml:id="T489"/>
+<when interval="2316.741" since="#T0" xml:id="T490"/>
+<when interval="2317.215" since="#T0" xml:id="T491"/>
+<when interval="2319.839" since="#T0" xml:id="T492"/>
+<when interval="2337.752" since="#T0" xml:id="T493"/>
+<when interval="2340.871" since="#T0" xml:id="T494"/>
+<when interval="2343.981" since="#T0" xml:id="T495"/>
+<when interval="2345.466" since="#T0" xml:id="T496"/>
+<when interval="2350.142" since="#T0" xml:id="T497"/>
+<when interval="2353.816" since="#T0" xml:id="T498"/>
+<when interval="2354.589" since="#T0" xml:id="T499"/>
+<when interval="2370.258" since="#T0" xml:id="T500"/>
+<when interval="2371.125" since="#T0" xml:id="T501"/>
+<when interval="2371.54" since="#T0" xml:id="T502"/>
+<when interval="2372.687" since="#T0" xml:id="T503"/>
+<when interval="2375.251" since="#T0" xml:id="T504"/>
+<when interval="2375.56" since="#T0" xml:id="T505"/>
+<when interval="2387.666" since="#T0" xml:id="T506"/>
+<when interval="2388.075" since="#T0" xml:id="T507"/>
+<when interval="2405.501" since="#T0" xml:id="T508"/>
+<when interval="2406.113" since="#T0" xml:id="T509"/>
+<when interval="2410.162" since="#T0" xml:id="T510"/>
+<when interval="2410.518" since="#T0" xml:id="T511"/>
+<when interval="2424.209" since="#T0" xml:id="T512"/>
+<when interval="2426.79" since="#T0" xml:id="T513"/>
+<when interval="2429.841" since="#T0" xml:id="T514"/>
+<when interval="2430.045" since="#T0" xml:id="T515"/>
+<when interval="2431.488" since="#T0" xml:id="T516"/>
+<when interval="2438.855" since="#T0" xml:id="T517"/>
+<when interval="2439.261" since="#T0" xml:id="T518"/>
+<when interval="2457.076" since="#T0" xml:id="T519"/>
+<when interval="2457.994" since="#T0" xml:id="T520"/>
+<when interval="2459.454" since="#T0" xml:id="T521"/>
+<when interval="2469.761" since="#T0" xml:id="T522"/>
+<when interval="2473.041" since="#T0" xml:id="T523"/>
+<when interval="2486.852" since="#T0" xml:id="T524"/>
+<when interval="2490.241" since="#T0" xml:id="T525"/>
+<when interval="2492.653" since="#T0" xml:id="T526"/>
+<when interval="2493.834" since="#T0" xml:id="T527"/>
+<when interval="2521.076" since="#T0" xml:id="T528"/>
+<when interval="2521.778" since="#T0" xml:id="T529"/>
+<when interval="2523.828" since="#T0" xml:id="T530"/>
+<when interval="2534.009" since="#T0" xml:id="T531"/>
+<when interval="2536.255" since="#T0" xml:id="T532"/>
+<when interval="2536.729" since="#T0" xml:id="T533"/>
+<when interval="2537.533" since="#T0" xml:id="T534"/>
+<when interval="2544.879" since="#T0" xml:id="T535"/>
+<when interval="2545.222" since="#T0" xml:id="T536"/>
+<when interval="2551.056" since="#T0" xml:id="T537"/>
+<when interval="2553.366" since="#T0" xml:id="T538"/>
+<when interval="2555.972" since="#T0" xml:id="T539"/>
+<when interval="2558.405" since="#T0" xml:id="T540"/>
+<when interval="2562.958" since="#T0" xml:id="T541"/>
+<when interval="2565.97" since="#T0" xml:id="T542"/>
+<when interval="2566.313" since="#T0" xml:id="T543"/>
+<when interval="2584.11" since="#T0" xml:id="T544"/>
+<when interval="2584.928" since="#T0" xml:id="T545"/>
+<when interval="2593.388" since="#T0" xml:id="T546"/>
+<when interval="2595.017" since="#T0" xml:id="T547"/>
+<when interval="2596.451" since="#T0" xml:id="T548"/>
+<when interval="2597.086" since="#T0" xml:id="T549"/>
+<when interval="2609.732" since="#T0" xml:id="T550"/>
+<when interval="2610.054" since="#T0" xml:id="T551"/>
+<when interval="2620.488" since="#T0" xml:id="T552"/>
+<when interval="2621.0" since="#T0" xml:id="T553"/>
+<when interval="2622.781" since="#T0" xml:id="T554"/>
+<when interval="2630.355" since="#T0" xml:id="T555"/>
+<when interval="2630.763" since="#T0" xml:id="T556"/>
+<when interval="2633.92" since="#T0" xml:id="T557"/>
+<when interval="2642.482" since="#T0" xml:id="T558"/>
+<when interval="2643.311" since="#T0" xml:id="T559"/>
+<when interval="2644.179" since="#T0" xml:id="T560"/>
+<when interval="2660.051" since="#T0" xml:id="T561"/>
+<when interval="2661.87" since="#T0" xml:id="T562"/>
+<when interval="2665.099" since="#T0" xml:id="T563"/>
+<when interval="2666.918" since="#T0" xml:id="T564"/>
+<when interval="2668.996" since="#T0" xml:id="T565"/>
+<when interval="2670.418" since="#T0" xml:id="T566"/>
+<when interval="2672.094" since="#T0" xml:id="T567"/>
+<when interval="2673.436" since="#T0" xml:id="T568"/>
+<when interval="2675.488" since="#T0" xml:id="T569"/>
+<when interval="2690.577" since="#T0" xml:id="T570"/>
+<when interval="2691.47" since="#T0" xml:id="T571"/>
+<when interval="2692.062" since="#T0" xml:id="T572"/>
+<when interval="2710.749" since="#T0" xml:id="T573"/>
+<when interval="2712.178" since="#T0" xml:id="T574"/>
+<when interval="2724.559" since="#T0" xml:id="T575"/>
+<when interval="2725.807" since="#T0" xml:id="T576"/>
+<when interval="2728.697" since="#T0" xml:id="T577"/>
+<when interval="2729.464" since="#T0" xml:id="T578"/>
+<when interval="2745.275" since="#T0" xml:id="T579"/>
+<when interval="2746.676" since="#T0" xml:id="T580"/>
+<when interval="2748.495" since="#T0" xml:id="T581"/>
+<when interval="2758.448" since="#T0" xml:id="T582"/>
+<when interval="2758.812" since="#T0" xml:id="T583"/>
+<when interval="2763.619" since="#T0" xml:id="T584"/>
+<when interval="2764.516" since="#T0" xml:id="T585"/>
+<when interval="2768.346" since="#T0" xml:id="T586"/>
+<when interval="2775.416" since="#T0" xml:id="T587"/>
+<when interval="2775.84" since="#T0" xml:id="T588"/>
+<when interval="2777.261" since="#T0" xml:id="T589"/>
+<when interval="2781.259" since="#T0" xml:id="T590"/>
+<when interval="2784.183" since="#T0" xml:id="T591"/>
+<when interval="2784.669" since="#T0" xml:id="T592"/>
+<when interval="2788.6" since="#T0" xml:id="T593"/>
+<when interval="2792.188" since="#T0" xml:id="T594"/>
+<when interval="2792.658" since="#T0" xml:id="T595"/>
+<when interval="2799.385" since="#T0" xml:id="T596"/>
+<when interval="2814.737" since="#T0" xml:id="T597"/>
+<when interval="2815.172" since="#T0" xml:id="T598"/>
+<when interval="2820.502" since="#T0" xml:id="T599"/>
+<when interval="2824.42" since="#T0" xml:id="T600"/>
+<when interval="2826.353" since="#T0" xml:id="T601"/>
+<when interval="2831.843" since="#T0" xml:id="T602"/>
+<when interval="2835.617" since="#T0" xml:id="T603"/>
+<when interval="2836.163" since="#T0" xml:id="T604"/>
+<when interval="2841.63" since="#T0" xml:id="T605"/>
+<when interval="2842.582" since="#T0" xml:id="T606"/>
+<when interval="2847.95" since="#T0" xml:id="T607"/>
+<when interval="2848.806" since="#T0" xml:id="T608"/>
+<when interval="2852.047" since="#T0" xml:id="T609"/>
+<when interval="2855.902" since="#T0" xml:id="T610"/>
+<when interval="2860.857" since="#T0" xml:id="T611"/>
+<when interval="2861.327" since="#T0" xml:id="T612"/>
+<when interval="2870.809" since="#T0" xml:id="T613"/>
+<when interval="2873.306" since="#T0" xml:id="T614"/>
+<when interval="2874.604" since="#T0" xml:id="T615"/>
+<when interval="2875.285" since="#T0" xml:id="T616"/>
+<when interval="2876.016" since="#T0" xml:id="T617"/>
+<when interval="2879.49" since="#T0" xml:id="T618"/>
+<when interval="2880.611" since="#T0" xml:id="T619"/>
+<when interval="2886.412" since="#T0" xml:id="T620"/>
+<when interval="2887.026" since="#T0" xml:id="T621"/>
+<when interval="2891.367" since="#T0" xml:id="T622"/>
+<when interval="2892.006" since="#T0" xml:id="T623"/>
+<when interval="2893.635" since="#T0" xml:id="T624"/>
+<when interval="2894.909" since="#T0" xml:id="T625"/>
+<when interval="2897.574" since="#T0" xml:id="T626"/>
+<when interval="2911.208" since="#T0" xml:id="T627"/>
+<when interval="2912.964" since="#T0" xml:id="T628"/>
+<when interval="2933.004" since="#T0" xml:id="T629"/>
+<when interval="2933.667" since="#T0" xml:id="T630"/>
+<when interval="2954.574" since="#T0" xml:id="T631"/>
+<when interval="2955.001" since="#T0" xml:id="T632"/>
+<when interval="2961.056" since="#T0" xml:id="T633"/>
+<when interval="2967.788" since="#T0" xml:id="T634"/>
+<when interval="2988.526" since="#T0" xml:id="T635"/>
+<when interval="2994.179" since="#T0" xml:id="T636"/>
+<when interval="2995.575" since="#T0" xml:id="T637"/>
+<when interval="3002.057" since="#T0" xml:id="T638"/>
+<when interval="3018.246" since="#T0" xml:id="T639"/>
+<when interval="3022.164" since="#T0" xml:id="T640"/>
+<when interval="3022.905" since="#T0" xml:id="T641"/>
+<when interval="3025.105" since="#T0" xml:id="T642"/>
+<when interval="3025.618" since="#T0" xml:id="T643"/>
+<when interval="3047.587" since="#T0" xml:id="T644"/>
+<when interval="3054.611" since="#T0" xml:id="T645"/>
+<when interval="3058.935" since="#T0" xml:id="T646"/>
+<when interval="3063.145" since="#T0" xml:id="T647"/>
+<when interval="3065.434" since="#T0" xml:id="T648"/>
+<when interval="3066.517" since="#T0" xml:id="T649"/>
+<when interval="3068.104" since="#T0" xml:id="T650"/>
+<when interval="3073.695" since="#T0" xml:id="T651"/>
+<when interval="3077.126" since="#T0" xml:id="T652"/>
+<when interval="3082.885" since="#T0" xml:id="T653"/>
+<when interval="3084.535" since="#T0" xml:id="T654"/>
+<when interval="3085.724" since="#T0" xml:id="T655"/>
+<when interval="3087.615" since="#T0" xml:id="T656"/>
+<when interval="3090.26" since="#T0" xml:id="T657"/>
+<when interval="3096.357" since="#T0" xml:id="T658"/>
+<when interval="3100.166" since="#T0" xml:id="T659"/>
+<when interval="3112.737" since="#T0" xml:id="T660"/>
+<when interval="3115.69" since="#T0" xml:id="T661"/>
+<when interval="3129.949" since="#T0" xml:id="T662"/>
+<when interval="3133.186" since="#T0" xml:id="T663"/>
+<when interval="3135.979" since="#T0" xml:id="T664"/>
+<when interval="3139.999" since="#T0" xml:id="T665"/>
+<when interval="3141.776" since="#T0" xml:id="T666"/>
+</timeline>
+<body>
+<div>
+<head/>
+<div type="report">
+<head>
+<note type="start">#T0</note>
+<note type="end">#T666</note>
+</head>
+<annotationBlock end="#T1" start="#T0" who="spk1" xml:id="au0">
+<u>
+<seg>alors euh <pause type="short"/>donc euh j- donc j' vais t' poser un certain nombre de questions sur elles sont un peu organisées en <pause type="short"/>en parties thématiques donc on va commencer par la <pause type="short"/>la résidence euh donc euh la première question c'est qu- comment est-que tu es arrivée dans le dans l' quartier <pause type="short"/>où tu habites </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T2" start="#T1" who="spk2" xml:id="au1">
+<u>
+<seg>euh bah j'ai habité euh j'ai toujours habité Saint-Ouen (puisque, parce que) j'suis née à Saint-Ouen dans l'ancienne clinique <pause type="short"/>et euh en fait euh on habitait rue l'Hermet euh <pause type="short"/>près de près d' la mairie <pause type="short"/>et j' pense que c'est l'arrivée d' ma soeur et d' mon petit frère qui a fait qu'on a déménagé parce qu'on a demandé plus grand </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T3" start="#T2" who="spk2" xml:id="au2">
+<u>
+<seg>d'accord <pause type="short"/>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T3" start="#T2" who="spk1" xml:id="au3">
+<u>
+<seg>parce qu'on est une famille nombreuse </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T4" start="#T3" who="spk2" xml:id="au4">
+<u>
+<seg>quatre enfants </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T5" start="#T4" who="spk1" xml:id="au5">
+<u>
+<seg>donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T5" start="#T4" who="spk2" xml:id="au6">
+<u>
+<seg>ah ouais [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T6" start="#T5" who="spk2" xml:id="au7">
+<u>
+<seg>et en fait j'ai toujours euh voilà quartier où j'ai toujours habité euh <pause type="short"/>bon j'ai j'ai été dans d'autres quartiers <pause type="short"/>euh sur euh sur Saint-Ouen à l'opposé je suis revenue euh il y a six ans à peu près </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T7" start="#T6" who="spk2" xml:id="au8">
+<u>
+<seg>ah ok <pause type="short"/>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T7" start="#T6" who="spk1" xml:id="au9">
+<u>
+<seg>ouais six ans <pause type="short"/>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T8" start="#T7" who="spk2" xml:id="au10">
+<u>
+<seg>ouais ouais j'suis revenue quand euh <pause type="short"/>en fait j'me suis séparée du papa d' Lucas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T9" start="#T8" who="spk2" xml:id="au11">
+<u>
+<seg>d'accord <pause type="short"/>ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T9" start="#T8" who="spk1" xml:id="au12">
+<u>
+<seg>et donc j'suis revenue sur l' quartier </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T10" start="#T9" who="spk1" xml:id="au13">
+<u>
+<seg>donc en fait tu t'as vécu dans </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T11" start="#T10" who="spk1" xml:id="au14">
+<u>
+<seg>voilà <pause type="short"/>l'école euh voil- oui oui Saint-Ouen je s- toujours sur Saint-Ouen oui oui oui j'ai une vision euh oui [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T11" start="#T10" who="spk2" xml:id="au15">
+<u>
+<seg>dans plein d' quartiers euh <pause type="short"/>
+<pause type="short"/>et toujours sur Saint-Ouen <pause type="short"/>t'as une vision euh <pause type="short"/>XXX euh [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T12" start="#T11" who="spk2" xml:id="au16">
+<u>
+<seg>j'ai une vision oui dans dans c' sens-là </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T13" start="#T12" who="spk1" xml:id="au17">
+<u>
+<seg>et tes parents habitaient aussi euh -fin ils ils sont de Saint-Ouen- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T14" start="#T13" who="spk2" xml:id="au18">
+<u>
+<seg>de XX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T14" start="#T13" who="spk1" xml:id="au19">
+<u>
+<seg>non non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T15" start="#T14" who="spk2" xml:id="au20">
+<u>
+<seg>alors euh non non mon <pause type="short"/>non non <pause type="short"/>je sais pas trop comment ils ont atterri sur Saint-Ouen j'pense que mon père travaillait dans l' dix-huitième à l'époque </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T16" start="#T15" who="spk1" xml:id="au21">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T17" start="#T16" who="spk2" xml:id="au22">
+<u>
+<seg>et du coup il est arrivé sur Saint-Ouen qu'était juste à côté c'était pas encore euh gigantesque Saint-Ouen y avait plein d'endroits qu'étaient pas construits <pause type="short"/>j'pense à le côté de j'vois tout l' côté Arago euh derrière Emile Zola </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T18" start="#T17" who="spk2" xml:id="au23">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T18" start="#T17" who="spk1" xml:id="au24">
+<u>
+<seg>tout ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T19" start="#T18" who="spk2" xml:id="au25">
+<u>
+<seg>qu'était pas construit j' m'en souviens encore quand euh <pause type="short"/>on allait s'promener avec maman <pause type="short"/>c'est des vagues souvenirs </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T20" start="#T19" who="spk1" xml:id="au26">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T21" start="#T20" who="spk2" xml:id="au27">
+<u>
+<seg>c'était des champs <pause type="short"/>c'était </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T21" start="#T20" who="spk1" xml:id="au28">
+<u>
+<seg>mais euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T22" start="#T21" who="spk2" xml:id="au29">
+<u>
+<seg>oh oui oui c'était euh c'était en construction -fin c'ét- comment c'est <pause type="short"/>j'me v- je vois bien euh je vois la l- enfin on avait une vue dégagée c'était y avait encore rien de c' côté-là <pause type="short"/>et euh en fait euh ben oui maman non maman elle a <pause type="short"/>en fait ils ont habité Saint-Ouen quand ils ont emmenagé avec euh ma mère </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T23" start="#T22" who="spk1" xml:id="au30">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T24" start="#T23" who="spk2" xml:id="au31">
+<u>
+<seg>(puisque, parce que) <pause type="short"/>
+<pause type="short"/>euh maman elle vient de Manchester </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T25" start="#T24" who="spk1" xml:id="au32">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T26" start="#T25" who="spk2" xml:id="au33">
+<u>
+<seg>ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T26" start="#T25" who="spk1" xml:id="au34">
+<u>
+<seg>donc oui <pause type="short"/>c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T27" start="#T26" who="spk1" xml:id="au35">
+<u>
+<seg>et euh elle est elle est venue en France à quel âge ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T28" start="#T27" who="spk2" xml:id="au36">
+<u>
+<seg>vingt-trois ans </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T29" start="#T28" who="spk1" xml:id="au37">
+<u>
+<seg>vingt-trois ans ah c'est jeune ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T30" start="#T29" who="spk2" xml:id="au38">
+<u>
+<seg>d'accord <pause type="short"/>X </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T30" start="#T29" who="spk1" xml:id="au39">
+<u>
+<seg>ouais ouais <pause type="short"/>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T31" start="#T30" who="spk2" xml:id="au40">
+<u>
+<seg>elle a rencontré euh mon père est par- parti faire des vacances en Angleterre et le coup de foudre et voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T32" start="#T31" who="spk1" xml:id="au41">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T32" start="#T31" who="spk2" xml:id="au42">
+<u>
+<seg>ouais d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T33" start="#T32" who="spk1" xml:id="au43">
+<u>
+<seg>et donc là maintenant tu habites le ce quart- ça s'appelle comment ce quartier euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T34" start="#T33" who="spk2" xml:id="au44">
+<u>
+<seg>quartier Debain-Michelet </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T35" start="#T34" who="spk1" xml:id="au45">
+<u>
+<seg>Debain-Michelet </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T36" start="#T35" who="spk1" xml:id="au46">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T36" start="#T35" who="spk2" xml:id="au47">
+<u>
+<seg>d'accord <pause type="short"/>ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T37" start="#T36" who="spk1" xml:id="au48">
+<u>
+<seg>et tu t'y plais t'aimes bien </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T38" start="#T37" who="spk2" xml:id="au49">
+<u>
+<seg>ouais j'aime bien <pause type="short"/>j'aime bien parce que bon bah j'connais <pause type="short"/>quasiment tout l' monde dans l' coin <pause type="short"/>l'école <pause type="short"/>est en face bon ben ça permet aussi d'être proche pour Lucas -fin le collège aussi est en face voilà il y a vraiment proximité <pause type="short"/>petit village aussi avec euh <pause type="short"/>la petite place euh les commerçants </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T39" start="#T38" who="spk2" xml:id="au50">
+<u>
+<seg>le v- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T39" start="#T38" who="spk1" xml:id="au51">
+<u>
+<seg>euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T40" start="#T39" who="spk1" xml:id="au52">
+<u>
+<seg>le c'est quoi le village euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T41" start="#T40" who="spk2" xml:id="au53">
+<u>
+<seg>ça fait un petit village en fait tout l' monde se connaît </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T42" start="#T41" who="spk1" xml:id="au54">
+<u>
+<seg>euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T42" start="#T41" who="spk2" xml:id="au55">
+<u>
+<seg>ah </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T43" start="#T42" who="spk1" xml:id="au56">
+<u>
+<seg>ah c'est pas un endroit spécifique tu veux dire </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T44" start="#T43" who="spk2" xml:id="au57">
+<u>
+<seg>non non non c'est vraiment la petite place ça fait vraiment euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T45" start="#T44" who="spk2" xml:id="au58">
+<u>
+<seg>d'accord <pause type="short"/>X </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T45" start="#T44" who="spk1" xml:id="au59">
+<u>
+<seg>petit village hein c'est vraiment </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T46" start="#T45" who="spk2" xml:id="au60">
+<u>
+<seg>tout le monde se connaît </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T47" start="#T46" who="spk1" xml:id="au61">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T48" start="#T47" who="spk2" xml:id="au62">
+<u>
+<seg>qu'on prenne l'Audonienne euh qu'on croise les gens devant -fin ça fait <pause type="short"/>c'est vrai comme ça fait des années les amis d' mes parents les voisins -fin voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T49" start="#T48" who="spk2" xml:id="au63">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T49" start="#T48" who="spk1" xml:id="au64">
+<u>
+<seg>j'connais quand même beaucoup d' monde euh sur Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T50" start="#T49" who="spk1" xml:id="au65">
+<u>
+<seg>en tout cas ce quartier là c'est vraiment euh <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T50" start="#T49" who="spk2" xml:id="au66">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T51" start="#T50" who="spk2" xml:id="au67">
+<u>
+<seg>et puis y a beaucoup de beaucoup d' choses au niveau associatif qui s'font san- sur ce quartier <pause type="short"/>y a plein plein d' trucs donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T52" start="#T51" who="spk2" xml:id="au68">
+<u>
+<seg>donc c'est ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T52" start="#T51" who="spk1" xml:id="au69">
+<u>
+<seg>non j'aime bien </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T53" start="#T52" who="spk1" xml:id="au70">
+<u>
+<seg>c'est la différence par rapport aux autres quartiers de <pause type="short"/>de la ville ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T54" start="#T53" who="spk2" xml:id="au71">
+<u>
+<seg>les quartiers XX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T54" start="#T53" who="spk1" xml:id="au72">
+<u>
+<seg>je <pause type="short"/>je sais qu' les </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T55" start="#T54" who="spk2" xml:id="au73">
+<u>
+<seg>y a d'autres quartiers où ils font plein plein d' choses mais euh <pause type="short"/>on sent qu'ici y a vraiment voilà y a une am- y a quand même <pause type="short"/>un petit collège <pause type="short"/>une école <pause type="short"/>une maternelle donc tout ça fait qu'on est quand même assez proches <pause type="short"/>y a aussi euh ben y a la bibliothèque <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T56" start="#T55" who="spk2" xml:id="au74">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T56" start="#T55" who="spk1" xml:id="au75">
+<u>
+<seg>donc c'est quand même un lieu important </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T57" start="#T56" who="spk1" xml:id="au76">
+<u>
+<seg>la la bibliothèque Lucie Aubrac </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T58" start="#T57" who="spk2" xml:id="au77">
+<u>
+<seg>c'est ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T58" start="#T57" who="spk1" xml:id="au78">
+<u>
+<seg>oui <pause type="short"/>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T59" start="#T58" who="spk2" xml:id="au79">
+<u>
+<seg>donc ça fait quand même voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T60" start="#T59" who="spk1" xml:id="au80">
+<u>
+<seg>ouais c'est XX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T60" start="#T59" who="spk1" xml:id="au81">
+<u>
+<seg>c'est vraiment euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T61" start="#T60" who="spk2" xml:id="au82">
+<u>
+<seg>non y a plein on a plein de on a plein d' petits commerces et c'est vrai qu' voilà c'est qu- on a l'impression qu' c'est vraiment un quartier qu'est resté à dimension humaine </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T62" start="#T61" who="spk1" xml:id="au83">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T63" start="#T62" who="spk2" xml:id="au84">
+<u>
+<seg>on a pas de grandes tours on est vraiment voilà <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T64" start="#T63" who="spk1" xml:id="au85">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T65" start="#T64" who="spk2" xml:id="au86">
+<u>
+<seg>on est encore euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T66" start="#T65" who="spk1" xml:id="au87">
+<u>
+<seg>donc y a pas d'autres quartiers d' Saint-Ouen où tu préfèrerais euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T67" start="#T66" who="spk2" xml:id="au88">
+<u>
+<seg>habiter non selon le </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T67" start="#T66" who="spk1" xml:id="au89">
+<u>
+<seg>non <pause type="short"/>non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T68" start="#T67" who="spk2" xml:id="au90">
+<u>
+<seg>j- c'est vraiment le quartier quand on a v- quand euh en fait euh on a cherché cet appartement <pause type="short"/>avec Laurent Laurent venait de Rueil </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T69" start="#T68" who="spk1" xml:id="au91">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T70" start="#T69" who="spk2" xml:id="au92">
+<u>
+<seg>et m- on a cherché et j- c'est vrai qu'on avait privilégié ce coin là </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T71" start="#T70" who="spk1" xml:id="au93">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T72" start="#T71" who="spk2" xml:id="au94">
+<u>
+<seg>vraiment </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T73" start="#T72" who="spk1" xml:id="au95">
+<u>
+<seg>ok euh <pause type="short"/>et euh <pause type="short"/>[toux] <pause type="short"/>dans dans le à l'intérieur du quartier donc est-ce qu' y a des endroits où tu vas souvent <pause type="short"/>t'avais parlé d' la bibliothèque </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T74" start="#T73" who="spk2" xml:id="au96">
+<u>
+<seg>des marchés des choses comme ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T74" start="#T73" who="spk1" xml:id="au97">
+<u>
+<seg>bibliothèque euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T75" start="#T74" who="spk2" xml:id="au98">
+<u>
+<seg>y a pas de marché ici </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T76" start="#T75" who="spk1" xml:id="au99">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T77" start="#T76" who="spk2" xml:id="au100">
+<u>
+<seg>non non <pause type="short"/>le marché c'est d' l'autre côté euh du périphérique c'est du côté du <pause type="short"/>euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T78" start="#T77" who="spk1" xml:id="au101">
+<u>
+<seg>dans Paris ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T79" start="#T78" who="spk2" xml:id="au102">
+<u>
+<seg>oui <pause type="short"/>c'est à Paris c'est euh <pause type="short"/>à rue du Poteau </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T80" start="#T79" who="spk1" xml:id="au103">
+<u>
+<seg>voilà on est quand même </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T80" start="#T79" who="spk2" xml:id="au104">
+<u>
+<seg>ah oui XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T81" start="#T80" who="spk2" xml:id="au105">
+<u>
+<seg>l'avanta- ici y a les puces </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T82" start="#T81" who="spk2" xml:id="au106">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T82" start="#T81" who="spk1" xml:id="au107">
+<u>
+<seg>donc oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T83" start="#T82" who="spk2" xml:id="au108">
+<u>
+<seg>d'aller faire un petit tour aux puces <pause type="short"/>euh j'trouve que c'est assez sympa </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T84" start="#T83" who="spk1" xml:id="au109">
+<u>
+<seg>d'ailleurs quand on emmène les <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T84" start="#T83" who="spk2" xml:id="au110">
+<u>
+<seg>ouais ouais ouais c'est sûr </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T85" start="#T84" who="spk2" xml:id="au111">
+<u>
+<seg>les gens qui viennent nous voir euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T86" start="#T85" who="spk1" xml:id="au112">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T87" start="#T86" who="spk2" xml:id="au113">
+<u>
+<seg>de tou- ils sont c- ils sont étonnés de s- tout c' qu' y a aussi donc euh voilà sinon euh <pause type="short"/>j'vais toujours voilà j'fais mes courses quand même euh <pause type="short"/>j- <pause type="short"/>j'ai le chevalin -fin n- c'est vrai qu' nous on peut-être euh [petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T88" start="#T87" who="spk1" xml:id="au114">
+<u>
+<seg>peut-être euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T88" start="#T87" who="spk2" xml:id="au115">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T89" start="#T88" who="spk2" xml:id="au116">
+<u>
+<seg>nous on mange nous on mange du cheval et c'est vrai que depuis qu' je suis petite <pause type="short"/>euh donc c'est vraiment euh voilà s- lui il est il est là depuis <pause type="short"/>pff ça j'sais pas combien d'années </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T90" start="#T89" who="spk1" xml:id="au117">
+<u>
+<seg>que j'suis partie </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T90" start="#T89" who="spk2" xml:id="au118">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T91" start="#T90" who="spk2" xml:id="au119">
+<u>
+<seg>il a toujours été là </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T92" start="#T91" who="spk2" xml:id="au120">
+<u>
+<seg>ah ouais <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T92" start="#T91" who="spk1" xml:id="au121">
+<u>
+<seg>donc vraiment c'est la référence euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T93" start="#T92" who="spk1" xml:id="au122">
+<u>
+<seg>y a de moins en moins en fait euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T94" start="#T93" who="spk2" xml:id="au123">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T94" start="#T93" who="spk1" xml:id="au124">
+<u>
+<seg>oui <pause type="short"/>oui et lui il est vraiment </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T95" start="#T94" who="spk2" xml:id="au125">
+<u>
+<seg>-fin voilà il a sa <pause type="short"/>clientèle de d'habitués des </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T96" start="#T95" who="spk2" xml:id="au126">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T96" start="#T95" who="spk1" xml:id="au127">
+<u>
+<seg>petits papis des </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T97" start="#T96" who="spk2" xml:id="au128">
+<u>
+<seg>vraiment il est <pause type="short"/>j' pense que c'est quelqu'un voilà lui il a vraiment une euh une histoire sur ce quartier <pause type="short"/>après euh <pause type="short"/>bon on bouge quand même beaucoup hein on a pas tout on va </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T98" start="#T97" who="spk1" xml:id="au129">
+<u>
+<seg>à l'autre bout euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T98" start="#T97" who="spk2" xml:id="au130">
+<u>
+<seg>ouais ouais bien sûr ouais <pause type="short"/>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T99" start="#T98" who="spk2" xml:id="au131">
+<u>
+<seg>on va dire la la bibliothèque c'est vraiment le <pause type="short"/>le centre le collège c'est vraiment les endroits où j'vais le plus </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T100" start="#T99" who="spk2" xml:id="au132">
+<u>
+<seg>est-ce qu' y a des endroits </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T100" start="#T99" who="spk1" xml:id="au133">
+<u>
+<seg>sur ce quartier là </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T101" start="#T100" who="spk1" xml:id="au134">
+<u>
+<seg>où tu vas jamais où vous allez jamais euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T102" start="#T101" who="spk2" xml:id="au135">
+<u>
+<seg>
+<pause type="short"/>sur ce quartier ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T103" start="#T102" who="spk1" xml:id="au136">
+<u>
+<seg>ouais ou <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T104" start="#T103" who="spk2" xml:id="au137">
+<u>
+<seg>non non parce que bon c'est a- il est assez petit hein aussi hein c'est pas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T105" start="#T104" who="spk2" xml:id="au138">
+<u>
+<seg>c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T105" start="#T104" who="spk1" xml:id="au139">
+<u>
+<seg>c'est pas é- gigantesque </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T106" start="#T105" who="spk1" xml:id="au140">
+<u>
+<seg>c'est quoi les les limites </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T107" start="#T106" who="spk2" xml:id="au141">
+<u>
+<seg>ça fait euh la limite on va dire <pause type="short"/>l'avenue Michelet ça va jusqu'au fond <pause type="short"/>euh rue des Poissoniers </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T108" start="#T107" who="spk1" xml:id="au142">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T109" start="#T108" who="spk2" xml:id="au143">
+<u>
+<seg>à peu près <pause type="short"/>et puis ça va jusqu'au cimetière <pause type="short"/>le rucher tout ça <pause type="short"/>donc c'est vraiment les coins euh voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T110" start="#T109" who="spk1" xml:id="au144">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T111" start="#T110" who="spk2" xml:id="au145">
+<u>
+<seg>c'est pas euh <pause type="short"/>alors peut-être des endroits où j'vais pas c'est le stade <pause type="short"/>le petit stade qu' y a derrière j- où j- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T112" start="#T111" who="spk1" xml:id="au146">
+<u>
+<seg>le stade Bauer ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T113" start="#T112" who="spk2" xml:id="au147">
+<u>
+<seg>voilà le stade Bauer où j'y mets jamais les pieds sauf pour le vide-grenier <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T114" start="#T113" who="spk1" xml:id="au148">
+<u>
+<seg>t'es pas une euh fan de Red Star euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T115" start="#T114" who="spk2" xml:id="au149">
+<u>
+<seg>le Red Star si le Red Star <pause type="short"/>alors y a l- parce qu'en plus on a le Red Star et le Red Star euh j'y suis allée euh bah pour l'inauguration de la pelouse </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T116" start="#T115" who="spk1" xml:id="au150">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T117" start="#T116" who="spk2" xml:id="au151">
+<u>
+<seg>bon mais c'est vrai qu' ça fait partie du quartier mais on va dire pour moi euh vraiment quartier c'est vraiment le coin et après on passe euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T118" start="#T117" who="spk1" xml:id="au152">
+<u>
+<seg>c'est souvent les artères </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T119" start="#T118" who="spk1" xml:id="au153">
+<u>
+<seg>voilà la grande artère on va pas on <pause type="short"/>bon </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T119" start="#T118" who="spk2" xml:id="au154">
+<u>
+<seg>en fait puis XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T120" start="#T119" who="spk2" xml:id="au155">
+<u>
+<seg>commence déjà à descendre sur l'autre quartier quoi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T121" start="#T120" who="spk1" xml:id="au156">
+<u>
+<seg>d'accord <pause type="short"/>alors <pause type="short"/>c'est Saint-Ouen <pause type="short"/>si on prend ça au pied d' la lettre c'est la banlieue <pause type="short"/>est-ce que est-ce que <pause type="short"/>tu as l'impression d'habiter en banlieue ou e- ou à Paris est-ce que tu t'sens proche de Paris euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T122" start="#T121" who="spk2" xml:id="au157">
+<u>
+<seg>
+<pause type="short"/>en banlieue oui pour certains aspects on va dire peut-être euh <pause type="short"/>
+<pause type="short"/>euh <pause type="short"/>
+<pause type="short"/>par rapport aux horaires on va dire des des commerçants </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T123" start="#T122" who="spk1" xml:id="au158">
+<u>
+<seg>ah ouais ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T124" start="#T123" who="spk2" xml:id="au159">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T125" start="#T124" who="spk2" xml:id="au160">
+<u>
+<seg>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T125" start="#T124" who="spk1" xml:id="au161">
+<u>
+<seg>parce que euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T126" start="#T125" who="spk2" xml:id="au162">
+<u>
+<seg>sur Paris on a l'impression qu' c'est très souvent ouvert enfin non-stop </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T127" start="#T126" who="spk1" xml:id="au163">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T128" start="#T127" who="spk2" xml:id="au164">
+<u>
+<seg>par exemple sur notre quartier euh la pharmacie elle est fermée de telle heure à telle heure le G20 qu'on a il est fermé entre treize heure et seize heure <pause type="short"/>donc ça fait vraiment voilà on a l'impression qu'ici c'est endormi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T129" start="#T128" who="spk2" xml:id="au165">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T129" start="#T128" who="spk1" xml:id="au166">
+<u>
+<seg>pendant une partie d' la journée </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T130" start="#T129" who="spk1" xml:id="au167">
+<u>
+<seg>ouais <pause type="short"/>j' savais pas ça en fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T131" start="#T130" who="spk2" xml:id="au168">
+<u>
+<seg>ouais ouais pas tout <pause type="short"/>alors sur Saint-Ouen quand on va sur les autres commerces sur Saint-Ouen y a quand même des commerces qui sont fermés et même qui sont pas ouverts tout l' temps même le dimanche </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T132" start="#T131" who="spk1" xml:id="au169">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T133" start="#T132" who="spk2" xml:id="au170">
+<u>
+<seg>sur Paris c'est différent </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T134" start="#T133" who="spk2" xml:id="au171">
+<u>
+<seg>ouais c'est sûr </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T134" start="#T133" who="spk1" xml:id="au172">
+<u>
+<seg>on a l'impression qu' c'est ouvert beaucoup plus </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T135" start="#T134" who="spk2" xml:id="au173">
+<u>
+<seg>alors voilà pourquoi ça fait peut-être plus banlieue après <pause type="short"/>euh banlieue <pause type="short"/>
+<pause type="short"/>moi -fin j- <pause type="short"/>j'ai pas l'impression euh qu' il y ait une grande différence non plus j'ai l'impression qu'on commence quand même à se </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T136" start="#T135" who="spk1" xml:id="au174">
+<u>
+<seg>ouais c'est sûr </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T137" start="#T136" who="spk2" xml:id="au175">
+<u>
+<seg>à s- voilà à s'homogénéiser euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T138" start="#T137" who="spk1" xml:id="au176">
+<u>
+<seg>ouais d'accord <pause type="short"/>euh <pause type="short"/>dans le -fin dans l' quartier ou dans Saint-Ouen en général j'imagine qu' y a différentes euh communautés <pause type="short"/>euh <pause type="short"/>qui coexistent non ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T139" start="#T138" who="spk2" xml:id="au177">
+<u>
+<seg>oui oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T140" start="#T139" who="spk1" xml:id="au178">
+<u>
+<seg>-fin c'est lesquelles </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T141" start="#T140" who="spk2" xml:id="au179">
+<u>
+<seg>euh <pause type="short"/>
+<pause type="short"/>j' sais pas trop pas trop de communautés chinoises <pause type="short"/>même si pas vraiment bon ça serait plutôt euh euh Afrique du Nord euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T142" start="#T141" who="spk1" xml:id="au180">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T143" start="#T142" who="spk2" xml:id="au181">
+<u>
+<seg>voilà <pause type="short"/>plus euh voilà musulman les musulmans <pause type="short"/>beaucoup <pause type="short"/>c'est plus ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T144" start="#T143" who="spk1" xml:id="au182">
+<u>
+<seg>j'ai p- <pause type="short"/>sur Saint-Ouen <pause type="short"/>
+<pause type="short"/>voilà Algériens Marocains </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T144" start="#T143" who="spk2" xml:id="au183">
+<u>
+<seg>d'accord <pause type="short"/>alors Algériens Marocains <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T145" start="#T144" who="spk2" xml:id="au184">
+<u>
+<seg>euh Africains Africains euh j'pense que y a un peu euh Sénégalais <pause type="short"/>y a beaucoup de <pause type="short"/>oui <pause type="short"/>
+<pause type="short"/>après euh j'ai pas tellement l'impression qu' il y ait beaucoup de Chinois de Japonais non pas trop <pause type="short"/>pas trop non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T146" start="#T145" who="spk1" xml:id="au185">
+<u>
+<seg>et t'as et tu as des contacts avec des personnes d' ces communautés </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T147" start="#T146" who="spk1" xml:id="au186">
+<u>
+<seg>oui oui oui <pause type="short"/>bon y a pas de <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T147" start="#T146" who="spk2" xml:id="au187">
+<u>
+<seg>ou est-ce que XX y a pas trop de <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T148" start="#T147" who="spk2" xml:id="au188">
+<u>
+<seg>non <pause type="short"/>j'ai l'impression que c'est assez euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T149" start="#T148" who="spk1" xml:id="au189">
+<u>
+<seg>XX différences ou des choses comme ça <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T150" start="#T149" who="spk2" xml:id="au190">
+<u>
+<seg>euh non non j'ai pas l'impression au contraire on est assez euh j'ai l'impression que sur Saint-Ouen y a quand même euh c'est assez ouvert <pause type="short"/>
+<pause type="short"/>les g- les gens s- vivent les uns à côté des autres sans qu' ça pose de problème <pause type="short"/>
+<pause type="short"/>après y a d'autres problèmes mais qui sont plus euh liés à des jeunes mais ça c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T151" start="#T150" who="spk1" xml:id="au191">
+<u>
+<seg>c'est un autre problème </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T151" start="#T150" who="spk2" xml:id="au192">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T152" start="#T151" who="spk2" xml:id="au193">
+<u>
+<seg>
+<pause type="short"/>mais non j'ai pas tellement -fin oui les jeunes et l' trafic hein </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T153" start="#T152" who="spk1" xml:id="au194">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T154" start="#T153" who="spk2" xml:id="au195">
+<u>
+<seg>oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T155" start="#T154" who="spk1" xml:id="au196">
+<u>
+<seg>c'est un problème <pause type="short"/>par ici ou dans Saint-Ouen en général </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T156" start="#T155" who="spk2" xml:id="au197">
+<u>
+<seg>dans Saint-Ouen en général en fait ça a commencé on va dire avec euh <pause type="short"/>des guetteurs qui étaient repérés sur un ce- un certain secteur à côté d' la piscine derrière y a avait ce phénomène assez euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T157" start="#T156" who="spk1" xml:id="au198">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T158" start="#T157" who="spk2" xml:id="au199">
+<u>
+<seg>et puis s- ça s'est propagé quand même </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T159" start="#T158" who="spk1" xml:id="au200">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T160" start="#T159" who="spk2" xml:id="au201">
+<u>
+<seg>c'est à dire que maintenant y en a dans le vieux Saint-Ouen <pause type="short"/>y en a à côté </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T161" start="#T160" who="spk2" xml:id="au202">
+<u>
+<seg>Arago aussi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T161" start="#T160" who="spk1" xml:id="au203">
+<u>
+<seg>y a eu </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T162" start="#T161" who="spk2" xml:id="au204">
+<u>
+<seg>oui y en a partout <pause type="short"/>
+<pause type="short"/>y en a partout alors qu'avant c'était <pause type="short"/>c'était moins flagrant </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T163" start="#T162" who="spk1" xml:id="au205">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T164" start="#T163" who="spk2" xml:id="au206">
+<u>
+<seg>maintenant on les voit plus <pause type="short"/>
+<pause type="short"/>voilà et on les voit plus oui <pause type="short"/>oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T165" start="#T164" who="spk1" xml:id="au207">
+<u>
+<seg>on sent que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T165" start="#T164" who="spk2" xml:id="au208">
+<u>
+<seg>ah ouais XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T166" start="#T165" who="spk2" xml:id="au209">
+<u>
+<seg>on sent qu' y a vraiment un un problème avec ce <pause type="short"/>ce phénomène-là quoi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T167" start="#T166" who="spk1" xml:id="au210">
+<u>
+<seg>est-ce qu' y a des euh des fêtes de voisinage euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T168" start="#T167" who="spk2" xml:id="au211">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T169" start="#T168" who="spk1" xml:id="au212">
+<u>
+<seg>des fêtes dans la rue des choses comme ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T170" start="#T169" who="spk2" xml:id="au213">
+<u>
+<seg>alors ici y a un carnaval </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T171" start="#T170" who="spk1" xml:id="au214">
+<u>
+<seg>ah ouais ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T172" start="#T171" who="spk2" xml:id="au215">
+<u>
+<seg>un carnaval des enfants j'crois qu' c'est au mois de <pause type="short"/>
+<pause type="short"/>avril <pause type="short"/>
+<pause type="short"/>mars <pause type="short"/>mars ou avril je sais pas <pause type="short"/>euh avant y avait avant y avait vraiment un grand grand <pause type="short"/>un grand carnaval </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T173" start="#T172" who="spk2" xml:id="au216">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T173" start="#T172" who="spk1" xml:id="au217">
+<u>
+<seg>qu'était organisé <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T174" start="#T173" who="spk2" xml:id="au218">
+<u>
+<seg>quand j'étais enfant y avait un carnaval qui passait qui faisait tout l' tour du du quartier <pause type="short"/>avec la fanfare et cetera y avait toujours ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T175" start="#T174" who="spk1" xml:id="au219">
+<u>
+<seg>j'ai vu des photos </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T176" start="#T175" who="spk1" xml:id="au220">
+<u>
+<seg>oui oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T176" start="#T175" who="spk2" xml:id="au221">
+<u>
+<seg>euh dernièrement là </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T177" start="#T176" who="spk1" xml:id="au222">
+<u>
+<seg>y a des expos d' photos euh noir et blanc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T178" start="#T177" who="spk2" xml:id="au223">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T178" start="#T177" who="spk1" xml:id="au224">
+<u>
+<seg>ah ouais non y avait vraiment euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T179" start="#T178" who="spk2" xml:id="au225">
+<u>
+<seg>y avait vraiment euh <pause type="short"/>et puis ce phénomène s'est un petit peu alors p- je sais pas c'est peut-être au niveau organisation c'est peut-être euh peut-être le programme scolaire euh fait que on a moins de temps ben je n' sais pas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T180" start="#T179" who="spk2" xml:id="au226">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T180" start="#T179" who="spk1" xml:id="au227">
+<u>
+<seg>peut-être c'est lourd à <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T181" start="#T180" who="spk2" xml:id="au228">
+<u>
+<seg>à <pause type="short"/>à mettre en place </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T182" start="#T181" who="spk2" xml:id="au229">
+<u>
+<seg>ouais c'est X </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T182" start="#T181" who="spk1" xml:id="au230">
+<u>
+<seg>parce que il faut bloquer la route </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T183" start="#T182" who="spk2" xml:id="au231">
+<u>
+<seg>donc ça demande plein <pause type="short"/>donc <pause type="short"/>du coup ça s'est un petit peu euh -fin on le on voit moins ce genre de choses mais c'est vrai qu'avant c'était un grand carnaval avec un <pause type="short"/>une euh une mascotte qu' avait été faite qui brûlait sur euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T184" start="#T183" who="spk1" xml:id="au232">
+<u>
+<seg>ah ouais ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T185" start="#T184" who="spk2" xml:id="au233">
+<u>
+<seg>sur le stade euh -fin pas sur le stade sur le <pause type="short"/>terrain d' pétanque y a un petit terrain d' pétanque aussi ici euh tenu par euh le café juste en face et donc y avait euh une petite fête <pause type="short"/>et euh c'est vrai que y a des fêtes de quartier y a la fête de quartier </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T186" start="#T185" who="spk1" xml:id="au234">
+<u>
+<seg>ici </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T186" start="#T185" who="spk2" xml:id="au235">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T187" start="#T186" who="spk2" xml:id="au236">
+<u>
+<seg>
+<pause type="short"/>qu'à toujours eu l- dans l' quartier que ça soit sur la place ou que que ça soit sur le stade <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T188" start="#T187" who="spk2" xml:id="au237">
+<u>
+<seg>ju- juste sur la <pause type="short"/>le </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T188" start="#T187" who="spk1" xml:id="au238">
+<u>
+<seg>euh y a l' vide grenier </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T189" start="#T188" who="spk1" xml:id="au239">
+<u>
+<seg>l- la mascotte c'est quoi c'était quoi comme mascotte </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T190" start="#T189" who="spk2" xml:id="au240">
+<u>
+<seg>euh pour qu'on la brûle ? [petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T190" start="#T189" who="spk1" xml:id="au241">
+<u>
+<seg>oh ben c'était euh <pause type="short"/>bah <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T191" start="#T190" who="spk2" xml:id="au242">
+<u>
+<seg>c'est le le c'est un petit peu traditionnel d'avoir une mascotte euh de carnaval qu'on brûle euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T192" start="#T191" who="spk1" xml:id="au243">
+<u>
+<seg>ah d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T193" start="#T192" who="spk1" xml:id="au244">
+<u>
+<seg>c'était euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T193" start="#T192" who="spk2" xml:id="au245">
+<u>
+<seg>j' savais pas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T194" start="#T193" who="spk2" xml:id="au246">
+<u>
+<seg>voilà c'était un <pause type="short"/>un <pause type="short"/>personnage qu'est fabriqué avec des des vêtements et des <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T195" start="#T194" who="spk1" xml:id="au247">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T196" start="#T195" who="spk2" xml:id="au248">
+<u>
+<seg>ça m' fait penser à Guy Fawkes en Angleterre <pause type="short"/>en novembre </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T196" start="#T195" who="spk1" xml:id="au249">
+<u>
+<seg>mais c'est vieux ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T197" start="#T196" who="spk2" xml:id="au250">
+<u>
+<seg>oui je vois oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T198" start="#T197" who="spk1" xml:id="au251">
+<u>
+<seg>ce genre de choses euh <pause type="short"/>et j'ai en fait j'allais te poser la question de -fin te te demander d' me raconter euh quelque chose de marquant ou de de très mémorable qui <pause type="short"/>qui qui s'était passé dans l' quartier j' sais pas si c'était <pause type="short"/>ça ou est-ce qu' y a d'autres euh <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T199" start="#T198" who="spk2" xml:id="au252">
+<u>
+<seg>XX <pause type="short"/>peut-être ou euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T199" start="#T198" who="spk1" xml:id="au253">
+<u>
+<seg>euh de point d' vue festif ou du point d' vue euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T200" start="#T199" who="spk1" xml:id="au254">
+<u>
+<seg>ou juste impressionnant ou <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T201" start="#T200" who="spk2" xml:id="au255">
+<u>
+<seg>euh pff </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T202" start="#T201" who="spk1" xml:id="au256">
+<u>
+<seg>comme ça j'aurai du m- euh [petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T202" start="#T201" who="spk2" xml:id="au257">
+<u>
+<seg>[petit rire] <pause type="short"/>ouais [petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T203" start="#T202" who="spk2" xml:id="au258">
+<u>
+<seg>euh quelque chose de marquant euh <pause type="short"/>
+<pause type="short"/>non pas particulièrement j'ai l'impression que c'est quand même un quartier où y a toujours quelque chose -fin chaque année y a quand mê- l- le l'évènement le plus marquant -fin que moi j'aime beaucoup c'est l' vide-grenier </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T204" start="#T203" who="spk1" xml:id="au259">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T205" start="#T204" who="spk2" xml:id="au260">
+<u>
+<seg>oui bon pas parce que je on participe activement avec euh l'association d' Jeannine mais <pause type="short"/>parce que c'est vraiment un moment où alors tout l' monde vient a un petit stand et vend ses ses bric et broc </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T206" start="#T205" who="spk1" xml:id="au261">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T207" start="#T206" who="spk2" xml:id="au262">
+<u>
+<seg>et puis euh c'est la buvette c'est euh voilà on a l'impression qu' c'est une journée festive <pause type="short"/>vraiment <pause type="short"/>
+<pause type="short"/>-fin en tout cas nous n- de notre point d' vue on a on aime beaucoup ce moment là parce que voilà c'est un moment où on rencontre les gens oui c'est un c'est un moment sympa c'est vraiment un moment sympa <pause type="short"/>plus encore que la fête de quartier <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T208" start="#T207" who="spk1" xml:id="au263">
+<u>
+<seg>et c'est la fête de quartier c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T209" start="#T208" who="spk2" xml:id="au264">
+<u>
+<seg>c'est le petit carnaval que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T209" start="#T208" who="spk1" xml:id="au265">
+<u>
+<seg>la fête de quartier ben c'est f- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T210" start="#T209" who="spk2" xml:id="au266">
+<u>
+<seg>non ça c'est le le carnaval normalement c'est les écoles la fête de quartier c'est euh c'est les associations du quartier qui font u- un un moment assez festif avec euh plein d' stands euh des animations musicales euh des danses euh y a <pause type="short"/>des choses sur euh la verdure euh <pause type="short"/>mais <pause type="short"/>c'est des moments euh c'est souvent en même temps que la veille du vide-grenier très souvent </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T211" start="#T210" who="spk1" xml:id="au267">
+<u>
+<seg>d'accord d'accord <pause type="short"/>euh <pause type="short"/>et tu tu dois aller à Paris j'imagine euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T212" start="#T211" who="spk1" xml:id="au268">
+<u>
+<seg>ah oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T212" start="#T211" who="spk2" xml:id="au269">
+<u>
+<seg>de temps en temps euh pour </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T213" start="#T212" who="spk1" xml:id="au270">
+<u>
+<seg>pour te promener alors là où est-ce que tu vas à Paris quand quels sont les quartiers qui <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T214" start="#T213" who="spk2" xml:id="au271">
+<u>
+<seg>j'aime bien l' dix-huitième <pause type="short"/>j'aime bien l' dix-huitième <pause type="short"/>rue du Poteau euh <pause type="short"/>j'aime bien aller du côté de Château Rouge aussi <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T215" start="#T214" who="spk2" xml:id="au272">
+<u>
+<seg>ouais ouais ouais moi aussi <pause type="short"/>[rire] <pause type="short"/>des magasins euh ethniques et tout ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T215" start="#T214" who="spk1" xml:id="au273">
+<u>
+<seg>j'aime beaucoup voilà avec tout ces toutes ces boutiques y a oui y a vraiment un co- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T216" start="#T215" who="spk2" xml:id="au274">
+<u>
+<seg>ouais j'aime bien j'ai </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T217" start="#T216" who="spk1" xml:id="au275">
+<u>
+<seg>ouais XXX quoi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T218" start="#T217" who="spk2" xml:id="au276">
+<u>
+<seg>j'aime bien en fait j'aime beaucoup Paris euh j'aime beaucoup Paris la nuit </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T219" start="#T218" who="spk1" xml:id="au277">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T220" start="#T219" who="spk2" xml:id="au278">
+<u>
+<seg>l'autre fois on est allés dans l' quartier Saint-Michel alors euh bah j'aime bien aussi y a un petit côté alors en journée j'aime bien parce que voilà c'est c'est différent et le soir j'adore me promener dans Paris les lumières euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T221" start="#T220" who="spk1" xml:id="au279">
+<u>
+<seg>y a un côté voilà alors pourtant </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T221" start="#T220" who="spk2" xml:id="au280">
+<u>
+<seg>ouais ouais c'est vrai qu' c'est sympa [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T222" start="#T221" who="spk2" xml:id="au281">
+<u>
+<seg>et pourtant euh pff quand on reprend l' métro et qu'on voit tout c' monde tout ça c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T223" start="#T222" who="spk2" xml:id="au282">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T223" start="#T222" who="spk1" xml:id="au283">
+<u>
+<seg>c'est c' qui euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T224" start="#T223" who="spk2" xml:id="au284">
+<u>
+<seg>fait que des fois on a pas trop envie d'y aller mais quand on est s- dans Paris qu'on s' promène on dit </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T225" start="#T224" who="spk1" xml:id="au285">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T226" start="#T225" who="spk2" xml:id="au286">
+<u>
+<seg>c'est quand même sympa Paris <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T227" start="#T226" who="spk1" xml:id="au287">
+<u>
+<seg>c'est quand même sympa <pause type="short"/>non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T227" start="#T226" who="spk2" xml:id="au288">
+<u>
+<seg>et t'aimerais pas habiter euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T228" start="#T227" who="spk1" xml:id="au289">
+<u>
+<seg>à Jules-Joffrin par exemple ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T229" start="#T228" who="spk2" xml:id="au290">
+<u>
+<seg>non <pause type="short"/>non non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T230" start="#T229" who="spk1" xml:id="au291">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T231" start="#T230" who="spk2" xml:id="au292">
+<u>
+<seg>parce que c'est trop chargé ou <pause type="short"/>
+<pause type="short"/>ou plein d' choses </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T231" start="#T230" who="spk1" xml:id="au293">
+<u>
+<seg>mais j'aime <pause type="short"/>
+<pause type="short"/>non ou- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T232" start="#T231" who="spk2" xml:id="au294">
+<u>
+<seg>ouais ouais j'aime ici encore ici encore c'est voilà on sort on est pas envahis par la foule non plus <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T233" start="#T232" who="spk1" xml:id="au295">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T233" start="#T232" who="spk2" xml:id="au296">
+<u>
+<seg>non c'est vrai nous aussi on a trouvé euh une grande différence </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T234" start="#T233" who="spk1" xml:id="au297">
+<u>
+<seg>on habitait à dans l' dix-huitième avant et c'était tellement bruyant en fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T235" start="#T234" who="spk2" xml:id="au298">
+<u>
+<seg>oui voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T236" start="#T235" who="spk1" xml:id="au299">
+<u>
+<seg>la les artères et tout ça c'est <pause type="short"/>c'est dur quoi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T237" start="#T236" who="spk1" xml:id="au300">
+<u>
+<seg>ouais ouais ouais non c'est c'est vrai qu' oui ça use euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T237" start="#T236" who="spk2" xml:id="au301">
+<u>
+<seg>[rire] ça use [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T238" start="#T237" who="spk1" xml:id="au302">
+<u>
+<seg>ah ouais [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T239" start="#T238" who="spk2" xml:id="au303">
+<u>
+<seg>mais c'est vrai que non non j'aime pour Paris j'aime enfin pour Saint-Ouen j'aime bien ce côté un peu un peu plus calme </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T240" start="#T239" who="spk1" xml:id="au304">
+<u>
+<seg>ouais <pause type="short"/>d'accord <pause type="short"/>alors sur sur les les écoles euh dans l' quartier euh c'est y a j'imagine qu' y a un collège et un </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T241" start="#T240" who="spk2" xml:id="au305">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T242" start="#T241" who="spk1" xml:id="au306">
+<u>
+<seg>une école primaire </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T243" start="#T242" who="spk2" xml:id="au307">
+<u>
+<seg>oui <pause type="short"/>collège école primaire maternelle et crèche </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T244" start="#T243" who="spk1" xml:id="au308">
+<u>
+<seg>tout tout c' qu'il faut </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T245" start="#T244" who="spk2" xml:id="au309">
+<u>
+<seg>d'accord ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T245" start="#T244" who="spk1" xml:id="au310">
+<u>
+<seg>tout c' qu' y faut </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T246" start="#T245" who="spk2" xml:id="au311">
+<u>
+<seg>quasiment sur le même euh pâté d' maisons </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T247" start="#T246" who="spk1" xml:id="au312">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T248" start="#T247" who="spk2" xml:id="au313">
+<u>
+<seg>c'est bien pour envoyer les petits euh à l'école XXX [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T248" start="#T247" who="spk1" xml:id="au314">
+<u>
+<seg>[rire] donc c'est vraiment euh <pause type="short"/>voilà donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T249" start="#T248" who="spk2" xml:id="au315">
+<u>
+<seg>Lucas été euh au primaire maintenant il est juste à côté au collège </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T250" start="#T249" who="spk1" xml:id="au316">
+<u>
+<seg>donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T250" start="#T249" who="spk2" xml:id="au317">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T251" start="#T250" who="spk1" xml:id="au318">
+<u>
+<seg>i- il a quel âge ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T252" start="#T251" who="spk2" xml:id="au319">
+<u>
+<seg>il a douze ans et demi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T253" start="#T252" who="spk1" xml:id="au320">
+<u>
+<seg>douze ans et demi d'accord ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T254" start="#T253" who="spk2" xml:id="au321">
+<u>
+<seg>et en fait il fait il a juste à traverser la route hein </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T255" start="#T254" who="spk1" xml:id="au322">
+<u>
+<seg>ah super <pause type="short"/>et euh ça s' passe bien au collège euh ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T256" start="#T255" who="spk2" xml:id="au323">
+<u>
+<seg>bah ça va on va dire que ça va dans l' sens où euh alors ça va parce que il travaille X peut pas dire qu'il a des mauvais résultats après j' veux dire on a l'impression personnellement <pause type="short"/>que il faut être quand même constamment en train d' le coacher euh parce que il f- il est peut-être dans un environnement défavorable au travail </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T257" start="#T256" who="spk1" xml:id="au324">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T258" start="#T257" who="spk2" xml:id="au325">
+<u>
+<seg>et <pause type="short"/>et par les enfants et aussi peut-être alors c'est mon point d' vue mais je sais qu'après peut-être euh [petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T259" start="#T258" who="spk1" xml:id="au326">
+<u>
+<seg>mais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T259" start="#T258" who="spk2" xml:id="au327">
+<u>
+<seg>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T260" start="#T259" who="spk2" xml:id="au328">
+<u>
+<seg>après j'ai l'impression que les professeurs manquent <pause type="short"/>euh <pause type="short"/>euh de motivation </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T261" start="#T260" who="spk1" xml:id="au329">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T262" start="#T261" who="spk2" xml:id="au330">
+<u>
+<seg>et qu- je pense que cette ce cet- ce problème de manque de motivation fait que ça transparaît sur les enfants <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T263" start="#T262" who="spk1" xml:id="au331">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T264" start="#T263" who="spk2" xml:id="au332">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T264" start="#T263" who="spk1" xml:id="au333">
+<u>
+<seg>c'est à dire que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T265" start="#T264" who="spk2" xml:id="au334">
+<u>
+<seg>la passion ça doit se voilà ça doit s' transporter ça doit on doit faire envie et y a pas d'envie qu'est transmise </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T266" start="#T265" who="spk2" xml:id="au335">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T266" start="#T265" who="spk1" xml:id="au336">
+<u>
+<seg>là </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T267" start="#T266" who="spk2" xml:id="au337">
+<u>
+<seg>
+<pause type="short"/>donc je dis ça parce que c' matin j'ai vu la classe de Lucas par hasard j'allais à un rendez-vous et j' les vois sur l'autre trottoir et je cherchais parmi les élèves la professeur d'EPS et je l'ai vue <pause type="short"/>et j'ai vu une attitude <pause type="short"/>tellement pas engageante </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T268" start="#T267" who="spk1" xml:id="au338">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T269" start="#T268" who="spk2" xml:id="au339">
+<u>
+<seg>les mains dans les poches la tête baissée et j' me dis elle elle a pas envie elle est elle est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T270" start="#T269" who="spk1" xml:id="au340">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T271" start="#T270" who="spk2" xml:id="au341">
+<u>
+<seg>bon ça la soûle d'être dans cette classe </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T272" start="#T271" who="spk1" xml:id="au342">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T273" start="#T272" who="spk2" xml:id="au343">
+<u>
+<seg>et c'est dommage <pause type="short"/>voilà c'est dommage alors y a plein d' choses c'est vrai qu' les gamins sont pas j- <pause type="short"/>j' pense qu' y a y a des enfants ont changé sont transformés peut-être que voilà par tout c' qu'on voit à la télé ils sont plus dans la même euh dynamique peut-être qu' y a quelques années j'en sais rien <pause type="short"/>peut-être que y a les parents qui euh y a aussi ça parce que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T274" start="#T273" who="spk2" xml:id="au344">
+<u>
+<seg>ouais ouais qui euh soutiennent X </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T274" start="#T273" who="spk1" xml:id="au345">
+<u>
+<seg>y a aussi les parents qui qui font que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T275" start="#T274" who="spk2" xml:id="au346">
+<u>
+<seg>oui qui peut-être qui soutiennent pas dans l'éco- scolaire ou peut-être que justement euh dès qu' y a un problème qui va pas à l'école ils vont pas aller dans l' sens des enseignants ça c'est aussi-t-un un fait j' pense que y a un peu d' tout ça et et j'ai l'impression pour ma part que voilà les enseignants euh alors ça s' passe bien mais voilà un enfant j'ai l'impression le mien en tout cas j- constamment obligée d' le coacher dans l' bon sens </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T276" start="#T275" who="spk1" xml:id="au347">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T277" start="#T276" who="spk2" xml:id="au348">
+<u>
+<seg>et c'est vrai que voilà y a quand t'as y a des enfants qui sont un peu jaloux des résultats c'est souvent des brimades </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T278" start="#T277" who="spk2" xml:id="au349">
+<u>
+<seg>ouais ouais ouais <pause type="short"/>ouais ouais non j'imagine </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T278" start="#T277" who="spk1" xml:id="au350">
+<u>
+<seg>pour des bêtises <pause type="short"/>c'est pas facile ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T279" start="#T278" who="spk2" xml:id="au351">
+<u>
+<seg>mais bon </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T280" start="#T279" who="spk1" xml:id="au352">
+<u>
+<seg>et le le coaching ça veut dire euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T281" start="#T280" who="spk1" xml:id="au353">
+<u>
+<seg>et ben </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T281" start="#T280" who="spk2" xml:id="au354">
+<u>
+<seg>l'aider dans ses devoirs ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T282" start="#T281" who="spk2" xml:id="au355">
+<u>
+<seg>l'aider dans ses devoirs mais en même temps j'estime que à la rigueur euh tant qu- s- même s'il a des mauvaises notes mais qu'il a essayé s- c' qui compte c'est qu'il ait essayé donc il a appris qui co- essayé d'appri- et comprendre des choses d'apprendre et comprendre des choses après c'est euh le <pause type="short"/>je le coacher c'est lui dire ben voilà t'as un objectif t- il a envie d'être vétérinaire bon </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T283" start="#T282" who="spk1" xml:id="au356">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T284" start="#T283" who="spk2" xml:id="au357">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T285" start="#T284" who="spk1" xml:id="au358">
+<u>
+<seg>ah X c'est bien </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T286" start="#T285" who="spk1" xml:id="au359">
+<u>
+<seg>oui c'est bien c'est bien mais c'est un </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T286" start="#T285" who="spk2" xml:id="au360">
+<u>
+<seg>[rire] j' te sens cynique </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T287" start="#T286" who="spk2" xml:id="au361">
+<u>
+<seg>c'est c'est bien mais bon i- s- il faut qu'il s'aperçoive que les maths et les toutes les matières un peu scientifiques </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T288" start="#T287" who="spk1" xml:id="au362">
+<u>
+<seg>ben il faut qu'il ait des bonnes notes et c'est pas trop l' cas parce que c'est un grand rêveur et qu'il aime beaucoup tout c' qu'est dessin et cetera </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T288" start="#T287" who="spk2" xml:id="au363">
+<u>
+<seg>ouais <pause type="short"/>ouais ouais ouais c'est XXX <pause type="short"/>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T289" start="#T288" who="spk2" xml:id="au364">
+<u>
+<seg>
+<pause type="short"/>donc voilà c'est d' le coacher dans c' sens là lui donner envie de voilà de de jamais baisser les bras quoiqu'il arrive euh ne pas s- on on te brime on te dit que t'es t'es ci t'es ça m- ça va jusqu'à dire que il est homo hein euh puisque </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T290" start="#T289" who="spk1" xml:id="au365">
+<u>
+<seg>il est gentil avec les filles donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T290" start="#T289" who="spk2" xml:id="au366">
+<u>
+<seg>ouais ouais non mais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T291" start="#T290" who="spk1" xml:id="au367">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T292" start="#T291" who="spk2" xml:id="au368">
+<u>
+<seg>ça va loin hein </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T292" start="#T291" who="spk1" xml:id="au369">
+<u>
+<seg>c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T293" start="#T292" who="spk2" xml:id="au370">
+<u>
+<seg>ça va loin donc euh voilà c'est ça le coacher c'est lui dire bah </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T294" start="#T293" who="spk2" xml:id="au371">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T294" start="#T293" who="spk1" xml:id="au372">
+<u>
+<seg>t'en tiens pas rigueur </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T295" start="#T294" who="spk2" xml:id="au373">
+<u>
+<seg>continue fonce et <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T296" start="#T295" who="spk1" xml:id="au374">
+<u>
+<seg>et et toi quand tu étais petite euh est-ce tu tu avais des enseignants euh qui t'ont marquée ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T297" start="#T296" who="spk2" xml:id="au375">
+<u>
+<seg>oui <pause type="short"/>oui c'était au primaire euh oui un un enseignant m'a marquée euh c'était monsieur Ferry <pause type="short"/>c'était vraiment euh ben on a fait un voyage enfin un petit voyage à Chaudon à l'époque super et c'était surtout euh je sais pas une manière d'ap- de nous faire apprendre à tel point que j' me souviens que j'avais lu un livre sur Jeanne d'Arc </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T298" start="#T297" who="spk1" xml:id="au376">
+<u>
+<seg>ah </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T299" start="#T298" who="spk2" xml:id="au377">
+<u>
+<seg>que on faisait des exposés on allait sur Paris on faisait des exposés y avait voilà les exposés c'était un vrai travail euh j' me souviens qu' même la famille s'engageait dans c' travail-là -fin j' me souviens qu' ma mère nous aidait -fin m'avait aidée à plastifier les choses -fin </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T300" start="#T299" who="spk1" xml:id="au378">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T301" start="#T300" who="spk2" xml:id="au379">
+<u>
+<seg>oui y avait c'est un professeur qui m'a vraiment vraiment beaucoup marquée parce que y avait voilà de l'envie </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T302" start="#T301" who="spk2" xml:id="au380">
+<u>
+<seg>oui bien sûr oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T302" start="#T301" who="spk1" xml:id="au381">
+<u>
+<seg>de l'envie d' transmettre et </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T303" start="#T302" who="spk2" xml:id="au382">
+<u>
+<seg>oui et puis voilà la passion de de s- de son métier faisait que les enfants euh j' me souviens qu' c'était un bonne classe en plus oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T304" start="#T303" who="spk1" xml:id="au383">
+<u>
+<seg>et Ch- Chaudon c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T305" start="#T304" who="spk2" xml:id="au384">
+<u>
+<seg>Chaudon c'est euh c'est pas très loin d' Paris c'est un centre de vacances de la ville de Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T306" start="#T305" who="spk1" xml:id="au385">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T307" start="#T306" who="spk2" xml:id="au386">
+<u>
+<seg>et euh c'est très sympa parce que c'est pour les petits </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T308" start="#T307" who="spk1" xml:id="au387">
+<u>
+<seg>c'est dans la forêt </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T309" start="#T308" who="spk1" xml:id="au388">
+<u>
+<seg>c'est voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T309" start="#T308" who="spk2" xml:id="au389">
+<u>
+<seg>ou XX campagne </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T310" start="#T309" who="spk2" xml:id="au390">
+<u>
+<seg>c'est dans la campagne y a la grande bâtisse <pause type="short"/>y a une piscine y a un centre équestre et y a toute une forêt autour c'est super </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T311" start="#T310" who="spk1" xml:id="au391">
+<u>
+<seg>des bons souvenirs <pause type="short"/>on avait on avait fait euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T311" start="#T310" who="spk2" xml:id="au392">
+<u>
+<seg>ah ouais [rire] ah ouais j'imagine </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T312" start="#T311" who="spk2" xml:id="au393">
+<u>
+<seg>ouais on avait bien bien travaillé </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T313" start="#T312" who="spk2" xml:id="au394">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T313" start="#T312" who="spk1" xml:id="au395">
+<u>
+<seg>aussi là-bas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T314" start="#T313" who="spk2" xml:id="au396">
+<u>
+<seg>non c'était voilà c'était sympa et j'ai et voilà j'ai pas l'impression à l'heure actuelle d'avoir d'entendre autant d' choses comme ça euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T315" start="#T314" who="spk1" xml:id="au397">
+<u>
+<seg>ouais ouais ouais c'est sûr <pause type="short"/>euh on va parler un petit peu des langues euh qui qui s' parlent euh -fin dans le dans l' voisinage dans le quartier y a d'autres euh y a l' français bien sûr mais est-ce qu' y a d'autres langues qui s' parlent ou <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T316" start="#T315" who="spk2" xml:id="au398">
+<u>
+<seg>oui bah y a sûrement euh sans connaître euh l'algérien le marocain peut-être du sénégalais <pause type="short"/>du guinéen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T317" start="#T316" who="spk2" xml:id="au399">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T317" start="#T316" who="spk1" xml:id="au400">
+<u>
+<seg>je pourrais pas dire parce que j' suis pas oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T318" start="#T317" who="spk2" xml:id="au401">
+<u>
+<seg>y a beaucoup euh parce que y a c- beaucoup d' communautés dans l' coin -fin voilà y a plusieurs mélanges après euh <pause type="short"/>j'aurais pas euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T319" start="#T318" who="spk2" xml:id="au402">
+<u>
+<seg>et et toi ta maman elle est anglaise </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T319" start="#T318" who="spk1" xml:id="au403">
+<u>
+<seg>moi je saurais pas reconnaître euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T320" start="#T319" who="spk2" xml:id="au404">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T321" start="#T320" who="spk1" xml:id="au405">
+<u>
+<seg>donc tu tu parles en anglais ou ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T322" start="#T321" who="spk2" xml:id="au406">
+<u>
+<seg>non XX en français <pause type="short"/>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T322" start="#T321" who="spk1" xml:id="au407">
+<u>
+<seg>non <pause type="short"/>non c'est une grosse erreur [petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T323" start="#T322" who="spk2" xml:id="au408">
+<u>
+<seg>c'est une grosse erreur </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T324" start="#T323" who="spk1" xml:id="au409">
+<u>
+<seg>parce que en fait euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T324" start="#T323" who="spk2" xml:id="au410">
+<u>
+<seg>oh [petit rire] XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T325" start="#T324" who="spk2" xml:id="au411">
+<u>
+<seg>non mais maman ne s'est jamais sentie euh du fait d'avoir vécu en Angleterre y a peut-être aussi un moment donné quand on arrive en France elle avait appris l' français <pause type="short"/>en euh là-bas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T326" start="#T325" who="spk1" xml:id="au412">
+<u>
+<seg>à l'école ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T327" start="#T326" who="spk2" xml:id="au413">
+<u>
+<seg>à l'école mais y a toujours un petit on se sent euh pas chez soi <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T328" start="#T327" who="spk1" xml:id="au414">
+<u>
+<seg>ouais ouais ouais non mais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T329" start="#T328" who="spk1" xml:id="au415">
+<u>
+<seg>alors peut-être </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T329" start="#T328" who="spk2" xml:id="au416">
+<u>
+<seg>j'imagine </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T330" start="#T329" who="spk2" xml:id="au417">
+<u>
+<seg>par la pression d' la famille d' la belle-maman tout ça on est toujours un petit peu en décalage et j' pense qu'elle manquait d' confiance en elle et qu'elle nous a pas bon évidemment on avait des bonnes notes en anglais une bonne prononciation -fin <pause type="short"/>on voilà moi elle nous a quand même mais en n- et par manque de confiance en soi elle nous a pas appris euh l'anglais c'est un tort </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T331" start="#T330" who="spk1" xml:id="au418">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T332" start="#T331" who="spk2" xml:id="au419">
+<u>
+<seg>mais j' pense qu' y avait moins l'idée qu'il fallait co- communiquer ça aux enfants X parler avec eux en langue étrangère </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T332" start="#T331" who="spk1" xml:id="au420">
+<u>
+<seg>parce que sinon on aurait pu <pause type="short"/>oui oui <pause type="short"/>oui oui oui oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T333" start="#T332" who="spk1" xml:id="au421">
+<u>
+<seg>mais plus une idéologie de </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T334" start="#T333" who="spk2" xml:id="au422">
+<u>
+<seg>parler une seule langue la langue euh du pays </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T334" start="#T333" who="spk1" xml:id="au423">
+<u>
+<seg>tout à fait <pause type="short"/>
+<pause type="short"/>oui aussi oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T335" start="#T334" who="spk1" xml:id="au424">
+<u>
+<seg>ça a changé depuis </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T336" start="#T335" who="spk2" xml:id="au425">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T337" start="#T336" who="spk1" xml:id="au426">
+<u>
+<seg>pour le mieux [rire] <pause type="short"/>euh et euh alors pour parler du français euh c'est euh est-ce que vous avez l'impression qu' y a différentes façons d' parler le français dans le parmi les les personnes du <pause type="short"/>de Saint-Ouen de Paris des jeunes des vieux des choses comme ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T338" start="#T337" who="spk2" xml:id="au427">
+<u>
+<seg>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T338" start="#T337" who="spk1" xml:id="au428">
+<u>
+<seg>bah oui y a plusieurs façons </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T339" start="#T338" who="spk1" xml:id="au429">
+<u>
+<seg>d' parler l' français bon y a l' nouveau langage des jeunes hein on va dire que je n' maîtrise pas du tout </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T340" start="#T339" who="spk1" xml:id="au430">
+<u>
+<seg>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T341" start="#T340" who="spk2" xml:id="au431">
+<u>
+<seg>par contre euh c'est vrai que y a aussi enfin on avait beaucoup -fin mon père a <pause type="short"/>
+<pause type="short"/>mon père a quand même euh beaucoup d'argot <pause type="short"/>euh y a plein de <pause type="short"/>y a plein d' termes plein d'expressions qu'il a en argot qui sont liées voilà au quartier bien parisien </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T342" start="#T341" who="spk2" xml:id="au432">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T342" start="#T341" who="spk1" xml:id="au433">
+<u>
+<seg>quand même il est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T343" start="#T342" who="spk2" xml:id="au434">
+<u>
+<seg>oui donc euh par exemple euh X prendre un exemple euh aller au schlof euh voilà c'est aller au lit enfin c'est choses comme ça nous on appris plein d- on a quand même euh <pause type="short"/>voilà y a des choses qu'on comprend facilement avec euh parce que mon père nous y a des termes comme ça très </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T344" start="#T343" who="spk1" xml:id="au435">
+<u>
+<seg>ouais d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T345" start="#T344" who="spk2" xml:id="au436">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T346" start="#T345" who="spk1" xml:id="au437">
+<u>
+<seg>XXX <pause type="short"/>
+<pause type="short"/>oui oui oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T346" start="#T345" who="spk2" xml:id="au438">
+<u>
+<seg>ouais il avait plaisir à à utiliser ces termes </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T347" start="#T346" who="spk2" xml:id="au439">
+<u>
+<seg>oui oui il était bah lui c'est un c'est un parisi- enfin parisien banlieusard du quatre-vingt-un euh Choisy-le-Roi donc euh voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T348" start="#T347" who="spk1" xml:id="au440">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T349" start="#T348" who="spk2" xml:id="au441">
+<u>
+<seg>donc mais bon il a <pause type="short"/>étant dans l' bâtiment il connaissait plein d' termes </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T350" start="#T349" who="spk2" xml:id="au442">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T350" start="#T349" who="spk1" xml:id="au443">
+<u>
+<seg>euh ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T351" start="#T350" who="spk1" xml:id="au444">
+<u>
+<seg>et toi tu t'aimes tu utilises euh ces </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T352" start="#T351" who="spk2" xml:id="au445">
+<u>
+<seg>ces mots-là XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T352" start="#T351" who="spk1" xml:id="au446">
+<u>
+<seg>oui voilà y a des expressions qui restent euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T353" start="#T352" who="spk1" xml:id="au447">
+<u>
+<seg>y a des expressions qui restent comme ça comme j' dis à Lucas "va au schlof" euh va au lit </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T354" start="#T353" who="spk2" xml:id="au448">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T354" start="#T353" who="spk1" xml:id="au449">
+<u>
+<seg>euh c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T355" start="#T354" who="spk2" xml:id="au450">
+<u>
+<seg>voilà c'est y a des après j' peux pas dire y a des choses oui qui reviennent euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T356" start="#T355" who="spk2" xml:id="au451">
+<u>
+<seg>et la la </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T356" start="#T355" who="spk1" xml:id="au452">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T357" start="#T356" who="spk1" xml:id="au453">
+<u>
+<seg>la langue des jeunes euh que t'avais évoquée c'est ton ton fils de douze ans et demi là i- c- i- il parle la langue des jeunes ou ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T358" start="#T357" who="spk2" xml:id="au454">
+<u>
+<seg>XXX [rire] d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T358" start="#T357" who="spk1" xml:id="au455">
+<u>
+<seg>euh j'ai fait en sorte euh de faire attention à son langage oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T359" start="#T358" who="spk1" xml:id="au456">
+<u>
+<seg>oui en fait euh moi je pendant longtemps j'ai j'ai pas dit d' gros mots <pause type="short"/>quand j'étais à l'école au collège en cinquième la première fois qu' j'ai dit un gros mot j'ai une camarade qui m'a fait les gros yeux e- m'a dit : "[aspiration] Catherine toi !" </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T360" start="#T359" who="spk1" xml:id="au457">
+<u>
+<seg>et en fait <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T360" start="#T359" who="spk2" xml:id="au458">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T361" start="#T360" who="spk2" xml:id="au459">
+<u>
+<seg>c'était sorti comme ça c'était "merde" donc c'était vraiment pas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T362" start="#T361" who="spk1" xml:id="au460">
+<u>
+<seg>mais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T362" start="#T361" who="spk2" xml:id="au461">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T363" start="#T362" who="spk2" xml:id="au462">
+<u>
+<seg>je trouve que c'est important de pas trop en dire parce que justement euh après ça rentre dans l' langage on s'en rend pas compte on fait pas attention on est plus vigilant et on arrête pas d'en sortir </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T364" start="#T363" who="spk1" xml:id="au463">
+<u>
+<seg>j' vais prendre un exemple </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T364" start="#T363" who="spk2" xml:id="au464">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T365" start="#T364" who="spk2" xml:id="au465">
+<u>
+<seg>euh j'ai les les parents de Laurent <pause type="short"/>ils sont du Sud-Ouest et là-bas c'est s- i- ils ont plein de euh ils ont plein de de on va dire d- c'est d' l'argot du coin hein peut-être ils ont plein de termes comme ça euh où ils disent beaucoup d' gros mots -fin voilà c'est c'est ça fait partie ça fait vraiment partie du langage alors ça sonne pas m- manière négative </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T366" start="#T365" who="spk2" xml:id="au466">
+<u>
+<seg>ouais c'est pas méchant XX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T366" start="#T365" who="spk1" xml:id="au467">
+<u>
+<seg>parce que ça fait c'est avec l'accent c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T367" start="#T366" who="spk2" xml:id="au468">
+<u>
+<seg>voilà tout ça c'est pas dérangeant mais c'est vrai que <pause type="short"/>euh voilà il faut faire attention n- -fin moi j'estime qu'il faut pour Lucas je fais attention de pas trop en dire en tout cas il a pas l' droit d'en dire donc euh <pause type="short"/>souvent il a pas l' droit d'en dire à la maison <pause type="short"/>après à l'école je p- je sais pas trop </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T368" start="#T367" who="spk2" xml:id="au469">
+<u>
+<seg>ouais ouais [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T368" start="#T367" who="spk1" xml:id="au470">
+<u>
+<seg>je peux pas être derrière mais c'est vrai qu'il fait attention à ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T369" start="#T368" who="spk2" xml:id="au471">
+<u>
+<seg>et des fois quand il retranscrit il dit "oui tu sais c'est c'est trois petits points" </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T370" start="#T369" who="spk2" xml:id="au472">
+<u>
+<seg>[rire] XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T370" start="#T369" who="spk1" xml:id="au473">
+<u>
+<seg>ou voilà il essaie de ou il fait "bip" [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T371" start="#T370" who="spk2" xml:id="au474">
+<u>
+<seg>donc euh ouais il fait quand même attention ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T372" start="#T371" who="spk2" xml:id="au475">
+<u>
+<seg>quelque part si on a </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T372" start="#T371" who="spk1" xml:id="au476">
+<u>
+<seg>mais j' pense que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T373" start="#T372" who="spk1" xml:id="au477">
+<u>
+<seg>si on s'en sert peu quand enf- quand enfin on s'en sert c'est d'autant plus impressionnant </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T374" start="#T373" who="spk2" xml:id="au478">
+<u>
+<seg>XXX [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T374" start="#T373" who="spk1" xml:id="au479">
+<u>
+<seg>voilà on se lâche [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T375" start="#T374" who="spk2" xml:id="au480">
+<u>
+<seg>c'est c'est c'est un exutoire </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T376" start="#T375" who="spk2" xml:id="au481">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T376" start="#T375" who="spk1" xml:id="au482">
+<u>
+<seg>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T377" start="#T376" who="spk2" xml:id="au483">
+<u>
+<seg>mais c'est vrai qu' c'est important de de f- bien surveiller son langage je trouve d'avoir une discipline de c' côté-là aussi oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T378" start="#T377" who="spk1" xml:id="au484">
+<u>
+<seg>d'accord ok euh <pause type="short"/>
+<pause type="short"/>alors euh on va parler un petit peu de de -fin du travail de c' que font les c'est s- c'est quoi les -fin les entreprises ou les qu'est-ce qu'ils font les gens qui habitent ici euh <pause type="short"/>est-ce que t'as une id- ou c'est ça se ça s' voit pas peut-être euh ? <pause type="short"/>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T379" start="#T378" who="spk2" xml:id="au485">
+<u>
+<seg>non alors j'appr- je sais par parce que je lis beaucoup le journal de la ville et cetera qu' y a beaucoup d'entreprises importantes qui sont situées sur Saint-Ouen y a L'Oréal y a Valeo y a des é- X euh une agence de de communcation importante et de design qui d'ailleurs va ouvrir un je crois un <pause type="short"/>
+<pause type="short"/>une école de design pas une école -fin bon un truc important d'ailleurs dans les Docks euh de c' que j'entends </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T380" start="#T379" who="spk1" xml:id="au486">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T381" start="#T380" who="spk2" xml:id="au487">
+<u>
+<seg>après j'ai l'impression qu' sur Saint-Ouen y a quand même pas mal de petites entreprises y a pas mal de créateurs d'entreprises <pause type="short"/>euh je sais qu' y a des gens qui tr- -fin voilà je dis c' que je j'entends par rapport à aux parents que j'entends bah il y en a qui travaillent à la ville y a beaucoup d' gens qui travaillent à la ville je connais beaucoup d' gens qui travaillent à la ville y a des gens qui travaillent euh dans les puces </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T382" start="#T381" who="spk2" xml:id="au488">
+<u>
+<seg>ouais <pause type="short"/>mais des des gens qui y habitent d'accord qui XX aussi sur Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T382" start="#T381" who="spk1" xml:id="au489">
+<u>
+<seg>voilà j' vais prendre référence euh le mari de Jeannine oui oui qui travaillent aux pu- oui oui voilà qu- des gens qui habitent euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T383" start="#T382" who="spk2" xml:id="au490">
+<u>
+<seg>qui fait d' la restauration après je connais euh euh des personnes <pause type="short"/>qui habitent ici qui travaillent dans l' milieu du cinéma du théâtre bon qui f- travaillent pas forcément qui t- qui travaillent pas forcément sur Saint-Ouen <pause type="short"/>euh voilà après j'ai pas euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T384" start="#T383" who="spk1" xml:id="au491">
+<u>
+<seg>ça c'est une ville qui a pas mal changé non de profil euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T385" start="#T384" who="spk2" xml:id="au492">
+<u>
+<seg>oui y a beaucoup de on va dire entre guillemets des "bobos" qui viennent sur euh [rire] sur euh oh bah d'ailleurs j'ai rencontré l'autre fois à une soirée j'ai rencontré des gens qui travaillent à la radio France Inter RT- euh France Inter France Culture donc des gens qui aiment bien Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T386" start="#T385" who="spk1" xml:id="au493">
+<u>
+<seg>qui aiment bien ou qui qui habitent là <pause type="short"/>qui habitent là et qui aiment bien d'accord <pause type="short"/>ah ouais c'est ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T386" start="#T385" who="spk2" xml:id="au494">
+<u>
+<seg>ça oui <pause type="short"/>qui habitent là qu'est qui qui aiment bien <pause type="short"/>oui oui <pause type="short"/>donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T387" start="#T386" who="spk1" xml:id="au495">
+<u>
+<seg>historiquement c'est pas trop le le profil d' la ville </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T388" start="#T387" who="spk1" xml:id="au496">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T388" start="#T387" who="spk2" xml:id="au497">
+<u>
+<seg>c'est plutôt une ville euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T389" start="#T388" who="spk1" xml:id="au498">
+<u>
+<seg>
+<pause type="short"/>manuf- petites manufactures en général </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T390" start="#T389" who="spk2" xml:id="au499">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T390" start="#T389" who="spk1" xml:id="au500">
+<u>
+<seg>oui tout à fait tout à fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T391" start="#T390" who="spk2" xml:id="au501">
+<u>
+<seg>et d'ailleurs j'ai le papa d'une très bonne amie à moi qui a travaillé euh du côté de <pause type="short"/>derrière Godillot tout ça des des grandes euh des grandes usines qu' y avait à l'époque -fin il m'a raconté ça moi j'étais pas née mais euh voilà oui effectivement c'est une ville quand même euh mais qu- qui change </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T392" start="#T391" who="spk1" xml:id="au502">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T393" start="#T392" who="spk2" xml:id="au503">
+<u>
+<seg>en fait qui change vraiment un petit peu on va dire un petit peu comme Montreuil qu'a un petit ce côté là un petit peu la population les gens qui habitent ici bon c'est quand même des gens qui ont quand même un peu les moyens pour certains puisque y a les maisons y a quand même tout un quartier ou y a de des jolies maisons euh <pause type="short"/>tout derrière aussi y a des jolies maisons euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T394" start="#T393" who="spk1" xml:id="au504">
+<u>
+<seg>c'est vrai oui mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T395" start="#T394" who="spk2" xml:id="au505">
+<u>
+<seg>la peti- la petite maison XX d'autrefois ouais ouais c'est XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T395" start="#T394" who="spk1" xml:id="au506">
+<u>
+<seg>c'est vrai hein y a oui oui <pause type="short"/>mais tout l' quartier Mains d'Oeuvres en face euh Mains d'Oeuvres </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T396" start="#T395" who="spk1" xml:id="au507">
+<u>
+<seg>ouais en face de Mains d'Oeuvres ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T397" start="#T396" who="spk1" xml:id="au508">
+<u>
+<seg>c'est j'aime beaucoup ouais oui j'aimerais bien voir comment c'est à l'intérieur </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T397" start="#T396" who="spk2" xml:id="au509">
+<u>
+<seg>ah c'est c'est super vieux ouais [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T398" start="#T397" who="spk2" xml:id="au510">
+<u>
+<seg>par curiosité oui c'est vrai que c'est un quartier </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T399" start="#T398" who="spk1" xml:id="au511">
+<u>
+<seg>j' pense que certaines sont divisées en appartements </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T400" start="#T399" who="spk2" xml:id="au512">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T401" start="#T400" who="spk1" xml:id="au513">
+<u>
+<seg>pas pas toutes mais euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T402" start="#T401" who="spk2" xml:id="au514">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T403" start="#T402" who="spk1" xml:id="au515">
+<u>
+<seg>parfois y a plusieurs appartements j'ai l'impression <pause type="short"/>euh parce ce que sinon c'est des c'est des grandes maisons </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T404" start="#T403" who="spk2" xml:id="au516">
+<u>
+<seg>oui oui oui oui c'est des vieilles maisons ça hein <pause type="short"/>ah ça c'est <pause type="short"/>je repassais l'autre fois et je trouvais qu' c'est <pause type="short"/>ça fait toujours rêver voilà c'est côté j'aime bien d' Saint-Ouen où </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T405" start="#T404" who="spk2" xml:id="au517">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T405" start="#T404" who="spk1" xml:id="au518">
+<u>
+<seg>y a un petit côté euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T406" start="#T405" who="spk1" xml:id="au519">
+<u>
+<seg>ils ont eu pas mal de problèmes de bruit avec euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T407" start="#T406" who="spk2" xml:id="au520">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T408" start="#T407" who="spk1" xml:id="au521">
+<u>
+<seg>Mains d'Oeuvres XXX [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T409" start="#T408" who="spk2" xml:id="au522">
+<u>
+<seg>oui [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T410" start="#T409" who="spk1" xml:id="au523">
+<u>
+<seg>ils l'ont plus <pause type="short"/>euh <pause type="short"/>et et toi en fait tu es tu es graphiste donc tu </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T411" start="#T410" who="spk1" xml:id="au524">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T411" start="#T410" who="spk2" xml:id="au525">
+<u>
+<seg>travailles euh chez toi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T412" start="#T411" who="spk1" xml:id="au526">
+<u>
+<seg>oui je travaille chez moi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T413" start="#T412" who="spk1" xml:id="au527">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T414" start="#T413" who="spk2" xml:id="au528">
+<u>
+<seg>je travaille euh essentiellement chez moi un peu en agence <pause type="short"/>mais voilà <pause type="short"/>parce que je <pause type="short"/>
+<pause type="short"/>j'avais j'ai en- -fin j'aime bien aussi mon calme </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T415" start="#T414" who="spk2" xml:id="au529">
+<u>
+<seg>ouais <pause type="short"/>ouais ouais <pause type="short"/>ouais ouais ça c'est sûr </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T415" start="#T414" who="spk1" xml:id="au530">
+<u>
+<seg>parce ce que voilà c'est c'est relativement calme ici donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T416" start="#T415" who="spk2" xml:id="au531">
+<u>
+<seg>ouais j'aime bien puis j- j'suis disponible pour Lucas aussi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T417" start="#T416" who="spk1" xml:id="au532">
+<u>
+<seg>ouais bien sûr ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T418" start="#T417" who="spk2" xml:id="au533">
+<u>
+<seg>ses activités ne serait-ce et les devoirs c'était c'est un choix aussi hein c'est important </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T419" start="#T418" who="spk1" xml:id="au534">
+<u>
+<seg>et y a y a d'autres euh -fin à part Julia XX y a d'autres euh graphistes que tu connais sur euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T420" start="#T419" who="spk1" xml:id="au535">
+<u>
+<seg>sur Saint-Ouen ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T420" start="#T419" who="spk2" xml:id="au536">
+<u>
+<seg>sur Saint-Ouen ou des gens </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T421" start="#T420" who="spk1" xml:id="au537">
+<u>
+<seg>dans ce genre de métier </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T422" start="#T421" who="spk2" xml:id="au538">
+<u>
+<seg>mmh non non non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T423" start="#T422" who="spk1" xml:id="au539">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T424" start="#T423" who="spk2" xml:id="au540">
+<u>
+<seg>non non je connais pas -fin que je sur Saint-Ouen que je non je connais pas <pause type="short"/>non j'en connais de de nom mais euh pas pas particulièrement non <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T425" start="#T424" who="spk1" xml:id="au541">
+<u>
+<seg>et c'est le c'est c' c'est c' que tu as t- toujours fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T426" start="#T425" who="spk1" xml:id="au542">
+<u>
+<seg>c'est tou- ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T426" start="#T425" who="spk2" xml:id="au543">
+<u>
+<seg>comme travail </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T427" start="#T426" who="spk2" xml:id="au544">
+<u>
+<seg>c'est c' que j'ai toujours fait j'ai fait arts plastiques euh au lycée à l'université après ben pas trop savoir euh <pause type="short"/>c'est pas facile hein quand euh on sort l- de l'université on a pas le métier comme ça dans les mains et puis euh l'opportunité a fait que j'ai fait un un contrat XX à la à à la base c'était un contrat d'apprentissage maintenant ça a changé c'est contrat de professionnalisation mais c'est moitié entreprise et moitié euh école et c'est comme ça qu' j'ai démarré euh et que j' me suis lancée alors XX ça fait pas longtemps qu' j' suis à mon compte hein ça fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T428" start="#T427" who="spk2" xml:id="au545">
+<u>
+<seg>ah d'accord <pause type="short"/>ah ok non je croyais que t'étais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T428" start="#T427" who="spk1" xml:id="au546">
+<u>
+<seg>deux ans et demi <pause type="short"/>oui parce ce qu'en fait euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T429" start="#T428" who="spk2" xml:id="au547">
+<u>
+<seg>j'étais salariée <pause type="short"/>avant et j'ai eu un licenciement économique euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T430" start="#T429" who="spk1" xml:id="au548">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T431" start="#T430" who="spk2" xml:id="au549">
+<u>
+<seg>et donc j' me suis dit c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T432" start="#T431" who="spk1" xml:id="au550">
+<u>
+<seg>il y a deux trois ans ? </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T433" start="#T432" who="spk2" xml:id="au551">
+<u>
+<seg>ah d'accord <pause type="short"/>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T433" start="#T432" who="spk1" xml:id="au552">
+<u>
+<seg>ouais <pause type="short"/>j' me suis dit c'est peut-être euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T434" start="#T433" who="spk2" xml:id="au553">
+<u>
+<seg>l'occasion de <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T435" start="#T434" who="spk1" xml:id="au554">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T436" start="#T435" who="spk2" xml:id="au555">
+<u>
+<seg>donc j'ai parti d' zéro client </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T437" start="#T436" who="spk2" xml:id="au556">
+<u>
+<seg>ouais ouais [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T437" start="#T436" who="spk1" xml:id="au557">
+<u>
+<seg>zéro contact et voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T438" start="#T437" who="spk1" xml:id="au558">
+<u>
+<seg>et tu c'est mieux ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T439" start="#T438" who="spk2" xml:id="au559">
+<u>
+<seg>moins bien quels sont les avantages </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T439" start="#T438" who="spk1" xml:id="au560">
+<u>
+<seg>ah oui oui non non euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T440" start="#T439" who="spk2" xml:id="au561">
+<u>
+<seg>les avantages ben voilà le <pause type="short"/>
+<pause type="short"/>disponibilité travail à la maison euh après euh voilà moi j'aime beaucoup avoir euh la possiblité d' faire d'autres choses à côté en dehors de ce métier-là j- j'aime bien gérer mon temps </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T441" start="#T440" who="spk1" xml:id="au562">
+<u>
+<seg>aussi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T441" start="#T440" who="spk2" xml:id="au563">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T442" start="#T441" who="spk2" xml:id="au564">
+<u>
+<seg>euh ça c'est c'est une liberté j' crois que de pas avoir quelqu'un au-dessus d' soi c'est important aussi <pause type="short"/>euh inconvénients ben oui c'est toujours un petit peu inconvénients c'est que quand on est à son compte on est toujours en train d' se remettre en question s- en tant qu' graphiste je pense en toujours bon qu'est-ce que j' fais c'est pas terrible euh on a du mal à s' positionner voilà j' fais un devis là j' suis en train d' me d' me faire mal à la tête parce ce que </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T443" start="#T442" who="spk1" xml:id="au565">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T444" start="#T443" who="spk2" xml:id="au566">
+<u>
+<seg>je sais pas trop comment j' vais l'amener en même temps bon ben ça fait quand même quatorze ans que j' fais c' métier-là donc je suis quand même pas euh novice donc c'est c'est toujours et puis des fois le fait aussi d'être seule et ben on est un peu coupée du monde donc euh <pause type="short"/>est-ce qu'on a l' recul nécessaire sur son travail bon c'est beaucoup d' questions s- on se pose </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T445" start="#T444" who="spk2" xml:id="au567">
+<u>
+<seg>ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T445" start="#T444" who="spk1" xml:id="au568">
+<u>
+<seg>beaucoup d' questions </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T446" start="#T445" who="spk2" xml:id="au569">
+<u>
+<seg>beaucoup trop des fois et non mais après voilà il faut pas hésiter je trouve à rencontrer les gens ne serait-ce que <pause type="short"/>euh en faisant partie d'un réseau ou bien en faisant des associations voilà moi c'est mon </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T447" start="#T446" who="spk1" xml:id="au570">
+<u>
+<seg>donc finalement ça le côté euh le côté social euh tu </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T448" start="#T447" who="spk2" xml:id="au571">
+<u>
+<seg>tu l'as </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T448" start="#T447" who="spk1" xml:id="au572">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T449" start="#T448" who="spk1" xml:id="au573">
+<u>
+<seg>euh en dehors du travail </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T450" start="#T449" who="spk2" xml:id="au574">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T450" start="#T449" who="spk1" xml:id="au575">
+<u>
+<seg>voilà j'essaie de le <pause type="short"/>exactement </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T451" start="#T450" who="spk2" xml:id="au576">
+<u>
+<seg>j'essaie d- justement de <pause type="short"/>(parce que, puisque) bon je pourrais travailler en agence tout l' temps mais j'ai pas envie d' travailler en agence tout l' temps j' suis pas salariée et je ne veux pas le deve- redevenir quoi <pause type="short"/>donc en fait le fait de faire le coaching pour les jeunes <pause type="short"/>et bah ça m' permet de déjà d- j' suis très contente de l' faire mais ça m' permet aussi de voir du monde </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T452" start="#T451" who="spk1" xml:id="au577">
+<u>
+<seg>d'accord <pause type="short"/>et c'est c'est quoi exactement le </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T453" start="#T452" who="spk2" xml:id="au578">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T453" start="#T452" who="spk1" xml:id="au579">
+<u>
+<seg>alors en fait on a f- on </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T454" start="#T453" who="spk2" xml:id="au580">
+<u>
+<seg>y a eu un une association qu'a créé un programme un programme de coaching avec une méthode spécifique qui s'est en fait euh <pause type="short"/>inspirée d' la méthode américaine donc c'est du fighting spirit </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T455" start="#T454" who="spk2" xml:id="au581">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T455" start="#T454" who="spk1" xml:id="au582">
+<u>
+<seg>c'est comme ça qui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T456" start="#T455" who="spk2" xml:id="au583">
+<u>
+<seg>
+<pause type="short"/>
+<pause type="short"/>donc o- y a un film qu'est projeté "À la recherche du bonheur" donc ce film là <pause type="short"/>ouvre des portes déclenche des choses parce qu'il est quand même assez dur <pause type="short"/>mais dans ce film-là -fin c'est quand même une success story c'est quelqu'un qui réussi <pause type="short"/>il passe par des des étapes difficiles mais il réussit </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T457" start="#T456" who="spk2" xml:id="au584">
+<u>
+<seg>d'accord <pause type="short"/>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T457" start="#T456" who="spk1" xml:id="au585">
+<u>
+<seg>c'est une histoire vraie </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T458" start="#T457" who="spk2" xml:id="au586">
+<u>
+<seg>donc <pause type="short"/>de toute façon voilà pour les jeunes y a pas d'excuse <pause type="short"/>ensuite il a sa méthode de coaching où il fait il met en place quelque chose que j' pourrais pas euh transcrire parce que elle lui appartient et qu' c'est il faut vraiment la voir pour euh voir un petit comment </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T459" start="#T458" who="spk1" xml:id="au587">
+<u>
+<seg>c'est c'est un film qui dure euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T460" start="#T459" who="spk2" xml:id="au588">
+<u>
+<seg>le film il dure euh deux heures </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T461" start="#T460" who="spk1" xml:id="au589">
+<u>
+<seg>ah oui <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T462" start="#T461" who="spk2" xml:id="au590">
+<u>
+<seg>ah ouais <pause type="short"/>t'arrives à faire ça en une seule séance avec les gamins </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T462" start="#T461" who="spk1" xml:id="au591">
+<u>
+<seg>oui oui et après l'après-midi y a la <pause type="short"/>voilà le matin </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T463" start="#T462" who="spk2" xml:id="au592">
+<u>
+<seg>ça fait partie du programme en fait ils regardent le film l'après-midi y a la séance de coaching donc y a des éléments et des <pause type="short"/>comment dire des exemples qui sont tirés du film aussi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T464" start="#T463" who="spk1" xml:id="au593">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T465" start="#T464" who="spk2" xml:id="au594">
+<u>
+<seg>
+<pause type="short"/>ensuite après le mercredi matin parce que ça s' passe sur deux jours mercredi matin y a des tests des tests euh <pause type="short"/>de français <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T466" start="#T465" who="spk1" xml:id="au595">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T467" start="#T466" who="spk2" xml:id="au596">
+<u>
+<seg>des tests euh de mathématiques et très souvent on explique XX on fait la table de Pythagore la table de Pythagore c'est très simple c'est les multiplications <pause type="short"/>mais au départ on voit table de Pythagore et on se bloque <pause type="short"/>
+<pause type="short"/>mais quand on regarde bien c'est tout simplement des multiplications <pause type="short"/>et du coup <pause type="short"/>tout le monde sait faire des multiplications </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T468" start="#T467" who="spk2" xml:id="au597">
+<u>
+<seg>c'est les les carrés du triangle c'est ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T468" start="#T467" who="spk1" xml:id="au598">
+<u>
+<seg>les tables de multiplication tout le monde les connaît </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T469" start="#T468" who="spk2" xml:id="au599">
+<u>
+<seg>XX Pythagore </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T469" start="#T468" who="spk1" xml:id="au600">
+<u>
+<seg>oui bah </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T470" start="#T469" who="spk2" xml:id="au601">
+<u>
+<seg>et bah j- oui mais là justement c'est la table de Pythagore et en fait c'est c'est juste euh <pause type="short"/>telle qu'elle est disposée XXX de stylo XX montrer c' que c'est en fait telle qu'elle est faite ça fait comme ça <pause type="short"/>
+<pause type="short"/>huit neuf <pause type="short"/>dix et puis ici ça fait un deux trois quatre cinq six sept huit neuf <pause type="short"/>dix bon normalement ici y a l' zéro ici et ici et en fait c'est la grille et quand on réfléchit on voit écrit table de Pythagore et quand on réfléchit on s' dit mais je comprends pas et en fait c'est tout simplement ben zéro multiplié par zéro un- <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T471" start="#T470" who="spk1" xml:id="au602">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T472" start="#T471" who="spk2" xml:id="au603">
+<u>
+<seg>et on remplit et en fait tout le monde les connaît les tables de multiplication <pause type="short"/>sauf que très souvent on les oublie et c'est pour montrer et y a aussi le processus euh par la division <pause type="short"/>
+<pause type="short"/>(parce que, puisque) la division il il donne un exemple de division et en expliquant le mécanisme de la division il explique que voilà <pause type="short"/>pour l'emploi y a aussi un mécanisme </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T473" start="#T472" who="spk1" xml:id="au604">
+<u>
+<seg>ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T474" start="#T473" who="spk2" xml:id="au605">
+<u>
+<seg>donc voilà c'est il faut comprendre le mécanisme et pour ce les multiplications c'est aussi d' se dire bah y a des choses qu'on a qu'on oublie mais <pause type="short"/>on a des acquis </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T475" start="#T474" who="spk2" xml:id="au606">
+<u>
+<seg>d'accord donc c'est pour euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T475" start="#T474" who="spk1" xml:id="au607">
+<u>
+<seg>et faut pas les oublier <pause type="short"/>et et faut pas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T476" start="#T475" who="spk2" xml:id="au608">
+<u>
+<seg>avoir le problème il faut <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T477" start="#T476" who="spk1" xml:id="au609">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T478" start="#T477" who="spk1" xml:id="au610">
+<u>
+<seg>voilà <pause type="short"/>pas buter sur l' problème <pause type="short"/>voilà <pause type="short"/>donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T478" start="#T477" who="spk2" xml:id="au611">
+<u>
+<seg>faut faut se dire faut se dire on a j'ai déjà ce bagage-là donc je peux construire à partir de ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T479" start="#T478" who="spk2" xml:id="au612">
+<u>
+<seg>y en a plein déjà y en a plein qui s' rendent compte que bon ben les les maths qui veulent faire comptable euh peut-être qu'il faut qu'ils revoient quelque chose </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T480" start="#T479" who="spk1" xml:id="au613">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T481" start="#T480" who="spk2" xml:id="au614">
+<u>
+<seg>et en tout cas ça l- ça les réveille et pour certains ça les rassure aussi donc le deuxième jour ils arrivent aussi dans une tenue adéquate à la recherche d'emploi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T482" start="#T481" who="spk1" xml:id="au615">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T483" start="#T482" who="spk2" xml:id="au616">
+<u>
+<seg>y a quand même peu alors c'est c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T484" start="#T483" who="spk2" xml:id="au617">
+<u>
+<seg>c'est c'est des c'est des gamins de quel âge ou des X des </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T484" start="#T483" who="spk1" xml:id="au618">
+<u>
+<seg>donc moi j'interviens après <pause type="short"/>dix-huit vingt-cinq ans </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T485" start="#T484" who="spk1" xml:id="au619">
+<u>
+<seg>d'accord des jeunes </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T486" start="#T485" who="spk2" xml:id="au620">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T487" start="#T486" who="spk1" xml:id="au621">
+<u>
+<seg>des jeunes personnes ouais ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T488" start="#T487" who="spk2" xml:id="au622">
+<u>
+<seg>XX comment </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T488" start="#T487" who="spk1" xml:id="au623">
+<u>
+<seg>et le X </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T489" start="#T488" who="spk1" xml:id="au624">
+<u>
+<seg>l'association les </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T490" start="#T489" who="spk1" xml:id="au625">
+<u>
+<seg>alors c'est la mission locale de Paris </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T490" start="#T489" who="spk2" xml:id="au626">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T491" start="#T490" who="spk1" xml:id="au627">
+<u>
+<seg>la mission </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T492" start="#T491" who="spk1" xml:id="au628">
+<u>
+<seg>c'est les missions locales de Paris en fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T492" start="#T491" who="spk2" xml:id="au629">
+<u>
+<seg>locale <pause type="short"/>c'est quoi la mission locale </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T493" start="#T492" who="spk2" xml:id="au630">
+<u>
+<seg>les missions locales c'est essentiellement c'est des organismes qui aident les jeunes dans leurs démarches euh recherche de permis recherche de subvention enfin bon c'est vraiment nous on a pas ça sur Saint-Ouen on a le CAP'J on a la PLIE aussi mais euh sur Saint-Ouen il y a pas de réelle mission locale </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T494" start="#T493" who="spk1" xml:id="au631">
+<u>
+<seg>c'est un peu des assistants social spécialisés dans les démarches </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T495" start="#T494" who="spk1" xml:id="au632">
+<u>
+<seg>ouais mais justement </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T495" start="#T494" who="spk2" xml:id="au633">
+<u>
+<seg>administratives ou des choses comme ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T496" start="#T495" who="spk2" xml:id="au634">
+<u>
+<seg>ouais m- justement </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T497" start="#T496" who="spk2" xml:id="au635">
+<u>
+<seg>savoir c' qui est disponible euh pour euh XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T497" start="#T496" who="spk1" xml:id="au636">
+<u>
+<seg>ouais un peu <pause type="short"/>oui <pause type="short"/>y en a qu'abusent un peu des jeunes qu'arrivent </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T498" start="#T497" who="spk2" xml:id="au637">
+<u>
+<seg>en réclamant d' l'argent <pause type="short"/>ouais il leur faut quatre cent euros et </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T499" start="#T498" who="spk1" xml:id="au638">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T500" start="#T499" who="spk2" xml:id="au639">
+<u>
+<seg>justement notre démarche à nous elle est pas du tout comme ça on veut pas faire d'assistanat et on fait pas d'assistanat c'est à dire que ils s'inscrivent donc ils sont volontaires pour cette euh pour ce programme ils sont volontaires et si on voit qu'il y en a un qui va pas il prend la porte <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T501" start="#T500" who="spk1" xml:id="au640">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T502" start="#T501" who="spk2" xml:id="au641">
+<u>
+<seg>c'est comme ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T503" start="#T502" who="spk1" xml:id="au642">
+<u>
+<seg>c'est des chômeurs en fait ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T504" start="#T503" who="spk2" xml:id="au643">
+<u>
+<seg>c'est des chômeurs oui ou premier emploi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T505" start="#T504" who="spk1" xml:id="au644">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T506" start="#T505" who="spk2" xml:id="au645">
+<u>
+<seg>c'est pour les redynamiser en fait et c'est vrai que moi j'interviens en tant qu' chef d'entreprise sur le mercredi après-midi et moi je travaille au départ c'était chef d'entreprise je savais pas trop comment j'allais j' suis partie d' mon expérience personnelle </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T507" start="#T506" who="spk1" xml:id="au646">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T508" start="#T507" who="spk2" xml:id="au647">
+<u>
+<seg>que voilà j'ai des choses que j'avais des outils qu'on m'avait donnés j' trouvais bien d' le de partager et puis au final j'ai créé mes propres outils <pause type="short"/>
+<pause type="short"/>et <pause type="short"/>une chose que j'ai puisque il fallait qu' j' trouve quand même un parallèle avec le métier d' graphisme parce ce que j'aime bien quand même j' suis partie sur l'image </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T509" start="#T508" who="spk1" xml:id="au648">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T510" start="#T509" who="spk2" xml:id="au649">
+<u>
+<seg>le le comportement non verbal -fait la bonne impression qu'on fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T511" start="#T510" who="spk1" xml:id="au650">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T512" start="#T511" who="spk2" xml:id="au651">
+<u>
+<seg>et et du coup je pars d'un jeu tout bête ils tombent dans l' panneau et du coup ils comprennent que la communication elle est essentiellement visuelle et là ils commencent à s' poser des questions euh qu'est-ce que je vais faire pour euh pour faire bonne impression </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T513" start="#T512" who="spk2" xml:id="au652">
+<u>
+<seg>d'accord ok <pause type="short"/>et t- t- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T513" start="#T512" who="spk1" xml:id="au653">
+<u>
+<seg>tout d' suite voilà <pause type="short"/>et c'est su- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T514" start="#T513" who="spk1" xml:id="au654">
+<u>
+<seg>t'as des retours de personnes qui ont suivi le stage </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T515" start="#T514" who="spk2" xml:id="au655">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T516" start="#T515" who="spk1" xml:id="au656">
+<u>
+<seg>qui ont trouvé du travail après </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T517" start="#T516" who="spk2" xml:id="au657">
+<u>
+<seg>euh oui on a quarante pour cent de réussite pour l' moment et on a des témoignages on a des supers témoignages ah ouais ouais ça fait super plaisir euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T518" start="#T517" who="spk1" xml:id="au658">
+<u>
+<seg>[petit rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T519" start="#T518" who="spk2" xml:id="au659">
+<u>
+<seg>alors on donne des petits outils euh voilà j' vais donner un exemple aux jeunes on leur dit y en a qui sont timides qui savent pas quoi faire de leurs mains en entretien on les a vus il y en a qui sont comme ça il y en a qui sont comme ça <pause type="short"/>bon <pause type="short"/>et ben on leur a dit un truc que moi je fais hein <pause type="short"/>j' dis bah vous avez qu'à utiliser un petit carnet et vous prenez des notes <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T520" start="#T519" who="spk1" xml:id="au660">
+<u>
+<seg>oui ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T521" start="#T520" who="spk2" xml:id="au661">
+<u>
+<seg>XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T521" start="#T520" who="spk1" xml:id="au662">
+<u>
+<seg>truc tout bête on sait pas quoi écri- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T522" start="#T521" who="spk2" xml:id="au663">
+<u>
+<seg>voilà ça occupe l'esprit on regarde on on re- XX et ben il y en a un qui a envoyé un témoignage en disant que ça marche <pause type="short"/>et ça marche voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T523" start="#T522" who="spk2" xml:id="au664">
+<u>
+<seg>ça fait ça fait tout d' suite sérieux ouais ouais ouais c'est sûr </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T523" start="#T522" who="spk1" xml:id="au665">
+<u>
+<seg>il était content ça <pause type="short"/>ouais ouais ouais et il a s- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T524" start="#T523" who="spk2" xml:id="au666">
+<u>
+<seg>exactement exactement donc voilà puis une qu'a trouvé du boulot euh <pause type="short"/>ouais ça fait oui c'est très encourageant et surtout voilà ces jeunes-là à la fin quand on quand on a fini euh ils sont là ils nous posent plein d' questions ils ont envie d' continuer quoi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T525" start="#T524" who="spk1" xml:id="au667">
+<u>
+<seg>mmh d'accord <pause type="short"/>et tu tu fais ça depuis euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T526" start="#T525" who="spk2" xml:id="au668">
+<u>
+<seg>depuis l' mois de juin l'année dernière </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T527" start="#T526" who="spk1" xml:id="au669">
+<u>
+<seg>d'accord ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T528" start="#T527" who="spk2" xml:id="au670">
+<u>
+<seg>alors c'était euh c'était bénévole dans les six premiers dans les au départ c'était jusqu'au mois de juillet <pause type="short"/>c'était bénévole et ensuite ils nous ont demandé (parce que, puisque) s- l- le directeur a trouvé que ça fonctionnait il a vu un changement chez les jeunes <pause type="short"/>on a continué jusqu'en décembre <pause type="short"/>toujours bénévole et là ils ont trouvé un budget pour payer et le l'autre coach l- l- l'autre coach et moi <pause type="short"/>sur euh jusqu'en juin </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T529" start="#T528" who="spk1" xml:id="au671">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T530" start="#T529" who="spk2" xml:id="au672">
+<u>
+<seg>voilà <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T531" start="#T530" who="spk1" xml:id="au673">
+<u>
+<seg>alors euh juste euh der- dernier aspect du du travail c'est euh le travail à la maison donc euh là en fait tu habites là avec ton fils c'est ça vous êtes deux </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T532" start="#T531" who="spk2" xml:id="au674">
+<u>
+<seg>euh avec euh Laurent </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T533" start="#T532" who="spk1" xml:id="au675">
+<u>
+<seg>avec Laurent </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T534" start="#T533" who="spk1" xml:id="au676">
+<u>
+<seg>voilà ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T534" start="#T533" who="spk2" xml:id="au677">
+<u>
+<seg>d'accord ok </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T535" start="#T534" who="spk1" xml:id="au678">
+<u>
+<seg>donc vous êtes trois et euh dans la maison le le travail ça se partage euh facilement </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T536" start="#T535" who="spk2" xml:id="au679">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T537" start="#T536" who="spk1" xml:id="au680">
+<u>
+<seg>ou est-ce qu'il y a des <pause type="short"/>des <pause type="short"/>est-ce qu'il y a une organisation particulière ou euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T538" start="#T537" who="spk2" xml:id="au681">
+<u>
+<seg>pa- par rapport au fait que moi j' travaille à la maison </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T539" start="#T538" who="spk1" xml:id="au682">
+<u>
+<seg>
+<pause type="short"/>p- par rapport au je sais pas la </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T540" start="#T539" who="spk2" xml:id="au683">
+<u>
+<seg>comment vous vous organisez </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T540" start="#T539" who="spk1" xml:id="au684">
+<u>
+<seg>non euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T541" start="#T540" who="spk1" xml:id="au685">
+<u>
+<seg>pour euh <pause type="short"/>faire à manger passer l'aspirateur tout ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T542" start="#T541" who="spk2" xml:id="au686">
+<u>
+<seg>euh c'est vraiment euh partagé </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T543" start="#T542" who="spk1" xml:id="au687">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T544" start="#T543" who="spk2" xml:id="au688">
+<u>
+<seg>c'est vraiment partagé y a vraiment pas de euh un coup Laurent fait la vaisselle euh un coup c'est moi un coup il va faire à manger deux soirs de suite après j' vais faire à manger il y a vraiment pas de les courses on les fait ensemble parce que j' pense que tous les deux on aime pas les faire particulièrement mais on se soutient </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T545" start="#T544" who="spk1" xml:id="au689">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T546" start="#T545" who="spk2" xml:id="au690">
+<u>
+<seg>après si moi j' suis pas disponible Laurent le fait facilement (parce que, puisque) vraiment bon il a voilà une très bonne éducation de c' côté-là euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T547" start="#T546" who="spk2" xml:id="au691">
+<u>
+<seg>vous allez où pour faire les courses </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T547" start="#T546" who="spk1" xml:id="au692">
+<u>
+<seg>non euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T548" start="#T547" who="spk2" xml:id="au693">
+<u>
+<seg>on va chez Leclerc <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T549" start="#T548" who="spk1" xml:id="au694">
+<u>
+<seg>on se </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T549" start="#T548" who="spk2" xml:id="au695">
+<u>
+<seg>supermarché </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T550" start="#T549" who="spk2" xml:id="au696">
+<u>
+<seg>on va chez Leclerc pour les grosses courses et après on va euh rue du Poteau pour acheter des légumes du f- du poisson <pause type="short"/>euh on va au G20 <pause type="short"/>on va acheter notre pain là on va à la chevaline donc on est vraiment euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T551" start="#T550" who="spk1" xml:id="au697">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T552" start="#T551" who="spk2" xml:id="au698">
+<u>
+<seg>euh et sinon euh non vraiment les tâches se sont vraiment vraiment partagées hein de c' côté-là euh <pause type="short"/>quand on a rien envie d' faire tous les deux on fait rien [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T553" start="#T552" who="spk1" xml:id="au699">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T554" start="#T553" who="spk2" xml:id="au700">
+<u>
+<seg>donc voilà c'est cool <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T555" start="#T554" who="spk1" xml:id="au701">
+<u>
+<seg>d'accord euh <pause type="short"/>et en t- en terme de loisirs qu'est-ce que vous faites euh <pause type="short"/>en vous avez des </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T556" start="#T555" who="spk2" xml:id="au702">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T557" start="#T556" who="spk1" xml:id="au703">
+<u>
+<seg>pratiques euh sportives ou des choses comme ça ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T558" start="#T557" who="spk2" xml:id="au704">
+<u>
+<seg>alors ben on a bon on va au cinéma on essaie d'aller au cinéma <pause type="short"/>on aime beaucoup -fin moi j'aime beaucoup en tout cas moi j'irais voir tout </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T559" start="#T558" who="spk1" xml:id="au705">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T560" start="#T559" who="spk2" xml:id="au706">
+<u>
+<seg>tout </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T560" start="#T559" who="spk1" xml:id="au707">
+<u>
+<seg>parce que j- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T561" start="#T560" who="spk2" xml:id="au708">
+<u>
+<seg>oui moi j'aime beaucoup j'aime autant le cinéma français d'auteur tout ça que je peux aller voir euh des trucs comme les sup- -fin les films sur les super-héros euh parce que Lucas il adore ça et moi j'adore ça aussi -fin j'adore le cinéma parce que de toute façon il m' f- ça me fait rêver <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T562" start="#T561" who="spk2" xml:id="au709">
+<u>
+<seg>où est-ce que tu où est-ce que vous allez </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T562" start="#T561" who="spk1" xml:id="au710">
+<u>
+<seg>après euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T563" start="#T562" who="spk2" xml:id="au711">
+<u>
+<seg>bah on a la moi j'ai la carte UGC illimitée </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T564" start="#T563" who="spk1" xml:id="au712">
+<u>
+<seg>donc c'est vrai qu'avant </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T564" start="#T563" who="spk2" xml:id="au713">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T565" start="#T564" who="spk2" xml:id="au714">
+<u>
+<seg>j'y allais très très très très très souvent </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T566" start="#T565" who="spk1" xml:id="au715">
+<u>
+<seg>et c'est où le cinéma UGC </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T567" start="#T566" who="spk2" xml:id="au716">
+<u>
+<seg>je on va à la Défense <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T568" start="#T567" who="spk1" xml:id="au717">
+<u>
+<seg>à la Défense d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T569" start="#T568" who="spk1" xml:id="au718">
+<u>
+<seg>ou sinon on va voilà on y va en voiture </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T569" start="#T568" who="spk2" xml:id="au719">
+<u>
+<seg>vous y allez en voiture <pause type="short"/>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T570" start="#T569" who="spk2" xml:id="au720">
+<u>
+<seg>parce ce que c'est beaucoup plus facile que pour Paris pour Paris faut prendre le métro tout ça <pause type="short"/>euh sinon euh on va on essaie d'aller assez régulièrement au théâtre <pause type="short"/>là prochainement on va aller voir une pièce euh sur Saint-Ouen <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T571" start="#T570" who="spk1" xml:id="au721">
+<u>
+<seg>sur Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T572" start="#T571" who="spk2" xml:id="au722">
+<u>
+<seg>y a un théâtre </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T572" start="#T571" who="spk1" xml:id="au723">
+<u>
+<seg>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T573" start="#T572" who="spk2" xml:id="au724">
+<u>
+<seg>euh le ca- oui l'Espace 1789 c'est la salle une grande salle donc y a des spectacles là on va aller voir Le Cas Jekyll avec euh l'acteur de <pause type="short"/>La Conquête <pause type="short"/>
+<pause type="short"/>l'acteur qu'a fait le celui qu'a fait Sarko en fait qu'a joué Sarko <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T574" start="#T573" who="spk1" xml:id="au725">
+<u>
+<seg>ouais j'ai pas vu ce film </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T575" start="#T574" who="spk2" xml:id="au726">
+<u>
+<seg>j' l'ai pas vu non plus mais voilà c'est un euh c'est lui qui a joué donc on va aller voir ça <pause type="short"/>euh sinon euh <pause type="short"/>on fait Laurent et moi on fait d' la course à pied <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T576" start="#T575" who="spk2" xml:id="au727">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T576" start="#T575" who="spk1" xml:id="au728">
+<u>
+<seg>donc euh oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T577" start="#T576" who="spk2" xml:id="au729">
+<u>
+<seg>on a fait le Semi-Marathon d' Paris là dernièrement </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T578" start="#T577" who="spk1" xml:id="au730">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T579" start="#T578" who="spk2" xml:id="au731">
+<u>
+<seg>donc on fait beaucoup d' course à pied on court alors Laurent va courir au stade moi je j- j'ai du mal avec le stade c'est j'ai l'impression de tourner en rond je peux pas donc moi je cours dans Saint-Ouen donc moi j'ai mon petit parcours j' cours dans Saint-Ouen j'ai mes repères tout ça <pause type="short"/>on va dire qu' je fais du </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T580" start="#T579" who="spk1" xml:id="au732">
+<u>
+<seg>dans les espaces verts ou sur </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T581" start="#T580" who="spk1" xml:id="au733">
+<u>
+<seg>non pa- sur l' trottoir </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T581" start="#T580" who="spk2" xml:id="au734">
+<u>
+<seg>le trottoir ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T582" start="#T581" who="spk2" xml:id="au735">
+<u>
+<seg>je je va- par le j' passe par le stade j' vais jusqu'à l'autre stade -fin voilà j'ai mais je j' vais pas forcément dans le stade mais voilà je je je cours euh j' me donne des repères </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T583" start="#T582" who="spk1" xml:id="au736">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T584" start="#T583" who="spk2" xml:id="au737">
+<u>
+<seg>j' fais du street euh <pause type="short"/>du street comment ça s'appelle euh fractionné [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T585" start="#T584" who="spk1" xml:id="au738">
+<u>
+<seg>street fractionné </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T586" start="#T585" who="spk1" xml:id="au739">
+<u>
+<seg>c'est donner des répères voilà euh jusqu'à là je cours vite euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T586" start="#T585" who="spk2" xml:id="au740">
+<u>
+<seg>c'est quoi <pause type="short"/>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T587" start="#T586" who="spk2" xml:id="au741">
+<u>
+<seg>XX j' me stoppe -fin voilà c'est sinon après le dimanche on essaie d'aller à Reuil-Malmaison à la forêt </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T588" start="#T587" who="spk1" xml:id="au742">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T589" start="#T588" who="spk2" xml:id="au743">
+<u>
+<seg>et d'aller courir une heure là-bas </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T590" start="#T589" who="spk2" xml:id="au744">
+<u>
+<seg>d'accord <pause type="short"/>tous les deux ou tous les trois </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T590" start="#T589" who="spk1" xml:id="au745">
+<u>
+<seg>une heure une heure et demi <pause type="short"/>ça fait une petite balade tous les deux </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T591" start="#T590" who="spk2" xml:id="au746">
+<u>
+<seg>Lucas euh si il vient il vient en vélo </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T592" start="#T591" who="spk2" xml:id="au747">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T592" start="#T591" who="spk1" xml:id="au748">
+<u>
+<seg>mais bon </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T593" start="#T592" who="spk2" xml:id="au749">
+<u>
+<seg>comme lui il fait d' la natation il fait des compétitions d' natation donc euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T594" start="#T593" who="spk2" xml:id="au750">
+<u>
+<seg>ah lui aussi ah ouais comme les gamins d' Jeannine ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T594" start="#T593" who="spk1" xml:id="au751">
+<u>
+<seg>on le suit donc on on a droit à tous nos samedis nos dimanches </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T595" start="#T594" who="spk2" xml:id="au752">
+<u>
+<seg>voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T596" start="#T595" who="spk1" xml:id="au753">
+<u>
+<seg>ouais c'est la XX voilà on en connaît euh c'est tous ces poissons [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T596" start="#T595" who="spk2" xml:id="au754">
+<u>
+<seg>[rire] <pause type="short"/>c'est quoi tous ces enfants XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T597" start="#T596" who="spk2" xml:id="au755">
+<u>
+<seg>donc euh voilà sinon euh à part ça euh bon ben Lucas il a sa natation donc déjà c'est quand même euh ça nous prend beaucoup d' temps parce que c'est quand même tous les week-ends -fin très souvent les week-ends sinon euh moi j' fais d' la danse africaine à Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T598" start="#T597" who="spk1" xml:id="au756">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T599" start="#T598" who="spk2" xml:id="au757">
+<u>
+<seg>euh di- euh mercredi soir <pause type="short"/>donc j'adore c'est sympa ça permet d' voir du monde aussi voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T600" start="#T599" who="spk1" xml:id="au758">
+<u>
+<seg>c'est quelle la danse africaine c'est quelle quelle partie d'Afrique </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T601" start="#T600" who="spk2" xml:id="au759">
+<u>
+<seg>euh c'est la euh c'est Congo </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T602" start="#T601" who="spk1" xml:id="au760">
+<u>
+<seg>ouais donc c'est <pause type="short"/>oui c'est des Congolais ça fait </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T602" start="#T601" who="spk2" xml:id="au761">
+<u>
+<seg>Congo d'accord donc c'est des des Congolais qui animent euh ah d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T603" start="#T602" who="spk2" xml:id="au762">
+<u>
+<seg>quatre-vingt-quatorze ça fait huit ans que j' les connais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T604" start="#T603" who="spk1" xml:id="au763">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T605" start="#T604" who="spk2" xml:id="au764">
+<u>
+<seg>ouais bon j'ai arrêté pendant deux ans et puis là j'ai repris cette année parce que y a une telle bonne énergie </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T606" start="#T605" who="spk2" xml:id="au765">
+<u>
+<seg>oui oui ouais ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T606" start="#T605" who="spk1" xml:id="au766">
+<u>
+<seg>j' crois qu' c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T607" start="#T606" who="spk2" xml:id="au767">
+<u>
+<seg>faut y aller pour le voir quoi y a vraiment quelque chose qui s' passe entre nous -fin voilà on sort on est content </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T608" start="#T607" who="spk1" xml:id="au768">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T609" start="#T608" who="spk2" xml:id="au769">
+<u>
+<seg>et sinon qu'est-ce qu'on </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T610" start="#T609" who="spk2" xml:id="au770">
+<u>
+<seg>ça fait déjà pas mal hein [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T610" start="#T609" who="spk1" xml:id="au771">
+<u>
+<seg>bah après on fait beaucoup de on fait ouais c'est pas mal hein euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T611" start="#T610" who="spk2" xml:id="au772">
+<u>
+<seg>on fait beaucoup de ben y a y a toutes les associations qui nous prennent du temps euh <pause type="short"/>voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T612" start="#T611" who="spk1" xml:id="au773">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T613" start="#T612" who="spk2" xml:id="au774">
+<u>
+<seg>XX Laurent après euh Laurent fait peut-être mais bon c'est des loisirs un peu différents mais euh il fait d' la chute libre <pause type="short"/>
+<pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T614" start="#T613" who="spk1" xml:id="au775">
+<u>
+<seg>bon là dernièrement il en a- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T614" start="#T613" who="spk2" xml:id="au776">
+<u>
+<seg>ah ouais j' crois qu' c'est du bungee c'est ça ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T615" start="#T614" who="spk1" xml:id="au777">
+<u>
+<seg>les sauts en bungee </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T616" start="#T615" who="spk2" xml:id="au778">
+<u>
+<seg>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T617" start="#T616" who="spk1" xml:id="au779">
+<u>
+<seg>c'est ça d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T618" start="#T617" who="spk2" xml:id="au780">
+<u>
+<seg>XXX <pause type="short"/>moi j' l'ai pas encore vu sauter mais euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T619" start="#T618" who="spk1" xml:id="au781">
+<u>
+<seg>parce que euh en fait c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T619" start="#T618" who="spk2" xml:id="au782">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T620" start="#T619" who="spk2" xml:id="au783">
+<u>
+<seg>c'est quand même euh faut quand même partir de de Paris euh <pause type="short"/>y en a pour euh deux cents kilomètres </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T621" start="#T620" who="spk1" xml:id="au784">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T622" start="#T621" who="spk2" xml:id="au785">
+<u>
+<seg>mais bon voilà il un peu arrêté là dernièrement mais voilà c'est un de ces passions aussi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T623" start="#T622" who="spk1" xml:id="au786">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T624" start="#T623" who="spk2" xml:id="au787">
+<u>
+<seg>toi ça t'aimes pas non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T624" start="#T623" who="spk1" xml:id="au788">
+<u>
+<seg>donc voilà voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T625" start="#T624" who="spk2" xml:id="au789">
+<u>
+<seg>non non pas du tout </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T626" start="#T625" who="spk2" xml:id="au790">
+<u>
+<seg>[rire] tu aimes pas ça </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T626" start="#T625" who="spk1" xml:id="au791">
+<u>
+<seg>mais moi je crois que non </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T627" start="#T626" who="spk1" xml:id="au792">
+<u>
+<seg>[rire] <pause type="short"/>
+<pause type="short"/>euh et et en fait pour faire tout ça la les équipements sportifs culturels de Saint-Ouen ça ça te paraît suffisant </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T628" start="#T627" who="spk1" xml:id="au793">
+<u>
+<seg>ah oui oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T628" start="#T627" who="spk2" xml:id="au794">
+<u>
+<seg>ou t'as t'as Paris à côté </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T629" start="#T628" who="spk2" xml:id="au795">
+<u>
+<seg>euh non Saint-Ouen moi je trouve qu'il y a vraiment au niveau culturel y a vraiment beaucoup beaucoup d' choses mais vraiment <pause type="short"/>euh oui je ben dernièrement Lucas a participé quand même à un stage de théâtre mais avec une compagnie d' théâtre c'était tous l- tous les après-midi pendant les vacances scolaire là de février </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T630" start="#T629" who="spk1" xml:id="au796">
+<u>
+<seg>ah ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T631" start="#T630" who="spk2" xml:id="au797">
+<u>
+<seg>et j'ai trouvé ça génial <pause type="short"/>mais vraiment génial parce que il est il était content d'y aller il s- voilà il a appris des choses ils ont travaillé sur euh sur plein de plein d' thèmes ils ont travaillé euh c'était amusant parce qu'ils avaient des chansons et ils avaient des des textes d'auteurs euh sur euh Ulysse euh voilà c'était quand même le mélange des deux était pas mal </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T632" start="#T631" who="spk1" xml:id="au798">
+<u>
+<seg>d'accord </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T633" start="#T632" who="spk2" xml:id="au799">
+<u>
+<seg>parce qu'ils ont vraiment mixé les deux je j'ai pas vu l' résultat mais j'en ai entendu parler <pause type="short"/>et euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T634" start="#T633" who="spk1" xml:id="au800">
+<u>
+<seg>non non non c'était u- une petite représentation en interne oui une petite séquence -fin c'est vraiment du travail </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T634" start="#T633" who="spk2" xml:id="au801">
+<u>
+<seg>ils ont conçu un spectacle euh XXX séance ou </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T635" start="#T634" who="spk2" xml:id="au802">
+<u>
+<seg>par contre ils pourraient être amenés à travailler après p- euh plus tard sur un projet qui s' construirait euh i- voilà sur Saint-Ouen j' trouve qu'y a vraiment de quoi faire hein parce que y a moi j' vais à la danse mais je sais qu' y a l' conservatoire avec les beaux-arts <pause type="short"/>c'est quand même euh y a du sport y a beaucoup beaucoup d' sports y a y a l'USMA avec toutes les toute la palette de </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T636" start="#T635" who="spk2" xml:id="au803">
+<u>
+<seg>oui les beaux-arts c'est bien hein euh X Thomas il y va euh ça coûte rien euh X </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T636" start="#T635" who="spk1" xml:id="au804">
+<u>
+<seg>de sport quoi <pause type="short"/>oui oui ouais je sais qu' Thomas il y va ouais <pause type="short"/>oui </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T637" start="#T636" who="spk1" xml:id="au805">
+<u>
+<seg>ils font des trucs superbes et </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T638" start="#T637" who="spk2" xml:id="au806">
+<u>
+<seg>des fois il revient avec une affiche euh qu'on a on a envie de le mettre sous cadre ou [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T638" start="#T637" who="spk1" xml:id="au807">
+<u>
+<seg>oh non c'est euh c'est top hein [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T639" start="#T638" who="spk1" xml:id="au808">
+<u>
+<seg>non c'est vraiment très bien ouais euh <pause type="short"/>euh alors euh dans le dans la ville euh je donc toutes ces activités euh qu- comment est-ce que vous vous renseignez sur euh c' qui s' passe euh <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T640" start="#T639" who="spk2" xml:id="au809">
+<u>
+<seg>alors euh ben on a le magazine Sortir à Saint-Ouen <pause type="short"/>
+</seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T641" start="#T640" who="spk1" xml:id="au810">
+<u>
+<seg>Sortir à Saint-Ouen </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T642" start="#T641" who="spk2" xml:id="au811">
+<u>
+<seg>ouais ou bien y a le journal de la ville </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T643" start="#T642" who="spk1" xml:id="au812">
+<u>
+<seg>mmh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T644" start="#T643" who="spk2" xml:id="au813">
+<u>
+<seg>y a pas mal de choses <pause type="short"/>
+<pause type="short"/>après c'est vrai que y a d- oui c'est souvent là que je prends les infos après j' pense que il faut être attentif à tout euh <pause type="short"/>faudrait presque euh savoir c' que c' que font chaque association parce que y a des petites journées des petites choses qui sont mis en place on est pas au courant mais c'est vrai que bon </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T645" start="#T644" who="spk2" xml:id="au814">
+<u>
+<seg>ouais y y a une fête des associations aussi j' pense euh XXX </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T645" start="#T644" who="spk1" xml:id="au815">
+<u>
+<seg>y a quand même de l'information <pause type="short"/>
+<pause type="short"/>oui y a la fête des associations aussi mais bon après c'est voilà </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T646" start="#T645" who="spk2" xml:id="au816">
+<u>
+<seg>quand on est on quand on tient un stand on a toujours du mal à aller vers l- voir les autres on a jamais l' temps </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T647" start="#T646" who="spk1" xml:id="au817">
+<u>
+<seg>
+<pause type="short"/>ouais oui [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T647" start="#T646" who="spk2" xml:id="au818">
+<u>
+<seg>ah t'es toujours sur le stand euh XX [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T648" start="#T647" who="spk2" xml:id="au819">
+<u>
+<seg>bon je fais pas l' maquillage [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T649" start="#T648" who="spk1" xml:id="au820">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T650" start="#T649" who="spk2" xml:id="au821">
+<u>
+<seg>parce que l' maquillage c'est du boulot hein </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T651" start="#T650" who="spk1" xml:id="au822">
+<u>
+<seg>ouais non c'est vrai ouais oui oui <pause type="short"/>Julia j' pense qu'elle hésite à à à s' relancer mais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T652" start="#T651" who="spk2" xml:id="au823">
+<u>
+<seg>ouais mais c'est c'était beau hein ça fait des <pause type="short"/>elle voulait faire quoi </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T653" start="#T652" who="spk1" xml:id="au824">
+<u>
+<seg>je n' sais pas euh des ils avaient fait les cahiers et puis y avait d'autres euh y avait un autre projet </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T654" start="#T653" who="spk1" xml:id="au825">
+<u>
+<seg>
+<pause type="short"/>ouais </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T654" start="#T653" who="spk2" xml:id="au826">
+<u>
+<seg>mais j' me souviens plus exactement c' que c'est </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T655" start="#T654" who="spk1" xml:id="au827">
+<u>
+<seg>avec Jeannine euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T656" start="#T655" who="spk2" xml:id="au828">
+<u>
+<seg>oui les cahiers avec les feuilles et </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T657" start="#T656" who="spk2" xml:id="au829">
+<u>
+<seg>ça ça avait bien marché <pause type="short"/>et e- </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T657" start="#T656" who="spk1" xml:id="au830">
+<u>
+<seg>tout ça <pause type="short"/>oui ouais ça ça on va l' faire </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T658" start="#T657" who="spk1" xml:id="au831">
+<u>
+<seg>elle avait augmenté l' prix un petit peu parce qu'elle a elle passait toute l'après-midi et euh et avait finalement elle avait pas gagné grand chose </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T659" start="#T658" who="spk1" xml:id="au832">
+<u>
+<seg>exact <pause type="short"/>ouais non mais c'est c'est vrai non mais c'est vrai qu- faut </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T659" start="#T658" who="spk2" xml:id="au833">
+<u>
+<seg>euh tellement c'était pas cher [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T660" start="#T659" who="spk2" xml:id="au834">
+<u>
+<seg>faut se dire que oui oui non c'est oui parce que c'est du boulot c'est pas c'est vraiment des jolies choses en fait euh c'est graphique euh euh oui c'est voilà et puis c'est pas évident hein de peindre sur euh </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T661" start="#T660" who="spk1" xml:id="au835">
+<u>
+<seg>non non j'imagine X euh rire </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T662" start="#T661" who="spk2" xml:id="au836">
+<u>
+<seg>donc euh ouais même toucher l'enfant tout ça moi je j- j' suis pas très à l'aise mais euh <pause type="short"/>mais euh oui effectivement après euh bon si c'est pour euh gagner rien euh c'est sûr que c'est beaucoup d' travail euh puis bon une fois qu'ils en ont vu un les gamins i- ils arrivent hein </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T663" start="#T662" who="spk1" xml:id="au837">
+<u>
+<seg>[rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T663" start="#T662" who="spk2" xml:id="au838">
+<u>
+<seg>ouais XX c'est sûr c'est sûr </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T664" start="#T663" who="spk1" xml:id="au839">
+<u>
+<seg>bien bah voilà c'est la fin de de l'entretien </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T665" start="#T664" who="spk1" xml:id="au840">
+<u>
+<seg>d'accord <pause type="short"/>ben j' t'en prie </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T665" start="#T664" who="spk2" xml:id="au841">
+<u>
+<seg>donc euh merci beaucoup [rire] </seg>
+</u>
+</annotationBlock>
+<annotationBlock end="#T666" start="#T665" who="spk2" xml:id="au842">
+<u>
+<seg>un plaisir </seg>
+</u>
+</annotationBlock>
+</div>
+</div>
+</body>
+</text>
+</TEI>

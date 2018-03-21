@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_speechTrans.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="0.5">
+<teiHeader>
+<fileDesc>
+<publicationStmt/>
+<titleStmt>
+<title>Fichier TEI obtenu à partir du fichier Transcriber : http://cfpp2000.univ-paris3.fr/data/public/7eme/Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e/Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e-2-v2.trs</title>
+</titleStmt>
+<sourceDesc>
+<recordingStmt>
+<recording recordingLocation="http://cfpp2000.univ-paris3.fr/transcriptions-TEI/Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e-2-v2.teiml" recordingName="Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e-2-v2.teiml">
+<media mediaLocation="http://cfpp2000.univ-paris3.fr/data/public/7eme/Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e/Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e-2.wav" mediaName="Laurence_Leblond_F_43_Stephanie_Zanotti_F_49_7e-2.wav"/>
+<date dur="234.498">29-OCT-2007</date>
+</recording>
+</recordingStmt>
+</sourceDesc>
+<notesStmt>
+<metadata type=""/>
+<note type="scribe">Sandy Bichon</note>
+</notesStmt>
+</fileDesc>
+<profileDesc>
+<settingDesc>
+<setting xml:id="to1">
+<activity>changements</activity>
+</setting>
+<setting xml:id="to2">
+<activity>spéculation immobilière</activity>
+</setting>
+<setting xml:id="to3">
+<activity>les étrangers</activity>
+</setting>
+<setting xml:id="to4">
+<activity>gardiennes d'immeubles</activity>
+</setting>
+</settingDesc>
+<particDesc>
+<person check="no" code="spk1" dialect="native" name="Stéphanie Zanotti" scope="local"/>
+<person check="no" code="spk2" dialect="native" name="Laurence Lefebure (ENQ)" scope="local"/>
+<person check="no" code="spk3" dialect="native" name="Laurence Leblond" scope="local"/>
+</particDesc>
+</profileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="Transcriber"/>
+</appInfo>
+</encodingDesc>
+<revisionDesc>9</revisionDesc>
+<templateDesc>
+<template code="ortho" parent="-" type="Symbolic Association">Orthographic Line</template>
+<template code="com" parent="ortho" type="Symbolic Association"/>
+</templateDesc>
+</teiHeader>
+<text>
+<timeline unit="s">
+<when absolute="00:00:00" xml:id="T0"/>
+<when interval="1.804" since="#T0" xml:id="T1"/>
+<when interval="3.734" since="#T0" xml:id="T2"/>
+<when interval="4.249" since="#T0" xml:id="T3"/>
+<when interval="5.316" since="#T0" xml:id="T4"/>
+<when interval="7.145" since="#T0" xml:id="T5"/>
+<when interval="7.903" since="#T0" xml:id="T6"/>
+<when interval="14.898" since="#T0" xml:id="T7"/>
+<when interval="16.095" since="#T0" xml:id="T8"/>
+<when interval="19.372" since="#T0" xml:id="T9"/>
+<when interval="20.704" since="#T0" xml:id="T10"/>
+<when interval="42.128" since="#T0" xml:id="T11"/>
+<when interval="44.370" since="#T0" xml:id="T12"/>
+<when interval="44.37" since="#T0" xml:id="T13"/>
+<when interval="51.534" since="#T0" xml:id="T14"/>
+<when interval="53.364" since="#T0" xml:id="T15"/>
+<when interval="54.544" since="#T0" xml:id="T16"/>
+<when interval="59.900" since="#T0" xml:id="T17"/>
+<when interval="60.291" since="#T0" xml:id="T18"/>
+<when interval="64.928" since="#T0" xml:id="T19"/>
+<when interval="65.857" since="#T0" xml:id="T20"/>
+<when interval="66.597" since="#T0" xml:id="T21"/>
+<when interval="67.586" since="#T0" xml:id="T22"/>
+<when interval="69.753" since="#T0" xml:id="T23"/>
+<when interval="71.468" since="#T0" xml:id="T24"/>
+<when interval="142.525" since="#T0" xml:id="T25"/>
+<when interval="154.788" since="#T0" xml:id="T26"/>
+<when interval="157.910" since="#T0" xml:id="T27"/>
+<when interval="161.880" since="#T0" xml:id="T28"/>
+<when interval="163.273" since="#T0" xml:id="T29"/>
+<when interval="175.323" since="#T0" xml:id="T30"/>
+<when interval="177.500" since="#T0" xml:id="T31"/>
+<when interval="186.143" since="#T0" xml:id="T32"/>
+<when interval="186.361" since="#T0" xml:id="T33"/>
+<when interval="201.393" since="#T0" xml:id="T34"/>
+<when interval="202.645" since="#T0" xml:id="T35"/>
+<when interval="205.127" since="#T0" xml:id="T36"/>
+<when interval="207.350" since="#T0" xml:id="T37"/>
+<when interval="208.856" since="#T0" xml:id="T38"/>
+<when interval="210.946" since="#T0" xml:id="T39"/>
+<when interval="211.922" since="#T0" xml:id="T40"/>
+<when interval="213.816" since="#T0" xml:id="T41"/>
+<when interval="234.498" since="#T0" xml:id="T42"/>
+</timeline>
+<div end="#T13" start="#T0" subtype="to4" type="report">
+<annotatedU end="#T1" start="#T0" wh="" xml:id="au0">
+<u type="ortho">
+<anchor synch="#T0"/>
+<seg/>
+<seg>
+<incident subtype="noise" type="Event">
+<desc type="desc">conversation de fond</desc>
+<desc type="extent">instantaneous</desc>
+</incident>
+</seg>
+<seg/>
+</u>
+</annotatedU>
+<annotatedU end="#T2" start="#T1" wh="spk1" xml:id="au1">
+<u type="ortho">
+<seg>je sais plus je sais plus où est-ce qu'on en était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T3" start="#T2" wh="spk2" xml:id="au2">
+<u type="ortho">
+<seg>alors oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T4" start="#T3" wh="spk1" xml:id="au3">
+<u type="ortho">
+<seg>ah au gardiennage </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T5" start="#T4" wh="spk3" xml:id="au4">
+<u type="ortho">
+<seg>oui les gardiennes d'immeuble </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T6" start="#T5" wh="spk1" xml:id="au5">
+<u type="ortho">
+<seg>ah oui que chez nous on n'avait pas de gardiennes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T7" start="#T6" wh="spk3" xml:id="au6">
+<u type="ortho">
+<seg>c'est vrai que c'est très important en même temps c'est vrai que ça a un prix mais on enfin toujours au niveau sécurité aide des personnes relations dans le quartier tout ça c'est c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T8" start="#T7" wh="spk2" xml:id="au7">
+<u type="ortho">
+<seg>oui je comprends </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T9" start="#T8" wh="spk3" xml:id="au8">
+<u type="ortho">
+<seg>c'est formidable c'est très important moi je trouve oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T10" start="#T9" wh="spk3" xml:id="au9">
+<link target="#au10"/>
+<u type="ortho">
+<anchor synch="#T9"/>
+<seg>pour les enfants </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T10" start="#T9" wh="spk1" xml:id="au10">
+<link target="#au9"/>
+<u type="ortho">
+<anchor synch="#T9"/>
+<seg>enfin il y a des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T11" start="#T10" wh="spk1" xml:id="au11">
+<u type="ortho">
+<seg>moi quand je vois j'avais trouvé pour ma fille une gardienne de qui est devenue une amie que j'adore qui s'est occupée de ma fille quand elle quand elle était à la crèche pour aller la chercher et cetera donc euh c'est vraiment une dame absolument exceptionnelle bon nous on a une gardienne là bon qui qui qui travaille plus ou moins bien mais enfin bon comme partout hein on a personnel </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T12" start="#T11" wh="spk3" xml:id="au12">
+<u type="ortho">
+<seg>ben oui c'est pas toujours facile de </seg>
+</u>
+</annotatedU>
+</div>
+<div end="#T25" start="#T13" subtype="to1" type="report">
+<annotatedU end="#T14" start="#T12" wh="spk2" xml:id="au13">
+<u type="ortho">
+<seg>et est-ce que vous avez remarqué des des changements dans le quartier est-ce qu'il y a des choses qui ont changé au cours du temps des commerces par exemple qui ont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T15" start="#T14" wh="spk2" xml:id="au14">
+<link target="#au15"/>
+<u type="ortho">
+<anchor synch="#T14"/>
+<seg>fermé ouvert </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T15" start="#T14" wh="spk3" xml:id="au15">
+<link target="#au14"/>
+<u type="ortho">
+<anchor synch="#T14"/>
+<seg>ben oui bien sûr </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T16" start="#T15" wh="spk1" xml:id="au16">
+<u type="ortho">
+<seg>beaucoup de commerces de de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T17" start="#T16" wh="spk3" xml:id="au17">
+<u type="ortho">
+<seg>il y a de moins en moins de commerces de bouche d'alimentation et de plus en plus de banques agences immobilières </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T18" start="#T17" wh="spk1" xml:id="au18">
+<u type="ortho">
+<seg>ah oui les agences immobilières </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T19" start="#T18" wh="spk3" xml:id="au19">
+<u type="ortho">
+<seg>traiteurs chinois ah on est envahis par les traiteurs chinois et euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T20" start="#T19" wh="spk1" xml:id="au20">
+<u type="ortho">
+<seg>et les fringues </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T21" start="#T20" wh="spk3" xml:id="au21">
+<u type="ortho">
+<seg>et les fringues </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T22" start="#T21" wh="spk1" xml:id="au22">
+<u type="ortho">
+<seg>ah là là il y en a </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T23" start="#T22" wh="spk3" xml:id="au23">
+<u type="ortho">
+<seg>parce que c'est pas vraiment enfin du beau prêt-à-porter il y a un peu de tout </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T24" start="#T23" wh="spk1" xml:id="au24">
+<u type="ortho">
+<seg>oui rue Saint-Do oui il y a </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T25" start="#T24" wh="spk3" xml:id="au25">
+<u type="ortho">
+<seg>ah oui ça d'ailleurs bon beaucoup de gens s'en plaignent hein c'est malheureux parce que on a une association des commerçants de l'arrondissement qui est très active euh avec les artisans enfin vous voyez tous ces commerces là qui font beaucoup d'activités notamment ils font une activité enfin une manifestation tous les ans qui s'appelle les sept jours du septième et donc il y a beaucoup d'animations dans les chez les commerçants euh ils organisent des une promenade en vélo pendant enfin moi je parle de ça parce que c'est la seule fois où je fais du vélo dans Paris justement je trouve ça très bien euh ils nous permettent de faire le tour du quar- enfin du septième ils font tout un parcours balisé par la police à vélo et euh enfin il y a des des tas de manifestations vous voyez pendant ce ces sept jours euh avec en général des dons qui sont pour des des associations caritatives différentes chaque année et tout ça pour justement attirer les gens dans les commerces de proximité et faire vivre le commerce de proximité qui a du mal à survivre parce que c'est vrai que les gens peut-être qu'ils y vont moins parce que c'est un petit peu cher aussi il faut le dire parce que c'est pas toujours ouvert quand on en a besoin parce qu'il faut attendre </seg>
+</u>
+</annotatedU>
+</div>
+<div end="#T40" start="#T25" subtype="to2" type="report">
+<annotatedU end="#T26" start="#T25" wh="spk1" xml:id="au26">
+<u type="ortho">
+<seg>mais c'est vrai que quand on quand on voit là le prix du du le fait que quand tu parles de cherté quand on voit aussi le prix du mètre carré dans le septième moi je me pose aussi des questions en disant mais comment feront les enfants hein de dire </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T27" start="#T26" wh="spk1" xml:id="au27">
+<link target="#au28"/>
+<u type="ortho">
+<anchor synch="#T26"/>
+<seg>mais euh moi ça c'est je je trouve que ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T27" start="#T26" wh="spk3" xml:id="au28">
+<link target="#au27"/>
+<u type="ortho">
+<anchor synch="#T26"/>
+<seg>à ce niveau-là c'est de pire en pire </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T28" start="#T27" wh="spk1" xml:id="au29">
+<u type="ortho">
+<seg>on par-parl- tu parlais tout à l'heure d'agences immobilières j'en vois effectivement qui se créent presque toutes les semaines </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T29" start="#T28" wh="spk3" xml:id="au30">
+<u type="ortho">
+<seg>oui on se demande comment ça fonctionne </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T30" start="#T29" wh="spk1" xml:id="au31">
+<u type="ortho">
+<seg>alors je veux dire comment effectivement ça fonctionne et puis quand on voit le prix du mètre carré je veux dire ah je trouve ça inadmissible parce que quand je vois le prix du mètre carré déjà mais comment feront les enfants même pour acheter un cin- cinquante mètres carrés il faudrait il faudrait qu'ils s'endettent sur cinquante ans enfin ils pourront même pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T31" start="#T30" wh="spk1" xml:id="au32">
+<link target="#au33"/>
+<u type="ortho">
+<anchor synch="#T30"/>
+<seg>mais alors justement c'est une évolution aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T31" start="#T30" wh="spk2" xml:id="au33">
+<link target="#au32"/>
+<u type="ortho">
+<anchor synch="#T30"/>
+<seg>alors ça ça moi je trouve ça oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T32" start="#T31" wh="spk3" xml:id="au34">
+<u type="ortho">
+<seg>je pense dans le quartier c'est que il y a enfin pourquoi il y a de la surenchère enfin moi ce que j'entends dire justement par les agences immobilières c'est que souvent il y a beaucoup de ben d'étrangers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T33" start="#T32" wh="spk1" xml:id="au35">
+<u type="ortho">
+<seg>qui achètent oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T34" start="#T33" wh="spk3" xml:id="au36">
+<u type="ortho">
+<seg>enfin richissimes qui arrivent avec l'argent cash ils achètent l'appartement ben forcément que les agences immobilières sont ravies de les trouver et du coup ça renchérit le prix du mètre carré et les personnes qui sont là depuis des années voire des générations ont du mal après à </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T35" start="#T34" wh="spk1" xml:id="au37">
+<u type="ortho">
+<seg>ça va se vider le septième à un moment donné </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T36" start="#T35" wh="spk1" xml:id="au38">
+<link target="#au39"/>
+<u type="ortho">
+<anchor synch="#T35"/>
+<seg>moi je vous le dis ils pourront pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T36" start="#T35" wh="spk3" xml:id="au39">
+<link target="#au38"/>
+<u type="ortho">
+<anchor synch="#T35"/>
+<seg>à suivre parce que c'est vrai que les jeunes familles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T37" start="#T36" wh="spk3" xml:id="au40">
+<u type="ortho">
+<seg>enfin les foyers qui débutent ils peuvent pas rester là en général </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T38" start="#T37" wh="spk1" xml:id="au41">
+<u type="ortho">
+<seg>ah oui moi je trouve ça euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T39" start="#T38" wh="spk2" xml:id="au42">
+<u type="ortho">
+<seg>vous avez l'impression que la population change </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T40" start="#T39" wh="spk1" xml:id="au43">
+<link target="#au44"/>
+<u type="ortho">
+<anchor synch="#T39"/>
+<seg>ah oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T40" start="#T39" wh="spk3" xml:id="au44">
+<link target="#au43"/>
+<u type="ortho">
+<anchor synch="#T39"/>
+<seg>oui oui c'est sûr </seg>
+</u>
+</annotatedU>
+</div>
+<div end="#T42" start="#T40" subtype="to3" type="report">
+<annotatedU end="#T41" start="#T40" wh="spk1" xml:id="au45">
+<u type="ortho">
+<seg>à mon avis il y aura beaucoup de plus en plus d'étrangers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T42" start="#T41" wh="spk3" xml:id="au46">
+<u type="ortho">
+<seg>vous avez aussi oui voilà beaucoup d'étrangers qui sont là que la moitié de l'année en plus souvent qui du coup ben pour les commerces justement de proximité c'est pas une c'est pas vraiment une affaire enfin je sais pas si quand ils sont là ils dépensent deux fois plus que les autres peut-être aussi hein mais c'est vrai que là-dessus c'est un petit peu dommage bon comment enfin on va pas empêcher ça non plus tant mieux pour nous c'est le succès de </seg>
+</u>
+</annotatedU>
+</div>
+</text>
+</TEI>

@@ -1,0 +1,4923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_speechTrans.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="0.5">
+<teiHeader>
+<fileDesc>
+<publicationStmt/>
+<titleStmt>
+<title>Fichier TEI obtenu à partir du fichier Transcriber : http://cfpp2000.univ-paris3.fr/data/public/13e/Gabriel-Pujade13e/Gabriel_Pujade_H_40_13e-v2.trs</title>
+</titleStmt>
+<sourceDesc>
+<recordingStmt>
+<recording recordingLocation="http://cfpp2000.univ-paris3.fr/transcriptions-TEI/Gabriel_Pujade_H_40_13e-v2.teiml" recordingName="Gabriel_Pujade_H_40_13e-v2.teiml">
+<media mediaLocation="http://cfpp2000.univ-paris3.fr/data/public/13e/Gabriel-Pujade13e/Gabriel-Pujade_13e.wav" mediaName="Gabriel-Pujade_13e.wav"/>
+<date dur="4200.884">29-OCT-2008</date>
+</recording>
+</recordingStmt>
+</sourceDesc>
+<notesStmt>
+<metadata type=""/>
+<note type="scribe">Tanguy Noalig</note>
+</notesStmt>
+</fileDesc>
+<profileDesc>
+<settingDesc/>
+<particDesc>
+<person check="no" code="spk1" dialect="native" name="Laurence Lefebure (ENQ)" scope="local"/>
+<person check="no" code="spk2" dialect="native" name="Gabriel Pujade" scope="local"/>
+</particDesc>
+</profileDesc>
+<encodingDesc>
+<appInfo>
+<application ident="Transcriber"/>
+</appInfo>
+</encodingDesc>
+<revisionDesc>29</revisionDesc>
+<templateDesc>
+<template code="ortho" parent="-" type="Symbolic Association">Orthographic Line</template>
+<template code="com" parent="ortho" type="Symbolic Association"/>
+</templateDesc>
+</teiHeader>
+<text>
+<timeline unit="s">
+<when absolute="00:00:00" xml:id="T0"/>
+<when interval="17.528" since="#T0" xml:id="T1"/>
+<when interval="27.811" since="#T0" xml:id="T2"/>
+<when interval="29.247" since="#T0" xml:id="T3"/>
+<when interval="45.873" since="#T0" xml:id="T4"/>
+<when interval="49.594" since="#T0" xml:id="T5"/>
+<when interval="50.839" since="#T0" xml:id="T6"/>
+<when interval="58.403" since="#T0" xml:id="T7"/>
+<when interval="59.195" since="#T0" xml:id="T8"/>
+<when interval="92.688" since="#T0" xml:id="T9"/>
+<when interval="95.526" since="#T0" xml:id="T10"/>
+<when interval="98.078" since="#T0" xml:id="T11"/>
+<when interval="120.452" since="#T0" xml:id="T12"/>
+<when interval="122.436" since="#T0" xml:id="T13"/>
+<when interval="123.605" since="#T0" xml:id="T14"/>
+<when interval="130.573" since="#T0" xml:id="T15"/>
+<when interval="130.859" since="#T0" xml:id="T16"/>
+<when interval="131.956" since="#T0" xml:id="T17"/>
+<when interval="132.839" since="#T0" xml:id="T18"/>
+<when interval="140.809" since="#T0" xml:id="T19"/>
+<when interval="141.148" since="#T0" xml:id="T20"/>
+<when interval="149.356" since="#T0" xml:id="T21"/>
+<when interval="151.145" since="#T0" xml:id="T22"/>
+<when interval="151.627" since="#T0" xml:id="T23"/>
+<when interval="152.466" since="#T0" xml:id="T24"/>
+<when interval="152.848" since="#T0" xml:id="T25"/>
+<when interval="155.643" since="#T0" xml:id="T26"/>
+<when interval="171.411" since="#T0" xml:id="T27"/>
+<when interval="174.945" since="#T0" xml:id="T28"/>
+<when interval="175.828" since="#T0" xml:id="T29"/>
+<when interval="176.357" since="#T0" xml:id="T30"/>
+<when interval="177.025" since="#T0" xml:id="T31"/>
+<when interval="180.507" since="#T0" xml:id="T32"/>
+<when interval="182.939" since="#T0" xml:id="T33"/>
+<when interval="188.138" since="#T0" xml:id="T34"/>
+<when interval="189.669" since="#T0" xml:id="T35"/>
+<when interval="200.787" since="#T0" xml:id="T36"/>
+<when interval="201.269" since="#T0" xml:id="T37"/>
+<when interval="216.369" since="#T0" xml:id="T38"/>
+<when interval="221.902" since="#T0" xml:id="T39"/>
+<when interval="223.552" since="#T0" xml:id="T40"/>
+<when interval="269.252" since="#T0" xml:id="T41"/>
+<when interval="270.826" since="#T0" xml:id="T42"/>
+<when interval="284.689" since="#T0" xml:id="T43"/>
+<when interval="285.429" since="#T0" xml:id="T44"/>
+<when interval="287.866" since="#T0" xml:id="T45"/>
+<when interval="288.725" since="#T0" xml:id="T46"/>
+<when interval="293.308" since="#T0" xml:id="T47"/>
+<when interval="299.538" since="#T0" xml:id="T48"/>
+<when interval="329.319" since="#T0" xml:id="T49"/>
+<when interval="331.303" since="#T0" xml:id="T50"/>
+<when interval="336.216" since="#T0" xml:id="T51"/>
+<when interval="337.89" since="#T0" xml:id="T52"/>
+<when interval="338.391" since="#T0" xml:id="T53"/>
+<when interval="359.024" since="#T0" xml:id="T54"/>
+<when interval="360.674" since="#T0" xml:id="T55"/>
+<when interval="361.056" since="#T0" xml:id="T56"/>
+<when interval="361.633" since="#T0" xml:id="T57"/>
+<when interval="362.043" since="#T0" xml:id="T58"/>
+<when interval="362.282" since="#T0" xml:id="T59"/>
+<when interval="362.621" since="#T0" xml:id="T60"/>
+<when interval="364.08" since="#T0" xml:id="T61"/>
+<when interval="366.208" since="#T0" xml:id="T62"/>
+<when interval="379.062" since="#T0" xml:id="T63"/>
+<when interval="379.663" since="#T0" xml:id="T64"/>
+<when interval="381.409" since="#T0" xml:id="T65"/>
+<when interval="383.226" since="#T0" xml:id="T66"/>
+<when interval="392.484" since="#T0" xml:id="T67"/>
+<when interval="393.204" since="#T0" xml:id="T68"/>
+<when interval="408.443" since="#T0" xml:id="T69"/>
+<when interval="410.284" since="#T0" xml:id="T70"/>
+<when interval="418.058" since="#T0" xml:id="T71"/>
+<when interval="422.518" since="#T0" xml:id="T72"/>
+<when interval="441.434" since="#T0" xml:id="T73"/>
+<when interval="444.968" since="#T0" xml:id="T74"/>
+<when interval="445.135" since="#T0" xml:id="T75"/>
+<when interval="445.922" since="#T0" xml:id="T76"/>
+<when interval="465.119" since="#T0" xml:id="T77"/>
+<when interval="466.52" since="#T0" xml:id="T78"/>
+<when interval="481.12" since="#T0" xml:id="T79"/>
+<when interval="481.459" since="#T0" xml:id="T80"/>
+<when interval="488.356" since="#T0" xml:id="T81"/>
+<when interval="489.243" since="#T0" xml:id="T82"/>
+<when interval="489.534" since="#T0" xml:id="T83"/>
+<when interval="508.164" since="#T0" xml:id="T84"/>
+<when interval="509.504" since="#T0" xml:id="T85"/>
+<when interval="512.223" since="#T0" xml:id="T86"/>
+<when interval="513.158" since="#T0" xml:id="T87"/>
+<when interval="518.838" since="#T0" xml:id="T88"/>
+<when interval="519.923" since="#T0" xml:id="T89"/>
+<when interval="521.115" since="#T0" xml:id="T90"/>
+<when interval="540.095" since="#T0" xml:id="T91"/>
+<when interval="542.723" since="#T0" xml:id="T92"/>
+<when interval="544.469" since="#T0" xml:id="T93"/>
+<when interval="545.428" since="#T0" xml:id="T94"/>
+<when interval="547.078" since="#T0" xml:id="T95"/>
+<when interval="549.821" since="#T0" xml:id="T96"/>
+<when interval="551.209" since="#T0" xml:id="T97"/>
+<when interval="553.742" since="#T0" xml:id="T98"/>
+<when interval="571.918" since="#T0" xml:id="T99"/>
+<when interval="572.658" since="#T0" xml:id="T100"/>
+<when interval="588.402" since="#T0" xml:id="T101"/>
+<when interval="589.475" since="#T0" xml:id="T102"/>
+<when interval="590.119" since="#T0" xml:id="T103"/>
+<when interval="590.644" since="#T0" xml:id="T104"/>
+<when interval="592.557" since="#T0" xml:id="T105"/>
+<when interval="617.778" since="#T0" xml:id="T106"/>
+<when interval="626.106" since="#T0" xml:id="T107"/>
+<when interval="660.524" since="#T0" xml:id="T108"/>
+<when interval="668.875" since="#T0" xml:id="T109"/>
+<when interval="669.4" since="#T0" xml:id="T110"/>
+<when interval="670.168" since="#T0" xml:id="T111"/>
+<when interval="670.721" since="#T0" xml:id="T112"/>
+<when interval="674.203" since="#T0" xml:id="T113"/>
+<when interval="675.972" since="#T0" xml:id="T114"/>
+<when interval="715.417" since="#T0" xml:id="T115"/>
+<when interval="716.519" since="#T0" xml:id="T116"/>
+<when interval="731.858" since="#T0" xml:id="T117"/>
+<when interval="733.127" since="#T0" xml:id="T118"/>
+<when interval="750.016" since="#T0" xml:id="T119"/>
+<when interval="751.213" since="#T0" xml:id="T120"/>
+<when interval="757.557" since="#T0" xml:id="T121"/>
+<when interval="759.923" since="#T0" xml:id="T122"/>
+<when interval="760.643" since="#T0" xml:id="T123"/>
+<when interval="777.837" since="#T0" xml:id="T124"/>
+<when interval="779.888" since="#T0" xml:id="T125"/>
+<when interval="782.702" since="#T0" xml:id="T126"/>
+<when interval="787.227" since="#T0" xml:id="T127"/>
+<when interval="787.542" since="#T0" xml:id="T128"/>
+<when interval="790.623" since="#T0" xml:id="T129"/>
+<when interval="790.981" since="#T0" xml:id="T130"/>
+<when interval="799.309" since="#T0" xml:id="T131"/>
+<when interval="816.198" since="#T0" xml:id="T132"/>
+<when interval="828.436" since="#T0" xml:id="T133"/>
+<when interval="828.866" since="#T0" xml:id="T134"/>
+<when interval="842.201" since="#T0" xml:id="T135"/>
+<when interval="842.917" since="#T0" xml:id="T136"/>
+<when interval="891.694" since="#T0" xml:id="T137"/>
+<when interval="893.364" since="#T0" xml:id="T138"/>
+<when interval="907.653" since="#T0" xml:id="T139"/>
+<when interval="908.297" since="#T0" xml:id="T140"/>
+<when interval="910.968" since="#T0" xml:id="T141"/>
+<when interval="911.779" since="#T0" xml:id="T142"/>
+<when interval="912.928" since="#T0" xml:id="T143"/>
+<when interval="913.501" since="#T0" xml:id="T144"/>
+<when interval="914.388" since="#T0" xml:id="T145"/>
+<when interval="937.334" since="#T0" xml:id="T146"/>
+<when interval="938.293" since="#T0" xml:id="T147"/>
+<when interval="966.347" since="#T0" xml:id="T148"/>
+<when interval="967.659" since="#T0" xml:id="T149"/>
+<when interval="969.619" since="#T0" xml:id="T150"/>
+<when interval="970.859" since="#T0" xml:id="T151"/>
+<when interval="972.147" since="#T0" xml:id="T152"/>
+<when interval="999.694" since="#T0" xml:id="T153"/>
+<when interval="1002.341" since="#T0" xml:id="T154"/>
+<when interval="1003.867" since="#T0" xml:id="T155"/>
+<when interval="1061.748" since="#T0" xml:id="T156"/>
+<when interval="1062.468" since="#T0" xml:id="T157"/>
+<when interval="1069.479" since="#T0" xml:id="T158"/>
+<when interval="1070.91" since="#T0" xml:id="T159"/>
+<when interval="1072.699" since="#T0" xml:id="T160"/>
+<when interval="1073.133" since="#T0" xml:id="T161"/>
+<when interval="1074.659" since="#T0" xml:id="T162"/>
+<when interval="1076.138" since="#T0" xml:id="T163"/>
+<when interval="1076.381" since="#T0" xml:id="T164"/>
+<when interval="1078.289" since="#T0" xml:id="T165"/>
+<when interval="1079.72" since="#T0" xml:id="T166"/>
+<when interval="1081.156" since="#T0" xml:id="T167"/>
+<when interval="1081.805" since="#T0" xml:id="T168"/>
+<when interval="1083.026" since="#T0" xml:id="T169"/>
+<when interval="1084.7" since="#T0" xml:id="T170"/>
+<when interval="1085.058" since="#T0" xml:id="T171"/>
+<when interval="1096.867" since="#T0" xml:id="T172"/>
+<when interval="1101.351" since="#T0" xml:id="T173"/>
+<when interval="1102.739" since="#T0" xml:id="T174"/>
+<when interval="1108.61" since="#T0" xml:id="T175"/>
+<when interval="1114.667" since="#T0" xml:id="T176"/>
+<when interval="1116.909" since="#T0" xml:id="T177"/>
+<when interval="1118.101" since="#T0" xml:id="T178"/>
+<when interval="1119.56" since="#T0" xml:id="T179"/>
+<when interval="1121.254" since="#T0" xml:id="T180"/>
+<when interval="1121.497" since="#T0" xml:id="T181"/>
+<when interval="1122.69" since="#T0" xml:id="T182"/>
+<when interval="1123.482" since="#T0" xml:id="T183"/>
+<when interval="1125.919" since="#T0" xml:id="T184"/>
+<when interval="1129.186" since="#T0" xml:id="T185"/>
+<when interval="1130.069" since="#T0" xml:id="T186"/>
+<when interval="1130.36" since="#T0" xml:id="T187"/>
+<when interval="1131.104" since="#T0" xml:id="T188"/>
+<when interval="1131.676" since="#T0" xml:id="T189"/>
+<when interval="1137.447" since="#T0" xml:id="T190"/>
+<when interval="1160.101" since="#T0" xml:id="T191"/>
+<when interval="1162.586" since="#T0" xml:id="T192"/>
+<when interval="1169.983" since="#T0" xml:id="T193"/>
+<when interval="1182.241" since="#T0" xml:id="T194"/>
+<when interval="1183.576" since="#T0" xml:id="T195"/>
+<when interval="1273.496" since="#T0" xml:id="T196"/>
+<when interval="1275.208" since="#T0" xml:id="T197"/>
+<when interval="1309.216" since="#T0" xml:id="T198"/>
+<when interval="1309.359" since="#T0" xml:id="T199"/>
+<when interval="1312.254" since="#T0" xml:id="T200"/>
+<when interval="1313.258" since="#T0" xml:id="T201"/>
+<when interval="1313.824" since="#T0" xml:id="T202"/>
+<when interval="1326.465" since="#T0" xml:id="T203"/>
+<when interval="1327.652" since="#T0" xml:id="T204"/>
+<when interval="1329.114" since="#T0" xml:id="T205"/>
+<when interval="1330.118" since="#T0" xml:id="T206"/>
+<when interval="1331.122" since="#T0" xml:id="T207"/>
+<when interval="1331.48" since="#T0" xml:id="T208"/>
+<when interval="1345.954" since="#T0" xml:id="T209"/>
+<when interval="1346.25" since="#T0" xml:id="T210"/>
+<when interval="1347.254" since="#T0" xml:id="T211"/>
+<when interval="1351.069" since="#T0" xml:id="T212"/>
+<when interval="1354.837" since="#T0" xml:id="T213"/>
+<when interval="1460.578" since="#T0" xml:id="T214"/>
+<when interval="1464.231" since="#T0" xml:id="T215"/>
+<when interval="1465.519" since="#T0" xml:id="T216"/>
+<when interval="1468.882" since="#T0" xml:id="T217"/>
+<when interval="1469.65" since="#T0" xml:id="T218"/>
+<when interval="1471.253" since="#T0" xml:id="T219"/>
+<when interval="1471.925" since="#T0" xml:id="T220"/>
+<when interval="1473.189" since="#T0" xml:id="T221"/>
+<when interval="1475.121" since="#T0" xml:id="T222"/>
+<when interval="1499.819" since="#T0" xml:id="T223"/>
+<when interval="1507.288" since="#T0" xml:id="T224"/>
+<when interval="1554.988" since="#T0" xml:id="T225"/>
+<when interval="1555.35" since="#T0" xml:id="T226"/>
+<when interval="1555.517" since="#T0" xml:id="T227"/>
+<when interval="1555.851" since="#T0" xml:id="T228"/>
+<when interval="1557.163" since="#T0" xml:id="T229"/>
+<when interval="1559.314" since="#T0" xml:id="T230"/>
+<when interval="1574.152" since="#T0" xml:id="T231"/>
+<when interval="1574.467" since="#T0" xml:id="T232"/>
+<when interval="1595.791" since="#T0" xml:id="T233"/>
+<when interval="1597.222" since="#T0" xml:id="T234"/>
+<when interval="1605.237" since="#T0" xml:id="T235"/>
+<when interval="1608.771" since="#T0" xml:id="T236"/>
+<when interval="1608.962" since="#T0" xml:id="T237"/>
+<when interval="1625.278" since="#T0" xml:id="T238"/>
+<when interval="1689.511" since="#T0" xml:id="T239"/>
+<when interval="1694.905" since="#T0" xml:id="T240"/>
+<when interval="1723.262" since="#T0" xml:id="T241"/>
+<when interval="1729.504" since="#T0" xml:id="T242"/>
+<when interval="1731.214" since="#T0" xml:id="T243"/>
+<when interval="1753.035" since="#T0" xml:id="T244"/>
+<when interval="1755.21" since="#T0" xml:id="T245"/>
+<when interval="1771.813" since="#T0" xml:id="T246"/>
+<when interval="1782.382" since="#T0" xml:id="T247"/>
+<when interval="1801.393" since="#T0" xml:id="T248"/>
+<when interval="1803.587" since="#T0" xml:id="T249"/>
+<when interval="1869.506" since="#T0" xml:id="T250"/>
+<when interval="1883.056" since="#T0" xml:id="T251"/>
+<when interval="1900.014" since="#T0" xml:id="T252"/>
+<when interval="1900.659" since="#T0" xml:id="T253"/>
+<when interval="1901.641" since="#T0" xml:id="T254"/>
+<when interval="1901.937" since="#T0" xml:id="T255"/>
+<when interval="1902.262" since="#T0" xml:id="T256"/>
+<when interval="1902.765" since="#T0" xml:id="T257"/>
+<when interval="1903.328" since="#T0" xml:id="T258"/>
+<when interval="1911.913" since="#T0" xml:id="T259"/>
+<when interval="1913.304" since="#T0" xml:id="T260"/>
+<when interval="1913.606" since="#T0" xml:id="T261"/>
+<when interval="1919.41" since="#T0" xml:id="T262"/>
+<when interval="1923.049" since="#T0" xml:id="T263"/>
+<when interval="1923.7" since="#T0" xml:id="T264"/>
+<when interval="1926.392" since="#T0" xml:id="T265"/>
+<when interval="1926.807" since="#T0" xml:id="T266"/>
+<when interval="1928.233" since="#T0" xml:id="T267"/>
+<when interval="1930.754" since="#T0" xml:id="T268"/>
+<when interval="1931.707" since="#T0" xml:id="T269"/>
+<when interval="1977.406" since="#T0" xml:id="T270"/>
+<when interval="1992.244" since="#T0" xml:id="T271"/>
+<when interval="2005.961" since="#T0" xml:id="T272"/>
+<when interval="2007.106" since="#T0" xml:id="T273"/>
+<when interval="2008.971" since="#T0" xml:id="T274"/>
+<when interval="2010.502" since="#T0" xml:id="T275"/>
+<when interval="2012.291" since="#T0" xml:id="T276"/>
+<when interval="2012.82" since="#T0" xml:id="T277"/>
+<when interval="2013.941" since="#T0" xml:id="T278"/>
+<when interval="2042.594" since="#T0" xml:id="T279"/>
+<when interval="2063.036" since="#T0" xml:id="T280"/>
+<when interval="2098.559" since="#T0" xml:id="T281"/>
+<when interval="2099.995" since="#T0" xml:id="T282"/>
+<when interval="2108.633" since="#T0" xml:id="T283"/>
+<when interval="2116.77" since="#T0" xml:id="T284"/>
+<when interval="2117.776" since="#T0" xml:id="T285"/>
+<when interval="2128.317" since="#T0" xml:id="T286"/>
+<when interval="2129.156" since="#T0" xml:id="T287"/>
+<when interval="2132.066" since="#T0" xml:id="T288"/>
+<when interval="2133.74" since="#T0" xml:id="T289"/>
+<when interval="2228.198" since="#T0" xml:id="T290"/>
+<when interval="2228.942" since="#T0" xml:id="T291"/>
+<when interval="2237.599" since="#T0" xml:id="T292"/>
+<when interval="2250.219" since="#T0" xml:id="T293"/>
+<when interval="2252.842" since="#T0" xml:id="T294"/>
+<when interval="2253.128" since="#T0" xml:id="T295"/>
+<when interval="2255.012" since="#T0" xml:id="T296"/>
+<when interval="2256.066" since="#T0" xml:id="T297"/>
+<when interval="2282.906" since="#T0" xml:id="T298"/>
+<when interval="2287.176" since="#T0" xml:id="T299"/>
+<when interval="2290.467" since="#T0" xml:id="T300"/>
+<when interval="2292.518" since="#T0" xml:id="T301"/>
+<when interval="2292.69" since="#T0" xml:id="T302"/>
+<when interval="2315.803" since="#T0" xml:id="T303"/>
+<when interval="2319.981" since="#T0" xml:id="T304"/>
+<when interval="2321.698" since="#T0" xml:id="T305"/>
+<when interval="2357.044" since="#T0" xml:id="T306"/>
+<when interval="2361.94" since="#T0" xml:id="T307"/>
+<when interval="2362.279" since="#T0" xml:id="T308"/>
+<when interval="2367.268" since="#T0" xml:id="T309"/>
+<when interval="2430.481" since="#T0" xml:id="T310"/>
+<when interval="2431.726" since="#T0" xml:id="T311"/>
+<when interval="2432.637" since="#T0" xml:id="T312"/>
+<when interval="2433.667" since="#T0" xml:id="T313"/>
+<when interval="2435.17" since="#T0" xml:id="T314"/>
+<when interval="2453.156" since="#T0" xml:id="T315"/>
+<when interval="2453.805" since="#T0" xml:id="T316"/>
+<when interval="2461.441" since="#T0" xml:id="T317"/>
+<when interval="2466.835" since="#T0" xml:id="T318"/>
+<when interval="2467.098" since="#T0" xml:id="T319"/>
+<when interval="2468.891" since="#T0" xml:id="T320"/>
+<when interval="2475.02" since="#T0" xml:id="T321"/>
+<when interval="2496.222" since="#T0" xml:id="T322"/>
+<when interval="2497.915" since="#T0" xml:id="T323"/>
+<when interval="2501.014" since="#T0" xml:id="T324"/>
+<when interval="2503.709" since="#T0" xml:id="T325"/>
+<when interval="2503.952" since="#T0" xml:id="T326"/>
+<when interval="2505.669" since="#T0" xml:id="T327"/>
+<when interval="2506.099" since="#T0" xml:id="T328"/>
+<when interval="2510.206" since="#T0" xml:id="T329"/>
+<when interval="2531.03" since="#T0" xml:id="T330"/>
+<when interval="2533.396" since="#T0" xml:id="T331"/>
+<when interval="2557.929" since="#T0" xml:id="T332"/>
+<when interval="2558.935" since="#T0" xml:id="T333"/>
+<when interval="2569.667" since="#T0" xml:id="T334"/>
+<when interval="2570.578" since="#T0" xml:id="T335"/>
+<when interval="2571.489" since="#T0" xml:id="T336"/>
+<when interval="2577.289" since="#T0" xml:id="T337"/>
+<when interval="2578.438" since="#T0" xml:id="T338"/>
+<when interval="2584.186" since="#T0" xml:id="T339"/>
+<when interval="2587.076" since="#T0" xml:id="T340"/>
+<when interval="2589.199" since="#T0" xml:id="T341"/>
+<when interval="2589.8" since="#T0" xml:id="T342"/>
+<when interval="2590.329" since="#T0" xml:id="T343"/>
+<when interval="2591.903" since="#T0" xml:id="T344"/>
+<when interval="2592.976" since="#T0" xml:id="T345"/>
+<when interval="2596.005" since="#T0" xml:id="T346"/>
+<when interval="2597.722" since="#T0" xml:id="T347"/>
+<when interval="2598.318" since="#T0" xml:id="T348"/>
+<when interval="2599.797" since="#T0" xml:id="T349"/>
+<when interval="2600.684" since="#T0" xml:id="T350"/>
+<when interval="2618.67" since="#T0" xml:id="T351"/>
+<when interval="2620.129" since="#T0" xml:id="T352"/>
+<when interval="2622.419" since="#T0" xml:id="T353"/>
+<when interval="2622.805" since="#T0" xml:id="T354"/>
+<when interval="2624.618" since="#T0" xml:id="T355"/>
+<when interval="2625.648" since="#T0" xml:id="T356"/>
+<when interval="2656.018" since="#T0" xml:id="T357"/>
+<when interval="2658.598" since="#T0" xml:id="T358"/>
+<when interval="2659.266" since="#T0" xml:id="T359"/>
+<when interval="2660.439" since="#T0" xml:id="T360"/>
+<when interval="2661.727" since="#T0" xml:id="T361"/>
+<when interval="2662.991" since="#T0" xml:id="T362"/>
+<when interval="2680.109" since="#T0" xml:id="T363"/>
+<when interval="2681.878" since="#T0" xml:id="T364"/>
+<when interval="2710.722" since="#T0" xml:id="T365"/>
+<when interval="2711.514" since="#T0" xml:id="T366"/>
+<when interval="2712.33" since="#T0" xml:id="T367"/>
+<when interval="2713.766" since="#T0" xml:id="T368"/>
+<when interval="2714.844" since="#T0" xml:id="T369"/>
+<when interval="2715.827" since="#T0" xml:id="T370"/>
+<when interval="2721.197" since="#T0" xml:id="T371"/>
+<when interval="2723.129" since="#T0" xml:id="T372"/>
+<when interval="2724.321" since="#T0" xml:id="T373"/>
+<when interval="2728.924" since="#T0" xml:id="T374"/>
+<when interval="2731.194" since="#T0" xml:id="T375"/>
+<when interval="2736.751" since="#T0" xml:id="T376"/>
+<when interval="2738.687" since="#T0" xml:id="T377"/>
+<when interval="2741.454" since="#T0" xml:id="T378"/>
+<when interval="2746.777" since="#T0" xml:id="T379"/>
+<when interval="2747.616" since="#T0" xml:id="T380"/>
+<when interval="2753.387" since="#T0" xml:id="T381"/>
+<when interval="2753.888" since="#T0" xml:id="T382"/>
+<when interval="2759.826" since="#T0" xml:id="T383"/>
+<when interval="2760.446" since="#T0" xml:id="T384"/>
+<when interval="2790.915" since="#T0" xml:id="T385"/>
+<when interval="2805.274" since="#T0" xml:id="T386"/>
+<when interval="2807.373" since="#T0" xml:id="T387"/>
+<when interval="2810.216" since="#T0" xml:id="T388"/>
+<when interval="2827.82" since="#T0" xml:id="T389"/>
+<when interval="2828.392" since="#T0" xml:id="T390"/>
+<when interval="2829.132" since="#T0" xml:id="T391"/>
+<when interval="2829.375" since="#T0" xml:id="T392"/>
+<when interval="2835.151" since="#T0" xml:id="T393"/>
+<when interval="2836.11" since="#T0" xml:id="T394"/>
+<when interval="2839.31" since="#T0" xml:id="T395"/>
+<when interval="2878.759" since="#T0" xml:id="T396"/>
+<when interval="2883.605" since="#T0" xml:id="T397"/>
+<when interval="2902.33" since="#T0" xml:id="T398"/>
+<when interval="2902.979" since="#T0" xml:id="T399"/>
+<when interval="2906.394" since="#T0" xml:id="T400"/>
+<when interval="2908.092" since="#T0" xml:id="T401"/>
+<when interval="2911.531" since="#T0" xml:id="T402"/>
+<when interval="2917.736" since="#T0" xml:id="T403"/>
+<when interval="2922.362" since="#T0" xml:id="T404"/>
+<when interval="2926.638" since="#T0" xml:id="T405"/>
+<when interval="2947.462" since="#T0" xml:id="T406"/>
+<when interval="2948.158" since="#T0" xml:id="T407"/>
+<when interval="2955.67" since="#T0" xml:id="T408"/>
+<when interval="2969.907" since="#T0" xml:id="T409"/>
+<when interval="3005.672" since="#T0" xml:id="T410"/>
+<when interval="3006.912" since="#T0" xml:id="T411"/>
+<when interval="3026.527" since="#T0" xml:id="T412"/>
+<when interval="3031.373" since="#T0" xml:id="T413"/>
+<when interval="3062.079" since="#T0" xml:id="T414"/>
+<when interval="3062.847" since="#T0" xml:id="T415"/>
+<when interval="3063.806" since="#T0" xml:id="T416"/>
+<when interval="3066.291" since="#T0" xml:id="T417"/>
+<when interval="3066.725" since="#T0" xml:id="T418"/>
+<when interval="3068.275" since="#T0" xml:id="T419"/>
+<when interval="3068.585" since="#T0" xml:id="T420"/>
+<when interval="3069.42" since="#T0" xml:id="T421"/>
+<when interval="3072.787" since="#T0" xml:id="T422"/>
+<when interval="3077.748" since="#T0" xml:id="T423"/>
+<when interval="3078.945" since="#T0" xml:id="T424"/>
+<when interval="3129.157" since="#T0" xml:id="T425"/>
+<when interval="3131.117" since="#T0" xml:id="T426"/>
+<when interval="3144.901" since="#T0" xml:id="T427"/>
+<when interval="3145.783" since="#T0" xml:id="T428"/>
+<when interval="3146.618" since="#T0" xml:id="T429"/>
+<when interval="3167.618" since="#T0" xml:id="T430"/>
+<when interval="3168.81" since="#T0" xml:id="T431"/>
+<when interval="3170.17" since="#T0" xml:id="T432"/>
+<when interval="3171.725" since="#T0" xml:id="T433"/>
+<when interval="3176.428" since="#T0" xml:id="T434"/>
+<when interval="3177.148" since="#T0" xml:id="T435"/>
+<when interval="3178.722" since="#T0" xml:id="T436"/>
+<when interval="3179.604" since="#T0" xml:id="T437"/>
+<when interval="3180.558" since="#T0" xml:id="T438"/>
+<when interval="3181.846" since="#T0" xml:id="T439"/>
+<when interval="3182.347" since="#T0" xml:id="T440"/>
+<when interval="3207.919" since="#T0" xml:id="T441"/>
+<when interval="3212.002" since="#T0" xml:id="T442"/>
+<when interval="3239.111" since="#T0" xml:id="T443"/>
+<when interval="3241.19" since="#T0" xml:id="T444"/>
+<when interval="3242.049" since="#T0" xml:id="T445"/>
+<when interval="3243.58" since="#T0" xml:id="T446"/>
+<when interval="3246.656" since="#T0" xml:id="T447"/>
+<when interval="3247.563" since="#T0" xml:id="T448"/>
+<when interval="3257.011" since="#T0" xml:id="T449"/>
+<when interval="3259.015" since="#T0" xml:id="T450"/>
+<when interval="3261.094" since="#T0" xml:id="T451"/>
+<when interval="3280.339" since="#T0" xml:id="T452"/>
+<when interval="3283.515" since="#T0" xml:id="T453"/>
+<when interval="3284.474" since="#T0" xml:id="T454"/>
+<when interval="3298.954" since="#T0" xml:id="T455"/>
+<when interval="3301.72" since="#T0" xml:id="T456"/>
+<when interval="3304.224" since="#T0" xml:id="T457"/>
+<when interval="3306.752" since="#T0" xml:id="T458"/>
+<when interval="3319.305" since="#T0" xml:id="T459"/>
+<when interval="3321.38" since="#T0" xml:id="T460"/>
+<when interval="3324.89" since="#T0" xml:id="T461"/>
+<when interval="3328.515" since="#T0" xml:id="T462"/>
+<when interval="3331.101" since="#T0" xml:id="T463"/>
+<when interval="3342.266" since="#T0" xml:id="T464"/>
+<when interval="3342.863" since="#T0" xml:id="T465"/>
+<when interval="3347.351" since="#T0" xml:id="T466"/>
+<when interval="3376.743" since="#T0" xml:id="T467"/>
+<when interval="3377.22" since="#T0" xml:id="T468"/>
+<when interval="3388.816" since="#T0" xml:id="T469"/>
+<when interval="3391.177" since="#T0" xml:id="T470"/>
+<when interval="3413.839" since="#T0" xml:id="T471"/>
+<when interval="3417.631" since="#T0" xml:id="T472"/>
+<when interval="3423.34" since="#T0" xml:id="T473"/>
+<when interval="3427.919" since="#T0" xml:id="T474"/>
+<when interval="3430.595" since="#T0" xml:id="T475"/>
+<when interval="3431.363" since="#T0" xml:id="T476"/>
+<when interval="3433.657" since="#T0" xml:id="T477"/>
+<when interval="3434.778" since="#T0" xml:id="T478"/>
+<when interval="3442.509" since="#T0" xml:id="T479"/>
+<when interval="3443.082" since="#T0" xml:id="T480"/>
+<when interval="3481.648" since="#T0" xml:id="T481"/>
+<when interval="3482.535" since="#T0" xml:id="T482"/>
+<when interval="3499.705" since="#T0" xml:id="T483"/>
+<when interval="3502.591" since="#T0" xml:id="T484"/>
+<when interval="3503.478" since="#T0" xml:id="T485"/>
+<when interval="3504.241" since="#T0" xml:id="T486"/>
+<when interval="3531.561" since="#T0" xml:id="T487"/>
+<when interval="3532.944" since="#T0" xml:id="T488"/>
+<when interval="3537.53" since="#T0" xml:id="T489"/>
+<when interval="3538.389" since="#T0" xml:id="T490"/>
+<when interval="3543.068" since="#T0" xml:id="T491"/>
+<when interval="3543.574" since="#T0" xml:id="T492"/>
+<when interval="3580.838" since="#T0" xml:id="T493"/>
+<when interval="3581.315" since="#T0" xml:id="T494"/>
+<when interval="3584.454" since="#T0" xml:id="T495"/>
+<when interval="3587.149" since="#T0" xml:id="T496"/>
+<when interval="3588.175" since="#T0" xml:id="T497"/>
+<when interval="3598.792" since="#T0" xml:id="T498"/>
+<when interval="3599.25" since="#T0" xml:id="T499"/>
+<when interval="3602.114" since="#T0" xml:id="T500"/>
+<when interval="3605.5" since="#T0" xml:id="T501"/>
+<when interval="3606.574" since="#T0" xml:id="T502"/>
+<when interval="3607.294" since="#T0" xml:id="T503"/>
+<when interval="3608.634" since="#T0" xml:id="T504"/>
+<when interval="3611.162" since="#T0" xml:id="T505"/>
+<when interval="3619.604" since="#T0" xml:id="T506"/>
+<when interval="3621.059" since="#T0" xml:id="T507"/>
+<when interval="3622.638" since="#T0" xml:id="T508"/>
+<when interval="3624.169" since="#T0" xml:id="T509"/>
+<when interval="3627.512" since="#T0" xml:id="T510"/>
+<when interval="3638.387" since="#T0" xml:id="T511"/>
+<when interval="3639.155" since="#T0" xml:id="T512"/>
+<when interval="3640.257" since="#T0" xml:id="T513"/>
+<when interval="3643.672" since="#T0" xml:id="T514"/>
+<when interval="3646.324" since="#T0" xml:id="T515"/>
+<when interval="3723.503" since="#T0" xml:id="T516"/>
+<when interval="3726.179" since="#T0" xml:id="T517"/>
+<when interval="3726.78" since="#T0" xml:id="T518"/>
+<when interval="3752.198" since="#T0" xml:id="T519"/>
+<when interval="3753.3" since="#T0" xml:id="T520"/>
+<when interval="3767.089" since="#T0" xml:id="T521"/>
+<when interval="3768.763" since="#T0" xml:id="T522"/>
+<when interval="3794.526" since="#T0" xml:id="T523"/>
+<when interval="3795.075" since="#T0" xml:id="T524"/>
+<when interval="3799.658" since="#T0" xml:id="T525"/>
+<when interval="3800.755" since="#T0" xml:id="T526"/>
+<when interval="3809.293" since="#T0" xml:id="T527"/>
+<when interval="3814.043" since="#T0" xml:id="T528"/>
+<when interval="3814.568" since="#T0" xml:id="T529"/>
+<when interval="3814.973" since="#T0" xml:id="T530"/>
+<when interval="3833.598" since="#T0" xml:id="T531"/>
+<when interval="3837.236" since="#T0" xml:id="T532"/>
+<when interval="3837.713" since="#T0" xml:id="T533"/>
+<when interval="3848.802" since="#T0" xml:id="T534"/>
+<when interval="3851.592" since="#T0" xml:id="T535"/>
+<when interval="3851.855" since="#T0" xml:id="T536"/>
+<when interval="3851.931" since="#T0" xml:id="T537"/>
+<when interval="3872.202" since="#T0" xml:id="T538"/>
+<when interval="3873.709" since="#T0" xml:id="T539"/>
+<when interval="3927.936" since="#T0" xml:id="T540"/>
+<when interval="3938.958" since="#T0" xml:id="T541"/>
+<when interval="3939.912" since="#T0" xml:id="T542"/>
+<when interval="3942.011" since="#T0" xml:id="T543"/>
+<when interval="3943.995" since="#T0" xml:id="T544"/>
+<when interval="3949.881" since="#T0" xml:id="T545"/>
+<when interval="3951.507" since="#T0" xml:id="T546"/>
+<when interval="3958.614" since="#T0" xml:id="T547"/>
+<when interval="3960.646" since="#T0" xml:id="T548"/>
+<when interval="3961.533" since="#T0" xml:id="T549"/>
+<when interval="3961.867" since="#T0" xml:id="T550"/>
+<when interval="4025.854" since="#T0" xml:id="T551"/>
+<when interval="4026.88" since="#T0" xml:id="T552"/>
+<when interval="4047.083" since="#T0" xml:id="T553"/>
+<when interval="4047.25" since="#T0" xml:id="T554"/>
+<when interval="4057.992" since="#T0" xml:id="T555"/>
+<when interval="4059.28" since="#T0" xml:id="T556"/>
+<when interval="4059.666" since="#T0" xml:id="T557"/>
+<when interval="4060.692" since="#T0" xml:id="T558"/>
+<when interval="4061.436" since="#T0" xml:id="T559"/>
+<when interval="4114.739" since="#T0" xml:id="T560"/>
+<when interval="4115.292" since="#T0" xml:id="T561"/>
+<when interval="4123.281" since="#T0" xml:id="T562"/>
+<when interval="4124.211" since="#T0" xml:id="T563"/>
+<when interval="4126.882" since="#T0" xml:id="T564"/>
+<when interval="4127.836" since="#T0" xml:id="T565"/>
+<when interval="4131.966" since="#T0" xml:id="T566"/>
+<when interval="4133.516" since="#T0" xml:id="T567"/>
+<when interval="4157.801" since="#T0" xml:id="T568"/>
+<when interval="4159.847" since="#T0" xml:id="T569"/>
+<when interval="4186.474" since="#T0" xml:id="T570"/>
+<when interval="4188.096" since="#T0" xml:id="T571"/>
+<when interval="4191.703" since="#T0" xml:id="T572"/>
+<when interval="4196.902" since="#T0" xml:id="T573"/>
+<when interval="4200.884" since="#T0" xml:id="T574"/>
+</timeline>
+<div end="#T574" start="#T0" type="report">
+<annotatedU end="#T1" start="#T0" wh="spk1" xml:id="au0">
+<u type="ortho">
+<anchor synch="#T0"/>
+<seg>voilà donc tout d'abord je vais te poser des des questions sur euh la résidence euh comment est-ce que euh toi ou tes parents vous êtes arrivés dans le quartier dans le treizième </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T2" start="#T1" wh="spk2" xml:id="au1">
+<u type="ortho">
+<seg>alors donc moi je suis arrivé à Paris j'étais tout petit j'avais un an et mes parents sont venus à Paris pour le boulot </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T3" start="#T2" wh="spk1" xml:id="au2">
+<u type="ortho">
+<seg>mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T4" start="#T3" wh="spk2" xml:id="au3">
+<u type="ortho">
+<seg>et mon grand-père avait acheté un appartement à Paris parce qu'à l'époque il avait un petit peu investi dans l'immobilier et donc mes parents quand ils sont arrivés à Paris se sont installés dans cet appartement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T5" start="#T4" wh="spk1" xml:id="au4">
+<u type="ortho">
+<seg>d'accord il vivait avec vous ou enfin avec tes parents </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T6" start="#T5" wh="spk2" xml:id="au5">
+<link target="#au6"/>
+<u type="ortho">
+<anchor synch="#T5"/>
+<seg>non non non non non non non non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T6" start="#T5" wh="spk1" xml:id="au6">
+<u type="ortho">
+<anchor synch="#T5"/>
+<seg/>
+</u>
+<link target="#au5"/>
+</annotatedU>
+<annotatedU end="#T7" start="#T6" wh="spk2" xml:id="au7">
+<u type="ortho">
+<seg>mes grands-parents étaient enfin sont restés dans le sud c'est juste mes parents qui sont montés et puis en fait ils ont profité euh de l'opportunité de cet appartement pour euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T8" start="#T7" wh="spk1" xml:id="au8">
+<link target="#au9"/>
+<u type="ortho">
+<anchor synch="#T7"/>
+<seg>s'installer </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T8" start="#T7" wh="spk2" xml:id="au9">
+<link target="#au8"/>
+<u type="ortho">
+<anchor synch="#T7"/>
+<seg>pour y habiter </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T9" start="#T8" wh="spk2" xml:id="au10">
+<u type="ortho">
+<seg>voilà euh ils y sont restés euh une bonne dizaine d'années et puis après ils ont acheté leur propre appartement toujours dans le treizième et donc ont libéré l'appartement de mes grands-parents dans lequel moi-même je me suis installé quelques années plus tard quand j'ai eu euh le deuxième enfant puisque c'est un appartement bien pour quatre et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T10" start="#T9" wh="spk1" xml:id="au11">
+<u type="ortho">
+<seg>donc c'est là que vous avez vécu euh à un moment donné </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T11" start="#T10" wh="spk2" xml:id="au12">
+<link target="#au13"/>
+<u type="ortho">
+<anchor synch="#T10"/>
+<seg>ouais donc euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T11" start="#T10" wh="spk1" xml:id="au13">
+<link target="#au12"/>
+<u type="ortho">
+<anchor synch="#T10"/>
+<seg>comme ça tous les quatre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T12" start="#T11" wh="spk2" xml:id="au14">
+<u type="ortho">
+<seg>quand Théo est arrivé on a vécu trois quatre ans dedans et puis après avec Juliette ça faisait un peu petit donc on a fait une demande auprès de l'OPAC qui a abouti et donc nous nous sommes installés à l'O- à l'OPAC toujours dans le treizième euh ce qui nous allait parfaitement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T13" start="#T12" wh="spk1" xml:id="au15">
+<u type="ortho">
+<seg>oui ça ça vous convenait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T14" start="#T13" wh="spk2" xml:id="au16">
+<link target="#au17"/>
+<u type="ortho">
+<anchor synch="#T13"/>
+<seg>ce qui convenait tou- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T14" start="#T13" wh="spk1" xml:id="au17">
+<link target="#au16"/>
+<u type="ortho">
+<anchor synch="#T13"/>
+<seg>et et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T15" start="#T14" wh="spk1" xml:id="au18">
+<u type="ortho">
+<seg>et ton grand père il a acheté cet appartement dans le treizième euh bah je veux dire pourquoi le treizième parce que ça s'est présenté dans le treizième </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T16" start="#T15" wh="spk2" xml:id="au19">
+<link target="#au20"/>
+<u type="ortho">
+<anchor synch="#T15"/>
+<seg>ouf alors </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T16" start="#T15" wh="spk1" xml:id="au20">
+<link target="#au19"/>
+<u type="ortho">
+<anchor synch="#T15"/>
+<seg>ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T17" start="#T16" wh="spk2" xml:id="au21">
+<u type="ortho">
+<seg>ça je sais pas je pense </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T18" start="#T17" wh="spk1" xml:id="au22">
+<link target="#au23"/>
+<u type="ortho">
+<anchor synch="#T17"/>
+<seg>tu sais pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T18" start="#T17" wh="spk2" xml:id="au23">
+<link target="#au22"/>
+<u type="ortho">
+<anchor synch="#T17"/>
+<seg>je pense </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T19" start="#T18" wh="spk2" xml:id="au24">
+<u type="ortho">
+<seg>parce que c'était un quartier euh neuf qui commençait à se construire et il a acheté l'imm- enfin il a acheté l'appartement sur plan puis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T20" start="#T19" wh="spk1" xml:id="au25">
+<link target="#au26"/>
+<u type="ortho">
+<anchor synch="#T19"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T20" start="#T19" wh="spk2" xml:id="au26">
+<link target="#au25"/>
+<u type="ortho">
+<anchor synch="#T19"/>
+<seg>je pense </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T21" start="#T20" wh="spk2" xml:id="au27">
+<u type="ortho">
+<seg>que c'était aussi plus accessible que que le centre un peu historique qui a toujours été et qui reste cher </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T22" start="#T21" wh="spk1" xml:id="au28">
+<u type="ortho">
+<seg>et c'était dans quel quartier par rapport </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T23" start="#T22" wh="spk2" xml:id="au29">
+<link target="#au30"/>
+<u type="ortho">
+<anchor synch="#T22"/>
+<seg>c'était rue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T23" start="#T22" wh="spk1" xml:id="au30">
+<link target="#au29"/>
+<u type="ortho">
+<anchor synch="#T22"/>
+<seg>à ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T24" start="#T23" wh="spk2" xml:id="au31">
+<u type="ortho">
+<seg>du Banquier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T25" start="#T24" wh="spk1" xml:id="au32">
+<u type="ortho">
+<seg>c'était </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T26" start="#T25" wh="spk2" xml:id="au33">
+<link target="#au34"/>
+<u type="ortho">
+<anchor synch="#T25"/>
+<seg>donc euh vers les Gobelins </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T26" start="#T25" wh="spk1" xml:id="au34">
+<link target="#au33"/>
+<u type="ortho">
+<anchor synch="#T25"/>
+<seg>du Banquier ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T27" start="#T26" wh="spk2" xml:id="au35">
+<u type="ortho">
+<seg>et puis mon grand-père aimait bien aussi euh la modernité donc euh acheter sur plan c'était avoir un appartement neuf avec des installations neuves salle(s) de bain toilettes tu vois ce qui est pas forcément toujours le cas à Paris dans les vieux appartements </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T28" start="#T27" wh="spk1" xml:id="au36">
+<u type="ortho">
+<seg>donc ça c'était un immeuble des années euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T29" start="#T28" wh="spk2" xml:id="au37">
+<u type="ortho">
+<seg>euh pff </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T30" start="#T29" wh="spk1" xml:id="au38">
+<link target="#au39"/>
+<u type="ortho">
+<anchor synch="#T29"/>
+<seg>soixante </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T30" start="#T29" wh="spk2" xml:id="au39">
+<link target="#au38"/>
+<u type="ortho">
+<anchor synch="#T29"/>
+<seg>ouais cinquante </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T31" start="#T30" wh="spk2" xml:id="au40">
+<u type="ortho">
+<seg>soixante ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T32" start="#T31" wh="spk1" xml:id="au41">
+<link target="#au42"/>
+<u type="ortho">
+<anchor synch="#T31"/>
+<seg>cinquante soix- soixante à peu près ouais c'est cela mais bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T32" start="#T31" wh="spk2" xml:id="au42">
+<link target="#au41"/>
+<u type="ortho">
+<anchor synch="#T31"/>
+<seg>soixante ouais je pense ouais soixante à peu près moi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T33" start="#T32" wh="spk2" xml:id="au43">
+<u type="ortho">
+<seg>je fournirai ouais soixante ouais allez soixante </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T34" start="#T33" wh="spk1" xml:id="au44">
+<u type="ortho">
+<seg>mm mm et donc là vous avez déménagé euh ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T35" start="#T34" wh="spk2" xml:id="au45">
+<link target="#au46"/>
+<u type="ortho">
+<anchor synch="#T34"/>
+<seg>on a déménagé </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T35" start="#T34" wh="spk1" xml:id="au46">
+<link target="#au45"/>
+<u type="ortho">
+<anchor synch="#T34"/>
+<seg>il y a ça fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T36" start="#T35" wh="spk2" xml:id="au47">
+<u type="ortho">
+<seg>il y a un an et demi pour cause de place surtout parce que l'autre était trop petit et on a pu déménager parce qu'on a eu l'opportunité de l'OPAC parce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T37" start="#T36" wh="spk1" xml:id="au48">
+<link target="#au49"/>
+<u type="ortho">
+<anchor synch="#T36"/>
+<seg>voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T37" start="#T36" wh="spk2" xml:id="au49">
+<link target="#au48"/>
+<u type="ortho">
+<anchor synch="#T36"/>
+<seg>sinon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T38" start="#T37" wh="spk2" xml:id="au50">
+<u type="ortho">
+<seg>on avait commencé à chercher à louer ou à acheter et c'est vrai que c'était un petit peu hors budget quoi on avait commencé à lorgner du côté de la banlieue mais en (n') y étant pas tout à fait convaincus de vouloir y aller mais bon après après c'est un choix </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T39" start="#T38" wh="spk1" xml:id="au51">
+<u type="ortho">
+<seg>et vous avez euh vous êtes restés longtemps sur la liste d'attente ou s- pour toi ça a été rapide pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T40" start="#T39" wh="spk2" xml:id="au52">
+<link target="#au53"/>
+<u type="ortho">
+<anchor synch="#T39"/>
+<seg>euh bah je pense que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T40" start="#T39" wh="spk1" xml:id="au53">
+<link target="#au52"/>
+<u type="ortho">
+<anchor synch="#T39"/>
+<seg>rapide à ton avis ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T41" start="#T40" wh="spk2" xml:id="au54">
+<u type="ortho">
+<seg>par rapport à beaucoup de gens ça a été un peu rapide ça nous a m- pris deux ans je pense à peu près en deux ans on nous avait fait d'autres propositions qu'on avait acceptées ou refusées parce que pour certains c'était trop cher pour d'autres la situation géographique nous convenait pas du tout ou /la, là/ l'état de l'immeuble euh mais comme nous a dit euh le monsieur de la mairie ou de l'OPAC on était dans la bonne dans la bonne tranche de salaire(s) c'est-à-dire que les HLM vraiment pas chers là il y a des queues et une attente incroyable </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T42" start="#T41" wh="spk1" xml:id="au55">
+<link target="#au56"/>
+<u type="ortho">
+<anchor synch="#T41"/>
+<seg>ah d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T42" start="#T41" wh="spk2" xml:id="au56">
+<link target="#au55"/>
+<u type="ortho">
+<anchor synch="#T41"/>
+<seg>dans </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T43" start="#T42" wh="spk2" xml:id="au57">
+<u type="ortho">
+<seg>dans la gamme intermédiaire comme ici on a un petit peu plus de chance euh d'aboutir surtout je pense aussi quand on a trois enfants parce qu'ils veulent garder un peu les familles à Paris quoi c'est un peu leur discours euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T44" start="#T43" wh="spk1" xml:id="au58">
+<u type="ortho">
+<seg>officiel en tout cas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T45" start="#T44" wh="spk2" xml:id="au59">
+<u type="ortho">
+<seg>officiel il y a quelques années d'essayer de garder des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T46" start="#T45" wh="spk1" xml:id="au60">
+<link target="#au61"/>
+<u type="ortho">
+<anchor synch="#T45"/>
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T46" start="#T45" wh="spk2" xml:id="au61">
+<link target="#au60"/>
+<u type="ortho">
+<anchor synch="#T45"/>
+<seg>familles et c'est vrai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T47" start="#T46" wh="spk2" xml:id="au62">
+<u type="ortho">
+<seg>que quand les familles atteignent trois enfants c'est difficile de se loger à Paris quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T48" start="#T47" wh="spk1" xml:id="au63">
+<u type="ortho">
+<seg>mm c'est sûr et donc vous êtes satisfaits de ce logement toi toi tu en es content ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T49" start="#T48" wh="spk2" xml:id="au64">
+<u type="ortho">
+<seg>écoute moi j'en suis tout à fait content euh surtout que pour des immeubles de l'OPAC on a la chance de pas être sur le périph parce que beaucoup euh beaucoup d'immeubles de l'OPAC et des HLM sont quand même en périphérie et nous on est euh quand même dans le centre du treizième donc c'est quand même plus agréable à vivre donc le quartier est super sympa et puis bon l'immeuble en lui-même ça va c'est enfin c'est assez moderne et c'est bien entretenu enfin il y a pas de problème c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T50" start="#T49" wh="spk1" xml:id="au65">
+<u type="ortho">
+<seg>c'est propre </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T51" start="#T50" wh="spk2" xml:id="au66">
+<u type="ortho">
+<seg>c'est propre l'ascenseur tombe en panne un petit peu tout le temps mais bon euh c'est les aléas de la vie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T52" start="#T51" wh="spk1" xml:id="au67">
+<u type="ortho">
+<seg>ah oui il y avait quelqu'un qui le réparait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T53" start="#T52" wh="spk2" xml:id="au68">
+<link target="#au69"/>
+<u type="ortho">
+<anchor synch="#T52"/>
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T53" start="#T52" wh="spk1" xml:id="au69">
+<link target="#au68"/>
+<u type="ortho">
+<anchor synch="#T52"/>
+<seg>là d'ailleurs </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T54" start="#T53" wh="spk2" xml:id="au70">
+<u type="ortho">
+<seg>mais ils veulent les changer mais bon je sais pas apparemment l'entretien est pas pas super super nickel donc euh il(s) s'arrête(nt) un petit peu de temps en temps mais sinon c'est c'est vrai que c'est un c'est un un gros ensemble mais euh il y a pas de problème de voisinage il y a pas de nuisance le quartier est sympa donc euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T55" start="#T54" wh="spk1" xml:id="au71">
+<u type="ortho">
+<seg>la vue euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T56" start="#T55" wh="spk2" xml:id="au72">
+<link target="#au73"/>
+<u type="ortho">
+<anchor synch="#T55"/>
+<seg>la vue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T56" start="#T55" wh="spk1" xml:id="au73">
+<u type="ortho">
+<anchor synch="#T55"/>
+<seg/>
+</u>
+<link target="#au72"/>
+</annotatedU>
+<annotatedU end="#T57" start="#T56" wh="spk2" xml:id="au74">
+<u type="ortho">
+<seg>est pas mal </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T58" start="#T57" wh="spk1" xml:id="au75">
+<link target="#au76"/>
+<u type="ortho">
+<anchor synch="#T57"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T58" start="#T57" wh="spk2" xml:id="au76">
+<link target="#au75"/>
+<u type="ortho">
+<anchor synch="#T57"/>
+<seg>comme tu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T59" start="#T58" wh="spk2" xml:id="au77">
+<u type="ortho">
+<seg>peux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T60" start="#T59" wh="spk1" xml:id="au78">
+<link target="#au79"/>
+<u type="ortho">
+<anchor synch="#T59"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T60" start="#T59" wh="spk2" xml:id="au79">
+<link target="#au78"/>
+<u type="ortho">
+<anchor synch="#T59"/>
+<seg>le voir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T61" start="#T60" wh="spk1" xml:id="au80">
+<u type="ortho">
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T62" start="#T61" wh="spk2" xml:id="au81">
+<link target="#au82"/>
+<u type="ortho">
+<anchor synch="#T61"/>
+<seg>il y a il y a pas trop </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T62" start="#T61" wh="spk1" xml:id="au82">
+<link target="#au81"/>
+<u type="ortho">
+<anchor synch="#T61"/>
+<seg>c'est assez </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T63" start="#T62" wh="spk2" xml:id="au83">
+<u type="ortho">
+<seg>trop de vis-à-vis on a un peu de vert euh c'est assez lumineux non c'est agréable surtout que jusqu'à maintenant on était en rez-de-chaussée et ça nous change la vie parce que le rez-de-chaussée c'est un un peu pénible quand même à Paris hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T64" start="#T63" wh="spk1" xml:id="au84">
+<link target="#au85"/>
+<u type="ortho">
+<anchor synch="#T63"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T64" start="#T63" wh="spk2" xml:id="au85">
+<link target="#au84"/>
+<u type="ortho">
+<anchor synch="#T63"/>
+<seg>au niveau </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T65" start="#T64" wh="spk2" xml:id="au86">
+<u type="ortho">
+<seg>des nuisances sonores </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T66" start="#T65" wh="spk1" xml:id="au87">
+<u type="ortho">
+<seg>ouais avec la rue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T67" start="#T66" wh="spk2" xml:id="au88">
+<u type="ortho">
+<seg>avec la rue ouais enfin l'autre appartement on avait notre chambre qui donnait sur la rue et tu as des fois des gens qui tchatchent jusqu'à trois heures du matin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T68" start="#T67" wh="spk1" xml:id="au89">
+<link target="#au90"/>
+<u type="ortho">
+<anchor synch="#T67"/>
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T68" start="#T67" wh="spk2" xml:id="au90">
+<link target="#au89"/>
+<u type="ortho">
+<anchor synch="#T67"/>
+<seg>devant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T69" start="#T68" wh="spk2" xml:id="au91">
+<u type="ortho">
+<seg>les volets sans vraiment se rendre compte que toi tu es juste de l'autre côté voilà puis même la la proximité euh les gens peuvent taper à la fenêtre des fois il y en a qui tapent d'ailleurs donc on se sent un petit peu mieux à l'étage déjà la vue et la lumière c'est plus sympa quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T70" start="#T69" wh="spk1" xml:id="au92">
+<u type="ortho">
+<seg>plus protégés alors </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T71" start="#T70" wh="spk2" xml:id="au93">
+<u type="ortho">
+<seg>c'est un peu plus protégé et plus agréable parce que quand tu es en rez-de-chaussée quand même tu as quand même beaucoup de vis-à-vis de passage et puis tu es c'est c'est pas c'est pas très lumineux quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T72" start="#T71" wh="spk1" xml:id="au94">
+<u type="ortho">
+<seg>mm mm et le quartier tu en es content aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T73" start="#T72" wh="spk2" xml:id="au95">
+<u type="ortho">
+<seg>le quartier je le trouve extrêmement sympathique bah déjà tu as la proximité des transports ça c'est sympa euh on (n') est pas trop loin de plusieurs parcs donc pour les enfants c'est sympa aussi hein il y a le tout petit qui est en bas il y a René Le Gall qui est un petit peu plus loin donc il y a des espaces verts accessibles au moins facilement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T74" start="#T73" wh="spk1" xml:id="au96">
+<u type="ortho">
+<seg>ouais donc vous vous allez beaucoup à René Le Gall ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T75" start="#T74" wh="spk2" xml:id="au97">
+<link target="#au98"/>
+<u type="ortho">
+<anchor synch="#T74"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T75" start="#T74" wh="spk1" xml:id="au98">
+<link target="#au97"/>
+<u type="ortho">
+<anchor synch="#T74"/>
+<seg>au </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T76" start="#T75" wh="spk1" xml:id="au99">
+<u type="ortho">
+<seg>petit qui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T77" start="#T76" wh="spk2" xml:id="au100">
+<u type="ortho">
+<seg>ouais bah quand on (n') est pas très motivés on peut descendre juste en bas pour euh quelques minutes enfin quelques minutes pour une petite heure il y a des tables de ping-pong il y a le sable donc les enfants peuvent s'amuser mais c'est vrai que René Le Gall c'est quand même plus grand les enfants ont plus de chance de rencontrer des amis maintenant il y a la petite buvette avec le café pour les parents donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T78" start="#T77" wh="spk1" xml:id="au101">
+<link target="#au102"/>
+<u type="ortho">
+<anchor synch="#T77"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T78" start="#T77" wh="spk2" xml:id="au102">
+<link target="#au101"/>
+<u type="ortho">
+<anchor synch="#T77"/>
+<seg>c'est sympa </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T79" start="#T78" wh="spk2" xml:id="au103">
+<u type="ortho">
+<seg>il y a le wifi pour ceux qui ont envie de travailler donc bah René Le Gall c'est quand même un petit peu plus agréable et puis celui qui est en bas de la maison c'est vrai que les enfants c'est plus des plus petits qui viennent quoi donc euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T80" start="#T79" wh="spk1" xml:id="au104">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T81" start="#T80" wh="spk2" xml:id="au105">
+<u type="ortho">
+<seg>quand les enfants grandissent ils préfèrent aller faire un peu de vélo se promener dans les forêts de Le Gall là enfin c- ce qui est une forêt pour eux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T82" start="#T81" wh="spk1" xml:id="au106">
+<u type="ortho">
+<seg>les forêts de Le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T83" start="#T82" wh="spk2" xml:id="au107">
+<link target="#au108"/>
+<u type="ortho">
+<anchor synch="#T82"/>
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T83" start="#T82" wh="spk1" xml:id="au108">
+<link target="#au107"/>
+<u type="ortho">
+<anchor synch="#T82"/>
+<seg>Gall </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T84" start="#T83" wh="spk2" xml:id="au109">
+<u type="ortho">
+<seg>un peu plus l'aventure là-bas pour eux quoi ils échappent plus facilement euh à la surveillance des parents tu vois et non sinon après le quartier est est relativement calme et sympa puisqu'il y a quand même de l'animation avec les bars les restaurants tout ça c'est c'est assez agréable comme quartier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T85" start="#T84" wh="spk1" xml:id="au110">
+<u type="ortho">
+<seg>oui parce que il y a plein de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T86" start="#T85" wh="spk2" xml:id="au111">
+<u type="ortho">
+<seg>c'est à la fois calme et il y a de l'activité </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T87" start="#T86" wh="spk1" xml:id="au112">
+<link target="#au113"/>
+<u type="ortho">
+<anchor synch="#T86"/>
+<seg>c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T87" start="#T86" wh="spk2" xml:id="au113">
+<link target="#au112"/>
+<u type="ortho">
+<anchor synch="#T86"/>
+<seg>et des commerces </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T88" start="#T87" wh="spk1" xml:id="au114">
+<u type="ortho">
+<seg>pas mal de restaurants pas mal de vous vous y allez avec les enfants par exemple ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T89" start="#T88" wh="spk2" xml:id="au115">
+<u type="ortho">
+<seg>ça nous arrive </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T90" start="#T89" wh="spk1" xml:id="au116">
+<link target="#au117"/>
+<u type="ortho">
+<anchor synch="#T89"/>
+<seg>ça vous arrive </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T90" start="#T89" wh="spk2" xml:id="au117">
+<link target="#au116"/>
+<u type="ortho">
+<anchor synch="#T89"/>
+<seg>ça nous arrive </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T91" start="#T90" wh="spk2" xml:id="au118">
+<u type="ortho">
+<seg>euh le seul problème avec les enfants c'est que les restaurants ici sont extrêmement bondés c'est-à-dire que par exemple en bas Gladines il y a toujours vingt personnes qui attendent devant c'est vrai que l'ambiance est sympa c'est pas trop cher mais bon quand tu veux y aller avec les enfants c'est le dimanche à midi ou le soir à dix-huit heures trente </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T92" start="#T91" wh="spk1" xml:id="au119">
+<u type="ortho">
+<seg>ah oui sinon c'est c'est rue des cinq diamants un peu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T93" start="#T92" wh="spk2" xml:id="au120">
+<link target="#au121"/>
+<u type="ortho">
+<anchor synch="#T92"/>
+<seg>haut c'est ça ouais </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T93" start="#T92" wh="spk1" xml:id="au121">
+<link target="#au120"/>
+<u type="ortho">
+<anchor synch="#T92"/>
+<seg>il est juste en bas là c'est le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T94" start="#T93" wh="spk2" xml:id="au122">
+<u type="ortho">
+<seg>restaurant qui fait le coin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T95" start="#T94" wh="spk1" xml:id="au123">
+<link target="#au124"/>
+<u type="ortho">
+<anchor synch="#T94"/>
+<seg>qui fait le coin oui oui j'y suis allée </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T95" start="#T94" wh="spk2" xml:id="au124">
+<link target="#au123"/>
+<u type="ortho">
+<anchor synch="#T94"/>
+<seg>qui est très réputé </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T96" start="#T95" wh="spk2" xml:id="au125">
+<u type="ortho">
+<seg>dans le coin qui est un peu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T97" start="#T96" wh="spk1" xml:id="au126">
+<u type="ortho">
+<seg>avec les nappes c'est celui-ci </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T98" start="#T97" wh="spk2" xml:id="au127">
+<link target="#au128"/>
+<u type="ortho">
+<anchor synch="#T97"/>
+<seg>à carreaux ouais ouais ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T98" start="#T97" wh="spk1" xml:id="au128">
+<link target="#au127"/>
+<u type="ortho">
+<anchor synch="#T97"/>
+<seg>qui a les nappes à carreaux c'est ça ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T99" start="#T98" wh="spk2" xml:id="au129">
+<u type="ortho">
+<seg>bah les restaurants sont un peu populaires et enfin dans la rue les premiers sont un peu populaires pas trop chers donc ça amène pas de mal de monde d'étudiants tout ça et un peu plus loin dans la rue par contre il y a des bistrots un peu français là qui sont un peu plus haut de gamme donc beaucoup plus chers mais très franchouillards </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T100" start="#T99" wh="spk2" xml:id="au130">
+<link target="#au131"/>
+<u type="ortho">
+<anchor synch="#T99"/>
+<seg>enfin c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T100" start="#T99" wh="spk1" xml:id="au131">
+<link target="#au130"/>
+<u type="ortho">
+<anchor synch="#T99"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T101" start="#T100" wh="spk2" xml:id="au132">
+<u type="ortho">
+<seg>la cuisine en général assez française donc un peu cher donc ça c'est moins fréquent on va dire et euh on a quand même quelques attaches sur nos anciens restaurants de notre ancien quartier qui est pas trop loin mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T102" start="#T101" wh="spk1" xml:id="au133">
+<u type="ortho">
+<seg>rue du Banquier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T103" start="#T102" wh="spk1" xml:id="au134">
+<link target="#au135"/>
+<u type="ortho">
+<anchor synch="#T102"/>
+<seg>c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T103" start="#T102" wh="spk2" xml:id="au135">
+<link target="#au134"/>
+<u type="ortho">
+<anchor synch="#T102"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T104" start="#T103" wh="spk2" xml:id="au136">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T105" start="#T104" wh="spk1" xml:id="au137">
+<u type="ortho">
+<seg>donc vous vers les Gobelins vous </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T106" start="#T105" wh="spk2" xml:id="au138">
+<u type="ortho">
+<seg>bah rue du Banquier en face de notre autre appartement on avait un restaurant thaïlandais qui était extraordinaire et pas cher avec euh des gens extrêmement sympathiques à l'intérieur ce qui fait qu'on a beaucoup de plaisir à y aller ah oui tu peux y aller avec les enfants parce que c'est jamais bondé et puis eux-mêmes ont des enfants et puis ils sont ils sont enfin ils sont très gentils quoi donc c'est vrai que c'est plus facile </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T107" start="#T106" wh="spk1" xml:id="au139">
+<u type="ortho">
+<seg>et donc est-ce que vous aimeriez euh déménager ailleurs ou bien euh finalement non qu'est-ce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T108" start="#T107" wh="spk2" xml:id="au140">
+<u type="ortho">
+<seg>bah moi je suis relativement bien ici le quartier me va mais parfaitement l'appartement aussi la seule chose qui nous ferait déménager c'est de pouvoir acheter je pense parce que louer je pense qu'on trouvera pas mieux à ce prix-là donc euh investir et puis pouvoir euh acheter un logement ce serait une éventualité mais à Paris c'est quand même très dur donc pour l'instant je pense qu'on va rester ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T109" start="#T108" wh="spk1" xml:id="au141">
+<u type="ortho">
+<seg>oui est-ce que mm il y a des des endroits dans dans le quartier ou vous allez souvent tu m'as parlé du </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T110" start="#T109" wh="spk2" xml:id="au142">
+<u type="ortho">
+<seg>Le Gall </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T111" start="#T110" wh="spk1" xml:id="au143">
+<u type="ortho">
+<seg>du du </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T112" start="#T111" wh="spk2" xml:id="au144">
+<link target="#au145"/>
+<u type="ortho">
+<anchor synch="#T111"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T112" start="#T111" wh="spk1" xml:id="au145">
+<link target="#au144"/>
+<u type="ortho">
+<anchor synch="#T111"/>
+<seg>square </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T113" start="#T112" wh="spk1" xml:id="au146">
+<u type="ortho">
+<seg>par exemple pour faire les courses ou </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T114" start="#T113" wh="spk2" xml:id="au147">
+<link target="#au148"/>
+<u type="ortho">
+<anchor synch="#T113"/>
+<seg>alors les courses </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T114" start="#T113" wh="spk1" xml:id="au148">
+<link target="#au147"/>
+<u type="ortho">
+<anchor synch="#T113"/>
+<seg>pour </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T115" start="#T114" wh="spk2" xml:id="au149">
+<u type="ortho">
+<seg>euh le gros des courses euh on les fait pas dans le quartier en général je prends ma petite voiture et je vais dans un centre commercial euh où j'achète le gros c'est-à-dire entretien ménager eau minérale tout ce genre de choses par contre on essaie pour tout le reste d'aller chez les commerçants du quartier parce que déjà il y a la qualité euh je pense qu'il y a aussi un peu la relation avec le commerçant qui est sympathique donc tout ce qui est euh boucherie fromagerie vin tout ça on essaie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T116" start="#T115" wh="spk1" xml:id="au150">
+<link target="#au151"/>
+<u type="ortho">
+<anchor synch="#T115"/>
+<seg>boulangerie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T116" start="#T115" wh="spk2" xml:id="au151">
+<link target="#au150"/>
+<u type="ortho">
+<anchor synch="#T115"/>
+<seg>de rester dans </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T117" start="#T116" wh="spk2" xml:id="au152">
+<u type="ortho">
+<seg>boulangerie aussi de rester dans le quartier et puis en général c'est quand même meilleur que la grande surface donc euh tout ce qui est commerce(s) de proximité sur euh un peu la bouche on est plutôt sur le quartier ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T118" start="#T117" wh="spk1" xml:id="au153">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T119" start="#T118" wh="spk2" xml:id="au154">
+<u type="ortho">
+<seg>euh qu'est-ce qu'il y a d'autre ouais sinon euh sinon on a aussi pas très loin on essaie d'en profiter euh c'est la piscine de la Butte aux Cailles qui est bien à cinq minutes d'ici à pied et qui avec notre carte Paris-Famille nous donne accès libre à cette piscine ce qui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T120" start="#T119" wh="spk1" xml:id="au155">
+<link target="#au156"/>
+<u type="ortho">
+<anchor synch="#T119"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T120" start="#T119" wh="spk2" xml:id="au156">
+<link target="#au155"/>
+<u type="ortho">
+<anchor synch="#T119"/>
+<seg>est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T121" start="#T120" wh="spk2" xml:id="au157">
+<u type="ortho">
+<seg>pratique sympathique peu onéreux donc c'est facile d'y aller c'est pas loin c'est gratuit donc euh on essaie d'y aller euh quand on peut </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T122" start="#T121" wh="spk1" xml:id="au158">
+<u type="ortho">
+<seg>mm mm c'est une carte pour les familles nombreuses </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T123" start="#T122" wh="spk2" xml:id="au159">
+<link target="#au160"/>
+<u type="ortho">
+<anchor synch="#T122"/>
+<seg>c'est une carte </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T123" start="#T122" wh="spk1" xml:id="au160">
+<link target="#au159"/>
+<u type="ortho">
+<anchor synch="#T122"/>
+<seg>ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T124" start="#T123" wh="spk2" xml:id="au161">
+<u type="ortho">
+<seg>pour les familles nombreuses mais qui est faite par la mairie c'est pas la carte SNCF je sais pas trop quoi qui te donne un certain nombre d'avantages comme l'entrée d'un certain musée certain(s) parc(s) moins cher(s) ou gratuit(s) et notamment les piscines municipales sont gratuites </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T125" start="#T124" wh="spk1" xml:id="au162">
+<u type="ortho">
+<seg>surtout qu'il y a un petit un petit bassin non à la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T126" start="#T125" wh="spk2" xml:id="au163">
+<link target="#au164"/>
+<u type="ortho">
+<anchor synch="#T125"/>
+<seg>à la Butte aux Cailles euh non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T126" start="#T125" wh="spk1" xml:id="au164">
+<link target="#au163"/>
+<u type="ortho">
+<anchor synch="#T125"/>
+<seg>Butte aux Cailles ou non c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T127" start="#T126" wh="spk2" xml:id="au165">
+<u type="ortho">
+<seg>il y a pas un petit bassin il y a un bassin et un petit bassin en extérieur donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T128" start="#T127" wh="spk1" xml:id="au166">
+<link target="#au167"/>
+<u type="ortho">
+<anchor synch="#T127"/>
+<seg>ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T128" start="#T127" wh="spk2" xml:id="au167">
+<link target="#au166"/>
+<u type="ortho">
+<anchor synch="#T127"/>
+<seg>l'été </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T129" start="#T128" wh="spk2" xml:id="au168">
+<u type="ortho">
+<seg>quand il fait vraiment chaud </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T130" start="#T129" wh="spk1" xml:id="au169">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T131" start="#T130" wh="spk2" xml:id="au170">
+<u type="ortho">
+<seg>mais bon sinon avec des bouées c'est quand même sympa et puis bon il y a le le début du grand bassin qui est pas trop pas trop profond donc ça ça ça peut aller aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T132" start="#T131" wh="spk1" xml:id="au171">
+<u type="ortho">
+<seg>d'accord et euh est-ce que tu as déjà re- bon vous vous êtes ici depuis un an et demi est-ce que vous avez déjà remarqué euh des changements dans le quartier ou bien des situations inattendues des choses qui qui t'ont intrigué ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T133" start="#T132" wh="spk2" xml:id="au172">
+<u type="ortho">
+<seg>depuis qu'on est ici pas trop mais depuis qu'on est rue du Banquier oui à savoir qu'ils ont fait quand même beaucoup de travaux d'amélioration du quartier je trouve ces derniers temps la place d'Italie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T134" start="#T133" wh="spk1" xml:id="au173">
+<u type="ortho">
+<seg>ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T135" start="#T134" wh="spk2" xml:id="au174">
+<u type="ortho">
+<seg>qu'ils ont complètement refaite donc euh petit(s) jardin(s) petit(s) pavé(s) tout ça donc c'est quand même faut avouer plus agréable i- nous quand on était rue du Banquier ils ont refait tous les tous les luminaires aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T136" start="#T135" wh="spk1" xml:id="au175">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T137" start="#T136" wh="spk2" xml:id="au176">
+<u type="ortho">
+<seg>euh donc avec euh des trucs un petit peu plus jolis euh ça fait un petit peu plus /historie, histori-/ vieux Paris des jolis euh lampadaires euh ce genre de choses René Le Gall qui s'est modernisé puisque maintenant il a sa petite buvette et sa wifi pour ceux que ça intéresse euh bon après on peut rentrer dans le débat de la circulation automobile dans le quartier euh avec des voies de bus euh maintenant énormes des rétrécissements de chaussée(s) un peu partout des places de stationnement de moins en moins nombreuses ce qui fait que ça change quand même pas mal la vie du quartier quand on était rue du Banquier quand même je sais plus si c'est trop le cas parce que j'y suis plus là tous les matins mais c'est vrai que ça a causé d'énormes embouteillages </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T138" start="#T137" wh="spk1" xml:id="au177">
+<u type="ortho">
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T139" start="#T138" wh="spk2" xml:id="au178">
+<u type="ortho">
+<seg>notamment sur les Gobelins qui étaient vraiment embouteillés en permanence alors je sais pas si les gens maintenant se sont résolus à plus prendre leur voiture mais je sais que il y a deux ans c'était quand même vraiment l'enfer sur les Gobelins </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T140" start="#T139" wh="spk1" xml:id="au179">
+<link target="#au180"/>
+<u type="ortho">
+<anchor synch="#T139"/>
+<seg>mais tu veux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T140" start="#T139" wh="spk2" xml:id="au180">
+<link target="#au179"/>
+<u type="ortho">
+<anchor synch="#T139"/>
+<seg>euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T141" start="#T140" wh="spk1" xml:id="au181">
+<u type="ortho">
+<seg>dire à cause des des nouveaux ou des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T142" start="#T141" wh="spk2" xml:id="au182">
+<link target="#au183"/>
+<u type="ortho">
+<anchor synch="#T141"/>
+<seg>des améliorations </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T142" start="#T141" wh="spk1" xml:id="au183">
+<link target="#au182"/>
+<u type="ortho">
+<anchor synch="#T141"/>
+<seg>de la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T143" start="#T142" wh="spk1" xml:id="au184">
+<u type="ortho">
+<seg>là ou des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T144" start="#T143" wh="spk2" xml:id="au185">
+<u type="ortho">
+<seg>bah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T145" start="#T144" wh="spk1" xml:id="au186">
+<u type="ortho">
+<anchor synch="#T144"/>
+<seg/>
+</u>
+<link target="#au187"/>
+</annotatedU>
+<annotatedU end="#T145" start="#T144" wh="spk2" xml:id="au187">
+<link target="#au186"/>
+<u type="ortho">
+<anchor synch="#T144"/>
+<seg>pour les piétons c'est des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T146" start="#T145" wh="spk2" xml:id="au188">
+<u type="ortho">
+<seg>améliorations pour les au- pou- pou- pour les automobilistes je pense pas euh il y a il y a eu ça pour les par- les places de de stationnement aussi qui disparaissent alors c'est vrai qu'ils élargissent leurs les trottoirs ça c'est agréable pour les piétons mais euh par exemple ici euh j'ai eu la chance de trouver un parking pas trop loin </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T147" start="#T146" wh="spk1" xml:id="au189">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T148" start="#T147" wh="spk2" xml:id="au190">
+<u type="ortho">
+<seg>et c'est vrai que c'est agréable parce que c'est très difficile de se garer parce qu'il y a pas beaucoup de places de stationnement et puis je sais pas si c'est fait exprès mais ils ont réussi à mettre des sens interdits dans tous les sens ce qui fait que quand moi je veux venir chez moi en voiture je suis obligé de faire des détours infernaux infernaux  c'est-à-dire que là j'ai une toute petite rue que si elle était dans le bon sens euh j'en aurais pour deux minutes et je suis obligé de faire le tour du quartier pour prendre la rue dans le bon sens </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T149" start="#T148" wh="spk1" xml:id="au191">
+<u type="ortho">
+<seg>ah oui la rue des cinq diamants </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T150" start="#T149" wh="spk2" xml:id="au192">
+<link target="#au193"/>
+<u type="ortho">
+<anchor synch="#T149"/>
+<seg>ouais tu es obligé(e) de la ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T150" start="#T149" wh="spk1" xml:id="au193">
+<link target="#au192"/>
+<u type="ortho">
+<anchor synch="#T149"/>
+<seg>là qui est en sens interdit hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T151" start="#T150" wh="spk2" xml:id="au194">
+<u type="ortho">
+<seg>en sens unique et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T152" start="#T151" wh="spk1" xml:id="au195">
+<link target="#au196"/>
+<u type="ortho">
+<anchor synch="#T151"/>
+<seg>en sens unique ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T152" start="#T151" wh="spk2" xml:id="au196">
+<link target="#au195"/>
+<u type="ortho">
+<anchor synch="#T151"/>
+<seg>toutes les rues qui arrivent </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T153" start="#T152" wh="spk2" xml:id="au197">
+<u type="ortho">
+<seg>un petit peu dessus euh sont pas dans le bon sens quand tu veux la prendre donc tu es obligé de faire un gros détour bah c'est vrai /que quand, quand/ tu es automobiliste c'est pas toujours agréable quoi hein c'est un peu c'est un peu compliqué stationner rouler euh donc c'est vrai que moi je m'énerve un petit peu des fois en me disant que peut-être qu'il y en a un petit peu trop pour les piétons </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T154" start="#T153" wh="spk1" xml:id="au198">
+<u type="ortho">
+<seg>et tu prends la voiture </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T155" start="#T154" wh="spk2" xml:id="au199">
+<link target="#au200"/>
+<u type="ortho">
+<anchor synch="#T154"/>
+<seg>souvent tu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T155" start="#T154" wh="spk1" xml:id="au200">
+<link target="#au199"/>
+<u type="ortho">
+<anchor synch="#T154"/>
+<seg>alors non non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T156" start="#T155" wh="spk2" xml:id="au201">
+<u type="ortho">
+<seg>je prends plus trop la voiture en fait parce que je j'en ai pas besoin la semaine ceci dit je la prends quand même parce que malheureusement la crèche et les écoles sont éloignées euh sont éloignées donc euh je prends la voiture le matin parce qu'on est pressés et sinon ça fait perdre trop de temps donc je prends la voiture je la ramène donc c'est vrai quand j'avais pas de parking c'était le problème de se retrouver une place de payer tout ça enfin bon bref c'était un peu galère mais je la prends pour aller faire les courses et dès qu'on sort tous ensemble c'est-à-dire la famille trois enfants plus les parents euh dès qu'on veut aller un petit peu loin enfin on prend la voiture quoi donc euh que ce soit pour aller voir des amis en banlieue que ce soit pour aller faire un peu les grosses courses euh même que ce soit pour bouger à Paris euh si on est nombreux des fois on prend la voiture parce que le bus avec les enfants la poussette tout ça c'est pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T157" start="#T156" wh="spk1" xml:id="au202">
+<link target="#au203"/>
+<u type="ortho">
+<anchor synch="#T156"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T157" start="#T156" wh="spk2" xml:id="au203">
+<link target="#au202"/>
+<u type="ortho">
+<anchor synch="#T156"/>
+<seg>forcément facile </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T158" start="#T157" wh="spk1" xml:id="au204">
+<u type="ortho">
+<seg>ouais ouais c'est pas facile donc pour a- pour amener euh Juliette à la crèche vous tu l'amènes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T159" start="#T158" wh="spk2" xml:id="au205">
+<link target="#au206"/>
+<u type="ortho">
+<anchor synch="#T158"/>
+<seg>en voiture ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T159" start="#T158" wh="spk1" xml:id="au206">
+<link target="#au205"/>
+<u type="ortho">
+<anchor synch="#T158"/>
+<seg>en voiture en fait c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T160" start="#T159" wh="spk1" xml:id="au207">
+<u type="ortho">
+<seg>avec les les deux grands </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T161" start="#T160" wh="spk2" xml:id="au208">
+<link target="#au209"/>
+<u type="ortho">
+<anchor synch="#T160"/>
+<seg>que tu dé- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T161" start="#T160" wh="spk1" xml:id="au209">
+<link target="#au208"/>
+<u type="ortho">
+<anchor synch="#T160"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T162" start="#T161" wh="spk2" xml:id="au210">
+<u type="ortho">
+<seg>que je dépose avant à l'école </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T163" start="#T162" wh="spk1" xml:id="au211">
+<u type="ortho">
+<seg>tu les déposes d'abord à l'école </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T164" start="#T163" wh="spk2" xml:id="au212">
+<link target="#au213"/>
+<u type="ortho">
+<anchor synch="#T163"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T164" start="#T163" wh="spk1" xml:id="au213">
+<link target="#au212"/>
+<u type="ortho">
+<anchor synch="#T163"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T165" start="#T164" wh="spk1" xml:id="au214">
+<u type="ortho">
+<seg>après tu vas à la crèche où tu déposes Juliette </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T166" start="#T165" wh="spk2" xml:id="au215">
+<u type="ortho">
+<seg>ouais et puis je reviens </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T167" start="#T166" wh="spk1" xml:id="au216">
+<link target="#au217"/>
+<u type="ortho">
+<anchor synch="#T166"/>
+<seg>tu reviens </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T167" start="#T166" wh="spk2" xml:id="au217">
+<link target="#au216"/>
+<u type="ortho">
+<anchor synch="#T166"/>
+<seg>puisque la crèche c'est quand même </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T168" start="#T167" wh="spk2" xml:id="au218">
+<u type="ortho">
+<seg>à </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T169" start="#T168" wh="spk1" xml:id="au219">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T170" start="#T169" wh="spk2" xml:id="au220">
+<u type="ortho">
+<seg>dix minutes en voiture quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T171" start="#T170" wh="spk1" xml:id="au221">
+<link target="#au222"/>
+<u type="ortho">
+<anchor synch="#T170"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T171" start="#T170" wh="spk2" xml:id="au222">
+<link target="#au221"/>
+<u type="ortho">
+<anchor synch="#T170"/>
+<seg>enfin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T172" start="#T171" wh="spk2" xml:id="au223">
+<u type="ortho">
+<seg>enfin cinq dix minutes en voiture et la crèche est diamétralement opposée à à l'école des enfants des deux autres donc euh ça me ferait encore plus de de chemin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T173" start="#T172" wh="spk1" xml:id="au224">
+<u type="ortho">
+<seg>mm et donc après tu reviens euh ra- tu ramènes la voiture ici </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T174" start="#T173" wh="spk2" xml:id="au225">
+<u type="ortho">
+<seg>ouais et je pars travailler </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T175" start="#T174" wh="spk1" xml:id="au226">
+<u type="ortho">
+<seg>et tu pars tu pars travailler et tu travailles dans le treizième </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T176" start="#T175" wh="spk2" xml:id="au227">
+<u type="ortho">
+<seg>je travaille dans le treizième euh derrière la place d'Italie et donc j'y vais à pied </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T177" start="#T176" wh="spk1" xml:id="au228">
+<u type="ortho">
+<seg>derrière la place d'Italie c'est à dire par rapport à ici euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T178" start="#T177" wh="spk2" xml:id="au229">
+<u type="ortho">
+<seg>ouais de l'autre côté de la place d'Italie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T179" start="#T178" wh="spk1" xml:id="au230">
+<link target="#au231"/>
+<u type="ortho">
+<anchor synch="#T178"/>
+<seg>l'autre côté vers euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T179" start="#T178" wh="spk2" xml:id="au231">
+<link target="#au230"/>
+<u type="ortho">
+<anchor synch="#T178"/>
+<seg>vers euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T180" start="#T179" wh="spk2" xml:id="au232">
+<u type="ortho">
+<seg>vers la rue Pinel alors c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T181" start="#T180" wh="spk1" xml:id="au233">
+<link target="#au234"/>
+<u type="ortho">
+<anchor synch="#T180"/>
+<seg>rue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T181" start="#T180" wh="spk2" xml:id="au234">
+<link target="#au233"/>
+<u type="ortho">
+<anchor synch="#T180"/>
+<seg>vers la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T182" start="#T181" wh="spk2" xml:id="au235">
+<u type="ortho">
+<seg>Campo-Formio en fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T183" start="#T182" wh="spk1" xml:id="au236">
+<link target="#au237"/>
+<u type="ortho">
+<anchor synch="#T182"/>
+<seg>ah oui rue Campo- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T183" start="#T182" wh="spk2" xml:id="au237">
+<link target="#au236"/>
+<u type="ortho">
+<anchor synch="#T182"/>
+<seg>vers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T184" start="#T183" wh="spk1" xml:id="au238">
+<u type="ortho">
+<seg>Formio je vois je vois très bien où c'est d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T185" start="#T184" wh="spk2" xml:id="au239">
+<u type="ortho">
+<seg>donc après euh petit trajet euh pédestre de dix minutes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T186" start="#T185" wh="spk1" xml:id="au240">
+<u type="ortho">
+<seg>cette fois à pied </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T187" start="#T186" wh="spk2" xml:id="au241">
+<u type="ortho">
+<seg>voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T188" start="#T187" wh="spk1" xml:id="au242">
+<u type="ortho">
+<seg>tu le fais à pied </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T189" start="#T188" wh="spk2" xml:id="au243">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T190" start="#T189" wh="spk1" xml:id="au244">
+<u type="ortho">
+<seg>d'accord et et Maud lorsqu'elle ramène les enfants c'est à pied ou en voiture </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T191" start="#T190" wh="spk2" xml:id="au245">
+<u type="ortho">
+<seg>quand il faut beau elle prend le temps de le faire à pied ou en s'aidant du bus mais quand il fait pas beau quand elle est pressée elle prend la voiture parce que c'est pareil quoi et il faut aller chercher Juliette à la crèche à seize heure quinze être cinq minutes plus tard dix minutes plus tard à l'autre bout du treizième pour les écoles donc la voiture c'est pratique </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T192" start="#T191" wh="spk1" xml:id="au246">
+<u type="ortho">
+<seg>ouais c'est pratique c'est vrai </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T193" start="#T192" wh="spk2" xml:id="au247">
+<u type="ortho">
+<seg>et puis à ces à ces heures-là c'est p- c'est pas trop embouteillé et on connaît les petites rues donc ça va </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T194" start="#T193" wh="spk1" xml:id="au248">
+<u type="ortho">
+<seg>et mm est-ce que comment tu définirais du coup les les limites de ton quartier qu'est-ce que /ce, se, ceux/ qu'est-ce que c'est pour toi le quartier oui il y a peut-être plusieurs visions </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T195" start="#T194" wh="spk2" xml:id="au249">
+<link target="#au250"/>
+<u type="ortho">
+<anchor synch="#T194"/>
+<seg>les limites du quartier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T195" start="#T194" wh="spk1" xml:id="au250">
+<link target="#au249"/>
+<u type="ortho">
+<anchor synch="#T194"/>
+<seg>plusieurs quartiers d'ailleurs </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T196" start="#T195" wh="spk2" xml:id="au251">
+<u type="ortho">
+<seg>bah pour moi le treizième effectivement il y a plusieurs quartiers tu as le quartier de la Butte aux Cailles où on est là qui est vraiment typique enfin typique qui a ses ses spécificités entre guillemets quartier très populaire mais qui devient un peu bobo mais qui a ses styles de restaurants euh son s- son son type de population euh tout ça tu as le quartier où j'étais avant plus vers les Gobelins manufacture(s) qui qui est pas tout à fait pareil les Gobelins maintenant c'est beaucoup de de banques de boulangeries et et et de quelques petits commerces mais c'est pas très agréable pour s- pour se balader quoi enfin j- surtout je pense maintenant parce qu'il y a beaucoup de banques c'est c'est c'est p- pas très agréable enfin ça fait quand même un autre quartier après on est limite Mouffetard mais c'est un peu encore le treizième et c'est encore un autre on s'avance vers les quartiers plus riches de Paris mais aussi plus touristiques donc avec bon d'autres d'autres types de de de restos de euh de commerces de choses comme ça après tu as le quartier un peu plus tranquille de Croulebarbe où tu as le jardin mais il y a il y a plus il y a plus trop de commerces quoi donc c'est vraiment euh la promenade dominicale où on va vraiment aller prendre l'air mais pas pas aller faire du shopping </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T197" start="#T196" wh="spk1" xml:id="au252">
+<u type="ortho">
+<seg>c'est pas le shopping là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T198" start="#T197" wh="spk2" xml:id="au253">
+<u type="ortho">
+<seg>après tu as le treizième un peu plus éloigné là où il faut encore un petit peu marcher mais c'est le quartier chinois et puis après tu as vraiment le quartier du treizième qui est un peu loin pour nous mais qui commence à être sympa parce que il y a pas mal de choses qui se développent c'est tout le quartier de la bibliothèque François Mitterrand où il commence à y avoir un peu d'activités là autour de la bibliothèque avec la petite passerelle sur euh sur Bercy sur le jardin de Bercy de l'autre côté qui est plus dans le treizième mais dans lequel on peut aller se balader parce que finalement c'est pas si loin que ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T199" start="#T198" wh="spk1" xml:id="au254">
+<link target="#au255"/>
+<u type="ortho">
+<anchor synch="#T198"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T199" start="#T198" wh="spk2" xml:id="au255">
+<link target="#au254"/>
+<u type="ortho">
+<anchor synch="#T198"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T200" start="#T199" wh="spk1" xml:id="au256">
+<u type="ortho">
+<seg>dans ce cas-là vous y allez en en bus ou en voiture </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T201" start="#T200" wh="spk2" xml:id="au257">
+<link target="#au258"/>
+<u type="ortho">
+<anchor synch="#T200"/>
+<seg>oh ça dépend </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T201" start="#T200" wh="spk1" xml:id="au258">
+<link target="#au257"/>
+<u type="ortho">
+<anchor synch="#T200"/>
+<seg>ou c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T202" start="#T201" wh="spk1" xml:id="au259">
+<u type="ortho">
+<seg>ça dépend </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T203" start="#T202" wh="spk2" xml:id="au260">
+<u type="ortho">
+<seg>on peut tenter le vélo quand il fait beau on sinon on essaie d'y aller en voiture c'est le genre d'endroits où on va en voiture plutôt d'ailleurs parce que le métro c'est un peu enfin moi je suis pas un fan du métro puis en plus avec les enfants </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T204" start="#T203" wh="spk1" xml:id="au261">
+<u type="ortho">
+<seg>ouais c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T205" start="#T204" wh="spk2" xml:id="au262">
+<u type="ortho">
+<seg>je suis pas f- je suis pas trop métro </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T206" start="#T205" wh="spk1" xml:id="au263">
+<u type="ortho">
+<seg>pas trop métro tu es </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T207" start="#T206" wh="spk2" xml:id="au264">
+<link target="#au265"/>
+<u type="ortho">
+<anchor synch="#T206"/>
+<seg>à la limite je préfère marcher </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T207" start="#T206" wh="spk1" xml:id="au265">
+<link target="#au264"/>
+<u type="ortho">
+<anchor synch="#T206"/>
+<seg>plutôt </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T208" start="#T207" wh="spk2" xml:id="au266">
+<u type="ortho">
+<seg>quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T209" start="#T208" wh="spk1" xml:id="au267">
+<u type="ortho">
+<seg>ouais et est-ce que tu te sens donc un un habitant de ce quartier-ci là la Butte aux Cailles ou bien de l'arrondissement de Paris de comment tu te définirais comment tu qu'est-ce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T210" start="#T209" wh="spk2" xml:id="au268">
+<link target="#au269"/>
+<u type="ortho">
+<anchor synch="#T209"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T210" start="#T209" wh="spk1" xml:id="au269">
+<link target="#au268"/>
+<u type="ortho">
+<anchor synch="#T209"/>
+<seg>tu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T211" start="#T210" wh="spk2" xml:id="au270">
+<u type="ortho">
+<seg>j- ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T212" start="#T211" wh="spk1" xml:id="au271">
+<link target="#au272"/>
+<u type="ortho">
+<anchor synch="#T211"/>
+<seg>de la rive droite de la rive gauche </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T212" start="#T211" wh="spk2" xml:id="au272">
+<link target="#au271"/>
+<u type="ortho">
+<anchor synch="#T211"/>
+<seg>dépend d- ça ça dépend de qui on a en face </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T213" start="#T212" wh="spk1" xml:id="au273">
+<u type="ortho">
+<seg>ah oui de l'immeuble de la rue de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T214" start="#T213" wh="spk2" xml:id="au274">
+<u type="ortho">
+<seg>non je p- je pense qu'on est Parisiens quand même surtout quand on a des provinciaux en face on a quand même un peu l'étiquette Parisien euh ceci dit je me sens aussi partie du du treizième parce que parce que je pense que c'est un quartier qui a son identité quand même euh à savoir euh c'est ni complètement bourgeois comme il peut y avoir dans le sud le seizième et tout ça c'est pas non plus complètement populaire comme tu peux avoir dans le dix-neuf dans le dix-huit je trouve que le treizième c'est assez mélangé en fait il y a un petit peu de tout la proximité du cinquième fait qu'une partie du treizième est un peu un peu bourgeoise et puis la proximité du périph et donc de la banlieue fait que il y a un côté un peu plus populo sur le sur le sur les côtés qui sont du périph tu as le quartier chinois qui est aussi euh partie prenante dans le dans le treizième et qui qui amène autre chose quoi je trouve que c'est assez c'est assez mélangé c'est c'est aussi /un, / il y a aussi /un, / des petits côtés un peu plus un peu plus historiques Paris quand on est vers le cinquième des côtés un peu plus modernes tout le côté manufacture qui est qui est aussi vieux Paris et qui est vachement sympathique je trouve donc je trouve que le treizième quand même je me me plait pour ça quoi parce que moi je suis aussi un peu au milieu de tout ça quoi je suis pas dans dans la grande bourgeoisie ni dans dans dans le grand populaire je suis un peu entre les deux et ça m- ça me plait bien pour ça le treizième en fait </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T215" start="#T214" wh="spk1" xml:id="au275">
+<u type="ortho">
+<seg>d'accord donc tu tu te sens plutôt comme un habitant du treizième en fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T216" start="#T215" wh="spk2" xml:id="au276">
+<link target="#au277"/>
+<u type="ortho">
+<anchor synch="#T215"/>
+<seg>ouais d'abord peut-être </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T216" start="#T215" wh="spk1" xml:id="au277">
+<link target="#au276"/>
+<u type="ortho">
+<anchor synch="#T215"/>
+<seg>peut-être hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T217" start="#T216" wh="spk2" xml:id="au278">
+<u type="ortho">
+<seg>oui le treizième mais il y a quand même la dimension Paris qui qui est là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T218" start="#T217" wh="spk1" xml:id="au279">
+<link target="#au280"/>
+<u type="ortho">
+<anchor synch="#T217"/>
+<seg>qui est là aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T218" start="#T217" wh="spk2" xml:id="au280">
+<link target="#au279"/>
+<u type="ortho">
+<anchor synch="#T217"/>
+<seg>quoi parce que c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T219" start="#T218" wh="spk2" xml:id="au281">
+<u type="ortho">
+<seg>le treizième mais c'est quand même Paris à </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T220" start="#T219" wh="spk1" xml:id="au282">
+<link target="#au283"/>
+<u type="ortho">
+<anchor synch="#T219"/>
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T220" start="#T219" wh="spk2" xml:id="au283">
+<link target="#au282"/>
+<u type="ortho">
+<anchor synch="#T219"/>
+<seg>savoir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T221" start="#T220" wh="spk1" xml:id="au284">
+<u type="ortho">
+<seg>c'est c'est dans Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T222" start="#T221" wh="spk2" xml:id="au285">
+<link target="#au286"/>
+<u type="ortho">
+<anchor synch="#T221"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T222" start="#T221" wh="spk1" xml:id="au286">
+<link target="#au285"/>
+<u type="ortho">
+<anchor synch="#T221"/>
+<seg>hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T223" start="#T222" wh="spk2" xml:id="au287">
+<u type="ortho">
+<seg>ça reste Paris parce que tu as l'accès à à à tout quoi enfin que ce soit culturel ou pour les sorties les restos euh et puis euh côté architectural aussi moi que je trouve sympathique non non il y a aussi le côté Paris </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T224" start="#T223" wh="spk1" xml:id="au288">
+<u type="ortho">
+<seg>et est-ce que mm il y a des des fêtes en avec les voisins ou dans le quartier ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T225" start="#T224" wh="spk2" xml:id="au289">
+<u type="ortho">
+<seg>alors il y a il y a il y a bah il y a la fête il y a la fête des voisins que je pense pas qu'ils l'aient fait cette année euh ici là où j'étais avant ils le faisaient pas par contre l'année dernière les voisins avaient enfin les voisins l'immeuble avait organisé un une petite fête entre Noël et /l', 0/ nouvel an c'est-à-dire dans le couloir ils avaient invité tout le monde dans l'entrée à amener des gâteaux des boissons ils avaient fait un enfin les les vieux de l'immeuble on va dire les anciens pas les vieux avaient fait un petit sapin avaient mis des décos enfin petit(s) truc(s) mignon(s) pour Noël quoi et euh un week-end ils avaient proposé aux gens ouais de passer et donc il y avait gâteaux champagne boissons </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T226" start="#T225" wh="spk1" xml:id="au290">
+<link target="#au291"/>
+<u type="ortho">
+<anchor synch="#T225"/>
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T226" start="#T225" wh="spk2" xml:id="au291">
+<link target="#au290"/>
+<u type="ortho">
+<anchor synch="#T225"/>
+<seg>soda </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T227" start="#T226" wh="spk2" xml:id="au292">
+<u type="ortho">
+<seg>tout </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T228" start="#T227" wh="spk1" xml:id="au293">
+<link target="#au294"/>
+<u type="ortho">
+<anchor synch="#T227"/>
+<seg>vous </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T228" start="#T227" wh="spk2" xml:id="au294">
+<link target="#au293"/>
+<u type="ortho">
+<anchor synch="#T227"/>
+<seg>ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T229" start="#T228" wh="spk1" xml:id="au295">
+<u type="ortho">
+<seg>vous avez été </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T230" start="#T229" wh="spk2" xml:id="au296">
+<link target="#au297"/>
+<u type="ortho">
+<anchor synch="#T229"/>
+<seg>on est passé(s) ouais on y est passé(s) </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T230" start="#T229" wh="spk1" xml:id="au297">
+<u type="ortho">
+<anchor synch="#T229"/>
+<seg/>
+</u>
+<link target="#au296"/>
+</annotatedU>
+<annotatedU end="#T231" start="#T230" wh="spk2" xml:id="au298">
+<u type="ortho">
+<seg>enfin nous on était de sortie ce week-end-là mais on est rentré(s) vers dix-sept heures et puis il y avait du monde et puis on est restés discuter un petit peu avec les gens et puis ça permet de rencontrer les gens qu'on voit pas forcément sinon il y a une autre petite fête là pour la commune </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T232" start="#T231" wh="spk1" xml:id="au299">
+<u type="ortho">
+<seg>/hein hein, ah ah/ </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T233" start="#T232" wh="spk2" xml:id="au300">
+<u type="ortho">
+<seg>puisque le quartier de la Butte aux Cailles est un quartier historique donc chaque année je sais plus à quelle période c'est je sais qu'il pleut souvent à cette époque-là parce qu'à chaque fois on se prend la pluie mais c'est pareil il y a des petits il y a des petites activités des petits concerts des artistes des poètes euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T234" start="#T233" wh="spk1" xml:id="au301">
+<u type="ortho">
+<seg>qui se rencontrent euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T235" start="#T234" wh="spk2" xml:id="au302">
+<u type="ortho">
+<seg>qui se rencontrent euh il y a des enfin voilà c'est c'est une petit moment qui permet de découvrir aussi l'histoire du du quartier </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T236" start="#T235" wh="spk1" xml:id="au303">
+<u type="ortho">
+<seg>mm mm donc ça a un côté un peu chaleureux ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T237" start="#T236" wh="spk2" xml:id="au304">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T238" start="#T237" wh="spk1" xml:id="au305">
+<u type="ortho">
+<seg>mm et est-ce que tu penses euh ou toi toi tout seul ou toi ta famille faire partie d'un d'un groupe social et dans ce cas-là euh lequel si c'était le cas comment comment tu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T239" start="#T238" wh="spk2" xml:id="au306">
+<u type="ortho">
+<seg>euh je je crois qu'on fait partie de ce qu'on appelle la middle-class ou classe moyenne c'est-à-dire un peu comme ce que j'ai dit tout à l'heure c'est pas la la la la grande bourgeoisie riche et propriétaire de certaines choses dans Paris parce que en fait ça fait pas si longtemps qu'on est dans Paris entre guillemets dans la famille donc on (n') a pas de de biens comme certaines personnes qui ont des immeubles ou ce genre de choses on (n') est pas non plus vu nos revenus des pauvres donc on (n') est pas non plus dans la couche vraiment populaire si on peut les séparer comme ça les couches sociales donc nous on se sent un peu au milieu effectivement c'est-à-dire ni très pauvres ni très riches en termes de de revenus après je sais pas si il y a d'autres façons de définir les couches sociales enfin on (n') est pas on (n') est pas dans la couche ouvrière on est dans les couches salariées salariées moyennes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T240" start="#T239" wh="spk1" xml:id="au307">
+<u type="ortho">
+<seg>et tu as l'impression que ceux qui habitent dans cet immeuble c'est la même chose ou ou pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T241" start="#T240" wh="spk2" xml:id="au308">
+<u type="ortho">
+<seg>euh oui je pense qu'en fait euh ceux qui habitent dans l'immeuble sont un peu au même niveau que nous dans les revenus puisque c'est attribué en fonction des revenus sauf que sauf que l'OPAC il y a quelques années euh attribuait les logements de façon peut-être moins transparente que maintenant donc il y a forcément eu quelques pistonnés entre guillemets </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T242" start="#T241" wh="spk1" xml:id="au309">
+<u type="ortho">
+<seg>ça ça c'est une hypothèse que tu fais ou tu as des je sais pas des gens que tu as vus ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T243" start="#T242" wh="spk2" xml:id="au310">
+<link target="#au311"/>
+<u type="ortho">
+<anchor synch="#T242"/>
+<seg>je </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T243" start="#T242" wh="spk1" xml:id="au311">
+<link target="#au310"/>
+<u type="ortho">
+<anchor synch="#T242"/>
+<seg>ou tu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T244" start="#T243" wh="spk2" xml:id="au312">
+<u type="ortho">
+<seg>j'ai ouï-dire par des gens de l'immeuble que il y avait ou il y a eu beaucoup de médecins ce qui peut paraître un peu étonnant dans des logements sociaux mais il y a aussi quelques personnes âgées euh qui d'apparence ont l'air d'avoir des revenus plus modestes donc il y avait pas que du pistonnage </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T245" start="#T244" wh="spk1" xml:id="au313">
+<u type="ortho">
+<seg>il y avait pas que ça bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T246" start="#T245" wh="spk2" xml:id="au314">
+<u type="ortho">
+<seg>donc c'est c'est assez mélangé en fait c'est quand même relativement mélangé mais mais c'est vrai que comme c'est soumis aux revenus l'attribution on reste quand même pas si mélangés que ça quoi en termes de couches sociales </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T247" start="#T246" wh="spk1" xml:id="au315">
+<u type="ortho">
+<seg>est-ce que il y a d'autres groupes sociaux qui que tu vois dans le quartier ou que euh pas dans l'immeuble forcément mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T248" start="#T247" wh="spk2" xml:id="au316">
+<u type="ortho">
+<seg>je je pense que la Butte aux Cailles elle est assez mélangée à ce niveau-là parce que justement d'un point de vue historique c'est un quartier très populaire la Butte aux Cailles euh même que quand j'étais petit c'était un quartier où on allait pas trop parce que c'était vraiment très populaire voire un peu craignos le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T249" start="#T248" wh="spk2" xml:id="au317">
+<link target="#au318"/>
+<u type="ortho">
+<anchor synch="#T248"/>
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T249" start="#T248" wh="spk1" xml:id="au318">
+<link target="#au317"/>
+<u type="ortho">
+<anchor synch="#T248"/>
+<seg>soir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T250" start="#T249" wh="spk2" xml:id="au319">
+<u type="ortho">
+<seg>euh et que c'est en train de changer parce que bah Paris forcément avec les loyers euh forcément euh ça se boboïse entre guillemets comme c'est un petit quartier qui a un on va dire un petit côté charming parce que il y a plein de petits immeubles de cours de trucs enfin bon trucs assez sympas ça ça se boboïse on va dire donc on voit un peu plus bas dans la rue là /qui a, qu'il y a/ un rez-de-chaussée il y a il y a des bureaux modernes qui se sont construits donc ils ont tout tout rénové des jolies briques c'est très design à l'intérieur donc c'est ça change mais il y a encore tous tous les les anciens il y en a encore pas mal donc quand tu te promènes au rez-de-chaussée des fois tu vois un vieux papy avec sa vieille mamie dans un dix mètres carrés qui regarde sa télé euh dans un appartement qui a pas dû changer depuis quarante ans et puis un peu plus loin tu as aussi quelques petits ateliers d'artistes donc tu vois c'est c'est c'est assez mélangé je pense le treizième déjà et ce quartier particulièrement quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T251" start="#T250" wh="spk1" xml:id="au320">
+<u type="ortho">
+<seg>et dans les façons de de parler est-ce que tu remarques qu'il y a des façons différentes de parler soit dans le quartier soit </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T252" start="#T251" wh="spk2" xml:id="au321">
+<u type="ortho">
+<seg>peut-être que si on va discuter avec les vieux de la vieille là mais je l'ai pas fait encore non ça pff j'ai peut-être plus l'impression que c'est au niveau des générations </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T253" start="#T252" wh="spk1" xml:id="au322">
+<u type="ortho">
+<seg>que ça se </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T254" start="#T253" wh="spk2" xml:id="au323">
+<link target="#au324"/>
+<u type="ortho">
+<anchor synch="#T253"/>
+<seg>que ça se </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T254" start="#T253" wh="spk1" xml:id="au324">
+<link target="#au323"/>
+<u type="ortho">
+<anchor synch="#T253"/>
+<seg>que ça se joue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T255" start="#T254" wh="spk2" xml:id="au325">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T256" start="#T255" wh="spk1" xml:id="au326">
+<u type="ortho">
+<seg>c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T257" start="#T256" wh="spk2" xml:id="au327">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T258" start="#T257" wh="spk1" xml:id="au328">
+<u type="ortho">
+<seg>mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T259" start="#T258" wh="spk2" xml:id="au329">
+<u type="ortho">
+<seg>je pense que les de jeuns ont leur langage plus que les les quadragénaires comme nous ou les vieux plus loin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T260" start="#T259" wh="spk1" xml:id="au330">
+<u type="ortho">
+<seg>ah d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T261" start="#T260" wh="spk2" xml:id="au331">
+<link target="#au332"/>
+<u type="ortho">
+<anchor synch="#T260"/>
+<seg>que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T261" start="#T260" wh="spk1" xml:id="au332">
+<link target="#au331"/>
+<u type="ortho">
+<anchor synch="#T260"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T262" start="#T261" wh="spk2" xml:id="au333">
+<u type="ortho">
+<seg>que vraiment entre les entre les gens donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T263" start="#T262" wh="spk1" xml:id="au334">
+<u type="ortho">
+<seg>tu es plus sensible à la différence </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T264" start="#T263" wh="spk2" xml:id="au335">
+<u type="ortho">
+<seg>je crois ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T265" start="#T264" wh="spk1" xml:id="au336">
+<u type="ortho">
+<seg>qui existerait entre le langage des jeunes c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T266" start="#T265" wh="spk2" xml:id="au337">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T267" start="#T266" wh="spk1" xml:id="au338">
+<link target="#au339"/>
+<u type="ortho">
+<anchor synch="#T266"/>
+<seg>et le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T267" start="#T266" wh="spk2" xml:id="au339">
+<link target="#au338"/>
+<u type="ortho">
+<anchor synch="#T266"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T268" start="#T267" wh="spk1" xml:id="au340">
+<u type="ortho">
+<seg>et le langage des de leurs </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T269" start="#T268" wh="spk2" xml:id="au341">
+<link target="#au342"/>
+<u type="ortho">
+<anchor synch="#T268"/>
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T269" start="#T268" wh="spk1" xml:id="au342">
+<link target="#au341"/>
+<u type="ortho">
+<anchor synch="#T268"/>
+<seg>parents ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T270" start="#T269" wh="spk2" xml:id="au343">
+<u type="ortho">
+<seg>j'ai pas l'impress- enfin quand je me promène dans la rue je comprends les gens quoi en gros s'il y a pas de s'il y a pas non c'est peut-être qu'en bas en bas au niveau de chez Gladines le soir quand tu te promènes tu as beaucoup de beaucoup d'étrangers et d'étudiants étrangers qui viennent au restaurant donc tu entends beaucoup parler parce que le restaurant est un p- à à tendance basque donc tu as beaucoup d'étudiants et de de Basques qui viennent donc tu entends parler un peu étranger machin et cetera mais euh pour ce qui est de la langue française ça me paraît assez assez lisse il y a pas de non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T271" start="#T270" wh="spk1" xml:id="au344">
+<u type="ortho">
+<seg>non et euh donc au- autour de de toi ou de vous vous avez euh tu me parles de des gens qui parlent peut-être étranger le basque ou comme ça mais tu entends pas d'autres langues dans le quartier ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T272" start="#T271" wh="spk2" xml:id="au345">
+<u type="ortho">
+<seg>bah c'est vrai que le restaurant amène quand même beaucoup de Basques mais aussi d'étudiants donc ça parle pas mal anglais espagnol des fois ça doit être aussi de l'italien enfin plutôt pays du </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T273" start="#T272" wh="spk1" xml:id="au346">
+<link target="#au347"/>
+<u type="ortho">
+<anchor synch="#T272"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T273" start="#T272" wh="spk2" xml:id="au347">
+<link target="#au346"/>
+<u type="ortho">
+<anchor synch="#T272"/>
+<seg>Sud mais je p- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T274" start="#T273" wh="spk2" xml:id="au348">
+<u type="ortho">
+<seg>je pense c'est en relation avec la cuisine aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T275" start="#T274" wh="spk1" xml:id="au349">
+<link target="#au350"/>
+<u type="ortho">
+<anchor synch="#T274"/>
+<seg>c'est ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T275" start="#T274" wh="spk2" xml:id="au350">
+<link target="#au349"/>
+<u type="ortho">
+<anchor synch="#T274"/>
+<seg>et qui fait que les gens viennent </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T276" start="#T275" wh="spk1" xml:id="au351">
+<u type="ortho">
+<seg>et puis à ce type de restaurant-là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T277" start="#T276" wh="spk2" xml:id="au352">
+<link target="#au353"/>
+<u type="ortho">
+<anchor synch="#T276"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T277" start="#T276" wh="spk1" xml:id="au353">
+<link target="#au352"/>
+<u type="ortho">
+<anchor synch="#T276"/>
+<seg>à ce </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T278" start="#T277" wh="spk1" xml:id="au354">
+<u type="ortho">
+<seg>type de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T279" start="#T278" wh="spk2" xml:id="au355">
+<u type="ortho">
+<seg>ouais maintenant si tu vas plus plus rue de la Butte aux Cailles où c'est des restaurants plus cuisine française traditionnelle je pense que la population change aussi quoi mais euh non dans les bars tout ça ça a l'air assez c'est quand même assez clientèle trente ans euh je sors du boulot euh c'est plus aussi populaire que ça a été </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T280" start="#T279" wh="spk1" xml:id="au356">
+<u type="ortho">
+<seg>mm mm et et euh par exemple donc il y a pas trop de différences qui te qui te choquent ou te surprennent et mais par rapport à d'autres quartiers de Paris tu dirais que tu m'as parlé de quartiers plus riches ou comme ça est-ce que il y aurait aussi des différences dans le parler des gens ou pas à ton avis </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T281" start="#T280" wh="spk2" xml:id="au357">
+<u type="ortho">
+<seg>
+<incident subtype="noise" type="Event">
+<desc type="desc">tx</desc>
+<desc type="extent">instantaneous</desc>
+</incident>euh je pense que si tu vas dans certains quartiers de Paris euh ça parle beaucoup moins français euh bah tu as des quartiers typiquement euh où certaines types de populations sont installées hein tu as tu as le quartier indien tu as le quartier chinois euh dans le dix-huitième tu as un quartier plus africain maghrébin ce genre de choses bah c'est vrai que tu vas dans le quartier chinois tu entends beaucoup parler chinois euh tu vas vers Opéra dans les pubs anglais irlandais et tu entends </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T282" start="#T281" wh="spk1" xml:id="au358">
+<link target="#au359"/>
+<u type="ortho">
+<anchor synch="#T281"/>
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T282" start="#T281" wh="spk2" xml:id="au359">
+<link target="#au358"/>
+<u type="ortho">
+<anchor synch="#T281"/>
+<seg>tu entends beaucoup parler </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T283" start="#T282" wh="spk2" xml:id="au360">
+<u type="ortho">
+<seg>anglais irlandais tu vas dans les quartiers où il y a beaucoup de cités entre guillemets là tu entendras parler plus djeun's enfin moi c'est comme ça que je le vois hein mais après </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T284" start="#T283" wh="spk1" xml:id="au361">
+<u type="ortho">
+<seg>mais mais dans ton quotidien ça ça t'affecte pas enfin ça te surprend pas spécialement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T285" start="#T284" wh="spk2" xml:id="au362">
+<link target="#au363"/>
+<u type="ortho">
+<anchor synch="#T284"/>
+<seg>euh non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T285" start="#T284" wh="spk1" xml:id="au363">
+<link target="#au362"/>
+<u type="ortho">
+<anchor synch="#T284"/>
+<seg>dans le quotidien </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T286" start="#T285" wh="spk1" xml:id="au364">
+<u type="ortho">
+<seg>je veux dire non non et entre les différents euh quartiers de Paris ou arrondissements tu penses qu'il y a des différences d'opinion par exemple ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T287" start="#T286" wh="spk2" xml:id="au365">
+<u type="ortho">
+<seg>sur </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T288" start="#T287" wh="spk1" xml:id="au366">
+<u type="ortho">
+<seg>sur la vie sur </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T289" start="#T288" wh="spk2" xml:id="au367">
+<link target="#au368"/>
+<u type="ortho">
+<anchor synch="#T288"/>
+<seg>euh je pense que Paris c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T289" start="#T288" wh="spk1" xml:id="au368">
+<link target="#au367"/>
+<u type="ortho">
+<anchor synch="#T288"/>
+<seg>ou c'est pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T290" start="#T289" wh="spk2" xml:id="au369">
+<u type="ortho">
+<seg>une ville mais que chaque arrondissement est a quand même ses ses petits villages et ses ses spécificités je veux dire quand tu vas dans le quartier chinois il y a des endroits où tu es tu es tu es tu es tu es à l'autre bout du monde quoi enfin je veux dire tu as tu as tu as tu as des tu as des quartiers dans le quartier chinois quand tu es dans les tours tu tu es tu es tu es en Chine tu es au Vietnam enfin tu es tu es ailleurs quoi je veux dire moi qui ai des origines asiatiques j'ai mangé pas mal de trucs mais il y a des restaurants où f- j'irai pas quoi c'est qu- ça ça m'a l'air tellement tellement tellement de là-bas que je p- je me dis je vais m'attraper une gastro parce que j'ai pas l'estomac fait pour manger des trucs de là-bas quoi donc je pense tu as vraiment des quartiers qui enfin tu as tu as des endroits dans Paris qui sont pas le le Paris avec un grand P quoi c'est puis après tu as le Paris le Paris le Paris vu par les touristes ou ce qu'on veut en faire voir côté un peu historique Disneyland tu vois où c'est Paris historique le Paris un peu Doisneau ce genre de choses qui qui ce Paris-là il se retrouve pas dans tous les quartiers de Paris quoi Paris c'est quand même assez quand même multiculturel enfin pluriculturel tu trouves tu as quand même dans toutes les grandes villes des petits quartiers où les gens se retrouvent hein ont tendance à se regrouper je veux dire si tu as envie de boire un une bière </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T291" start="#T290" wh="spk1" xml:id="au370">
+<link target="#au371"/>
+<u type="ortho">
+<anchor synch="#T290"/>
+<seg>bien sûr ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T291" start="#T290" wh="spk2" xml:id="au371">
+<link target="#au370"/>
+<u type="ortho">
+<anchor synch="#T290"/>
+<seg>avec les Irlandais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T292" start="#T291" wh="spk2" xml:id="au372">
+<u type="ortho">
+<seg>tu vas à Opéra si tu as envie de manger chinois tu vas vers Choisy c'est assez euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T293" start="#T292" wh="spk1" xml:id="au373">
+<u type="ortho">
+<seg>et donc les finalement c'est a- c'est avec tes enfants que tu trouves qu'il y a le plus de différences dans le langage ou dans le parler ou qu'est qu'est-ce qu'il y a comme comme différence par exemple </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T294" start="#T293" wh="spk2" xml:id="au374">
+<u type="ortho">
+<seg>bah je pense que les jeunes ont leur langage quoi enfin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T295" start="#T294" wh="spk1" xml:id="au375">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T296" start="#T295" wh="spk2" xml:id="au376">
+<u type="ortho">
+<seg>comme comme nous quand on était jeunes hein </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T297" start="#T296" wh="spk1" xml:id="au377">
+<link target="#au378"/>
+<u type="ortho">
+<anchor synch="#T296"/>
+<seg>mm mm mm mm ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T297" start="#T296" wh="spk2" xml:id="au378">
+<link target="#au377"/>
+<u type="ortho">
+<anchor synch="#T296"/>
+<seg>enfin je veux dire </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T298" start="#T297" wh="spk2" xml:id="au379">
+<u type="ortho">
+<seg>on a parlé verlan on avait nos mots nos expressions /et, 0/ effectivement j'ai p- j'ai plus l'impression que ce soit une spécificité liée euh à à l'âge quoi on a son langage un peu secret enfin tu vois maintenant euh c'est vrai ch- chez les adultes j'ai pas l'impression qu'il y ait bon </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T299" start="#T298" wh="spk1" xml:id="au380">
+<u type="ortho">
+<seg>mais chez chez tes enfants ils parlent verlan parce qu'ils sont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T300" start="#T299" wh="spk2" xml:id="au381">
+<link target="#au382"/>
+<u type="ortho">
+<anchor synch="#T299"/>
+<seg>non ils sont encore un peu jeunes non non non mais bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T300" start="#T299" wh="spk1" xml:id="au382">
+<link target="#au381"/>
+<u type="ortho">
+<anchor synch="#T299"/>
+<seg>ils sont jeunes tes enfants parce que parce que oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T301" start="#T300" wh="spk2" xml:id="au383">
+<u type="ortho">
+<seg>quand tu es au square tu entends parler aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T302" start="#T301" wh="spk1" xml:id="au384">
+<link target="#au385"/>
+<u type="ortho">
+<anchor synch="#T301"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T302" start="#T301" wh="spk2" xml:id="au385">
+<link target="#au384"/>
+<u type="ortho">
+<anchor synch="#T301"/>
+<seg>un </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T303" start="#T302" wh="spk2" xml:id="au386">
+<u type="ortho">
+<seg>peu à droite à gauche ou puis tu as le lycée Rodin où qui est qui est attenant au square donc quand tu y vas à certaines heures c'est c'est plus des ados qui sont là parce que ils viennent manger le midi ou ce genre de choses et bon après c'est c'est c'est une tranche d'âge je pense où tu as une façon de parler un peu différente </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T304" start="#T303" wh="spk1" xml:id="au387">
+<u type="ortho">
+<seg>mm mm d'accord tu es sensible à cette façon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T305" start="#T304" wh="spk2" xml:id="au388">
+<link target="#au389"/>
+<u type="ortho">
+<anchor synch="#T304"/>
+<seg>je suis sensible </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T305" start="#T304" wh="spk1" xml:id="au389">
+<link target="#au388"/>
+<u type="ortho">
+<anchor synch="#T304"/>
+<seg>de parler là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T306" start="#T305" wh="spk2" xml:id="au390">
+<u type="ortho">
+<seg>bah parce que ça fait un peu l- pas langage secret mais c'est vrai que je p- enfin à l'adolescence je pense que tu tu tu as une façon de parler quand même qui est qui peut être différente enfin moi je me rappelle personnellement en tout cas c'était mon cas et c'est vrai que quand il s'agit d'aller travailler plus tard il faut faire à un moment donné un certain-z effort pour gommer certaines expressions de ton langage qui pourraient faire un peu un peu de jeuns révolté quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T307" start="#T306" wh="spk1" xml:id="au391">
+<u type="ortho">
+<seg>et euh en ce qui concerne l'école là tu tu m'as parlé du lycée Rodin est-ce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T308" start="#T307" wh="spk2" xml:id="au392">
+<link target="#au393"/>
+<u type="ortho">
+<anchor synch="#T307"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T308" start="#T307" wh="spk1" xml:id="au393">
+<link target="#au392"/>
+<u type="ortho">
+<anchor synch="#T307"/>
+<seg>qu'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T309" start="#T308" wh="spk1" xml:id="au394">
+<u type="ortho">
+<seg>qu'est-ce que tu penses des écoles du quartier des collèges des lycées </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T310" start="#T309" wh="spk2" xml:id="au395">
+<u type="ortho">
+<seg>euh bah je pense qu'a priori enfin de ce qu'on en entend c'est pas on (n') est pas dans une zone défavorisée hein euh à savoir que les choses ont l'air de se passer à peu près bien sauf que bon je pense que comme dans tous bons lycées euh il y a des problèmes un petit peu à la sortie de drogue de machin choses comme ça mais bon c'est l'adolescence hein je pense que c'est ça un peu partout pareil euh au niveau des écoles il y a quand même un souci je pense c'est que les écoles ont tendance à fermer des classes parce que les familles s'en vont de Paris parce que les loyers sont trop chers et que et que bah l'école qui est vraiment juste à côté de chez nous il y a une classe qui s'est fermée l'année dernière l'école où sont les enfants donc qui est l'école dont on dépendait avant mais ils sont restés là-bas une classe s'est fermée quand ils sont arrivés enfin quand le premier est arrivé euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T311" start="#T310" wh="spk1" xml:id="au396">
+<u type="ortho">
+<seg>e- elle est où cette école /ou, où/ </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T312" start="#T311" wh="spk2" xml:id="au397">
+<u type="ortho">
+<seg>boulevard Arago </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T313" start="#T312" wh="spk1" xml:id="au398">
+<u type="ortho">
+<seg>boulevard Arago </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T314" start="#T313" wh="spk2" xml:id="au399">
+<link target="#au400"/>
+<u type="ortho">
+<anchor synch="#T313"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T314" start="#T313" wh="spk1" xml:id="au400">
+<link target="#au399"/>
+<u type="ortho">
+<anchor synch="#T313"/>
+<seg>mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T315" start="#T314" wh="spk2" xml:id="au401">
+<u type="ortho">
+<seg>donc ce sont des écoles où franchement en tant que parents il y a pas de problèmes tout tout le monde il est beau tout le monde il est gentil en gros c'est c'est le quartier qui veut un peu ça aussi puisque on est quand même dans les coins du treizième où il y a pas trop de de soucis quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T316" start="#T315" wh="spk1" xml:id="au402">
+<u type="ortho">
+<anchor synch="#T315"/>
+<seg/>
+</u>
+<link target="#au403"/>
+</annotatedU>
+<annotatedU end="#T316" start="#T315" wh="spk2" xml:id="au403">
+<link target="#au402"/>
+<u type="ortho">
+<anchor synch="#T315"/>
+<seg>les écoles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T317" start="#T316" wh="spk2" xml:id="au404">
+<u type="ortho">
+<seg>qui sont plus en périphérie ont peut-être plus mauvaise presse que que les écoles qui sont vraiment là dans le milieu du treizième quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T318" start="#T317" wh="spk1" xml:id="au405">
+<u type="ortho">
+<seg>ils sont d'accord ils sont ils sont en quelles classes c'est en à l'école primaire c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T319" start="#T318" wh="spk2" xml:id="au406">
+<link target="#au407"/>
+<u type="ortho">
+<anchor synch="#T318"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T319" start="#T318" wh="spk1" xml:id="au407">
+<link target="#au406"/>
+<u type="ortho">
+<anchor synch="#T318"/>
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T320" start="#T319" wh="spk2" xml:id="au408">
+<u type="ortho">
+<seg>CP et CM2 </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T321" start="#T320" wh="spk1" xml:id="au409">
+<u type="ortho">
+<seg>d'accord et donc par exemple pour l'année prochaine alors comment ça va se passer pour le collège </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T322" start="#T321" wh="spk2" xml:id="au410">
+<u type="ortho">
+<seg>et bah le collège euh ça va être a priori celui qui est à côté de la maison on dépend d'un collège qui est rue je sais plus le nom de la rue qui est juste à côté donc collège et puis après ce sera le lycée Rodin et le collège apparemment <incident subtype="noise" type="Event">
+<desc type="desc">pf</desc>
+<desc type="extent">instantaneous</desc>
+</incident>on (n') a rien entendu de d'alarmant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T323" start="#T322" wh="spk1" xml:id="au411">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T324" start="#T323" wh="spk2" xml:id="au412">
+<u type="ortho">
+<seg>donc euh pour l'instant on se fait pas trop de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T325" start="#T324" wh="spk1" xml:id="au413">
+<u type="ortho">
+<seg>donc tu tu t'inquiètes pas de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T326" start="#T325" wh="spk2" xml:id="au414">
+<u type="ortho">
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T327" start="#T326" wh="spk1" xml:id="au415">
+<u type="ortho">
+<seg>la structure publique </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T328" start="#T327" wh="spk2" xml:id="au416">
+<u type="ortho">
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T329" start="#T328" wh="spk1" xml:id="au417">
+<u type="ortho">
+<seg>/par, par-/ d'accord et le lycée Rodin non plus </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T330" start="#T329" wh="spk2" xml:id="au418">
+<u type="ortho">
+<seg>le lycée Rodin euh n'est pas réputé pour être le meilleur lycée du treizième puisque c'est a priori Claude Monnet qui a meilleure réputation dans le treizième bon maintenant le lycée Rodin ça a pas l'air d'être un catastrophe non plus donc on (n') y est pas encore j'ai dit CM2 mais c'est peut-être CM1 parce que c'est pas l'année prochaine qu'il rentre au lycée </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T331" start="#T330" wh="spk1" xml:id="au419">
+<u type="ortho">
+<seg>ah oui alors c'est peut-être CM1 alors oui d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T332" start="#T331" wh="spk2" xml:id="au420">
+<u type="ortho">
+<seg>euh donc on s'est pas encore inquiétés de ces choses-là mais euh je sais pas les écoles ont l'air assez tranquilles c'est pas enfin la population c'est quand même relativement des gens qui ont pas de problèmes et d'ailleurs ça se ressent au niveau des profs qui qui font pas trop de sorties par exemple parce qu'ils considèrent que c'est le boulot des parents parce qu'ils ont le temps et </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T333" start="#T332" wh="spk1" xml:id="au421">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T334" start="#T333" wh="spk2" xml:id="au422">
+<u type="ortho">
+<seg>et l'argent et le niveau intellectuel suffisant pour sortir leurs enfants ce qui avait fait un peu débat dans certaines réunions de parents euh donc c'est peut-être trop pépère </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T335" start="#T334" wh="spk1" xml:id="au423">
+<u type="ortho">
+<seg>mm mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T336" start="#T335" wh="spk2" xml:id="au424">
+<link target="#au425"/>
+<u type="ortho">
+<anchor synch="#T335"/>
+<seg>trop </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T336" start="#T335" wh="spk1" xml:id="au425">
+<link target="#au424"/>
+<u type="ortho">
+<anchor synch="#T335"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T337" start="#T336" wh="spk2" xml:id="au426">
+<u type="ortho">
+<seg>c'est peut-être trop axé sur justement euh les cours l'apprentissage tout ce qui est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T338" start="#T337" wh="spk1" xml:id="au427">
+<link target="#au428"/>
+<u type="ortho">
+<anchor synch="#T337"/>
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T338" start="#T337" wh="spk2" xml:id="au428">
+<link target="#au427"/>
+<u type="ortho">
+<anchor synch="#T337"/>
+<seg>annexe </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T339" start="#T338" wh="spk2" xml:id="au429">
+<u type="ortho">
+<seg>passe un peu en arrière plan parce qu'ils considèrent que que ça peut être fait à la maison </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T340" start="#T339" wh="spk1" xml:id="au430">
+<u type="ortho">
+<seg>et toi-même tu tu as été à quelle école </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T341" start="#T340" wh="spk2" xml:id="au431">
+<u type="ortho">
+<seg>école Arago où sont mes enfants </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T342" start="#T341" wh="spk1" xml:id="au432">
+<u type="ortho">
+<seg>ah où sont les </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T343" start="#T342" wh="spk2" xml:id="au433">
+<link target="#au434"/>
+<u type="ortho">
+<anchor synch="#T342"/>
+<seg>puisque j'hab- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T343" start="#T342" wh="spk1" xml:id="au434">
+<link target="#au433"/>
+<u type="ortho">
+<anchor synch="#T342"/>
+<seg>enfants </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T344" start="#T343" wh="spk2" xml:id="au435">
+<u type="ortho">
+<seg>j'habitais avec mes parents donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T345" start="#T344" wh="spk1" xml:id="au436">
+<link target="#au437"/>
+<u type="ortho">
+<anchor synch="#T344"/>
+<seg>oui oui c'est ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T345" start="#T344" wh="spk2" xml:id="au437">
+<link target="#au436"/>
+<u type="ortho">
+<anchor synch="#T344"/>
+<seg>dans l'appartement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T346" start="#T345" wh="spk2" xml:id="au438">
+<u type="ortho">
+<seg>dans lequel on était voilà donc euh voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T347" start="#T346" wh="spk1" xml:id="au439">
+<u type="ortho">
+<seg>tu as retrouvé des des enseignants ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T348" start="#T347" wh="spk2" xml:id="au440">
+<link target="#au441"/>
+<u type="ortho">
+<anchor synch="#T347"/>
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T348" start="#T347" wh="spk1" xml:id="au441">
+<link target="#au440"/>
+<u type="ortho">
+<anchor synch="#T347"/>
+<seg>ou </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T349" start="#T348" wh="spk2" xml:id="au442">
+<u type="ortho">
+<seg>non non non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T350" start="#T349" wh="spk1" xml:id="au443">
+<link target="#au444"/>
+<u type="ortho">
+<anchor synch="#T349"/>
+<seg>ça aurait pu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T350" start="#T349" wh="spk2" xml:id="au444">
+<link target="#au443"/>
+<u type="ortho">
+<anchor synch="#T349"/>
+<seg>non non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T351" start="#T350" wh="spk2" xml:id="au445">
+<u type="ortho">
+<seg>ouais ouais ça aurait pu mais non non ils sont tous partis ils sont ils sont ils sont plus là-bas mais j'ai discuté avec la concierge très longuement et elle se rappelle d'un certain nombre certains sont partis certains sont morts certains sont dans d'autres écoles donc j'ai eu des nouvelles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T352" start="#T351" wh="spk2" xml:id="au446">
+<link target="#au447"/>
+<u type="ortho">
+<anchor synch="#T351"/>
+<seg>de mes anciens profs </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T352" start="#T351" wh="spk1" xml:id="au447">
+<link target="#au446"/>
+<u type="ortho">
+<anchor synch="#T351"/>
+<seg>tu as eu des nouvelles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T353" start="#T352" wh="spk1" xml:id="au448">
+<u type="ortho">
+<seg>tu avais de- tu avais demandé euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T354" start="#T353" wh="spk2" xml:id="au449">
+<link target="#au450"/>
+<u type="ortho">
+<anchor synch="#T353"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T354" start="#T353" wh="spk1" xml:id="au450">
+<link target="#au449"/>
+<u type="ortho">
+<anchor synch="#T353"/>
+<seg>il y en avait un </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T355" start="#T354" wh="spk1" xml:id="au451">
+<u type="ortho">
+<seg>qui t'avait marqué plus </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T356" start="#T355" wh="spk2" xml:id="au452">
+<link target="#au453"/>
+<u type="ortho">
+<anchor synch="#T355"/>
+<seg>je pense que tous </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T356" start="#T355" wh="spk1" xml:id="au453">
+<link target="#au452"/>
+<u type="ortho">
+<anchor synch="#T355"/>
+<seg>spécialement ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T357" start="#T356" wh="spk2" xml:id="au454">
+<u type="ortho">
+<seg>m'ont marqué dans cette école j'ai v- j'avais vraiment eu des instits à forte personnalité et vraiment j'en (n') ai que des bons souvenirs de cette école et ça s'est vraiment toujours bien passé et non non je me souviens des noms de tous mes profs et j'en ai même rencontré plusieurs de longues années après qui connaissaient encore mon nom ce qui m'avait assez surpris non vraiment très très bien </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T358" start="#T357" wh="spk1" xml:id="au455">
+<u type="ortho">
+<seg>donc tu devais être content que tes enfants euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T359" start="#T358" wh="spk2" xml:id="au456">
+<u type="ortho"/>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T360" start="#T359" wh="spk1" xml:id="au457">
+<link target="#au458"/>
+<u type="ortho">
+<anchor synch="#T359"/>
+<seg>aillent </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T360" start="#T359" wh="spk2" xml:id="au458">
+<link target="#au457"/>
+<u type="ortho">
+<anchor synch="#T359"/>
+<seg>mais enfin c'était pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T361" start="#T360" wh="spk2" xml:id="au459">
+<u type="ortho">
+<seg>non plus une grande joie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T362" start="#T361" wh="spk1" xml:id="au460">
+<u type="ortho">
+<anchor synch="#T361"/>
+<seg/>
+</u>
+<link target="#au461"/>
+</annotatedU>
+<annotatedU end="#T362" start="#T361" wh="spk2" xml:id="au461">
+<link target="#au460"/>
+<u type="ortho">
+<anchor synch="#T361"/>
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T363" start="#T362" wh="spk2" xml:id="au462">
+<u type="ortho">
+<seg>j'étais ça ça m- ça me déplaisait pas mais enfin si je les ai pas mis là-bas parce que j'y étais non plus quoi mais je savais par ailleurs que c'était une bonne école que que c'était une école enfin bon a priori qui avait pas non plus complètement changé donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T364" start="#T363" wh="spk1" xml:id="au463">
+<u type="ortho">
+<seg>et Juliette ira là-bas aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T365" start="#T364" wh="spk2" xml:id="au464">
+<u type="ortho">
+<seg>euh c'est pas sûr c'est pas sûr parce que d'ici là il y a quand même l'autre école qui est beaucoup plus près et on (n') a a priori pas de raison de je suis ça ça dépend je dis faut qu'on fasse nos calculs le problème c'est de savoir quand le moyen sortira de l'école si elle doit y rentrer bah peut-être qu'on sera obligés de la mettre parce qu'on peut pas faire plusieurs sorties en même temps c'est pour ça que le deuxième est allé là-bas alors qu'il aurait pu aller </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T366" start="#T365" wh="spk1" xml:id="au465">
+<u type="ortho">
+<seg>aller </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T367" start="#T366" wh="spk2" xml:id="au466">
+<u type="ortho">
+<seg>à l'école qui est à côté </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T368" start="#T367" wh="spk1" xml:id="au467">
+<link target="#au468"/>
+<u type="ortho">
+<anchor synch="#T367"/>
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T368" start="#T367" wh="spk2" xml:id="au468">
+<link target="#au467"/>
+<u type="ortho">
+<anchor synch="#T367"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T369" start="#T368" wh="spk1" xml:id="au469">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T370" start="#T369" wh="spk2" xml:id="au470">
+<link target="#au471"/>
+<u type="ortho">
+<anchor synch="#T369"/>
+<seg>donc </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T370" start="#T369" wh="spk1" xml:id="au471">
+<link target="#au470"/>
+<u type="ortho">
+<anchor synch="#T369"/>
+<seg>mm mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T371" start="#T370" wh="spk2" xml:id="au472">
+<u type="ortho">
+<seg>mais l'école qui est à côté a aussi très bonne réputation puisqu'on a rencontré aussi les directeurs pour savoir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T372" start="#T371" wh="spk1" xml:id="au473">
+<u type="ortho">
+<seg>à côté donc à là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T373" start="#T372" wh="spk2" xml:id="au474">
+<link target="#au475"/>
+<u type="ortho">
+<anchor synch="#T372"/>
+<seg>elle est à </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T373" start="#T372" wh="spk1" xml:id="au475">
+<link target="#au474"/>
+<u type="ortho">
+<anchor synch="#T372"/>
+<seg>vers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T374" start="#T373" wh="spk2" xml:id="au476">
+<u type="ortho">
+<seg>elle est vers en allant vers Italie deux là elle est près de la Butte aux Cailles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T375" start="#T374" wh="spk1" xml:id="au477">
+<link target="#au478"/>
+<u type="ortho">
+<anchor synch="#T374"/>
+<seg>oui près de la piscine oui oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T375" start="#T374" wh="spk2" xml:id="au478">
+<link target="#au477"/>
+<u type="ortho">
+<anchor synch="#T374"/>
+<seg>près de la piscine elle est vraiment juste à côté </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T376" start="#T375" wh="spk1" xml:id="au479">
+<u type="ortho">
+<seg>je vois je vois d'accord bon donc apparemment </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T377" start="#T376" wh="spk2" xml:id="au480">
+<u type="ortho">
+<seg>il y a pas trop de soucis au niveau des écoles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T378" start="#T377" wh="spk1" xml:id="au481">
+<u type="ortho">
+<seg>mm mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T379" start="#T378" wh="spk2" xml:id="au482">
+<u type="ortho">
+<seg>mais c'est vrai que c'est un point qui qui est important quand même dans le dans le choix du logement je pense </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T380" start="#T379" wh="spk1" xml:id="au483">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T381" start="#T380" wh="spk2" xml:id="au484">
+<u type="ortho">
+<seg>autant quand euh on était que deux voire deux avec </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T382" start="#T381" wh="spk1" xml:id="au485">
+<link target="#au486"/>
+<u type="ortho">
+<anchor synch="#T381"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T382" start="#T381" wh="spk2" xml:id="au486">
+<link target="#au485"/>
+<u type="ortho">
+<anchor synch="#T381"/>
+<seg>un enfant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T383" start="#T382" wh="spk2" xml:id="au487">
+<u type="ortho">
+<seg>plus petit on était prêts à à partir dans des quartiers moins chers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T384" start="#T383" wh="spk1" xml:id="au488">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T385" start="#T384" wh="spk2" xml:id="au489">
+<u type="ortho">
+<seg>pour pouvoir avoir plus grand autant il y a un moment où on se dit euh il vaut mieux être dans un appartement plus petit mais avec des écoles où dont on est sûrs de de la qualité de l'enseignement quoi parce que après ça veut dire soit des soucis soit le privé soit ceci soit cela donc c'est vrai quand on est contents d'un quartier et et des écoles on a tendance à vouloir y rester aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T386" start="#T385" wh="spk1" xml:id="au490">
+<u type="ortho">
+<seg>mm mm mm c'est sûr est-ce que tu est-ce que le le quartier ou l'arrondissement a été touché par les problèmes économiques est-ce que toi-même tu as été touché par les problèmes économiques </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T387" start="#T386" wh="spk2" xml:id="au491">
+<u type="ortho">
+<seg>bah je vois pas trop </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T388" start="#T387" wh="spk1" xml:id="au492">
+<u type="ortho">
+<seg>par rapport au travail ou comme ça non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T389" start="#T388" wh="spk2" xml:id="au493">
+<u type="ortho">
+<seg>j'ai pas l'impression moi pas particulièrement non des problèmes économiques non je vois pas trop non bah en tout cas autour de moi j'ai pas entendu parler de de choses ni de fermetures de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T390" start="#T389" wh="spk1" xml:id="au494">
+<u type="ortho">
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T391" start="#T390" wh="spk2" xml:id="au495">
+<u type="ortho">
+<seg>bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T392" start="#T391" wh="spk1" xml:id="au496">
+<link target="#au497"/>
+<u type="ortho">
+<anchor synch="#T391"/>
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T392" start="#T391" wh="spk2" xml:id="au497">
+<link target="#au496"/>
+<u type="ortho">
+<anchor synch="#T391"/>
+<seg>ils </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T393" start="#T392" wh="spk2" xml:id="au498">
+<u type="ortho">
+<seg>ont juste fermé le grand écran à Italie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T394" start="#T393" wh="spk1" xml:id="au499">
+<link target="#au500"/>
+<u type="ortho">
+<anchor synch="#T393"/>
+<seg>et toi tu as </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T394" start="#T393" wh="spk2" xml:id="au500">
+<link target="#au499"/>
+<u type="ortho">
+<anchor synch="#T393"/>
+<seg>si euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T395" start="#T394" wh="spk1" xml:id="au501">
+<u type="ortho">
+<seg>connu des changements ou ton travail ou des </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T396" start="#T395" wh="spk2" xml:id="au502">
+<u type="ortho">
+<seg>bah moi je travaillais pas à Paris jusqu'à il y a quatre ans et j'ai changé de travail et un des points positifs pour moi c'est que justement mon nouveau travail se situait dans le treizième et pas loin de là où j'habitais et que travailler à Paris quand on habite à Paris et qu'on peut y aller à pied je pense que c'est un confort énorme énorme peu de transports et même pas de transports c'est je pense dans la qualité de vie c'est non négligeable </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T397" start="#T396" wh="spk1" xml:id="au503">
+<u type="ortho">
+<seg>mm mm donc ça a été plutôt euh bénéfique </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T398" start="#T397" wh="spk2" xml:id="au504">
+<u type="ortho">
+<seg>euh tout à fait tout à fait surtout que avant j'y allais en voiture justement travailler parce que je travaillais en banlieue et donc j'ai eu droit aux travaux place d'Italie aux travaux avenue des Gobelins au tramway et ça multipliait les trajets </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T399" start="#T398" wh="spk1" xml:id="au505">
+<u type="ortho">
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T400" start="#T399" wh="spk2" xml:id="au506">
+<u type="ortho">
+<seg>les embouteillages et tout ça il y a des moments où ça devenait vraiment dur quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T401" start="#T400" wh="spk1" xml:id="au507">
+<u type="ortho">
+<seg>ouais ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T402" start="#T401" wh="spk2" xml:id="au508">
+<u type="ortho">
+<seg>donc plus d'embouteillages plus de voitures c'est parfait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T403" start="#T402" wh="spk1" xml:id="au509">
+<u type="ortho">
+<seg>mm mm et d- et le soir tu tu reviens vers euh quelle heure à la maison </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T404" start="#T403" wh="spk2" xml:id="au510">
+<u type="ortho">
+<seg>en général je suis vers dix-huit heures trente dix-n- entre dix-huit heures trente et dix-neuf heures trente quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T405" start="#T404" wh="spk1" xml:id="au511">
+<u type="ortho">
+<seg>et tu tu vas à ton travail il est quelle heure lorsque tu commences </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T406" start="#T405" wh="spk2" xml:id="au512">
+<u type="ortho">
+<seg>et bien le top départ est à huit heures quinze pour être à huit heures et demie à l'école enfin huit heures vingt-cinq donc je décolle ici à huit heures quinze je repasse il doit être neuf heures à peu près neuf heures cinq et je cours au bureau donc j'arrive vers neuf heures et quart neuf heures et demie </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T407" start="#T406" wh="spk1" xml:id="au513">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T408" start="#T407" wh="spk2" xml:id="au514">
+<u type="ortho">
+<seg>selon que la dépose de Juliette à la crèche a pris plus ou moins de temps donc voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T409" start="#T408" wh="spk1" xml:id="au515">
+<u type="ortho">
+<seg>et ensuite lorsque tu reviens ici le soir ou comme cela le l'entretien de la maison etcetera c'est pas trop difficile tu tu trouves que vous arrivez à bien vous répartir les tâches </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T410" start="#T409" wh="spk2" xml:id="au516">
+<u type="ortho">
+<seg>on fait au mieux mais c'est vrai que la période dix-neuf heures vingt-et-une heure avec les enfants c'est je pense la période la plus complexe chaude active stressante euh à savoir que c'est les douches les devoirs le repas le brossage des dents et cetera et cetera et cetera et donc donc c'est vrai que c'est la période de la journée un peu enfin la plus fatigante on va dire mais bah du fait que on a trois enfants aussi hein je pense que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T411" start="#T410" wh="spk1" xml:id="au517">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T412" start="#T411" wh="spk2" xml:id="au518">
+<u type="ortho">
+<seg>pour d'autres ça doit être plus simple mais c'est vrai que bon c'est les devoirs c'est long et puis après il y a les douches et puis les enfants sont fatigués donc ils ont pas forcément envie et puis nous aussi on peut être un peu fatigués donc on c'est compliqué donc euh c'est vrai que c'est une période qui est un peu difficile </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T413" start="#T412" wh="spk1" xml:id="au519">
+<u type="ortho">
+<seg>mais et sinon pour l- pour l'entretien le ménage tout ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T414" start="#T413" wh="spk2" xml:id="au520">
+<u type="ortho">
+<seg>m- ah c'est c'est quand on peut donc c'est pas forcément le soir c'est peut-être plus le week-end on /essaie, essayait/ de dégager un peu de temps pour soi /s-, ç-/ pou- pour ça ça peut être le soir aussi pour tout ce qui est machine à laver le linge la vaisselle tout ça enfin bon on essaie d'en faire le soir aussi et non non le soir en rentrant à dix-neuf heures on (n') a pas le temps de s'occuper de la maison </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T415" start="#T414" wh="spk1" xml:id="au521">
+<link target="#au522"/>
+<u type="ortho">
+<anchor synch="#T414"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T415" start="#T414" wh="spk2" xml:id="au522">
+<link target="#au521"/>
+<u type="ortho">
+<anchor synch="#T414"/>
+<seg>en fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T416" start="#T415" wh="spk1" xml:id="au523">
+<u type="ortho">
+<seg>c'est d'abord les </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T417" start="#T416" wh="spk2" xml:id="au524">
+<link target="#au525"/>
+<u type="ortho">
+<anchor synch="#T416"/>
+<seg>c'est les enfants ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T417" start="#T416" wh="spk1" xml:id="au525">
+<link target="#au524"/>
+<u type="ortho">
+<anchor synch="#T416"/>
+<seg>les enfants le repas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T418" start="#T417" wh="spk2" xml:id="au526">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T419" start="#T418" wh="spk1" xml:id="au527">
+<u type="ortho">
+<seg>euh et cetera </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T420" start="#T419" wh="spk2" xml:id="au528">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T421" start="#T420" wh="spk1" xml:id="au529">
+<u type="ortho">
+<seg>mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T422" start="#T421" wh="spk2" xml:id="au530">
+<u type="ortho">
+<seg>faut trouver le temps pour la maison à un autre moment </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T423" start="#T422" wh="spk1" xml:id="au531">
+<u type="ortho">
+<seg>mm mais le week-end c'est peut-être réservé aux loisirs aussi ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T424" start="#T423" wh="spk2" xml:id="au532">
+<link target="#au533"/>
+<u type="ortho">
+<anchor synch="#T423"/>
+<seg>le week-end </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T424" start="#T423" wh="spk1" xml:id="au533">
+<link target="#au532"/>
+<u type="ortho">
+<anchor synch="#T423"/>
+<seg>ou </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T425" start="#T424" wh="spk2" xml:id="au534">
+<u type="ortho">
+<seg>est plutôt réservé aux loisirs effectivement parce que les enfants sont effectivement là donc il faut aussi les occuper donc c'est c'est aussi en partie pour les devoirs parce que les devoirs ça prend du temps aussi après on essaie effectivement de sortir de sortir et et de s'occuper aussi un peu de la maison donc c'est un peu un compromis le week-end quoi des fois ça va être plus de la sortie des fois ça va être plus du du ménage enfin quand les enfants vont chez les copains par exemple ça nous laisse du temps pour la maison mais le week-end effectivement c'est plus consacré aux sorties donc euh quand il fait beau ça va être plus René Le Gall par exemple où ils vont retrouver leurs copains faire leur foot et tout ça ça leur plaît sinon ça peut être sortir de Paris aussi parce que bah voir du vert ça fait du bien de temps en temps aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T426" start="#T425" wh="spk1" xml:id="au535">
+<u type="ortho">
+<seg>vous allez où alors vous allez </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T427" start="#T426" wh="spk2" xml:id="au536">
+<u type="ortho">
+<seg>ça peut être la campagne parce que mes parents ont une petite maison à la campagne ça peut être aller voir des amis en banlieue qui ont des maisons donc qui ont pris le parti euh d'avoir des week-ends plus au vert mais des transports </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T428" start="#T427" wh="spk1" xml:id="au537">
+<link target="#au538"/>
+<u type="ortho">
+<anchor synch="#T427"/>
+<seg>voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T428" start="#T427" wh="spk2" xml:id="au538">
+<link target="#au537"/>
+<u type="ortho">
+<anchor synch="#T427"/>
+<seg>plus compliqués </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T429" start="#T428" wh="spk1" xml:id="au539">
+<u type="ortho">
+<seg>oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T430" start="#T429" wh="spk2" xml:id="au540">
+<u type="ortho">
+<seg>donc nous on peut profiter le week-end d'un barbecue et d'un jardin euh puis sinon ça peut être aussi profiter de Paris quand on peut c'est-à-dire les spectacles les parcs euh ça peut être aussi aller voir un peu les grands-parents aussi qui sont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T431" start="#T430" wh="spk1" xml:id="au541">
+<link target="#au542"/>
+<u type="ortho">
+<anchor synch="#T430"/>
+<seg>qui sont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T431" start="#T430" wh="spk2" xml:id="au542">
+<link target="#au541"/>
+<u type="ortho">
+<anchor synch="#T430"/>
+<seg>à Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T432" start="#T431" wh="spk2" xml:id="au543">
+<link target="#au544"/>
+<u type="ortho">
+<anchor synch="#T431"/>
+<seg>à Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T432" start="#T431" wh="spk1" xml:id="au544">
+<link target="#au543"/>
+<u type="ortho">
+<anchor synch="#T431"/>
+<seg>à Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T433" start="#T432" wh="spk1" xml:id="au545">
+<u type="ortho">
+<seg>qui habitent </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T434" start="#T433" wh="spk2" xml:id="au546">
+<u type="ortho">
+<seg>alors il y en a dans le treizième et les autres sont dans le douzième </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T435" start="#T434" wh="spk1" xml:id="au547">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T436" start="#T435" wh="spk2" xml:id="au548">
+<u type="ortho">
+<seg>donc ça va c'est pas trop loin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T437" start="#T436" wh="spk1" xml:id="au549">
+<u type="ortho">
+<seg>c'est pas trop loin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T438" start="#T437" wh="spk2" xml:id="au550">
+<u type="ortho">
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T439" start="#T438" wh="spk1" xml:id="au551">
+<u type="ortho">
+<seg>tous les grands-parents sont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T440" start="#T439" wh="spk2" xml:id="au552">
+<link target="#au553"/>
+<u type="ortho">
+<anchor synch="#T439"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T440" start="#T439" wh="spk1" xml:id="au553">
+<link target="#au552"/>
+<u type="ortho">
+<anchor synch="#T439"/>
+<seg>à Paris </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T441" start="#T440" wh="spk2" xml:id="au554">
+<u type="ortho">
+<seg>ouais ouais euh donc euh non le week-end c'est on essaie de sortir donc quand on arrive à à ne pas avoir les avoir les enfants ça peut être faire un peu de shopping c'est-à-dire se refaire l'intérieur de la maison la garde-robe enfin tout ce qu'on faisait et qu'on fait plus et que quand on fait plus ça nous manque et donc on aime bien aussi tout ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T442" start="#T441" wh="spk1" xml:id="au555">
+<u type="ortho">
+<seg>et est-ce que les grands-parents vous aident pour garder les enfants par exemple ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T443" start="#T442" wh="spk2" xml:id="au556">
+<u type="ortho">
+<seg>alors dans la mesure de leurs possibilités c'est-à-dire je pense ça leur fait plaisir mais le problème de nos grands-parents c'est que ce sont des grands-parents actifs donc qui travaillent encore donc qui n'ont pas plus de temps que nous donc qui sont aussi fatigués le soir et qui ont aussi des choses à faire le week-end donc évidemment ils ont du temps mais euh c'est pas les grands-parents qui n'ont que ça à faire entre guillemets </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T444" start="#T443" wh="spk1" xml:id="au557">
+<u type="ortho">
+<seg>ah ouais ils ont tous un travail </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T445" start="#T444" wh="spk2" xml:id="au558">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T446" start="#T445" wh="spk1" xml:id="au559">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T447" start="#T446" wh="spk2" xml:id="au560">
+<u type="ortho">
+<seg>donc euh c'est vrai que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T448" start="#T447" wh="spk1" xml:id="au561">
+<link target="#au562"/>
+<u type="ortho">
+<anchor synch="#T447"/>
+<seg>ils ont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T448" start="#T447" wh="spk2" xml:id="au562">
+<link target="#au561"/>
+<u type="ortho">
+<anchor synch="#T447"/>
+<seg>le soir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T449" start="#T448" wh="spk2" xml:id="au563">
+<u type="ortho">
+<seg>ils arrivent de temps en temps à nous libérer une soirée euh le week-end à les prendre de temps en temps mais bon ils ont aussi des choses à faire </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T450" start="#T449" wh="spk1" xml:id="au564">
+<u type="ortho">
+<seg>ils ont quel(s) âge(s) à peu près ils ont ils </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T451" start="#T450" wh="spk2" xml:id="au565">
+<link target="#au566"/>
+<u type="ortho">
+<anchor synch="#T450"/>
+<seg>ils sont dans la soixantaine euh </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T451" start="#T450" wh="spk1" xml:id="au566">
+<link target="#au565"/>
+<u type="ortho">
+<anchor synch="#T450"/>
+<seg>sont jeunes encore ils sont ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T452" start="#T451" wh="spk2" xml:id="au567">
+<u type="ortho">
+<seg>ils sont un peu plus je pense qu'/ils, il y/ il y en a qui pourraient être à la retraite mais qui ont continué un petit peu il y en a qui sont pas encore tout à fait il y en a qui en libéral donc euh qui continuent à travailler donc euh je pense qu'ils vont encore continuer à travailler quelques années en fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T453" start="#T452" wh="spk1" xml:id="au568">
+<u type="ortho">
+<seg>mm mm d'accord donc vous avez recours à un bab- à une baby- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T454" start="#T453" wh="spk2" xml:id="au569">
+<link target="#au570"/>
+<u type="ortho">
+<anchor synch="#T453"/>
+<seg>on peut avoir ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T454" start="#T453" wh="spk1" xml:id="au570">
+<link target="#au569"/>
+<u type="ortho">
+<anchor synch="#T453"/>
+<seg>sitter plutôt </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T455" start="#T454" wh="spk2" xml:id="au571">
+<u type="ortho">
+<seg>ça nous arrive oui donc on a aussi euh les baby-sitters quand on (n') a pas les grands-parents en général on essaie d'abord les grands-parents et puis quand on peut pas c'est la baby-sitter ou quand on sent qu'ils sont un peu crevés </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T456" start="#T455" wh="spk1" xml:id="au572">
+<u type="ortho">
+<seg>et les frères et soeurs par exemple ou enfin c'est pas des frères et soeurs ou </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T457" start="#T456" wh="spk2" xml:id="au573">
+<u type="ortho">
+<seg>j'ai un frère qui est aussi dans le treizième </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T458" start="#T457" wh="spk1" xml:id="au574">
+<u type="ortho">
+<seg>qui est aussi dans le treizième </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T459" start="#T458" wh="spk2" xml:id="au575">
+<u type="ortho">
+<seg>euh qui qui a deux enfants et qui travaille aussi donc c'est un peu c'est un peu la même c'est un peu le même truc quoi donc c'est que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T460" start="#T459" wh="spk1" xml:id="au576">
+<link target="#au577"/>
+<u type="ortho">
+<anchor synch="#T459"/>
+<seg>tout le monde travaille ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T460" start="#T459" wh="spk2" xml:id="au577">
+<link target="#au576"/>
+<u type="ortho">
+<anchor synch="#T459"/>
+<seg>tout le monde bosse donc euh c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T461" start="#T460" wh="spk2" xml:id="au578">
+<u type="ortho">
+<seg>c'est on se voit surtout quand il y a des réunions de famille </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T462" start="#T461" wh="spk1" xml:id="au579">
+<u type="ortho">
+<seg>ouais d'accord ouais ouais c'est c'est surtout ça l'occasion </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T463" start="#T462" wh="spk2" xml:id="au580">
+<link target="#au581"/>
+<u type="ortho">
+<anchor synch="#T462"/>
+<seg>bah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T463" start="#T462" wh="spk1" xml:id="au581">
+<link target="#au580"/>
+<u type="ortho">
+<anchor synch="#T462"/>
+<seg>c'est pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T464" start="#T463" wh="spk1" xml:id="au582">
+<u type="ortho">
+<seg>d'accord et euh donc lo- lorsque donc tu m'as parlé du shopping des des parcs quoi c'est un petit peu est-ce que quand même toi tu pratiques un sport ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T465" start="#T464" wh="spk2" xml:id="au583">
+<link target="#au584"/>
+<u type="ortho">
+<anchor synch="#T464"/>
+<seg>et bien non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T465" start="#T464" wh="spk1" xml:id="au584">
+<link target="#au583"/>
+<u type="ortho">
+<anchor synch="#T464"/>
+<seg>parce que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T466" start="#T465" wh="spk1" xml:id="au585">
+<u type="ortho">
+<seg>non ça suffit </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T467" start="#T466" wh="spk2" xml:id="au586">
+<u type="ortho">
+<seg>non mais Maud s'y est mis il y a pas longtemps elle a commencé le tennis donc euh tout n'est pas perdu euh mm je enfin en ce qui me concerne le sport c'est je pense un manque de temps et sur le temps libre qui reste le manque de motivation pour ressortir le soir par exemple aller quelque part tout ça donc j'ai j'ai pas envie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T468" start="#T467" wh="spk1" xml:id="au587">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T469" start="#T468" wh="spk2" xml:id="au588">
+<u type="ortho">
+<seg>j'ai pas envie euh bon ben Maud cette année est plus motivée donc elle fait du tennis un soir par semaine euh mais j'ai j'ai eu fait du sport </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T470" start="#T469" wh="spk1" xml:id="au589">
+<u type="ortho">
+<seg>tu as eu fait du sport </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T471" start="#T470" wh="spk2" xml:id="au590">
+<u type="ortho">
+<seg>non j'ai oui j'ai j'en j'en ai fait à un moment je faisais du squash j'ai fait du tennis mais bon le tennis était en banlieue le squash c'était pas loin de la banlieue non plus je trouve que le sport à Paris c'est pas forcément hyper pratique non plus quoi j'ai fait aussi de la salle de sport /là, là/ c'est pas très agréable donc j'ai arrêté faut vraiment être motivé quoi pour aller faire ce genre de choses </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T472" start="#T471" wh="spk1" xml:id="au591">
+<u type="ortho">
+<seg>et Maud elle fait ça c'est dans le treizième ou c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T473" start="#T472" wh="spk2" xml:id="au592">
+<u type="ortho">
+<seg>euh je sais p- oui ça peut être encore le treizième ou c'est le cinquième c'est vers le jardin des Plantes donc c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T474" start="#T473" wh="spk1" xml:id="au593">
+<link target="#au594"/>
+<u type="ortho">
+<anchor synch="#T473"/>
+<seg>d'accord c'est pas c'est pas très loin non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T474" start="#T473" wh="spk2" xml:id="au594">
+<link target="#au593"/>
+<u type="ortho">
+<anchor synch="#T473"/>
+<seg>géographiquement c'est pas loin mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T475" start="#T474" wh="spk1" xml:id="au595">
+<u type="ortho">
+<seg>et les enfants est-ce qu'ils font des activités en d- en </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T476" start="#T475" wh="spk2" xml:id="au596">
+<link target="#au597"/>
+<u type="ortho">
+<anchor synch="#T475"/>
+<seg>les enfants </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T476" start="#T475" wh="spk1" xml:id="au597">
+<link target="#au596"/>
+<u type="ortho">
+<anchor synch="#T475"/>
+<seg>dehors de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T477" start="#T476" wh="spk2" xml:id="au598">
+<u type="ortho">
+<seg>ils en font des activités </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T478" start="#T477" wh="spk1" xml:id="au599">
+<u type="ortho">
+<seg>en dehors de l'école </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T479" start="#T478" wh="spk2" xml:id="au600">
+<u type="ortho">
+<seg>oui alors nous avons des activités sportives que sont le karaté et la capoeira </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T480" start="#T479" wh="spk1" xml:id="au601">
+<u type="ortho">
+<seg>et la </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T481" start="#T480" wh="spk2" xml:id="au602">
+<u type="ortho">
+<seg>capoeira c'est de la danse euh c'est entre la danse et l'art martial brésilien donc c'est ça qui est aussi intéressant à Paris c'est que tu as une offre assez moi je trouve sympa parce qu'il y a vraiment de tout quoi et c'est ce côté-là c'est moi j'apprécie beaucoup ça tu donc on a du sport donc c'est c'est vraiment dans le quartier hein la capoeira c'est à Daviel donc c'est en descendant dans la rue là-bas le karaté c'est en face dans un petit gymnase municipal euh on a batterie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T482" start="#T481" wh="spk1" xml:id="au603">
+<u type="ortho">
+<seg>la batterie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T483" start="#T482" wh="spk2" xml:id="au604">
+<u type="ortho">
+<seg>donc c'est une école de musique qui est Place d'Italie euh on avait guitare mais ça ça s'est arrêté parce que il voulait plus et et c'est tout </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T484" start="#T483" wh="spk1" xml:id="au605">
+<u type="ortho">
+<seg>donc il y en a comment ça s'est décidé les </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T485" start="#T484" wh="spk2" xml:id="au606">
+<link target="#au607"/>
+<u type="ortho">
+<anchor synch="#T484"/>
+<seg>activités </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T485" start="#T484" wh="spk1" xml:id="au607">
+<link target="#au606"/>
+<u type="ortho">
+<anchor synch="#T484"/>
+<seg>activités </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T486" start="#T485" wh="spk1" xml:id="au608">
+<u type="ortho">
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T487" start="#T486" wh="spk2" xml:id="au609">
+<u type="ortho">
+<seg>bah au début c'est surtout en fonction de l'âge c'est-à-dire quand ils sont petits à part l'initiation aux arts martiaux il y a pas grand choses et puis ça leur permet de se dépenser enfin c'est un peu physique quoi euh alors après ça plaît ou ça plaît pas le plus grand ça l- ça lui plaisait mais pas plus que ça donc il a voulu arrêté donc pendant un an il a fait du foot il a arrêté le foot et puis il s'est lancé dans la capoeira c'est un peu eux qui ont </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T488" start="#T487" wh="spk1" xml:id="au610">
+<link target="#au611"/>
+<u type="ortho">
+<anchor synch="#T487"/>
+<seg>et et heu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T488" start="#T487" wh="spk2" xml:id="au611">
+<link target="#au610"/>
+<u type="ortho">
+<anchor synch="#T487"/>
+<seg>choisi aussi quoi enfin bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T489" start="#T488" wh="spk1" xml:id="au612">
+<u type="ortho">
+<seg>c'est c'est là-bas qu'on qu'on lui proposait /c'est, ses, ces/ enfin je veux dire là où il avait fait </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T490" start="#T489" wh="spk2" xml:id="au613">
+<link target="#au614"/>
+<u type="ortho">
+<anchor synch="#T489"/>
+<seg>non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T490" start="#T489" wh="spk1" xml:id="au614">
+<link target="#au613"/>
+<u type="ortho">
+<anchor synch="#T489"/>
+<seg>auparavant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T491" start="#T490" wh="spk2" xml:id="au615">
+<u type="ortho">
+<seg>non non non bah en fait le on s'est quand même renseignés un peu sur </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T492" start="#T491" wh="spk1" xml:id="au616">
+<link target="#au617"/>
+<u type="ortho">
+<anchor synch="#T491"/>
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T492" start="#T491" wh="spk2" xml:id="au617">
+<link target="#au616"/>
+<u type="ortho">
+<anchor synch="#T491"/>
+<seg>toutes les </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T493" start="#T492" wh="spk2" xml:id="au618">
+<u type="ortho">
+<seg>activités qu'il y avait dans le quartier puis après il y a eu en fonction euh du tarif en fonction des horaires en fonction de ce que les enfants voulaient faire donc au final il a il reste pas tant que ça de choix parce que bah quand tu en as trois il faut jongler un petit peu avec tout ça et donc finalement bon bah après si vraiment ils veulent pas ils veulent pas mais au bout du compte sur le le le choix qu'il y a il en reste pas tant que ça quoi donc c'est quand même eux qui ont un petit peu choisi mais on les a quand même orientés en fonction de ce qu'on pouvait faire derrière </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T494" start="#T493" wh="spk1" xml:id="au619">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T495" start="#T494" wh="spk2" xml:id="au620">
+<u type="ortho">
+<seg>en terme de logistique </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T496" start="#T495" wh="spk1" xml:id="au621">
+<u type="ortho">
+<seg>en essayant sport et et musique </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T497" start="#T496" wh="spk2" xml:id="au622">
+<link target="#au623"/>
+<u type="ortho">
+<anchor synch="#T496"/>
+<seg>ouais bah sport </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T497" start="#T496" wh="spk1" xml:id="au623">
+<u type="ortho">
+<anchor synch="#T496"/>
+<seg/>
+</u>
+<link target="#au622"/>
+</annotatedU>
+<annotatedU end="#T498" start="#T497" wh="spk2" xml:id="au624">
+<u type="ortho">
+<seg>et musique ouais ouais sinon il y avait euh il y avait aussi euh plus un truc genre dessin poterie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T499" start="#T498" wh="spk1" xml:id="au625">
+<link target="#au626"/>
+<u type="ortho">
+<anchor synch="#T498"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T499" start="#T498" wh="spk2" xml:id="au626">
+<link target="#au625"/>
+<u type="ortho">
+<anchor synch="#T498"/>
+<seg>mais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T500" start="#T499" wh="spk2" xml:id="au627">
+<u type="ortho">
+<seg>ça s'est pas fait ça parce que juste les horaires c'était pas possible quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T501" start="#T500" wh="spk1" xml:id="au628">
+<u type="ortho">
+<seg>mm mm et ça c'est c'est en semaine ou c'est le week-end alors </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T502" start="#T501" wh="spk2" xml:id="au629">
+<u type="ortho">
+<seg>c'est en semaine tout </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T503" start="#T502" wh="spk1" xml:id="au630">
+<link target="#au631"/>
+<u type="ortho">
+<anchor synch="#T502"/>
+<seg>c'est en semaine </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T503" start="#T502" wh="spk2" xml:id="au631">
+<link target="#au630"/>
+<u type="ortho">
+<anchor synch="#T502"/>
+<seg>est en semaine </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T504" start="#T503" wh="spk2" xml:id="au632">
+<u type="ortho">
+<seg>parce qu'on essaie d'avoir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T505" start="#T504" wh="spk1" xml:id="au633">
+<link target="#au634"/>
+<u type="ortho">
+<anchor synch="#T504"/>
+<seg>d'accord mm </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T505" start="#T504" wh="spk2" xml:id="au634">
+<link target="#au633"/>
+<u type="ortho">
+<anchor synch="#T504"/>
+<seg>des week-end sans rien parce </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T506" start="#T505" wh="spk2" xml:id="au635">
+<u type="ortho">
+<seg>qu'on aime bien pouvoir justement partir en week-end et pas être scotchés à Paris parce qu'il y a les activités des enfants quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T507" start="#T506" wh="spk1" xml:id="au636">
+<link target="#au637"/>
+<u type="ortho">
+<anchor synch="#T506"/>
+<seg>donc plu- </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T507" start="#T506" wh="spk2" xml:id="au637">
+<link target="#au636"/>
+<u type="ortho">
+<anchor synch="#T506"/>
+<seg>donc tout est la semaine </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T508" start="#T507" wh="spk1" xml:id="au638">
+<u type="ortho">
+<seg>plutôt le mercredi ou le soir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T509" start="#T508" wh="spk2" xml:id="au639">
+<u type="ortho">
+<seg>il y en a le mercredi et le soir </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T510" start="#T509" wh="spk1" xml:id="au640">
+<link target="#au641"/>
+<u type="ortho">
+<anchor synch="#T509"/>
+<seg>d'accord ça semble réparti comme ça </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T510" start="#T509" wh="spk2" xml:id="au641">
+<link target="#au640"/>
+<u type="ortho">
+<anchor synch="#T509"/>
+<seg>c'est justement ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T511" start="#T510" wh="spk1" xml:id="au642">
+<u type="ortho">
+<seg>et lorsque tu te promènes ou ou comme ça est-ce que tu es sensible à la présence de d'animaux à Paris par exemple vous n'a- vous n'avez pas vous n'avez pas de </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T512" start="#T511" wh="spk2" xml:id="au643">
+<u type="ortho">
+<seg>d'animaux familiers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T513" start="#T512" wh="spk1" xml:id="au644">
+<link target="#au645"/>
+<u type="ortho">
+<anchor synch="#T512"/>
+<seg>d'animaux ou bien non </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T513" start="#T512" wh="spk2" xml:id="au645">
+<link target="#au644"/>
+<u type="ortho">
+<anchor synch="#T512"/>
+<seg>à la maison </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T514" start="#T513" wh="spk2" xml:id="au646">
+<u type="ortho">
+<seg>non je n'aime pas les animaux familiers personnellement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T515" start="#T514" wh="spk1" xml:id="au647">
+<u type="ortho">
+<seg>c'est un débat j'imagine </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T516" start="#T515" wh="spk2" xml:id="au648">
+<u type="ortho">
+<seg>non non mais moi je enfin moi je moi je je suis pas personnellement pour avoir des animaux familiers donc euh ça me dérange pas particulièrement chez les autres quoique quand je vois le nombre de crottes de chien sur les trottoirs des fois ça me gène un peu euh mais je suis pas excédé par ça quoi enfin c'est pas c'est pas une nuisance que je trouve par- plus particulièrement importante que les autres enfin c'est effectivement il y a des chiens à part les chiens euh dans la rue on rencontre quand même assez peu de d'autres animaux euh bon par contre Maud a peur des chiens et donc c'est vrai que dans l'immeuble on (n') apprécie pas les chiens ils sont pas bruyants mais ils sont là et notamment nous avons un pitbull au sixième étage et donc c'est un chien qui a quand même une assez mauvaise réputation et qui même s'il est très gentil a priori fait peur euh donc c'est ça peut être un problème </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T517" start="#T516" wh="spk1" xml:id="au649">
+<u type="ortho">
+<seg>il est pas toujours avec euh une muselière c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T518" start="#T517" wh="spk2" xml:id="au650">
+<link target="#au651"/>
+<u type="ortho">
+<anchor synch="#T517"/>
+<seg>il est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T518" start="#T517" wh="spk1" xml:id="au651">
+<link target="#au650"/>
+<u type="ortho">
+<anchor synch="#T517"/>
+<seg>ça aussi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T519" start="#T518" wh="spk2" xml:id="au652">
+<u type="ortho">
+<seg>extrêmement souvent avec une muselière avec un maître extrêmement poli mais ça reste quand même un pitbull à savoir que tu sais jamais s'il va pas te sauter dessus quoi et même s'il a une muselière je veux dire si par hasard il était pas en laisse je pense qu'il pourrait très largement bousculer un enfant </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T520" start="#T519" wh="spk1" xml:id="au653">
+<link target="#au654"/>
+<u type="ortho">
+<anchor synch="#T519"/>
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T520" start="#T519" wh="spk2" xml:id="au654">
+<link target="#au653"/>
+<u type="ortho">
+<anchor synch="#T519"/>
+<seg>et </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T521" start="#T520" wh="spk2" xml:id="au655">
+<u type="ortho">
+<seg>je passerai sur un épisode sanglant nous avons retrouvé un jour l'immeuble repeint de sang parce que je pense que il y a eu un problème avec le chien mais bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T522" start="#T521" wh="spk1" xml:id="au656">
+<u type="ortho">
+<seg>ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T523" start="#T522" wh="spk2" xml:id="au657">
+<u type="ortho">
+<seg>oui mais je pense que c'était sciemment qu'il a mordu je pense que il y a eu un problème entre le maître et une personne et que il lui a lancé le chien dessus quoi mais ce ne sont que des suppositions mais ceci dit ça ne renforce pas la confiance que tu peux avoir dans cette petite bête qui se promène de temps en temps dans l'immeuble </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T524" start="#T523" wh="spk1" xml:id="au658">
+<u type="ortho">
+<seg>d'accord </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T525" start="#T524" wh="spk2" xml:id="au659">
+<u type="ortho">
+<seg>bon après tu as d'autres petits chiens mais bon voilà quoi enfin bon c'est pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T526" start="#T525" wh="spk1" xml:id="au660">
+<link target="#au661"/>
+<u type="ortho">
+<anchor synch="#T525"/>
+<seg>ouais ouais c'est pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T526" start="#T525" wh="spk2" xml:id="au661">
+<link target="#au660"/>
+<u type="ortho">
+<anchor synch="#T525"/>
+<seg>moi personnellement </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T527" start="#T526" wh="spk2" xml:id="au662">
+<u type="ortho">
+<seg>ça me gêne pas trop je sais /qu', 0/ Maud et que d'autres gens aiment pas trop ça bon c'est vrai que les déjections canines c'est pas forcément un plaisir quand il y en a trop </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T528" start="#T527" wh="spk1" xml:id="au663">
+<u type="ortho">
+<seg>et dans la maison non les enfants n'ont pas demandé mm </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T529" start="#T528" wh="spk2" xml:id="au664">
+<u type="ortho">
+<seg>oh je pense qu'ils </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T530" start="#T529" wh="spk1" xml:id="au665">
+<u type="ortho">
+<anchor synch="#T529"/>
+<seg/>
+</u>
+<link target="#au666"/>
+</annotatedU>
+<annotatedU end="#T530" start="#T529" wh="spk2" xml:id="au666">
+<link target="#au665"/>
+<u type="ortho">
+<anchor synch="#T529"/>
+<seg>ont dû </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T531" start="#T530" wh="spk2" xml:id="au667">
+<u type="ortho">
+<seg>demandé une fois mais comme ça a été net et précis et et ferme euh pour l'instant on (n') a eu droit qu'aux poissons rouges et quand ils sont morts ça a été une grande libération parce que faut s'en occuper quoi et puis si ouais voilà quoi donc pas d'animaux familiers </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T532" start="#T531" wh="spk1" xml:id="au668">
+<u type="ortho">
+<seg>et tu m'as parlé aussi des des spectacles où vous alliez de temps en </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T533" start="#T532" wh="spk2" xml:id="au669">
+<link target="#au670"/>
+<u type="ortho">
+<anchor synch="#T532"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T533" start="#T532" wh="spk1" xml:id="au670">
+<link target="#au669"/>
+<u type="ortho">
+<anchor synch="#T532"/>
+<seg>temps </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T534" start="#T533" wh="spk1" xml:id="au671">
+<u type="ortho">
+<seg>est-ce que est-ce que tu est-ce que tu essaies de te renseigner sur euh sur euh ce que propose le quartier ou le </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T535" start="#T534" wh="spk2" xml:id="au672">
+<link target="#au673"/>
+<u type="ortho">
+<anchor synch="#T534"/>
+<seg>heu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T535" start="#T534" wh="spk1" xml:id="au673">
+<link target="#au672"/>
+<u type="ortho">
+<anchor synch="#T534"/>
+<seg>par un journal par un </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T536" start="#T535" wh="spk2" xml:id="au674">
+<u type="ortho">
+<seg>bah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T537" start="#T536" wh="spk1" xml:id="au675">
+<link target="#au676"/>
+<u type="ortho">
+<anchor synch="#T536"/>
+<seg>ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T537" start="#T536" wh="spk2" xml:id="au676">
+<link target="#au675"/>
+<u type="ortho">
+<anchor synch="#T536"/>
+<seg>c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T538" start="#T537" wh="spk2" xml:id="au677">
+<u type="ortho">
+<seg>d'abord c'est toujours plus facile d'aller dans le quartier donc je pense qu'il y a quand même beaucoup le bouche à oreille qui qui qui joue entre entre parents dans les écoles les crèches etcetera euh on regarde de temps en temps le site de la mairie le site web où il y a des des informations il y a un agenda tout ça on reçoit aussi un magazine de la mairie je pense </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T539" start="#T538" wh="spk1" xml:id="au678">
+<link target="#au679"/>
+<u type="ortho">
+<anchor synch="#T538"/>
+<seg>ouais ouais </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T539" start="#T538" wh="spk2" xml:id="au679">
+<link target="#au678"/>
+<u type="ortho">
+<anchor synch="#T538"/>
+<seg>ou heu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T540" start="#T539" wh="spk2" xml:id="au680">
+<u type="ortho">
+<seg>ou il y a des infos mais je p- je pense quand même que ce qui marche le mieux c'est le bouche à oreille et euh dans le treizième notamment on a on a la Cachette là qui a bah un petit théâtre pour les petits donc qui est qui est qui est sympa parce que les enfants quand i- quand ils sont tous petits tu as enfin tu as pas forcément des spectacles et quand il pleut des fois c'est sympa de les amener en spectacle donc euh c'est vrai qu'on va plus facilement dans le quartier quand même euh pour des petits spectacles quoi tout ce qui est théâtre pour enfants ce genre de choses quoi et sinon pour les plus grosses productions tu as pas trop le choix quoi enfin ça je pense que c'est la pub que tu peux voir à droite à gauche et et voilà </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T541" start="#T540" wh="spk1" xml:id="au681">
+<u type="ortho">
+<seg>mm mm sinon tu tu te tu essaies de te tenir in- informé sur le quartier sur euh par enfin comme tu m'as dit par le bulletin municipal ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T542" start="#T541" wh="spk2" xml:id="au682">
+<u type="ortho">
+<seg>ouais ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T543" start="#T542" wh="spk1" xml:id="au683">
+<u type="ortho">
+<seg>ça t'intéresse je veux dire ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T544" start="#T543" wh="spk2" xml:id="au684">
+<link target="#au685"/>
+<u type="ortho">
+<anchor synch="#T543"/>
+<seg>bah oui on essaie </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T544" start="#T543" wh="spk1" xml:id="au685">
+<link target="#au684"/>
+<u type="ortho">
+<anchor synch="#T543"/>
+<seg>tu regardes ou tu regardes pas </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T545" start="#T544" wh="spk2" xml:id="au686">
+<u type="ortho">
+<seg>de regarder après il y a une question de temps et de priorités parce que on a les crèches parentales aussi qui prend du temps machin </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T546" start="#T545" wh="spk1" xml:id="au687">
+<link target="#au688"/>
+<u type="ortho">
+<anchor synch="#T545"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T546" start="#T545" wh="spk2" xml:id="au688">
+<link target="#au687"/>
+<u type="ortho">
+<anchor synch="#T545"/>
+<seg>etcetera </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T547" start="#T546" wh="spk2" xml:id="au689">
+<u type="ortho">
+<seg>mais c'est vrai que suite aux problèmes qu'il y a eu au jardin d'enfants qu'ils voulaient fermer à un moment donné </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T548" start="#T547" wh="spk1" xml:id="au690">
+<link target="#au691"/>
+<u type="ortho">
+<anchor synch="#T547"/>
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T548" start="#T547" wh="spk2" xml:id="au691">
+<link target="#au690"/>
+<u type="ortho">
+<anchor synch="#T547"/>
+<seg>heu </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T549" start="#T548" wh="spk1" xml:id="au692">
+<u type="ortho">
+<seg>celui de la rue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T550" start="#T549" wh="spk2" xml:id="au693">
+<link target="#au694"/>
+<u type="ortho">
+<anchor synch="#T549"/>
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T550" start="#T549" wh="spk1" xml:id="au694">
+<link target="#au693"/>
+<u type="ortho">
+<anchor synch="#T549"/>
+<seg>Pinel </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T551" start="#T550" wh="spk2" xml:id="au695">
+<u type="ortho">
+<seg>ouais enfin qu'ils voulaient fermer ça a jamais été très clair mais bon on s'est rendus compte que en fait il existait plein de choses au niveau de la mairie les conseils de quartier(s) les conseils d'arrondissement(s) ce genre de chose(s) que pour certains travaux restructurations de machins il y avait des des projets que tu pouvais aller v- aller voir à la mairie etcetera donc c'est vrai /que, 0/ quand on a le temps on y va je dis pas qu'on y va souvent mais euh euh quand il y a eu pour ces problèmes-là pour les jardins d'enfants c'est que c'était une période où on essayait d'y aller un peu pour ce qu'ils allaient faire du quartier de certaines choses on a p- on a été à certaines réunions on a été voir on a été écouter euh René Le Gall ils voulaient faire pas mal de de de travaux aussi donc c'est le truc qu'on a regardé pas pas à fond mais c'est vrai qu'on s'est un peu renseignés on a regardé parce qu'ils avaient fait beaucoup de communication là-dessus aussi donc on a lu ce genre de choses ça nous intéresse parce que c'est quand même la vie du quartier aussi quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T552" start="#T551" wh="spk1" xml:id="au696">
+<u type="ortho">
+<seg>bien sûr </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T553" start="#T552" wh="spk2" xml:id="au697">
+<u type="ortho">
+<seg>donc euh et puis parce que il est jamais trop tard pour se mobiliser si jamais on touche à quelque chose qu'on pense qu'il faudrait pas qu'on y touche donc il y a c'est en parlant de changements c'est vrai que il y a eu quand même pas mal de nouveaux immeubles construits maintenant que </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T554" start="#T553" wh="spk1" xml:id="au698">
+<u type="ortho">
+<seg>ah </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T555" start="#T554" wh="spk2" xml:id="au699">
+<u type="ortho">
+<seg>j'y pense il y avait un grand garage Citroën et un grand garage Peugeot qui ont été détruits et sur lequel ils ont fait des immeubles modernes </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T556" start="#T555" wh="spk1" xml:id="au700">
+<u type="ortho">
+<seg>euh enfin sur </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T557" start="#T556" wh="spk2" xml:id="au701">
+<u type="ortho">
+<anchor synch="#T556"/>
+<seg/>
+</u>
+<link target="#au702"/>
+</annotatedU>
+<annotatedU end="#T557" start="#T556" wh="spk1" xml:id="au702">
+<link target="#au701"/>
+<u type="ortho">
+<anchor synch="#T556"/>
+<seg>la rue </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T558" start="#T557" wh="spk1" xml:id="au703">
+<u type="ortho">
+<seg>Butte aux Cailles là c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T559" start="#T558" wh="spk2" xml:id="au704">
+<link target="#au705"/>
+<u type="ortho">
+<anchor synch="#T558"/>
+<seg>pas la Butte aux Cailles </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T559" start="#T558" wh="spk1" xml:id="au705">
+<link target="#au704"/>
+<u type="ortho">
+<anchor synch="#T558"/>
+<seg>ça ou </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T560" start="#T559" wh="spk2" xml:id="au706">
+<u type="ortho">
+<seg>tu en avais un plus vers le boulevard Arago euh qui était vers la rue des Gobelins et je sais qu'à un moment donné les gens se sont mobilisés parce que le garage c'était un peu il était là depuis très longtemps et puis c'était un vieux bâtiment machin etcetera pas très joli mais vieux bâtiment de toute façon à chaque fois qu'il y a quelque chose il y a des gens qui sont plus ou moins contents il y a des gens qui ont qui qui tiennent à garder leur quartier comme il était bref euh donc ça s'est quand même quand même construit malgré le manque de place mais bah non il y a pas eu non plus grands changements mais c'est vrai que bon euh quand tu discutes avec les gens de la Butte aux Cailles les vieux les vieux ceux qui ont les petites maisons là </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T561" start="#T560" wh="spk1" xml:id="au707">
+<u type="ortho">
+<seg>ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T562" start="#T561" wh="spk2" xml:id="au708">
+<u type="ortho">
+<seg>te racontent il y a bah quarante cinquante ans quand ils ont acheté leur maison qu'ils ouvraient leurs volets et qu'il y avait pas cette grande barre d'immeubles-là </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T563" start="#T562" wh="spk1" xml:id="au709">
+<u type="ortho">
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T564" start="#T563" wh="spk2" xml:id="au710">
+<u type="ortho">
+<seg>bah qu'ils voyaient tout Paris et qu'ils voyaient la tour Eiffel quoi </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T565" start="#T564" wh="spk1" xml:id="au711">
+<u type="ortho">
+<seg>ah ouais </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T566" start="#T565" wh="spk2" xml:id="au712">
+<u type="ortho">
+<seg>et puis un jour ils ont vu ce ce gros morceau de béton devant chez eux </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T567" start="#T566" wh="spk1" xml:id="au713">
+<u type="ortho">
+<seg>ah oui </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T568" start="#T567" wh="spk2" xml:id="au714">
+<u type="ortho">
+<seg>donc euh bon c'est vrai qu'on est on reste quand même vigilants à ce qui se fait parce qu'on (n') a pas non plus envie de enfin d'avoir des trucs dans tout le quartier qui pourraient dégrader la la qualité de vie quoi par exemple s'ils voulaient fermer la piscine de la Butte aux Cailles je pense que je me mob- mobiliserais peut-être pour dire que cette piscine elle est pas mal mais bon enfin bon </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T569" start="#T568" wh="spk1" xml:id="au715">
+<u type="ortho">
+<seg>pareil pour le jardin d'enfants </seg>
+</u>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+<annotatedU end="#T570" start="#T569" wh="spk1" xml:id="au716">
+<u type="ortho">
+<seg>pareil pour le jardin d'enfants et pareil enfin bon je crois qu'ils sont pas trop dans enfin pour l'instant la p- la politique de la ville c'est plutôt développer les espaces verts limiter les tours et ce genre de choses donc c'est c'est p- c'est je suis pas trop inquiet pour l'instant les les changements ça a été plutôt été dans le bon sens mais bon c'est vrai qu'on on reste toujours /une, 0/ petite(s) oreille(s) qui traîne(nt) quand même de toute façon dans les quartiers ça va vite hein après les les gens en parlent c'est </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T571" start="#T570" wh="spk1" xml:id="au717">
+<u type="ortho">
+<seg>l'in- l'information circule </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T572" start="#T571" wh="spk2" xml:id="au718">
+<u type="ortho">
+<seg>ouais oui je pense </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T573" start="#T572" wh="spk1" xml:id="au719">
+<u type="ortho">
+<seg>bon ben voilà j'ai fini mon tour de questions </seg>
+</u>
+</annotatedU>
+<annotatedU end="#T574" start="#T573" wh="spk2" xml:id="au720">
+<u type="ortho"/>
+<spanGrp>
+<span type="com">suite de syllabes incompréhensibles</span>
+</spanGrp>
+</annotatedU>
+</div>
+</text>
+</TEI>
