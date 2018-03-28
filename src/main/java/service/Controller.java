@@ -194,11 +194,11 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
-    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords;so;wiki") String resources) throws IOException {
-        Resources res=new Resources();
-        if(currentMeetings.containsKey(id)){
+    public String getCurrentResources(@RequestParam(value = "id") String id, @RequestParam(value = "resources", defaultValue = "keywords;so;wiki") String resources) throws IOException {
+        Resources res = new Resources();
+        if (currentMeetings.containsKey(id)) {
             Meeting meeting = currentMeetings.get(id);
-            if(resources.contains("email")){
+            if (resources.contains("email")) {
                 try {
                     EmailService email = new EmailService();
                     email.setQueries(meeting.getLatestQueries());
@@ -209,27 +209,21 @@ public class Controller {
                     e.printStackTrace();
                 }
             }
-            if(resources.contains("so")) {
+            if (resources.contains("so")) {
                 try {
                     GoogleService so = new GoogleService("so");
-                    so.setText(meeting.getLatestEntriesText());
-                    so.setQueries(meeting.getLatestQueries());
-                    so.setLanguage(meeting.getLanguage());
-                    List<GoogleResource> soQuestions = so.getGoogleRecommendations();
-                    res.setSoarticles(soQuestions);
+                    so.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
+                    res.setSoarticles(so.getGoogleRecommendations());
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from SO");
                     e.printStackTrace();
                 }
             }
-            if(resources.contains("wiki")) {
+            if (resources.contains("wiki")) {
                 try {
-                    GoogleService wikis = new GoogleService("wikien");
-                    //WikipediaService wikis= new WikipediaService();
-                    wikis.setQueries(meeting.getLatestQueries());
-                    //List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
-                    List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
-                    res.setWikiarticles(WikipediaArticles);
+                    GoogleService wikis = new GoogleService("wiki");
+                    wikis.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
+                    res.setWikiarticles(wikis.getGoogleRecommendations());
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from wiki");
                     e.printStackTrace();
@@ -239,7 +233,7 @@ public class Controller {
                 res.setKeywords(meeting.getLatestKeywords());
             }
         }
-        return new Gson().toJson(res,Resources.class);
+        return new Gson().toJson(res, Resources.class);
     }
 
     /**
@@ -264,13 +258,8 @@ public class Controller {
 
     @Scheduled(fixedRate = 2000)
     public void reportCurrentTime() {
-        currentMeetings.forEach((k, v) -> {
-            v.updateKeywords();
-            //System.out.println(k+" "+v.getEntries().size());
-
-        });
-        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("The time is now {}" + dateFormat.format(new Date()));
+        currentMeetings.forEach((k, v) -> v.updateKeywords());
+        System.out.printf("The time is now {%s} %n", new SimpleDateFormat("HH:mm:ss").format(new Date()));
     }
 
     /**
@@ -283,7 +272,7 @@ public class Controller {
     @RequestMapping(value = "/pad", method = RequestMethod.POST)
     public void postPad(@RequestParam(value = "id") String id, @RequestParam(value = "words[]") String[] text) {
         id = "ge"; // TODO remove after testing
-        if( currentMeetings.containsKey(id)){
+        if (currentMeetings.containsKey(id)) {
             currentMeetings.get(id).addPad(text);
             System.out.println("Text [" + Arrays.toString(text) + "] was received from Cryptpad");
         }

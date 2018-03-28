@@ -37,8 +37,8 @@ public class WikipediaService extends resourceService {
     //TODO fix or Remove
     public  List<Wikipedia> getWikipediaArticles(){
         List<Wikipedia> items=new ArrayList<Wikipedia>();
-        Collections.shuffle(this.queries);
-        for (String key : this.queries) {
+        Collections.shuffle(getQueries());
+        for (String key : getQueries()) {
             //String query = getWikipediaServiceQuery(key);
             String query="";
             String response = callWIKIAPI(query);
@@ -65,7 +65,7 @@ public class WikipediaService extends resourceService {
     private  String getWikipediaServiceQuery() {
         String q = "";
         String tags = "";
-        for (String key : this.queries) {
+        for (String key : getQueries()) {
             String s = key.toString();
             tags += s + "%20";
         }

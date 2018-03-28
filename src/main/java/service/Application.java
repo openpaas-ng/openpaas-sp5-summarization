@@ -20,15 +20,10 @@ import java.util.Properties;
 @SpringBootApplication
 @EnableScheduling
 public class Application {
-    public static List<String> fillerWordsFrench;
-    public static List<String> fillerWordsEnglish;
-    public static List<String> stopWordsFrench;
-    public static List<String> stopWordsFrench2;
-    public static List<String> stopWordsEnglish;
-    public static StanfordCoreNLP frenchPOSpipeline;
-    public static StanfordCoreNLP enPOSpipeline;
-    public static WordVectors enWordVectors;
-    public static WordVectors frWordVectors;
+    public static List<String> fillerWordsEnglish, fillerWordsFrench;
+    public static List<String> stopWordsEnglish, stopWordsFrench, stopWordsFrench2;
+    public static StanfordCoreNLP enPOSpipeline, frenchPOSpipeline;
+    public static WordEmbeddingsService wordEmbeddings;
 
     public static void main(String[] args) throws IOException {
         Settings.init();
@@ -37,56 +32,60 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    public static void loadResources() {
+    private static void loadResources() {
         //Properties props = PropertiesUtils.asProperties("props", "StanfordCoreNLP-french.properties");
-        Properties frenchProps = StringUtils.argsToProperties(
-                new String[]{"-props", "StanfordCoreNLP-french.properties"});
-        frenchProps.setProperty("annotators","tokenize, ssplit, pos");
+        Properties frenchProps = StringUtils.argsToProperties("-props", "StanfordCoreNLP-french.properties");
+        frenchProps.setProperty("annotators", "tokenize, ssplit, pos");
 
         frenchPOSpipeline = new StanfordCoreNLP(frenchProps);
 
 
         Properties enProps = new Properties();
-        enProps.setProperty("annotators","tokenize, ssplit, pos");
-
+        enProps.setProperty("annotators", "tokenize, ssplit, pos");
         enPOSpipeline = new StanfordCoreNLP(enProps);
-        try {
-             enWordVectors = WordVectorSerializer.loadTxtVectors(new File("local_directory/resources//embeddings/glove.6B.50d.txt"));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
 
+        fillerWordsEnglish = null;
         fillerWordsFrench = null;
+        stopWordsFrench = null;
+        stopWordsFrench2 = null;
+        stopWordsEnglish = null;
+
+        ///////////////////////////// Make it abstract
         try {
             fillerWordsFrench = Files.readAllLines(Paths.get("local_directory/resources/filler_words_french.txt"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        fillerWordsEnglish = null;
         try {
             fillerWordsEnglish = Files.readAllLines(Paths.get("local_directory/resources/filler_words.csv"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        stopWordsFrench = null;
         try {
             stopWordsFrench = Files.readAllLines(Paths.get("local_directory/resources/custom_stopwords_full_french.txt"));
+            stopWordsFrench2 = Files.readAllLines(Paths.get("local_directory/resources/stopwords_french.txt"));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        stopWordsEnglish = null;
         try {
             stopWordsEnglish = Files.readAllLines(Paths.get("local_directory/resources/custom_stopwords_full.csv"));
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        wordEmbeddings = new LocalEmbeddings();
         try {
-            stopWordsFrench2 = Files.readAllLines(Paths.get("local_directory/resources/stopwords_french.txt"));
+//            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadGoogleModel(new File("/media/cxypolop/Files/GoogleNews-vectors-negative300.bin"), true));
+            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadTxtVectors(new File("/media/cxypolop/Files/glove.6B.50d.txt")));
         } catch (IOException e) {
             e.printStackTrace();
         }
+//        try {
+//            wordEmbeddings.addEmbeddings("fr", WordVectorSerializer.loadTxtVectors(new File("/media/cxypolop/Files/wiki.fr/wiki.fr.vec")));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
+        ///////////////////
     }
 }

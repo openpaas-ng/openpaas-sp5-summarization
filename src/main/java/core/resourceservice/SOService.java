@@ -42,7 +42,7 @@ public class SOService extends resourceService {
     //TODO fix or Remove
     private  String getStackOverflowServiceQuery() {
         String tags = "";
-        for (String key : this.queries) {
+        for (String key : getQueries()) {
             String s = key;
            tags += s + ";";
         }

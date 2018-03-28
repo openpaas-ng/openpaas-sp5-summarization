@@ -21,25 +21,29 @@ public class TextPreProcess {
     private final Set<String> supportedLanguages = new HashSet<>(Arrays.asList("en", "fr"));
 
     public TextPreProcess(String text, String language) {
-        if (language.equalsIgnoreCase("none")) {
-            String lang = new LanguageIdentifier(text).getLanguage();
+        this.text = text;
+        if(!supportedLanguages.contains(language)){
+            String lang = new LanguageIdentifier(text).getLanguage().toLowerCase();
             System.out.println("Detected language: " + lang);
             if (supportedLanguages.contains(lang)) {
-                language = lang;
+                this.language = lang;
+                process();
+            } else {
+                this.language = "fr";
+                process();
+                this.language = language;
             }
-        }
-        this.text = text;
-        this.language = language;
-        if(!language.equalsIgnoreCase("none")) {
+        } else {
+            this.language = language;
             process();
         }
     }
 
     private void process() {
         String cleanText = "";
-        Annotation annotation = new Annotation(text); // Remove punctuation? text.replaceAll("[^A-Za-z0-9]", " ")
-        List<List<String>> stopwords = null;
-        SnowballProgram stemmer = null;
+        Annotation annotation = new Annotation(text);
+        List<List<String>> stopwords;
+        SnowballProgram stemmer;
         switch (language) {
             case "en":
                 Application.enPOSpipeline.annotate(annotation);
@@ -60,10 +64,7 @@ public class TextPreProcess {
             return;
         }
         for (CoreMap sentence : sentences) {
-            int index = -1;
-            int max_index = sentence.get(CoreAnnotations.TokensAnnotation.class).size();
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-                index++;
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 if (isStopword(word, stopwords)) {
                     continue;
@@ -79,25 +80,9 @@ public class TextPreProcess {
                 if (!pos.startsWith("V") && pos.startsWith("N")) {
                     cleanText += word + " ";
                 }
-
-                //if ((index + 1 < max_index) && (pos.startsWith("N") || pos.startsWith("JJ"))) {
-                //   CoreLabel next_token = sentence.get(CoreAnnotations.TokensAnnotation.class).get(index + 1);
-                    //String next_pos = next_token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-                    //if (!(pos.startsWith("JJ") && next_pos.startsWith("JJ")) && (next_pos.startsWith("N") || next_pos.startsWith("JJ"))) {
-                    //    String next_word = next_token.get(CoreAnnotations.TextAnnotation.class);
-                    //   if (isStopword(next_word, stopwords)) {
-                    //        continue;
-                    //    }
-                    //    stemmer.setCurrent(next_word);
-//                  //      stemmer.stem();
-                    //    next_word = stemmer.getCurrent();
-                    //    String prefix = pos.startsWith("JJ") ? cleanText + word : StringUtils.chop(cleanText);
-                    //    cleanText = prefix + "_" + next_word + " ";
-                    //}
-                //}
             }
         }
-        this.text = cleanText;
+        this.text = cleanText.trim();
     }
 
     private boolean isStopword(String word, List<List<String>> stopwords) {
@@ -112,9 +97,8 @@ public class TextPreProcess {
         return false;
     }
 
-    public HashSet getVocabulary(){
-        HashSet words = new HashSet(Arrays.asList(this.text.split("\\s+|_")));
-        return words;
+    public Set<String> getVocabulary(){
+        return new HashSet<>(Arrays.asList(this.text.split("\\s+|_")));
     }
 
     public String getText() {

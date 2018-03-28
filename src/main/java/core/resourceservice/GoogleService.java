@@ -20,6 +20,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by midas on 20/3/2017.
@@ -33,33 +34,52 @@ public class GoogleService extends resourceService {
     }
 
     public List<GoogleResource> getGoogleRecommendations() throws IOException, URISyntaxException {
-       String key=null;
-       String cx=null;
+        String key = null;
+        String cx = null;
         switch (type.toLowerCase()) {
-            case "wikifr":
-                key= Settings.WIKIFRKEY;
-                cx= Settings.WIKIFRCX;
-                break;
-            case "wikien":
-                key= Settings.WIKIENKEY;
-                cx= Settings.WIKIENCX;
+            case "wiki":
+                if(getLanguage().equalsIgnoreCase("EN")){
+                    key = Settings.WIKIENKEY;
+                    cx = Settings.WIKIENCX;
+                } else {
+                    key = Settings.WIKIFRKEY;
+                    cx = Settings.WIKIFRCX;
+                }
                 break;
             case "so":
-                key= Settings.SOKEY;
-                cx= Settings.SOCX;
+                if(getLanguage().equalsIgnoreCase("EN")) {
+                    key = Settings.SOKEY_ALL;
+                    cx = Settings.SOENCX;
+                } else {
+                    key = Settings.SOKEY_ALL;
+                    cx = Settings.SOFRCX;
+                }
                 break;
             default:
-                key= Settings.WIKIFRKEY;
-                cx= Settings.WIKIFRCX;
+                key = Settings.SOKEY_ALL;
+                cx = Settings.SOFRCX;
                 break;
         }
 
         List<String> queries = getGoogleServiceQueries();
-        List<GoogleResource> results = new ArrayList();
-        for(String query:queries) {
+        ArrayList results = new ArrayList();
+        int queryNumber = 10;
+        switch (queries.size()){
+            case 3:
+                queryNumber = 3;
+                break;
+            case 2:
+                queryNumber = 5;
+                break;
+            default:
+                queryNumber = 10;
+        }
+        for (String query : queries) {
+//            if(1==1){
+//                return results;
+//            }
             URL url = new URL(
-                    "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx + "&q=" + query + "&alt=json&num=10&queriefields=queries(request(totalResults))");
-
+                    "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx + "&q=" + query + "&alt=json&num=" + queryNumber + "&queriefields=queries(request(totalResults))");
             String output = fetch(url);
             JsonParser parser = new JsonParser();
             JsonObject o = parser.parse(output).getAsJsonObject();
@@ -91,20 +111,30 @@ public class GoogleService extends resourceService {
         return output;
     }
 
-    private  List<String> getGoogleServiceQueries() throws UnsupportedEncodingException {
-        List<String> result=new ArrayList<String>();
-        for(String query:this.queries) {
-            String tags = query;
-            QueryExpander qe = new BabelExpander();
+    private List<String> getGoogleServiceQueries() throws UnsupportedEncodingException {
+        List<String> result = new ArrayList<>();
+        List<String> queries = this.getQueries();
+
+        System.out.println("Queries in Google Service: " + queries);
+
+        QueryExpander qe = new BabelExpander(getText(), getLanguage());
+        for (String query : queries) {
+            String remove_it_after_testing = query;
+
+            query = qe.expand(getText(), Arrays.asList(query.split(" ")), getLanguage());
+
             System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-            String remove_it_after_testing = tags;
-            tags = qe.expand(this.getText(), new ArrayList<>(Arrays.asList(query.split(" "))), this.getLanguage());
-            System.out.println("Previous tags: " + remove_it_after_testing);
-            System.out.println("New tags: " + tags);
+            System.out.println("Words generated through GoW and Clustering: " + remove_it_after_testing);
+            System.out.println("Words filtered through the Disambiguation API:  " + query);
             System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-            //tags=tags.substring(0,tags.length()-4);
-            tags = URLEncoder.encode(tags, "UTF-8");
-            result.add(tags);
+
+            result.add(URLEncoder.encode(query, "UTF-8"));
+        }
+
+        qe.expandQueries(getText(), queries, getLanguage());
+
+        if(result.isEmpty()){
+            result.add(URLEncoder.encode(queries.get(0), "UTF-8"));
         }
         return result;
     }

@@ -4,15 +4,12 @@ import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
-import org.deeplearning4j.clustering.cluster.Cluster;
-import org.deeplearning4j.clustering.cluster.ClusterSet;
-import org.deeplearning4j.clustering.cluster.Point;
-import org.deeplearning4j.clustering.kmeans.KMeansClustering;
+import core.queryexpansion.Clustering;
 import org.jgrapht.WeightedGraph;
-import service.Application;
 import service.Settings;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by midas on 11/23/2016.
@@ -20,52 +17,13 @@ import java.util.*;
 public class Transcript {
     private List<TranscriptEntry> entries;
     //TODO check concurrency status of this map
-    private HashMap<String, Double> latestKeywords;
+    private Map<String, Double> latestKeywords;
     private List<String> latestQueries;
     private Double lastEntryTime;
     private String language;
-    private Integer minClusterSize=4;
-    private Integer maxClusters=3;
-    private Integer minQuerySize=3;
 
-    public void setLatestKeywords(HashMap<String, Double> latestKeywords) {
-        this.latestKeywords = latestKeywords;
-    }
-
-    public List<String> getLatestQueries() {
-        return latestQueries;
-    }
-
-    public void setLatestQueries(List<String> latestQueries) {
-        this.latestQueries = latestQueries;
-    }
-
-    public Double getLastEntryTime() {
-        return lastEntryTime;
-    }
-
-    public void setLastEntryTime(Double lastEntryTime) {
-        this.lastEntryTime = lastEntryTime;
-    }
-
-    public void setLanguage(String language) {
-        this.language = language;
-    }
-
-    public Integer getMinClusterSize() {
-        return minClusterSize;
-    }
-
-    public void setMinClusterSize(Integer minClusterSize) {
-        this.minClusterSize = minClusterSize;
-    }
-
-    public Integer getMaxClusters() {
-        return maxClusters;
-    }
-
-    public void setMaxClusters(Integer maxClusters) {
-        this.maxClusters = maxClusters;
+    public Transcript() {
+        this(new ArrayList<>());
     }
 
     public Transcript(List<TranscriptEntry> entries) {
@@ -75,50 +33,19 @@ public class Transcript {
         language = "none";
     }
 
-    public Transcript() {
-        this(new ArrayList<>());
-    }
-
-    public void add(TranscriptEntry e) {
-        this.entries.add(e);
-    }
-
-    public List<TranscriptEntry> getEntries() {
-        return entries;
-    }
-
-    public void setEntries(List<TranscriptEntry> entries) {
-        this.entries = entries;
-    }
-
-    @Override
-    public String toString() {
-        String out = "";
-        for (TranscriptEntry e : entries) {
-            out += e.toString();
-        }
-        return out;
-    }
-
-    public List<Keyword> getLatestKeywords() {
-        List<Keyword> l = new ArrayList<>();
-        for (String k : latestKeywords.keySet()) {
-            if (k.length() > 1)
-                l.add(new Keyword(k, latestKeywords.get(k).toString()));
-        }
-
-        return l;
-    }
-
     public void updateKeywords(List<String> padWords) {
         String text = getLatestEntriesText();
-        if (text.length() == 0)
+        if (text.length() == 0) {
             return;
+        }
         TextPreProcess tpp = new TextPreProcess(text, this.language);
         if (this.language.equalsIgnoreCase("none")) {
             this.language = tpp.getLanguage();
         }
         String cleanText = tpp.getText();
+        if (cleanText.length() == 0) {
+            return;
+        }
         GraphOfWords gow = new GraphOfWords(cleanText);
         WeightedGraph graph = gow.getGraph();
         WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 1, 0);
@@ -126,92 +53,36 @@ public class Transcript {
         Map<String, Double> map = decomposer.coreRankNumbers();
 
         Set<String> uniquePad = new HashSet<>(padWords);
-        uniquePad.addAll(permutations(uniquePad));
         for (String word : uniquePad) {
             map.computeIfPresent(word, (k, v) -> v * 2);
         }
         map = KCore.sortByValue(map);
-        Map<String,Double> rankedKeywords=map;
-        Map<String, Double> topKeys = new LinkedHashMap<String,Double>();
-        int cc = 0;
-        for(String k:rankedKeywords.keySet()){
-            topKeys.put(k,rankedKeywords.get(k));
-            cc++;
-            if(cc>Settings.NKEYWORDS)
-                break;
-        }
-        Set vocab =  tpp.getVocabulary();
-        String distanceFunction = "cosinesimilarity";
-        List<Point> pointsLst =new ArrayList<>();
-
-        vocab.iterator().forEachRemaining(e->{
-            String key1 = (String) e;
-            if(Application.enWordVectors.hasWord(key1)) {
-                pointsLst.add(new Point(key1,(Application.enWordVectors.getWordVectorMatrix(key1))));
+        Map<String, Double> rankedKeywords = map;
+        Map<String, Double> topKeys = new LinkedHashMap<>();
+        for (Map.Entry<String, Double> entry : rankedKeywords.entrySet()) {
+            if (entry.getKey().length() > 1) {
+                topKeys.put(entry.getKey(), entry.getValue());
+                if (topKeys.size() > Settings.NKEYWORDS)
+                    break;
             }
-        });
+        }
 
-        ClusterSet cs =null;
-        Integer nClusters=maxClusters;
-        for(int jj=nClusters;jj>0;jj--){
-            KMeansClustering kmc = KMeansClustering.setup(jj, 25, distanceFunction);
-            cs = kmc.applyTo(pointsLst);
-            boolean clusterOK = evaluateClusters(cs.getClusters());
-            if(clusterOK)
-                break;
-        }
-        System.out.println("num Clusters" + cs.getClusters().size() );
-        for(Cluster c: cs.getClusters()) {
-            Point clusterCenter = c.getCenter();
-            System.out.println("------" + clusterCenter.getId());
-            c.getPoints().forEach(p -> {
-                        System.out.println(p.getId());
-                    }
-            );
-        }
-        latestQueries = extractQueries(cs.getClusters(),topKeys);
+        latestQueries = Clustering.cluster(tpp.getVocabulary(), topKeys, language);
+
         latestKeywords.clear();
         topKeys = normalizeKeyScores(topKeys);
         topKeys.replaceAll((key, val) -> (uniquePad.contains(key) ? 1 : -1) * val);
         latestKeywords.putAll(topKeys);
-        System.out.println(latestKeywords);
-
-    }
-
-    private List<String> extractQueries(List<Cluster> clusters,Map<String,Double> topKeys) {
-        List<String> queries=new ArrayList<>();
-        for(Cluster c: clusters) {
-            String query = "";
-            int counter = 0;
-            for(Point p:c.getPoints()) {
-                if (topKeys.keySet().contains(p.getId())) {
-                    query += p.getId() + " ";
-                    counter = counter + 1;
-                }
+        System.out.println("Generated keywords: " + latestKeywords);
+        System.out.println("Generated queries: " + latestQueries);
+        if (latestQueries.isEmpty()) {
+            StringBuilder qry = new StringBuilder();
+            for (String word : latestKeywords.keySet()) {
+                qry.append(" ").append(word);
             }
-            if(counter>minQuerySize){
-                queries.add(query);
-            }
+            latestQueries.add(qry.toString());
+            System.out.println("Generated queries (due to empty list): " + latestQueries);
         }
-        return queries;
-    }
-
-    private boolean evaluateClusters(List<Cluster> clusters) {
-        for(Cluster c: clusters) {
-            if(c.getPoints().size()<minClusterSize)
-                return false;
-        }
-        return true;
-    }
-
-    private Set<String> permutations(Set<String> words){
-        Set<String> permutations = new HashSet<>();
-        for(String w1: words){
-            for(String w2: words){
-                permutations.add(w1 + "_" + w2);
-            }
-        }
-        return permutations;
     }
 
     public List<String> getTokens() {
@@ -222,13 +93,55 @@ public class Transcript {
         return tokens;
     }
 
+    public String getLatestEntriesText() {
+        StringBuilder out = new StringBuilder();
+        if (!this.entries.isEmpty()) {
+            lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
+            for (TranscriptEntry e : entries) {
+                if (e.getUntil() > lastEntryTime - Settings.TIMEWINDOW)
+                    out.append(e.getText()).append(" ");
+            }
+        }
+        return out.toString();
+    }
+
+    public List<Keyword> getLatestKeywords() {
+        return latestKeywords.keySet().stream().map(k -> new Keyword(k, latestKeywords.get(k).toString())).collect(Collectors.toList());
+    }
+
+    public void add(TranscriptEntry e) {
+        this.entries.add(e);
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder out = new StringBuilder();
+        for (TranscriptEntry e : entries) {
+            out.append(e.toString());
+        }
+        return out.toString();
+    }
+
+    public String getLanguage() {
+        return this.language;
+    }
+
+    public List<String> getLatestQueries() {
+        return latestQueries;
+    }
+
+    public void setLanguage(String language) {
+        this.language = language;
+    }
+
+
     private Map<String, Double> normalizeKeyScores(Map<String, Double> topKeys) {
-        if (topKeys == null){
-            return topKeys;
+        if (topKeys == null || topKeys.isEmpty()) {
+            return null;
         }
         double min = Collections.min(topKeys.values());
         double max = Collections.max(topKeys.values());
-        if (min == max){
+        if (min == max) {
             return topKeys;
         }
         topKeys.replaceAll((k, v) -> scale(v, min, max, 20.0, 35.0));
@@ -239,21 +152,5 @@ public class Transcript {
         if (limitMin == limitMax)
             return valueIn;
         return ((limitMax - limitMin) * (valueIn - baseMin) / (baseMax - baseMin)) + limitMin;
-    }
-
-    public String getLatestEntriesText() {
-        String out = "";
-        if (!this.entries.isEmpty()) {
-            lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
-            for (TranscriptEntry e : entries) {
-                if (e.getUntil() > lastEntryTime - Settings.TIMEWINDOW)
-                    out += e.getText() + " ";
-            }
-        }
-        return out;
-    }
-
-    public String getLanguage() {
-        return this.language;
     }
 }
