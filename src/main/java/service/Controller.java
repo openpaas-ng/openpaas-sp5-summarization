@@ -5,6 +5,8 @@ import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
+import core.queryexpansion.BabelExpander;
+import core.queryexpansion.QueryExpander;
 import core.resourceservice.EmailService;
 import core.resourceservice.GoogleService;
 import org.jgrapht.WeightedGraph;
@@ -209,7 +211,23 @@ public class Controller {
                     e.printStackTrace();
                 }
             }
-            if (resources.contains("so")) {
+            if (resources.contains("so") && resources.contains("wiki")) {
+                GoogleService gos = new GoogleService("so");
+                gos.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
+                try {
+                    res.setSoarticles(gos.getGoogleRecommendations());
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from SO");
+                    e.printStackTrace();
+                }
+                gos.setType("wiki");
+                try {
+                    res.setWikiarticles(gos.getGoogleRecommendations());
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from WIKI");
+                    e.printStackTrace();
+                }
+            }else if (resources.contains("so")) {
                 try {
                     GoogleService so = new GoogleService("so");
                     so.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
@@ -218,8 +236,7 @@ public class Controller {
                     System.err.println("Exception while fetching from SO");
                     e.printStackTrace();
                 }
-            }
-            if (resources.contains("wiki")) {
+            } else if (resources.contains("wiki")) {
                 try {
                     GoogleService wikis = new GoogleService("wiki");
                     wikis.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
@@ -246,7 +263,8 @@ public class Controller {
     public OutputMessage send(Message message) throws Exception {
         String[] messageParts = message.getText().split("\t");
         if (currentMeetings.containsKey(message.getFrom()) && messageParts.length == 4) {
-            TranscriptEntry e = new TranscriptEntry(Double.valueOf(messageParts[0]), Double.valueOf(messageParts[1]), messageParts[2], messageParts[3]);
+            String text = messageParts[3];
+            TranscriptEntry e = new TranscriptEntry(Double.valueOf(messageParts[0]), Double.valueOf(messageParts[1]), messageParts[2], text);
             currentMeetings.get(message.getFrom()).add(e);
         }
         String time = new SimpleDateFormat("HH:mm").format(new Date());

@@ -6,6 +6,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import core.queryexpansion.BabelExpander;
 import core.queryexpansion.QueryExpander;
+import org.apache.commons.lang.StringUtils;
 import service.Settings;
 import structures.resources.GoogleResource;
 
@@ -17,54 +18,32 @@ import java.net.HttpURLConnection;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.function.UnaryOperator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by midas on 20/3/2017.
  */
 public class GoogleService extends resourceService {
 
-    String type;
+    private String type;
 
     public GoogleService(String type) {
         this.type = type;
     }
 
-    public List<GoogleResource> getGoogleRecommendations() throws IOException, URISyntaxException {
-        String key = null;
-        String cx = null;
-        switch (type.toLowerCase()) {
-            case "wiki":
-                if(getLanguage().equalsIgnoreCase("EN")){
-                    key = Settings.WIKIENKEY;
-                    cx = Settings.WIKIENCX;
-                } else {
-                    key = Settings.WIKIFRKEY;
-                    cx = Settings.WIKIFRCX;
-                }
-                break;
-            case "so":
-                if(getLanguage().equalsIgnoreCase("EN")) {
-                    key = Settings.SOKEY_ALL;
-                    cx = Settings.SOENCX;
-                } else {
-                    key = Settings.SOKEY_ALL;
-                    cx = Settings.SOFRCX;
-                }
-                break;
-            default:
-                key = Settings.SOKEY_ALL;
-                cx = Settings.SOFRCX;
-                break;
-        }
+    public void setType(String type) {
+        this.type = type;
+    }
 
-        List<String> queries = getGoogleServiceQueries();
-        ArrayList results = new ArrayList();
-        int queryNumber = 10;
-        switch (queries.size()){
+    public List<GoogleResource> getGoogleRecommendations() throws IOException {
+        String cx, key;
+        List<String> queries = getExpandedQueries(); // Use Babelfy API to disambiguate the provided text
+        List<GoogleResource> results = new ArrayList<>();
+        int queryNumber;
+        switch (queries.size()) {
             case 3:
                 queryNumber = 3;
                 break;
@@ -74,35 +53,60 @@ public class GoogleService extends resourceService {
             default:
                 queryNumber = 10;
         }
+
+        switch (type.toLowerCase()) {
+            case "so":
+                if (getLanguage().equalsIgnoreCase("EN")) {
+                    key = Settings.SOKEY_ALL;
+                    cx = Settings.SOENCX;
+                } else {
+                    key = Settings.SOKEY_ALL;
+                    cx = Settings.SOFRCX;
+                }
+                break;
+            case "wiki":
+                if (getLanguage().equalsIgnoreCase("EN")) {
+                    key = Settings.WIKIENKEY;
+                    cx = Settings.WIKIENCX;
+                } else {
+                    key = Settings.WIKIFRKEY;
+                    cx = Settings.WIKIFRCX;
+                }
+                queryNumber = 1;
+                queries = new ArrayList<>(splitWords(queries));
+                break;
+            default:
+                key = Settings.SOKEY_ALL;
+                cx = Settings.SOFRCX;
+                break;
+        }
         for (String query : queries) {
-//            if(1==1){
-//                return results;
-//            }
-            URL url = new URL(
-                    "https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx + "&q=" + query + "&alt=json&num=" + queryNumber + "&queriefields=queries(request(totalResults))");
+            try {
+                query = URLEncoder.encode(query, "UTF-8");
+            } catch (UnsupportedEncodingException ignored) {
+            }
+            URL url = new URL("https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx +
+                    "&q=" + query + "&alt=json&num=" + queryNumber + "&queriefields=queries(request(totalResults))");
             String output = fetch(url);
-            JsonParser parser = new JsonParser();
-            JsonObject o = parser.parse(output).getAsJsonObject();
-            JsonArray items = o.getAsJsonArray("items");
+            JsonArray items = new JsonParser().parse(output).getAsJsonObject().getAsJsonArray("items");
             if (items != null && items.size() > 0) {
                 for (JsonElement item : items) {
                     String title = item.getAsJsonObject().get("title").getAsString();
                     String link = item.getAsJsonObject().get("formattedUrl").getAsString();
-                    GoogleResource g = new GoogleResource(title, link);
-                    results.add(g);
+                    results.add(new GoogleResource(title, link));
                 }
             }
         }
         return results;
     }
 
-    private String fetch(URL url) throws IOException, URISyntaxException {
+    private String fetch(URL url) throws IOException {
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
         conn.setRequestProperty("Accept", "application/json");
         BufferedReader br = new BufferedReader(new InputStreamReader((conn.getInputStream())));
         String line;
-        StringBuffer content = new StringBuffer();
+        StringBuilder content = new StringBuilder();
         while ((line = br.readLine()) != null) {
             content.append(line);
         }
@@ -111,31 +115,17 @@ public class GoogleService extends resourceService {
         return output;
     }
 
-    private List<String> getGoogleServiceQueries() throws UnsupportedEncodingException {
-        List<String> result = new ArrayList<>();
-        List<String> queries = this.getQueries();
-
-        System.out.println("Queries in Google Service: " + queries);
-
-        QueryExpander qe = new BabelExpander(getText(), getLanguage());
+    private Set<String> splitWords(List<String> queries) {
+        Set<String> words = new HashSet<>();
         for (String query : queries) {
-            String remove_it_after_testing = query;
-
-            query = qe.expand(getText(), Arrays.asList(query.split(" ")), getLanguage());
-
-            System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-            System.out.println("Words generated through GoW and Clustering: " + remove_it_after_testing);
-            System.out.println("Words filtered through the Disambiguation API:  " + query);
-            System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-
-            result.add(URLEncoder.encode(query, "UTF-8"));
+            for (String word : query.split(" ")) {
+                if (word.contains("_")) {
+                    words.add("\"" + word.replace("_", " ") + "\"");
+                } else {
+                    words.add(word);
+                }
+            }
         }
-
-        qe.expandQueries(getText(), queries, getLanguage());
-
-        if(result.isEmpty()){
-            result.add(URLEncoder.encode(queries.get(0), "UTF-8"));
-        }
-        return result;
+        return words;
     }
 }
