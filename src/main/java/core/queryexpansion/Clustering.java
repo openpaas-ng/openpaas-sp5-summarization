@@ -35,12 +35,6 @@ public class Clustering {
                 if (clusterOK)
                     break;
             }
-//        System.out.println("num Clusters " + cs.getClusters().size());
-//        for (Cluster c : cs.getClusters()) {
-//            System.out.print("Cluster: ");
-//            c.getPoints().forEach(p -> System.out.print(p.getId() + ", "));
-//            System.out.println();
-//        }
             queries.addAll(extractQueries(cs.getClusters(), topKeys));
         }
         return queries;

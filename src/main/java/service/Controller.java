@@ -213,6 +213,7 @@ public class Controller {
             }
             if (resources.contains("so") && resources.contains("wiki")) {
                 GoogleService gos = new GoogleService("so");
+
                 gos.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
                 try {
                     res.setSoarticles(gos.getGoogleRecommendations());
@@ -268,7 +269,6 @@ public class Controller {
             currentMeetings.get(message.getFrom()).add(e);
         }
         String time = new SimpleDateFormat("HH:mm").format(new Date());
-        //currentMeetings.putIfAbsent(message.getFrom(),message.getText());
         OutputMessage m = new OutputMessage(message.getFrom(), message.getText(), time);
         return m;
     }
@@ -289,7 +289,7 @@ public class Controller {
     @CrossOrigin
     @RequestMapping(value = "/pad", method = RequestMethod.POST)
     public void postPad(@RequestParam(value = "id") String id, @RequestParam(value = "words[]") String[] text) {
-        id = "ge"; // TODO remove after testing
+        id = "demo"; // TODO only for demonstration purposes
         if (currentMeetings.containsKey(id)) {
             currentMeetings.get(id).addPad(text);
             System.out.println("Text [" + Arrays.toString(text) + "] was received from Cryptpad");

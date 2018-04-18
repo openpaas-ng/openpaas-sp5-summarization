@@ -21,7 +21,8 @@ public class BabelExpander extends QueryExpander {
 
     private static final String disambiguateUrlPrefix = "https://babelfy.io/v1/disambiguate?text=";
     private static final String synsetUrlPrefix = "https://babelnet.io/v5/getSynset?id=";
-    private static final String urlKeyPostfix = "&key=" + Settings.BABELKEY1;
+    private static final String outgoingEdgesPrefix = "https://babelnet.io/v5/getOutgoingEdges?id=";
+    private static String urlKeyPostfix = "&key=" + Settings.BABELKEY1;
 
     private String disambiguationResponse;
     private String language = "";
@@ -75,69 +76,67 @@ public class BabelExpander extends QueryExpander {
     }
 
     @Override
-    public List<String> process(Map<String, Set<String>> disambiguatedMap, Set<String> words, List<List<String>> queriesWords){
+    public List<String> process(Map<String, Set<String>> disambiguatedMap, Set<String> words, List<List<String>> queriesWords) {
         Map<String, Set<String>> reverseDisMap = revertMap(disambiguatedMap);
 
         Map<String, Set<String>> keywords = new HashMap<>(reverseDisMap);
         Map<String, Set<String>> new_keywords = new HashMap<>();
-        for(String word: reverseDisMap.keySet()){
-            if (!words.contains(word)){
+        for (String word : reverseDisMap.keySet()) {
+            if (!words.contains(word)) {
                 new_keywords.put(word, keywords.remove(word));
             }
         }
 
         List<String> result = new ArrayList<>();
-        System.out.println("#######################$$$$$$$$$$$$$$$$$$$$$$$$$3");
-        for(List<String> query: queriesWords){
+        for (List<String> query : queriesWords) {
             Map<String, Set<String>> queryMap = new HashMap<>(new_keywords);
-            for(String w: query){
-                if(keywords.containsKey(w)) {
+            for (String w : query) {
+                if (keywords.containsKey(w)) {
                     queryMap.put(w, keywords.get(w));
                 }
             }
-            String filter = filter(revertMap(queryMap), query); // <--- ~10 ms
-            if (filter.equalsIgnoreCase("")){
+            String filter = filter(revertMap(queryMap), query);
+            if (filter.equalsIgnoreCase("")) {
                 StringBuilder queryString = new StringBuilder();
-                for(String word: query){
+                for (String word : query) {
                     queryString.append(word + " ");
                 }
                 filter = queryString.toString().substring(0, queryString.length() - 1);
             }
             result.add(filter);
         }
-
-        System.out.println("#######################$$$$$$$$$$$$$$$$$$$$$$$$$");
-        System.out.println(result);
-        System.out.println("#######################$$$$$$$$$$$$$$$$$$$$$$$$$");
         return result;
     }
 
-    private String filter(Map<String, Set<String>> categories, List<String> keywords){
-        if(categories.isEmpty()){
+    private String filter(Map<String, Set<String>> categories, List<String> keywords) {
+        if (categories.isEmpty()) {
             return "";
         }
 
-        List<String> ignored = new ArrayList<>();
-        for(String key: categories.keySet()){
-            if(key.split("_").length > 2){
-                ignored.add(key);
+        Map<String, Integer> countMap = sortByValuesLength(categories);
+
+        String key = "";
+        for (Map.Entry<String, Integer> c : countMap.entrySet()) {
+            Set<String> labels = getLabels(c.getKey());
+            labels.removeIf(k -> k.chars().filter(ch -> ch == '_').count() > 1);
+            labels.removeIf(k -> k.contains("("));
+            if (!labels.isEmpty()) {
+                key = labels.stream().findFirst().orElse(key);
+            }
+            if (!key.equalsIgnoreCase("")) {
+                break;
             }
         }
-        for(String key: ignored){
-            categories.remove(key);
-        }
 
-        Map.Entry<String, Set<String>> maxEntry = categories.entrySet().stream().max(Comparator.comparingInt(entry -> entry.getValue().size())).get();
-        String key = maxEntry.getValue().size() != 1 ? maxEntry.getKey() : "";
-        if(key.length() < 1){
+        if (key.length() < 1) {
             return "";
         }
         Set<String> splitWords = new HashSet<>();
         Set<String> mergedWords = new HashSet<>();
-        Set<String> end = new HashSet<>();
-        end.add(key);
+        Set<String> queryWords = new HashSet<>();
+        queryWords.add(key);
         Set<String> collected_words = new HashSet<>();
-        for(Map.Entry<String, Set<String>> entry: categories.entrySet()){
+        for (Map.Entry<String, Set<String>> entry : categories.entrySet()) {
             collected_words.addAll(entry.getValue());
         }
         for (String word : collected_words) {
@@ -147,7 +146,7 @@ public class BabelExpander extends QueryExpander {
                 if ((keywords.contains(w1) || keywords.contains(w2)) && isNotStopword(w1, language) && isNotStopword(w2, language)) {
                     mergedWords.add(w1);
                     mergedWords.add(w2);
-                    end.add(word);
+                    queryWords.add(word);
                 }
             } else {
                 if (isNotStopword(word, language)) {
@@ -157,36 +156,27 @@ public class BabelExpander extends QueryExpander {
         }
         for (String word : splitWords) {
             if (!mergedWords.contains(word) && keywords.contains(word)) {
-                end.add(word);
+                queryWords.add(word);
             }
         }
-        System.out.println("Provided words: " + keywords);
-        System.out.println("Key " + key + ", Connected words: " + end);
-        return end.isEmpty() ? "" : end.stream().collect(Collectors.joining(" ")).toLowerCase();
+        System.out.println("Provided words: " + keywords + ", Output: " + queryWords);
+        return queryWords.isEmpty() ? "" : queryWords.stream().collect(Collectors.joining(" ")).toLowerCase();
     }
 
     private Map<String, Set<String>> getComplexCategoriesAbstract(String detectedWord, JSONObject disambiguationJson, Map<String, Set<String>> categories) {
         String synsetId = disambiguationJson.get("babelSynsetID").toString();
-        categories = getCategories(detectedWord, disambiguationJson, categories);
-        String synsetResponse = makeRequest("https://babelnet.io/v5/getOutgoingEdges?id=" + synsetId + urlKeyPostfix);
-        for (String id : parseOutgoingEdges(synsetResponse)) {
-            synsetResponse = makeRequest(synsetUrlPrefix + id + "&targetLang=" + language + urlKeyPostfix);
-            for (String name : parseResponse(synsetResponse).split(" ")) {
-                categories.computeIfAbsent(name, k -> new HashSet<>()).add(detectedWord);
-            }
+        String edgesResponse = makeRequest(outgoingEdgesPrefix + synsetId + urlKeyPostfix);
+        categories.computeIfAbsent(synsetId, k -> new HashSet<>()).add(detectedWord);
+        for (String id : parseOutgoingEdges(edgesResponse)) {
+            categories.computeIfAbsent(id, k -> new HashSet<>()).add(detectedWord);
         }
         return categories;
     }
 
-    private Map<String, Set<String>> getCategories(String detectedWord, JSONObject disambiguationJson, Map<String, Set<String>> categories) {
-        String synsetId = disambiguationJson.get("babelSynsetID").toString();
+
+    private Set<String> getLabels(String synsetId) {
         String synsetResponse = makeRequest(synsetUrlPrefix + synsetId + "&targetLang=" + language + urlKeyPostfix);
-        Map<String, Set<String>> currentMap = new HashMap<>();
-        for (String name : parseResponse(synsetResponse).split(" ")) {
-            categories.computeIfAbsent(name, k -> new HashSet<>()).add(detectedWord);
-            currentMap.computeIfAbsent(name, k -> new HashSet<>()).add(detectedWord);
-        }
-        return categories;
+        return new HashSet<>(Arrays.asList(parseResponse(synsetResponse).split(" ")));
     }
 
     private String parseResponse(String synsetResponse) {
@@ -215,8 +205,8 @@ public class BabelExpander extends QueryExpander {
         try {
             JSONArray edges = ((JSONArray) new JSONParser().parse(response));
             for (Object edge : edges) {
-                String edgeType = ((JSONObject) ((JSONObject) edge).get("pointer")).get("shortName").toString();
-                if (edgeType.equalsIgnoreCase("is-a") || edgeType.equalsIgnoreCase("part_of") || edgeType.equalsIgnoreCase("said_to_be_the_same_as")) {
+                String edgeType = ((JSONObject) ((JSONObject) edge).get("pointer")).get("relationGroup").toString();
+                if (edgeType.equalsIgnoreCase("MERONYM") || edgeType.equalsIgnoreCase("HYPONYM") || edgeType.equalsIgnoreCase("HYPERNYM")) {
                     categories.add(((JSONObject) edge).get("target").toString());
                 }
             }
@@ -245,9 +235,13 @@ public class BabelExpander extends QueryExpander {
             requestCache.put(url, response.toString());
             return response.toString();
         } catch (IOException e) {
-            e.printStackTrace();
+            if (urlKeyPostfix.endsWith(Settings.BABELKEY1)) {
+                urlKeyPostfix = "&key=" + Settings.BABELKEY2;
+            } else {
+                return "";
+            }
+            return makeRequest(url);
         }
-        return "";
     }
 
     private boolean isNotStopword(String word, String language) {
@@ -272,5 +266,20 @@ public class BabelExpander extends QueryExpander {
             }
         }
         return map;
+    }
+
+    private Map<String, Integer> sortByValuesLength(Map<String, Set<String>> categories) {
+        Map<String, Integer> counterMap = new HashMap<>();
+        for (Map.Entry<String, Set<String>> c : categories.entrySet()) {
+            counterMap.put(c.getKey(), c.getValue().size());
+        }
+        List<Map.Entry<String, Integer>> list = new ArrayList<>(counterMap.entrySet());
+        list.sort(Map.Entry.comparingByValue(Collections.reverseOrder()));
+        Map<String, Integer> result = new LinkedHashMap<>();
+        for (Map.Entry<String, Integer> entry : list) {
+            result.put(entry.getKey(), entry.getValue());
+        }
+
+        return result;
     }
 }

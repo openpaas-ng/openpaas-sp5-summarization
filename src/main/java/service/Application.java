@@ -73,21 +73,17 @@ public class Application {
         }
 
         wordEmbeddings = new LocalEmbeddings();
-//        try {
-
-        ////            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadGoogleModel(new File("local_directory/resources/GoogleNews-vectors-negative300.bin"), true));
-//            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadTxtVectors(new File("local_directory/resources/glove.6B.50d.txt")));
-
-////            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadGoogleModel(new File("/media/cxypolop/Files/GoogleNews-vectors-negative300.bin"), true));
-//            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadTxtVectors(new File("/media/cxypolop/Files/glove.6B.50d.txt")));
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
         try {
-//            wordEmbeddings.addEmbeddings("fr", WordVectorSerializer.loadTxtVectors(new File("local_directory/resources/word_embeddings/wiki.fr.vec")));
-            wordEmbeddings.addEmbeddings("fr", WordVectorSerializer.loadTxtVectors(new File("/media/cxypolop/Files/wiki.fr/wiki.fr.vec")));
+            // Word embeddings for English are available at https://code.google.com/archive/p/word2vec/
+            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadGoogleModel(new File("local_directory/resources/GoogleNews-vectors-negative300.bin"), true));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Failed to load English embeddings");
+        }
+        try {
+            // Word embeddings for French are available at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
+            wordEmbeddings.addEmbeddings("fr", WordVectorSerializer.loadTxtVectors(new File("local_directory/resources/word_embeddings/wiki.fr.vec")));
+        } catch (IOException e) {
+            System.out.println("Failed to load French embeddings");
         }
     }
 }

@@ -73,15 +73,13 @@ public class Transcript {
         topKeys = normalizeKeyScores(topKeys);
         topKeys.replaceAll((key, val) -> (uniquePad.contains(key) ? 1 : -1) * val);
         latestKeywords.putAll(topKeys);
-        System.out.println("Generated keywords: " + latestKeywords);
-        System.out.println("Generated queries: " + latestQueries);
+        System.out.println("Generated keywords: " + latestKeywords + ", queries: " + latestQueries);
         if (latestQueries.isEmpty()) {
             StringBuilder qry = new StringBuilder();
             for (String word : latestKeywords.keySet()) {
                 qry.append(" ").append(word);
             }
             latestQueries.add(qry.toString());
-            System.out.println("Generated queries (due to empty list): " + latestQueries);
         }
     }
 
