@@ -1,4 +1,4 @@
-start	end	role	text
+from	until	speaker	text
 50.42	50.99	PM	Okay
 53.56	53.96	PM	Right
 55.415	60.35	PM	Um well as the kick-off meeting for our our project i

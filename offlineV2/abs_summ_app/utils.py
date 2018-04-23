@@ -45,9 +45,9 @@ def read_ami_icsi(path):
 
         if utt != '' and utt != '.' and utt != ' ':
             utterances.append({
-                'start': start,
-                'end': end,
-                'role': role,
+                'from': start,
+                'until': end,
+                'speaker': role,
                 'text': utt
             })
 
@@ -98,9 +98,9 @@ def read_cfpp2000(path):
                 else:
                     raise RuntimeError()
                 utterances.append({
-                    u'start': float(utt['@start'][2:]),
-                    u'end': float(utt['@end'][2:]),
-                    u'role': speaker,
+                    u'from': float(utt['@start'][2:]),
+                    u'until': float(utt['@end'][2:]),
+                    u'speaker': speaker,
                     u'text': ''.join([l for l in utt['u']['seg'] if l not in '/'])
                 })
 

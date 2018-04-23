@@ -443,7 +443,7 @@ def update_options(meeting, dataset):
         else:
             raise RuntimeError()
         df = pd.DataFrame(transcription)
-        return "data:text/csv;charset=utf-8," + quote(df.to_csv(index=False, encoding='utf-8', columns=['start', 'end', 'role', 'text']))
+        return "data:text/csv;charset=utf-8," + quote(df.to_csv(sep='\t', index=False, encoding='utf-8', columns=['from', 'until', 'speaker', 'text']))
     else:
         return ''
 ###########################################
@@ -475,6 +475,7 @@ def update_output(n_clicks, language, data_tabs, dataset, meeting, json_uploaded
             transcription = utils.read_cfpp2000(path)
         else:
             raise RuntimeError()
+        transcription = {'entries': transcription}
     elif data_tabs == 2:
         content_type, content_string = json_uploaded.split(',')
         decoded = base64.b64decode(content_string)
@@ -485,6 +486,7 @@ def update_output(n_clicks, language, data_tabs, dataset, meeting, json_uploaded
             {k: v for k, v in row.items()}
              for row in unicodecsv.DictReader(f, skipinitialspace=True, delimiter='\t', encoding='utf-8')
         ]
+        transcription = {'entries': transcription}
     else:
         return ''
 

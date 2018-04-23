@@ -16,7 +16,7 @@ def selection(compressions, utterances, stopwords, wv, config, summary_size):
                 copy.copy(sentence),
                 stopwords=stopwords,
                 remove_stopwords=config.getboolean('MSC', 'remove_stopwords'),
-                pos_filtering=config.getboolean('MSC', 'remove_stopwords'),
+                pos_filtering=config.getboolean('MSC', 'pos_filtering'),
                 stemming=config.getboolean('MSC', 'stemming'),
                 lower_case=True
                 # lower_case for CoreRank
