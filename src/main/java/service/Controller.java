@@ -1,6 +1,8 @@
 package service;
 
 import com.google.gson.Gson;
+
+import core.keywords.KWExtractor;
 import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
@@ -121,25 +123,26 @@ public class Controller {
     @RequestMapping(value = "/keywords", method = RequestMethod.POST)
     public String postKeywords(@RequestBody String text, @RequestParam(value = "nkeys", defaultValue = "-1") Integer nkeys, @RequestParam(value = "language", defaultValue = "none") String language) throws IOException {
         String rawText = URLDecoder.decode(text, "UTF-8");
-        rawText = new TextPreProcess(rawText, language).getText();
-        GraphOfWords gow = new GraphOfWords(rawText);
-        WeightedGraph graph = gow.getGraph();
-        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 10, 0);
-
-        Map<String, Double> map = decomposer.coreRankNumbers();
-        map = KCore.sortByValue(map);
-
-        if (nkeys == -1)
-            nkeys = map.size();
-        int maxLength = Math.min(map.size(), nkeys);
-        Object[] it = map.keySet().toArray();
-        List<Keyword> topKeys = new ArrayList<>();
-        for (int i = 0; i < maxLength; i++) {
-            String key1 = (String) it[i];
-            String finalKey = key1;
-            Double finalScore = map.get(key1);
-            topKeys.add(new Keyword(finalKey, finalScore.toString()));
-        }
+//        rawText = new TextPreProcess(rawText, language).getText();
+//        GraphOfWords gow = new GraphOfWords(rawText);
+//        WeightedGraph graph = gow.getGraph();
+//        WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 10, 0);
+//
+//        Map<String, Double> map = decomposer.coreRankNumbers();
+//        map = KCore.sortByValue(map);
+//
+//        if (nkeys == -1)
+//            nkeys = map.size();
+//        int maxLength = Math.min(map.size(), nkeys);
+//        Object[] it = map.keySet().toArray();
+//        List<Keyword> topKeys = new ArrayList<>();
+//        for (int i = 0; i < maxLength; i++) {
+//            String key1 = (String) it[i];
+//            String finalKey = key1;
+//            Double finalScore = map.get(key1);
+//            topKeys.add(new Keyword(finalKey, finalScore.toString()));
+//        }
+        List<Keyword> topKeys = KWExtractor.extractKeyWords(rawText, language, nkeys);
         Gson gson = new Gson();
         String response = gson.toJson(topKeys);
         return response;
