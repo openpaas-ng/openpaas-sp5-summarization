@@ -99,23 +99,29 @@
             <artifactId>lucene-snowball</artifactId>
             <version>3.0.3</version>
         </dependency>
+        
+        <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.8.1</version>
+</dependency>
         <!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
 
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.7.0</version>
+            <version>3.9.2</version>
         </dependency>
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.7.0</version>
+            <version>3.9.2</version>
             <classifier>models-french</classifier>
         </dependency>
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.7.0</version>
+            <version>3.9.2</version>
             <classifier>models</classifier>
         </dependency>
         <dependency>
