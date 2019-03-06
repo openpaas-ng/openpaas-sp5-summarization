@@ -101,13 +101,13 @@ cat('\n utterances cleaned in',proc.time()['elapsed'] - tt, 'second(s)')
 
 tt = proc.time()['elapsed']
 keywords_scores = from_terms_to_keywords(terms_list=terms_list, window_size=12, to_overspan=T, to_build_on_processed=T, community_algo="none", weighted_comm=NA, directed_comm=NA, rw_length=NULL, size_threshold=NULL, degeneracy="weighted_k_core", directed_mode="all", method=method, use_elbow=FALSE, use_percentage=NA, percentage=0.15, number_to_retain=NA, which_nodes="all", overall_wd=r_directory, edgelist_file_name = unlist(strsplit(input_file_name, split='\\.'))[1])$output
-cat('\n keywords extracted in',proc.time()['elapsed'] - tt, 'second(s)')
+cat('\n queries extracted in',proc.time()['elapsed'] - tt, 'second(s)')
 
 df_wc = data.frame(words = keywords_scores$extracted_keywords, freq = round(as.numeric(keywords_scores$scores),4))
 
 write.table(df_wc, paste0('~/local_directory/output/keywords_',input_file_name), col.names = FALSE, row.names = FALSE, quote=FALSE)
 
-cat('\n keywords written to disk')
+cat('\n queries written to disk')
 
 ########## summary generation ##########
 

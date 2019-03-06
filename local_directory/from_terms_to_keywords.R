@@ -34,7 +34,7 @@ from_terms_to_keywords <-
       
     }
     
-    # extract keywords from graph
+    # extract queries from graph
     output = keyword_extraction(g, community_algo, method, use_elbow, use_percentage, percentage, number_to_retain, which_nodes)
     
     output = list(output=output, g=g)

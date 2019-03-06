@@ -7,21 +7,27 @@ import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
 import core.keywords.wordgraph.GraphOfWords;
+import core.queryexpansion.BabelExpander;
+import core.queryexpansion.QueryExpander;
 import core.resourceservice.EmailService;
 import core.resourceservice.GoogleService;
-import core.resourceservice.WikipediaService;
 import org.jgrapht.WeightedGraph;
+import org.springframework.context.event.EventListener;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.socket.messaging.SessionConnectEvent;
 import structures.*;
 import structures.resources.Email;
 import structures.resources.GoogleResource;
 import structures.resources.Resources;
-import structures.resources.Wikipedia;
 
-import java.io.*;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLDecoder;
@@ -36,7 +42,6 @@ import java.util.concurrent.atomic.AtomicLong;
 @RestController
 public class Controller {
     private Map<String, Meeting> currentMeetings = new ConcurrentHashMap<>();
-    private final AtomicLong counter = new AtomicLong();
 
     /**
      * This is the offline summarization endpoint. It accepts the transcript of one meeting and generates a summary
@@ -180,14 +185,16 @@ public class Controller {
      */
     @RequestMapping(value = "/stream", method = RequestMethod.GET)
     public String initStream(@RequestParam(value = "id") String id, @RequestParam String action) {
-        if (action.equals("START")) {
-            currentMeetings.putIfAbsent(id, new Meeting());
-            return "START SUCCESS";
-        } else if (action.equals("STOP")) {
-            currentMeetings.remove(id);
-            return "STOP SUCCESS";
-        } else
-            return action + " FAIL";
+        switch (action) {
+            case "START":
+                currentMeetings.putIfAbsent(id, new Meeting());
+                return "START SUCCESS";
+            case "STOP":
+                currentMeetings.remove(id);
+                return "STOP SUCCESS";
+            default:
+                return action + " FAIL";
+        }
     }
 
     /**
@@ -196,14 +203,15 @@ public class Controller {
      * @throws IOException
      */
     @RequestMapping(value = "/resources", method = RequestMethod.GET)
-    public String getCurrentResources(@RequestParam(value="id") String id,@RequestParam(value="resources", defaultValue = "keywords;so;wiki") String resources) throws IOException {
-        Resources res=new Resources();
-        if(currentMeetings.containsKey(id)){
+    public String getCurrentResources(@RequestParam(value = "id") String id, @RequestParam(value = "resources", defaultValue = "keywords;so;wiki") String resources) throws IOException {
+        Resources res = new Resources();
+        if (currentMeetings.containsKey(id)) {
+            System.out.println("Request for meeting '" + id + "'. Parameters: " + resources);
             Meeting meeting = currentMeetings.get(id);
-            if(resources.contains("email")){
+            if (resources.contains("email")) {
                 try {
                     EmailService email = new EmailService();
-                    email.setKeywords(meeting.getLatestKeywords());
+                    email.setQueries(meeting.getLatestQueries());
                     List<Email> emails = email.getEmails();
                     res.setMails(emails);
                 } catch (Exception e) {
@@ -211,37 +219,47 @@ public class Controller {
                     e.printStackTrace();
                 }
             }
-            if(resources.contains("so")) {
+            if (resources.contains("so") && resources.contains("wiki")) {
+                GoogleService gos = new GoogleService("so");
+
+                gos.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
                 try {
-                    GoogleService so = new GoogleService("so");
-                    so.setText(meeting.getLatestEntriesText());
-                    so.setKeywords(meeting.getLatestKeywords());
-                    so.setLanguage(meeting.getLanguage());
-                    List<GoogleResource> soQuestions = so.getGoogleRecommendations();
-                    res.setSoarticles(soQuestions);
+                    res.setSoarticles(gos.getGoogleRecommendations());
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from SO");
-                    e.printStackTrace();
+                    res.setSoarticles(new ArrayList<>());
                 }
-            }
-            if(resources.contains("wiki")) {
+                gos.setType("wiki");
                 try {
-                    //GoogleService wikis = new GoogleService("wikifr");
-                    WikipediaService wikis= new WikipediaService();
-                    wikis.setKeywords(meeting.getLatestKeywords());
-                    //List<GoogleResource> WikipediaArticles = wikis.getGoogleRecommendations();
-                    List<Wikipedia> WikipediaArticles = wikis.getWikipediaArticles();
-                    res.setWikiarticles(WikipediaArticles);
+                    res.setWikiarticles(gos.getGoogleRecommendations());
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from WIKI");
+                    res.setWikiarticles(new ArrayList<>());
+                }
+            }else if (resources.contains("so")) {
+                try {
+                    GoogleService so = new GoogleService("so");
+                    so.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
+                    res.setSoarticles(so.getGoogleRecommendations());
+                } catch (Exception e) {
+                    System.err.println("Exception while fetching from SO");
+                    res.setSoarticles(new ArrayList<>());
+                }
+            } else if (resources.contains("wiki")) {
+                try {
+                    GoogleService wikis = new GoogleService("wiki");
+                    wikis.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
+                    res.setWikiarticles(wikis.getGoogleRecommendations());
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from wiki");
-                    e.printStackTrace();
+                    res.setWikiarticles(new ArrayList<>());
                 }
             }
             if (resources.contains("keywords")) {
                 res.setKeywords(meeting.getLatestKeywords());
             }
         }
-        return new Gson().toJson(res,Resources.class);
+        return new Gson().toJson(res, Resources.class);
     }
 
     /**
@@ -254,11 +272,11 @@ public class Controller {
     public OutputMessage send(Message message) throws Exception {
         String[] messageParts = message.getText().split("\t");
         if (currentMeetings.containsKey(message.getFrom()) && messageParts.length == 4) {
-            TranscriptEntry e = new TranscriptEntry(Double.valueOf(messageParts[0]), Double.valueOf(messageParts[1]), messageParts[2], messageParts[3]);
+            String text = messageParts[3];
+            TranscriptEntry e = new TranscriptEntry(Double.valueOf(messageParts[0]), Double.valueOf(messageParts[1]), messageParts[2], text);
             currentMeetings.get(message.getFrom()).add(e);
         }
         String time = new SimpleDateFormat("HH:mm").format(new Date());
-        //currentMeetings.putIfAbsent(message.getFrom(),message.getText());
         OutputMessage m = new OutputMessage(message.getFrom(), message.getText(), time);
         return m;
     }
@@ -266,13 +284,11 @@ public class Controller {
 
     @Scheduled(fixedRate = 2000)
     public void reportCurrentTime() {
-        currentMeetings.forEach((k, v) -> {
-            v.updateKeywords();
-            //System.out.println(k+" "+v.getEntries().size());
+        currentMeetings.forEach((k, v) -> v.updateKeywords());
 
-        });
-        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-        System.out.println("The time is now {}" + dateFormat.format(new Date()));
+        if (new Date().getSeconds() <= 3){
+            System.out.printf("The time is now {%s} %n", new SimpleDateFormat("HH:mm:ss").format(new Date()));
+        }
     }
 
     /**
@@ -284,10 +300,10 @@ public class Controller {
     @CrossOrigin
     @RequestMapping(value = "/pad", method = RequestMethod.POST)
     public void postPad(@RequestParam(value = "id") String id, @RequestParam(value = "words[]") String[] text) {
-        id = "ge"; // TODO remove after testing
-        if( currentMeetings.containsKey(id)){
+        System.out.println("Incoming Crytpad id: " + id);
+        if (currentMeetings.containsKey(id)) {
             currentMeetings.get(id).addPad(text);
-            System.out.println("Text [" + Arrays.toString(text) + "] was received from Cryptpad");
+            System.out.println("Text [" + Arrays.toString(text) + "] was received from Cryptpad with id " + id);
         }
     }
 }

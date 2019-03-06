@@ -51,9 +51,9 @@ from_terms_to_summary = function(terms_list, utterances, start_time, window_size
     my_summary = unlist(my_summary)
     my_start_times = unlist(my_start_times)
     
-	    # since community detection has already been used to extract the keywords, it means that they are representative of all topics tackled during the meeting
+	    # since community detection has already been used to extract the queries, it means that they are representative of all topics tackled during the meeting
     # therefore, maybe at this time selecting sentences independently for each community is not best
-    # maybe some sentences can contain keywords belonging to multiple topics...
+    # maybe some sentences can contain queries belonging to multiple topics...
     # and those sentences are the best ones...
 	
       # scores = unlist(scores)

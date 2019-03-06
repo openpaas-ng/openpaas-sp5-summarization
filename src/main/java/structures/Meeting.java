@@ -20,7 +20,12 @@ public class Meeting {
         }
         return transcript.getLatestKeywords();
     }
-
+    public List<String> getLatestQueries() {
+        if(this.language.equalsIgnoreCase("none")){ // Update the language field
+            this.language = transcript.getLanguage();
+        }
+        return transcript.getLatestQueries();
+    }
     public String getLatestEntriesText() {
         return transcript.getLatestEntriesText();
     }

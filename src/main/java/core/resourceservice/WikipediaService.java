@@ -5,8 +5,13 @@
  */
 package core.resourceservice;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.parser.Parser;
 import structures.Keyword;
 import structures.resources.Wikipedia;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,10 +20,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.parser.Parser;
 
 /**
  *
@@ -33,12 +34,13 @@ public class WikipediaService extends resourceService {
         list.add(new Wikipedia("0"));
         return list;
     }
-
+    //TODO fix or Remove
     public  List<Wikipedia> getWikipediaArticles(){
         List<Wikipedia> items=new ArrayList<Wikipedia>();
-        Collections.shuffle(this.keywords);
-        for (Keyword key : this.keywords) {
-            String query = getWikipediaServiceQuery(key);
+        Collections.shuffle(getQueries());
+        for (String key : getQueries()) {
+            //String query = getWikipediaServiceQuery(key);
+            String query="";
             String response = callWIKIAPI(query);
             Document doc = Jsoup.parse(response, "", Parser.xmlParser());
             int intcc = 0;
@@ -59,11 +61,12 @@ public class WikipediaService extends resourceService {
         return items;
     }
 
+    //TODO fix or Remove
     private  String getWikipediaServiceQuery() {
         String q = "";
         String tags = "";
-        for (Keyword key : this.keywords) {
-            String s = key.getKey().toString();
+        for (String key : getQueries()) {
+            String s = key.toString();
             tags += s + "%20";
         }
         q = "https://fr.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + tags.substring(0, tags.length() - 1) + "&format=xml";

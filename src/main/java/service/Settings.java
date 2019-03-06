@@ -18,10 +18,17 @@ public class Settings {
     public static String WIKIFRKEY;
     public static String WIKIFRCX;
 
+    public static String WIKIFRKEY2;
+    public static String WIKIFRCX2;
+
     public static String SOKEY;
     public static String SOCX;
 
-    public static String BABELKEY;
+    public static String SOKEY_ALL;
+    public static String SOENCX;
+    public static String SOFRCX;
+
+    public static String BABELKEY1, BABELKEY2, BABELKEY3, BABELKEY4;
 
     public static void init() throws IOException {
         Properties prop = new Properties();
@@ -37,9 +44,19 @@ public class Settings {
         WIKIENCX = prop.getProperty("WIKIENCX");
         WIKIFRKEY = prop.getProperty("WIKIFRKEY");
         WIKIFRCX = prop.getProperty("WIKIFRCX");
+        WIKIFRKEY2 = prop.getProperty("WIKIFRKEY2");
+        WIKIFRCX2 = prop.getProperty("WIKIFRCX2");
         SOKEY = prop.getProperty("SOKEY");
         SOCX = prop.getProperty("SOCX");
-        BABELKEY = prop.getProperty("BABELKEY");
+
+        BABELKEY1 = prop.getProperty("BABELKEY1");
+        BABELKEY2 = prop.getProperty("BABELKEY2");
+        BABELKEY3 = prop.getProperty("BABELKEY3");
+        BABELKEY4 = prop.getProperty("BABELKEY4");
+
+        SOKEY_ALL = prop.getProperty("SOENKEY");
+        SOENCX = prop.getProperty("SOENCX");
+        SOFRCX = prop.getProperty("SOFRCX");
 
         input.close();
     }
