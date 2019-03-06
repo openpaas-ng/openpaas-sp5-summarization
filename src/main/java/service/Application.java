@@ -3,15 +3,11 @@ package service;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.StringUtils;
 import org.deeplearning4j.models.embeddings.loader.WordVectorSerializer;
-import org.deeplearning4j.models.embeddings.wordvectors.WordVectors;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
-
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -75,7 +71,7 @@ public class Application {
         wordEmbeddings = new LocalEmbeddings();
         try {
             // Word embeddings for English are available at https://code.google.com/archive/p/word2vec/
-            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadGoogleModel(new File("local_directory/resources/GoogleNews-vectors-negative300.bin"), true));
+            wordEmbeddings.addEmbeddings("en", WordVectorSerializer.loadGoogleModel(new File("local_directory/resources/word_embeddings/GoogleNews-vectors-negative300.bin"), true));
         } catch (IOException e) {
             System.out.println("Failed to load English embeddings");
         }
@@ -85,5 +81,6 @@ public class Application {
         } catch (IOException e) {
             System.out.println("Failed to load French embeddings");
         }
+        System.out.println("Resources loading completed");
     }
 }

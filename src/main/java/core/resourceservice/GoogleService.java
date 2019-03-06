@@ -4,9 +4,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import core.queryexpansion.BabelExpander;
-import core.queryexpansion.QueryExpander;
-import org.apache.commons.lang.StringUtils;
 import service.Settings;
 import structures.resources.GoogleResource;
 
@@ -15,13 +12,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
-import java.net.URISyntaxException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.*;
-import java.util.function.UnaryOperator;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by midas on 20/3/2017.
@@ -39,6 +33,8 @@ public class GoogleService extends resourceService {
     }
 
     public List<GoogleResource> getGoogleRecommendations() throws IOException {
+        System.out.println("Starting google " + type);
+        long time = System.currentTimeMillis();
         String cx, key;
         List<String> queries = getExpandedQueries(); // Use Babelfy API to disambiguate the provided text
         List<GoogleResource> results = new ArrayList<>();
@@ -80,24 +76,65 @@ public class GoogleService extends resourceService {
                 cx = Settings.SOFRCX;
                 break;
         }
-        for (String query : queries) {
+        for (int i = 0; i < queries.size(); i++) {
+            String query = queries.get(i);
             try {
                 query = URLEncoder.encode(query, "UTF-8");
             } catch (UnsupportedEncodingException ignored) {
             }
             URL url = new URL("https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx +
                     "&q=" + query + "&alt=json&num=" + queryNumber + "&queriefields=queries(request(totalResults))");
-            String output = fetch(url);
-            JsonArray items = new JsonParser().parse(output).getAsJsonObject().getAsJsonArray("items");
-            if (items != null && items.size() > 0) {
-                for (JsonElement item : items) {
-                    String title = item.getAsJsonObject().get("title").getAsString();
-                    String link = item.getAsJsonObject().get("formattedUrl").getAsString();
-                    results.add(new GoogleResource(title, link));
+            try{
+                String output = fetch(url);
+                JsonArray items = new JsonParser().parse(output).getAsJsonObject().getAsJsonArray("items");
+                if (items != null && items.size() > 0) {
+                    for (JsonElement item : items) {
+                        String title = item.getAsJsonObject().get("title").getAsString();
+                        String link = item.getAsJsonObject().get("formattedUrl").getAsString();
+                        results.add(new GoogleResource(title, link));
+                    }
+                }
+            } catch(IOException ioe){
+                System.out.println("Exception during Google's Custom Search Request for " + type + ". " + ioe.getMessage());
+                if(type.equalsIgnoreCase("wiki")){
+                    if(key.equalsIgnoreCase(Settings.WIKIFRKEY)) {
+                        key = Settings.WIKIFRKEY2;
+                        cx = Settings.WIKIFRCX2;
+                        i--;
+                    }else {
+                        GoogleResource wikiPage = fetchWiki(queries.get(i));
+                        if(wikiPage != null){
+                            results.add(wikiPage);
+                        }
+                    }
                 }
             }
         }
+        System.out.println("Finished after " + (System.currentTimeMillis() - time) + ". Results found: " + results.size() + ".");
         return results;
+    }
+
+    private GoogleResource fetchWiki(String query){
+        String[] terms;
+        if(query.contains("\"") && query.split(" ").length == 2){
+            terms = new String[]{query.replace("\"", "").replace(" ", "_")};
+        } else {
+            terms = query.split(" ");
+        }
+        for (String term : terms) {
+            try {
+                String output = new GoogleService("").fetch(new URL("https://fr.wikipedia.org/w/api.php?action=opensearch&search=" + URLEncoder.encode(term, "UTF-8") + "&limit=1&format=json"));
+                JsonArray items = new JsonParser().parse(output).getAsJsonArray();
+                if(items.size() > 1) {
+                    String title = items.get(1).getAsJsonArray().get(0).toString().replace("\"", "");
+                    String url = items.get(3).getAsJsonArray().get(0).toString().replace("\"", "");
+                    return new GoogleResource(title, url);
+                }else{
+                    return null;
+                }
+            } catch (IOException ignored) {}
+        }
+        return null;
     }
 
     private String fetch(URL url) throws IOException {
@@ -118,12 +155,18 @@ public class GoogleService extends resourceService {
     private Set<String> splitWords(List<String> queries) {
         Set<String> words = new HashSet<>();
         for (String query : queries) {
-            for (String word : query.split(" ")) {
-                if (word.contains("_")) {
-                    words.add("\"" + word.replace("_", " ") + "\"");
-                } else {
-                    words.add(word);
-                }
+            words.addAll(splitQuery(query));
+        }
+        return words;
+    }
+
+    private Set<String> splitQuery(String query){
+        Set<String> words = new HashSet<>();
+        for (String word : query.split(" ")) {
+            if (word.contains("_")) {
+                words.add("\"" + word.replace("_", " ") + "\"");
+            } else {
+                words.add(word);
             }
         }
         return words;

@@ -32,7 +32,9 @@ public class BabelExpander extends QueryExpander {
     public BabelExpander(String text, String language) {
         try {
             this.language = language;
-            requestCache = new HashMap<>();
+            if(requestCache == null){
+                requestCache = new HashMap<>();
+            }
             disambiguationResponse = makeRequest(disambiguateUrlPrefix + URLEncoder.encode(text, "UTF-8") + "&lang=" + language + urlKeyPostfix);
         } catch (UnsupportedEncodingException e) {
             disambiguationResponse = "";
@@ -225,6 +227,7 @@ public class BabelExpander extends QueryExpander {
             HttpURLConnection connection = (HttpURLConnection) urlAddress.openConnection();
             connection.setRequestMethod("GET");
             connection.setRequestProperty("User-Agent", "Mozilla/5.0");
+            connection.setConnectTimeout(3000);
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String inputLine;
             StringBuilder response = new StringBuilder();
@@ -237,7 +240,11 @@ public class BabelExpander extends QueryExpander {
         } catch (IOException e) {
             if (urlKeyPostfix.endsWith(Settings.BABELKEY1)) {
                 urlKeyPostfix = "&key=" + Settings.BABELKEY2;
-            } else {
+            } else if (urlKeyPostfix.endsWith(Settings.BABELKEY2)) {
+                urlKeyPostfix = "&key=" + Settings.BABELKEY3;
+            } else if (urlKeyPostfix.endsWith(Settings.BABELKEY3)) {
+                urlKeyPostfix = "&key=" + Settings.BABELKEY4;
+            }else{
                 return "";
             }
             return makeRequest(url);
