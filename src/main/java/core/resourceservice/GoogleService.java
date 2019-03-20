@@ -2,7 +2,6 @@ package core.resourceservice;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import service.Settings;
 import structures.resources.GoogleResource;
@@ -12,7 +11,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.*;
@@ -84,7 +82,7 @@ public class GoogleService extends resourceService {
             }
             URL url = new URL("https://www.googleapis.com/customsearch/v1?key=" + key + "&cx=" + cx +
                     "&q=" + query + "&alt=json&num=" + queryNumber + "&queriefields=queries(request(totalResults))");
-            try{
+            try {
                 String output = fetch(url);
                 JsonArray items = new JsonParser().parse(output).getAsJsonObject().getAsJsonArray("items");
                 if (items != null && items.size() > 0) {
@@ -94,16 +92,16 @@ public class GoogleService extends resourceService {
                         results.add(new GoogleResource(title, link));
                     }
                 }
-            } catch(IOException ioe){
+            } catch (IOException ioe) {
                 System.out.println("Exception during Google's Custom Search Request for " + type + ". " + ioe.getMessage());
-                if(type.equalsIgnoreCase("wiki")){
-                    if(key.equalsIgnoreCase(Settings.WIKIFRKEY)) {
+                if (type.equalsIgnoreCase("wiki")) {
+                    if (key.equalsIgnoreCase(Settings.WIKIFRKEY)) {
                         key = Settings.WIKIFRKEY2;
                         cx = Settings.WIKIFRCX2;
                         i--;
-                    }else {
+                    } else {
                         GoogleResource wikiPage = fetchWiki(queries.get(i));
-                        if(wikiPage != null){
+                        if (wikiPage != null) {
                             results.add(wikiPage);
                         }
                     }
@@ -114,9 +112,9 @@ public class GoogleService extends resourceService {
         return results;
     }
 
-    private GoogleResource fetchWiki(String query){
+    private GoogleResource fetchWiki(String query) {
         String[] terms;
-        if(query.contains("\"") && query.split(" ").length == 2){
+        if (query.contains("\"") && query.split(" ").length == 2) {
             terms = new String[]{query.replace("\"", "").replace(" ", "_")};
         } else {
             terms = query.split(" ");
@@ -125,14 +123,15 @@ public class GoogleService extends resourceService {
             try {
                 String output = new GoogleService("").fetch(new URL("https://fr.wikipedia.org/w/api.php?action=opensearch&search=" + URLEncoder.encode(term, "UTF-8") + "&limit=1&format=json"));
                 JsonArray items = new JsonParser().parse(output).getAsJsonArray();
-                if(items.size() > 1) {
+                if (items.size() > 1) {
                     String title = items.get(1).getAsJsonArray().get(0).toString().replace("\"", "");
                     String url = items.get(3).getAsJsonArray().get(0).toString().replace("\"", "");
                     return new GoogleResource(title, url);
-                }else{
+                } else {
                     return null;
                 }
-            } catch (IOException ignored) {}
+            } catch (IOException ignored) {
+            }
         }
         return null;
     }
@@ -160,7 +159,7 @@ public class GoogleService extends resourceService {
         return words;
     }
 
-    private Set<String> splitQuery(String query){
+    private Set<String> splitQuery(String query) {
         Set<String> words = new HashSet<>();
         for (String word : query.split(" ")) {
             if (word.contains("_")) {

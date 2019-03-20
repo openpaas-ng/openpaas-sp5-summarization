@@ -3,6 +3,10 @@ package core.resourceservice;
 import core.queryexpansion.BabelExpander;
 import core.queryexpansion.QueryExpander;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -57,17 +61,34 @@ public class resourceService {
         this.expandedQueries = result;
     }
 
+    public void setOptions(List<String> queries, String text, String language) {
+        this.queries = queries;
+        this.text = text;
+        this.language = language;
+    }
+
     List<String> getExpandedQueries() {
-        if(expandedQueries == null){
+        if (expandedQueries == null) {
             expandQueries();
         }
         return expandedQueries;
     }
 
-    public void setOptions(List<String> queries, String text, String language) {
-        this.queries = queries;
-        this.text = text;
-        this.language = language;
+    String callAPI(InputStream stream) {
+        String output = "";
+        try {
+            BufferedReader in = new BufferedReader(new InputStreamReader(stream));
+            // Question q = new Gson().fromJson(in, Question.class);
+            String line;
+            StringBuilder content = new StringBuilder();
+            while ((line = in.readLine()) != null) {
+                content.append(line);
+            }
+            output = content.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return output;
     }
 
 }

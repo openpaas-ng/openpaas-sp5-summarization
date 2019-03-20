@@ -16,14 +16,11 @@ import structures.resources.Email;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.ListIterator;
 
 /**
- *
  * @author pmeladianos
  */
-public class EmailService extends resourceService{
-
+public class EmailService extends resourceService {
 
 
     public List<Email> getEmails() {
@@ -58,37 +55,33 @@ public class EmailService extends resourceService{
         long numFound = rs.getNumFound();
         int numResultsDisplay = (int) numFound;
         ArrayList<Email> items = new ArrayList<Email>();
-                
-        ListIterator<SolrDocument> iter = rs.listIterator();
 
-        while (iter.hasNext()) {
-            SolrDocument doc = iter.next();
+        for (SolrDocument doc : rs) {
             String id = doc.get("messageId").toString();
             String from = doc.get("from").toString();
             String sentDate = doc.get("sentDate").toString();
             String subject = doc.get("subject").toString();
             String content = doc.get("content").toString();
-            
-            items.add(new Email( id,  from,  sentDate,  subject,  content));
+
+            items.add(new Email(id, from, sentDate, subject, content));
         }
         return items;
     }
 
     private static String getEmailServiceQuery(Collection keywords) {
-        String query = "";
+        StringBuilder query = new StringBuilder();
         for (Object key : keywords) {
-            String s = key.toString();
-            query += s + " OR ";
+            query.append(key.toString()).append(" OR ");
         }
-        String query_0 = queryBuilder(query, "content");
+        String query_0 = queryBuilder(query.toString(), "content");
 
-        String query_1 = queryBuilder(query, "subject");
-        query = query_0 + " OR " + query_1;
-        return query;
+        String query_1 = queryBuilder(query.toString(), "subject");
+        query = new StringBuilder(query_0 + " OR " + query_1);
+        return query.toString();
     }
 
     private static String queryBuilder(String s, String field) {
-        String res = "";  
+        String res;
         if (s.length() == 0) {
             res = field + ":*";
         } else {
