@@ -21,20 +21,18 @@ import java.util.stream.Collectors;
  * Created by midas on 11/23/2016.
  */
 public class Transcript {
-    //    private List<TranscriptEntry> entries;
     //TODO check concurrency status of this map
     private Map<String, Double> latestKeywords;
     private List<String> latestQueries;
-    //    private Double lastEntryTime;
     private String language;
     private LoadingCache<TranscriptEntry, String> transcriptEntries;
+    private int lastUpdate;
 
     public Transcript() {
         this(new ArrayList<>());
     }
 
     public Transcript(List<TranscriptEntry> entries) {
-//        this.entries = entries;
         transcriptEntries = CacheBuilder.newBuilder()
                 .maximumSize(1000)  // Maximum number of entries per period
                 .expireAfterWrite(Settings.TIMEWINDOW, TimeUnit.SECONDS)
@@ -45,15 +43,19 @@ public class Transcript {
                         return "";
                     }
                 });
-        for(TranscriptEntry entry : entries){
+        for (TranscriptEntry entry : entries) {
             this.add(entry);
         }
+        lastUpdate = 0;
         latestKeywords = new HashMap<>();
 //        lastEntryTime = 0.0;
         language = "none";
     }
 
     void updateKeywords(List<String> padWords) {
+        if(!hasChanges()){
+            return;
+        }
         String text = getLatestEntriesText();
         if (text.length() == 0) {
             return;
@@ -62,28 +64,39 @@ public class Transcript {
         if (this.language.equalsIgnoreCase("none")) {
             this.language = tpp.getLanguage();
         }
-        String cleanText = tpp.getText();
+        String cleanText = tpp.getStemmedText(); // Now cleanText contains stemmed words
         if (cleanText.length() == 0) {
             return;
         }
+
         GraphOfWords gow = new GraphOfWords(cleanText);
         WeightedGraph graph = gow.getGraph();
         WeightedGraphKCoreDecomposer decomposer = new WeightedGraphKCoreDecomposer(graph, 1, 0);
 
-        Map<String, Double> map = decomposer.coreRankNumbers();
+        // Replace stems with words
+        Map<String, Double> tempCoreRanksMap = decomposer.coreRankNumbers();
+        Map<String, Double> coreRanksMap = new HashMap<>();
+
+        String[] splitText = tpp.getSplitText();
+        String[] splitStems = cleanText.split(" ");
+        for(int i = 0; i < splitText.length; i++){
+            coreRanksMap.put(splitText[i], tempCoreRanksMap.get(splitStems[i]));
+        }
+        ////
+
 
         Set<String> uniquePad = new HashSet<>(padWords);
         for (String word : uniquePad) {
-            map.computeIfPresent(word, (k, v) -> v * 2);
+            coreRanksMap.computeIfPresent(word, (k, v) -> v * 2);
         }
-        map = KCore.sortByValue(map);
-        Map<String, Double> rankedKeywords = map;
+
+        coreRanksMap = KCore.sortByValue(coreRanksMap);
+        Map<String, Double> rankedKeywords = coreRanksMap;
         Map<String, Double> topKeys = new LinkedHashMap<>();
         for (Map.Entry<String, Double> entry : rankedKeywords.entrySet()) {
             if (entry.getKey().length() > 1) {
                 topKeys.put(entry.getKey(), entry.getValue());
-                if (topKeys.size() > Settings.NKEYWORDS)
-                    break;
+                if (topKeys.size() > Settings.NKEYWORDS) break;
             }
         }
 
@@ -105,8 +118,7 @@ public class Transcript {
 
     public List<String> getTokens() {
         List<String> tokens = new ArrayList<>();
-        for(TranscriptEntry entry : transcriptEntries.asMap().keySet()){
-//        for (TranscriptEntry e : entries) {
+        for (TranscriptEntry entry : transcriptEntries.asMap().keySet()) {
             Collections.addAll(tokens, entry.getText().split(" "));
         }
         return tokens;
@@ -114,14 +126,7 @@ public class Transcript {
 
     String getLatestEntriesText() {
         StringBuilder out = new StringBuilder();
-//        if (!this.entries.isEmpty()) {
-//            lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
-//            for (TranscriptEntry e : entries) {
-//                if (e.getUntil() > lastEntryTime - Settings.TIMEWINDOW)
-//                    out.append(e.getText()).append(" ");
-//            }
-//        }
-        for(TranscriptEntry entry : transcriptEntries.asMap().keySet()){
+        for (TranscriptEntry entry : transcriptEntries.asMap().keySet()) {
             out.append(entry.getText()).append(" ");
         }
         return out.toString();
@@ -132,7 +137,6 @@ public class Transcript {
     }
 
     public void add(TranscriptEntry entry) {
-//        this.entries.add(e);
         try {
             transcriptEntries.get(entry);
         } catch (ExecutionException e) {
@@ -179,5 +183,13 @@ public class Transcript {
         if (limitMin == limitMax)
             return valueIn;
         return ((limitMax - limitMin) * (valueIn - baseMin) / (baseMax - baseMin)) + limitMin;
+    }
+
+    private boolean hasChanges(){
+        if(lastUpdate != transcriptEntries.asMap().keySet().hashCode()){
+            lastUpdate = transcriptEntries.asMap().keySet().hashCode();
+            return true;
+        }
+        return false;
     }
 }

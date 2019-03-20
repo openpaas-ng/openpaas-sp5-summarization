@@ -1,5 +1,6 @@
 package service;
 
+import core.keywords.TextPreProcess;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.util.StringUtils;
 
@@ -57,8 +58,16 @@ public class Application {
 
         // Word embeddings for English are available at https://code.google.com/archive/p/word2vec/
         // Word embeddings for French are available at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
+
+        /*
+          Iteration over each language, that was designed on the config file, in order
+          to load stopwords and word embeddings.
+         */
         Settings.languageConfigurations.forEach((langCode, languageConf) -> {
             String stopwordsFiles = languageConf.get(0);
+            /*
+              Load stopwords and put them into a Set
+             */
             Set<String> stopwords = new HashSet<>();
             for (String file : stopwordsFiles.split(", ")) {
                 try {
@@ -72,6 +81,9 @@ public class Application {
                 System.exit(-1);
             }
             languageStopwords.put(langCode, stopwords);
+            /*
+              Load word embeddings (if they exist for the language)
+             */
             String embeddingsFile = languageConf.get(1);
             if (embeddingsFile != null) {
                 String[] split = embeddingsFile.split(", ");

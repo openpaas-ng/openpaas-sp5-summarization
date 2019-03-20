@@ -29,6 +29,9 @@ public class Clustering {
     }
 
     public static List<String> cluster(Set<String> vocab, Map<String, Double> topKeys, String language) {
+        if(Application.wordEmbeddings.isNotDefined(language)){
+            return new ArrayList<>();
+        }
         List<Point> pointsLst = new ArrayList<>();
         for (String word : vocab) {
             INDArray vector = Application.wordEmbeddings.getVector(word, language);

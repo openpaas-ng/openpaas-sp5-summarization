@@ -5,6 +5,7 @@
 
     <title>Real Time System Demo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +13,6 @@
 
     <link rel="stylesheet" type="text/css" href="./pure-min.css">
     <link rel="stylesheet" type="text/css" href="./icono-min.css">
-    <script src="https://cdn.jsdelivr.net/sockjs/1/sockjs.min.js"></script>
 
     <script src="./stomp.js"></script>
 
@@ -24,8 +24,8 @@
         var soarticles = null;
         var wikiarticles = null;
         var clearInput = false;
-        var server = "http://datascience.open-paas.org:8080";
-        // var server = "http://localhost:8080"; // <--- Replace this line with the commented line above to use the remote server
+        // var server = "http://datascience.open-paas.org:8080";
+        var server = "http://localhost:8080"; // <--- Replace this line with the commented line above to use the remote server
         function readSingleFile(e) {
             var file = e.target.files[0];
             if (!file) {

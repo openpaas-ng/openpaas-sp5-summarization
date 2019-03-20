@@ -19,6 +19,9 @@ public class LocalEmbeddings extends WordEmbeddingsService{
 
     @Override
     public INDArray getVector(String word, String language) {
+        if(wordVectors == null){
+            return null;
+        }
         if(!wordVectors.containsKey(language)){
             return null;
         }
@@ -35,5 +38,10 @@ public class LocalEmbeddings extends WordEmbeddingsService{
     @Override
     public INDArray getMean(Collection<String> collection, String language) {
         return wordVectors.get(language).getWordVectorsMean(collection);
+    }
+
+    @Override
+    public boolean isNotDefined(String language){
+        return wordVectors == null || wordVectors.get(language) == null;
     }
 }
