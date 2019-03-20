@@ -20,7 +20,9 @@ import java.util.regex.Pattern;
  */
 public class TextPreProcess {
     private String text;
+    private String stemmedText;
     private String language;
+    private String[] splitText;
     private final Map<String, String> patterns = new HashMap<String, String>() {{
         put("en", "JJ(R|S)*_[0-9]+ NNS*_[0-9]+ NNS*_[0-9]+|( JJ(R|S)*_[0-9]+){1,} NNS*_[0-9]+|NNS*_[0-9]+ IN_[0-9]+ NNS*_[0-9]+|NNS*_[0-9]+|NNPS*_[0-9]+( NNPS*_[0-9]+)*");
         put("fr", "NOUN_[0-9]+ ADJ_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+( ADJ_[0-9]+){1,}|ADJ_[0-9]+ NOUN_[0-9]+|(NOUN_[0-9]+|PROPN_[0-9]+){1}( (NOUN_[0-9]+|PROPN_[0-9]+)){1,}|NOUN_[0-9]+ ADP_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+|PROPN_[0-9]+");
@@ -67,6 +69,7 @@ public class TextPreProcess {
         }
         Map<CoreMap, List<List<Integer>>> termsPositions = getTermsIndex(annotation);
         StringBuilder cleanText = new StringBuilder();
+        StringBuilder stemmedText = new StringBuilder();
         for (CoreMap sentence : sentences) {
             List<List<Integer>> termsOfSentence = termsPositions.get(sentence);
             List<Integer> termsIndexes = new ArrayList<>();
@@ -77,22 +80,41 @@ public class TextPreProcess {
             }
             for (int index : termsIndexes) {
                 String word = sentence.get(CoreAnnotations.TokensAnnotation.class).get(index).get(CoreAnnotations.TextAnnotation.class);
-                if (isStopword(word, stopwords) && !termsIndexes.contains(index)) {
+                if (isStopword(word, stopwords)) {
+                    if (cleanText.charAt(cleanText.length() - 1) == '_') {
+                        cleanText.replace(cleanText.length() - 1, cleanText.length(), " ");
+                        stemmedText.replace(stemmedText.length() - 1, stemmedText.length(), " ");
+                    }
                     continue;
                 }
                 stemmer.setCurrent(word);
-//                stemmer.stem(); // Stemming disabled
-                word = stemmer.getCurrent();
+                stemmer.stem();
+                stemmedText.append(stemmer.getCurrent());
                 cleanText.append(word);
-
                 if (!termsEndIndexes.contains(index) && termsIndexes.contains(index + 1)) {
                     cleanText.append("_");
+                    stemmedText.append("_");
                 } else {
                     cleanText.append(" ");
+                    stemmedText.append(" ");
                 }
             }
         }
         this.text = cleanText.toString().replaceAll("\\s+", " ").replaceAll("^_|_$", "").trim();
+        this.stemmedText = stemmedText.toString().replaceAll("\\s+", " ").replaceAll("^_|_$", "").trim();
+        storeSplit();
+    }
+
+    private void storeSplit() {
+        String[] split = this.text.split(" ");
+        this.splitText = new String[split.length];
+        for (int i = 0; i < split.length; i++) {
+            String term = split[i].trim();
+            if (term.endsWith("_")) {
+                term = term.substring(0, term.length() - 1);
+            }
+            this.splitText[i] = term;
+        }
     }
 
     private Map<CoreMap, List<List<Integer>>> getTermsIndex(Annotation annotation) {
@@ -147,6 +169,14 @@ public class TextPreProcess {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public String getStemmedText() {
+        return stemmedText;
+    }
+
+    public String[] getSplitText() {
+        return splitText;
     }
 
     public String getLanguage() {
