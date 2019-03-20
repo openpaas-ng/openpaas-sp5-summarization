@@ -34,7 +34,8 @@ public class GoogleService extends resourceService {
         System.out.println("Starting google " + type);
         long time = System.currentTimeMillis();
         String cx, key;
-        List<String> queries = getExpandedQueries(); // Use Babelfy API to disambiguate the provided text
+//        List<String> queries = getExpandedQueries(); // Use Babelfy API to disambiguate the provided text
+        List<String> queries = this.getQueries();
         List<GoogleResource> results = new ArrayList<>();
         int queryNumber;
         switch (queries.size()) {
@@ -76,6 +77,13 @@ public class GoogleService extends resourceService {
         }
         for (int i = 0; i < queries.size(); i++) {
             String query = queries.get(i);
+            GoogleResource wikiPager = fetchWiki(queries.get(i));
+            if (wikiPager != null) {
+                results.add(wikiPager);
+            }
+            if(1==1) {
+                continue;
+            }
             try {
                 query = URLEncoder.encode(query, "UTF-8");
             } catch (UnsupportedEncodingException ignored) {

@@ -27,6 +27,7 @@ public class TextPreProcess {
         put("en", "JJ(R|S)*_[0-9]+ NNS*_[0-9]+ NNS*_[0-9]+|( JJ(R|S)*_[0-9]+){1,} NNS*_[0-9]+|NNS*_[0-9]+ IN_[0-9]+ NNS*_[0-9]+|NNS*_[0-9]+|NNPS*_[0-9]+( NNPS*_[0-9]+)*");
         put("fr", "NOUN_[0-9]+ ADJ_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+( ADJ_[0-9]+){1,}|ADJ_[0-9]+ NOUN_[0-9]+|(NOUN_[0-9]+|PROPN_[0-9]+){1}( (NOUN_[0-9]+|PROPN_[0-9]+)){1,}|NOUN_[0-9]+ ADP_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+|PROPN_[0-9]+");
     }};
+    private Map<String, String> stemMapper;
 
     public TextPreProcess(String text, String language) {
         this.text = text;
@@ -81,7 +82,7 @@ public class TextPreProcess {
             for (int index : termsIndexes) {
                 String word = sentence.get(CoreAnnotations.TokensAnnotation.class).get(index).get(CoreAnnotations.TextAnnotation.class);
                 if (isStopword(word, stopwords)) {
-                    if (cleanText.charAt(cleanText.length() - 1) == '_') {
+                    if (cleanText.length() > 1 && cleanText.charAt(cleanText.length() - 1) == '_') {
                         cleanText.replace(cleanText.length() - 1, cleanText.length(), " ");
                         stemmedText.replace(stemmedText.length() - 1, stemmedText.length(), " ");
                     }
@@ -103,6 +104,7 @@ public class TextPreProcess {
         this.text = cleanText.toString().replaceAll("\\s+", " ").replaceAll("^_|_$", "").trim();
         this.stemmedText = stemmedText.toString().replaceAll("\\s+", " ").replaceAll("^_|_$", "").trim();
         storeSplit();
+        mapStems();
     }
 
     private void storeSplit() {
@@ -114,6 +116,24 @@ public class TextPreProcess {
                 term = term.substring(0, term.length() - 1);
             }
             this.splitText[i] = term;
+        }
+    }
+
+    private void mapStems() {
+        Map<String, Integer> counterMap = new HashMap<>();
+        for (String word : this.splitText) {
+            counterMap.compute(word, (k, v) -> v == null ? 1 : v + 1);
+        }
+        String[] stemmed = stemmedText.split(" ");
+        stemMapper = new HashMap<>();
+        for (int i = 0; i < this.splitText.length; i++) {
+            String stem = stemmed[i];
+            String word = this.splitText[i];
+            String existingWord = stemMapper.getOrDefault(stem, "");
+            if (counterMap.getOrDefault(existingWord, -1) < counterMap.get(word)) {
+                stemMapper.put(stem, word);
+            }
+
         }
     }
 
@@ -171,11 +191,15 @@ public class TextPreProcess {
         this.text = text;
     }
 
+    public Map<String, String> getStemsMap() {
+        return stemMapper;
+    }
+
     public String getStemmedText() {
         return stemmedText;
     }
 
-    public String[] getSplitText() {
+    public String[] getTokens() {
         return splitText;
     }
 

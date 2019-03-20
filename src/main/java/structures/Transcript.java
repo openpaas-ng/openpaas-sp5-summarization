@@ -53,7 +53,7 @@ public class Transcript {
     }
 
     void updateKeywords(List<String> padWords) {
-        if(!hasChanges()){
+        if (!hasChanges()) {
             return;
         }
         String text = getLatestEntriesText();
@@ -77,12 +77,10 @@ public class Transcript {
         Map<String, Double> tempCoreRanksMap = decomposer.coreRankNumbers();
         Map<String, Double> coreRanksMap = new HashMap<>();
 
-        String[] splitText = tpp.getSplitText();
-        String[] splitStems = cleanText.split(" ");
-        for(int i = 0; i < splitText.length; i++){
-            coreRanksMap.put(splitText[i], tempCoreRanksMap.get(splitStems[i]));
+        Map<String, String> stemMapper = tpp.getStemsMap();
+        for (Map.Entry<String, Double> entry : tempCoreRanksMap.entrySet()) {
+            coreRanksMap.put(stemMapper.get(entry.getKey()), entry.getValue());
         }
-        ////
 
 
         Set<String> uniquePad = new HashSet<>(padWords);
@@ -100,7 +98,7 @@ public class Transcript {
             }
         }
 
-        latestQueries = Clustering.cluster(tpp.getVocabulary(), topKeys, language);
+        latestQueries = Clustering.cluster(new HashSet<>(Arrays.asList(tpp.getTokens())), topKeys, language);
 
         latestKeywords.clear();
         topKeys = normalizeKeyScores(topKeys);
@@ -185,8 +183,8 @@ public class Transcript {
         return ((limitMax - limitMin) * (valueIn - baseMin) / (baseMax - baseMin)) + limitMin;
     }
 
-    private boolean hasChanges(){
-        if(lastUpdate != transcriptEntries.asMap().keySet().hashCode()){
+    private boolean hasChanges() {
+        if (lastUpdate != transcriptEntries.asMap().keySet().hashCode()) {
             lastUpdate = transcriptEntries.asMap().keySet().hashCode();
             return true;
         }

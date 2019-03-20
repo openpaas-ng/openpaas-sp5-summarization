@@ -11,6 +11,7 @@ import core.queryexpansion.BabelExpander;
 import core.queryexpansion.QueryExpander;
 import core.resourceservice.EmailService;
 import core.resourceservice.GoogleService;
+import core.resourceservice.QwantService;
 import org.jgrapht.WeightedGraph;
 import org.springframework.context.event.EventListener;
 import org.springframework.messaging.handler.annotation.MessageMapping;
@@ -200,16 +201,13 @@ public class Controller {
                     e.printStackTrace();
                 }
             }
-            if (resources.contains("so") && resources.contains("wiki")) {
-                GoogleService gos = new GoogleService("so");
 
+            if (resources.contains("so") && resources.contains("wiki")) {
+                QwantService so = new QwantService("");
+                so.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
+                res.setSoarticles(so.getQwantRecommendations());
+                GoogleService gos = new GoogleService("so");
                 gos.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
-                try {
-                    res.setSoarticles(gos.getGoogleRecommendations());
-                } catch (Exception e) {
-                    System.err.println("Exception while fetching from SO");
-                    res.setSoarticles(new ArrayList<>());
-                }
                 gos.setType("wiki");
                 try {
                     res.setWikiarticles(gos.getGoogleRecommendations());
@@ -219,9 +217,9 @@ public class Controller {
                 }
             } else if (resources.contains("so")) {
                 try {
-                    GoogleService so = new GoogleService("so");
+                    QwantService so = new QwantService("");
                     so.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
-                    res.setSoarticles(so.getGoogleRecommendations());
+                    res.setSoarticles(so.getQwantRecommendations());
                 } catch (Exception e) {
                     System.err.println("Exception while fetching from SO");
                     res.setSoarticles(new ArrayList<>());
