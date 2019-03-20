@@ -252,14 +252,7 @@ public class BabelExpander extends QueryExpander {
     }
 
     private boolean isNotStopword(String word, String language) {
-        switch (language) {
-            case "en":
-                return !Application.stopWordsEnglish.contains(word) && !Application.fillerWordsEnglish.contains(word);
-            case "fr":
-                return !Application.stopWordsFrench.contains(word) && !Application.fillerWordsFrench.contains(word) && !Application.stopWordsFrench2.contains(word);
-            default:
-                return false;
-        }
+        return !Application.languageStopwords.get(language).contains(word);
     }
 
     private Map<String, Set<String>> revertMap(Map<String, Set<String>> originalMap) {

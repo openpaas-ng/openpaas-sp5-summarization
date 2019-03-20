@@ -1,25 +1,42 @@
 package structures;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Date;
+import java.util.Objects;
+
 
 class PadEntry {
-    private List<String> updatedWords;
-    private final long timestamp;
+    private List<String> words;
 
-    PadEntry(String[] words){
-        updatedWords = new ArrayList<>(Arrays.asList(words));
-        timestamp = new Date().getTime();
+    /**
+     * Constructor of a pad entry. Each entry is consisted of a list of words
+     *
+     * @param words A preprocessed list of words that were transmitted from a CryptPad Pad
+     */
+    PadEntry(String[] words) {
+        this.words = new ArrayList<>(Arrays.asList(words));
     }
 
-    long getTime(){
-        return timestamp;
+    /**
+     * Getter method for the stored list of words
+     *
+     * @return The stored list of words
+     */
+    List<String> getWords() {
+        return words;
     }
 
-    List<String> getWords(){
-        return updatedWords;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        PadEntry padEntry = (PadEntry) o;
+        return words.equals(padEntry.words);
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(words);
+    }
 }

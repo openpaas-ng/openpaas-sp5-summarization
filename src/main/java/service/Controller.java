@@ -236,7 +236,7 @@ public class Controller {
                     System.err.println("Exception while fetching from WIKI");
                     res.setWikiarticles(new ArrayList<>());
                 }
-            }else if (resources.contains("so")) {
+            } else if (resources.contains("so")) {
                 try {
                     GoogleService so = new GoogleService("so");
                     so.setOptions(meeting.getLatestQueries(), meeting.getLatestEntriesText(), meeting.getLanguage());
@@ -263,22 +263,27 @@ public class Controller {
     }
 
     /**
-     * @param message
-     * @return
+     * Method that is used to handle incoming transcript entries.
+     *
+     * @param message The incoming transcript entry, following the format "from \n until \n speaker \n text".
+     * @return A verification of the received message. This message is used from the User Interface used for demonstration purposes.
      * @throws Exception
      */
     @MessageMapping("/chat")
     @SendTo("/topic/messages")
     public OutputMessage send(Message message) throws Exception {
         String[] messageParts = message.getText().split("\t");
-        if (currentMeetings.containsKey(message.getFrom()) && messageParts.length == 4) {
+        Meeting meeting = currentMeetings.get(message.getFrom());
+        if (messageParts.length == 4 && meeting != null) {
+            Double from = Double.valueOf(messageParts[0]);
+            Double until = Double.valueOf(messageParts[0]);
+            String speaker = messageParts[0];
             String text = messageParts[3];
-            TranscriptEntry e = new TranscriptEntry(Double.valueOf(messageParts[0]), Double.valueOf(messageParts[1]), messageParts[2], text);
-            currentMeetings.get(message.getFrom()).add(e);
+            TranscriptEntry entry = new TranscriptEntry(from, until, speaker, text);
+            currentMeetings.get(message.getFrom()).add(entry);
         }
         String time = new SimpleDateFormat("HH:mm").format(new Date());
-        OutputMessage m = new OutputMessage(message.getFrom(), message.getText(), time);
-        return m;
+        return new OutputMessage(message.getFrom(), message.getText(), time);
     }
 
 
@@ -286,16 +291,16 @@ public class Controller {
     public void reportCurrentTime() {
         currentMeetings.forEach((k, v) -> v.updateKeywords());
 
-        if (new Date().getSeconds() <= 3){
+        if (new Date().getSeconds() <= 3) {
             System.out.printf("The time is now {%s} %n", new SimpleDateFormat("HH:mm:ss").format(new Date()));
         }
     }
 
     /**
-     * REST POST request handler that accepts incoming traffic from the Cryptpad module
+     * REST POST request handler that accepts incoming traffic from the <a href="https://cryptpad.fr/">Cryptpad</a> module
      *
-     * @param id   The id of the corresponding group
-     * @param text An array of the words that were added since the previous request
+     * @param id   The id of the corresponding group conversation
+     * @param text An array of the words that were added or edited since the previous request
      */
     @CrossOrigin
     @RequestMapping(value = "/pad", method = RequestMethod.POST)

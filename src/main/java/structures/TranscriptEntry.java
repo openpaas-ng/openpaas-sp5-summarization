@@ -1,55 +1,39 @@
 package structures;
 
-import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.util.CoreMap;
-import org.tartarus.snowball.ext.FrenchStemmer;
-import service.Application;
-
-import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by midas on 11/23/2016.
  */
 public class TranscriptEntry {
-    Double from;
-    Double until;
-    String speaker;
-    String text;
+    private Double from;
+    private Double until;
+    private String speaker;
+    private String text;
 
     public TranscriptEntry(Double from, Double until, String speaker, String text) {
         this.from = from;
         this.until = until;
         this.speaker = speaker;
         this.text = cleanText(text);
-
-
-
     }
 
-    public TranscriptEntry(String[] e) {
-        this.from = Double.valueOf(e[0]);
-        this.until = Double.valueOf(e[1]);
-        this.speaker = e[2];
-        this.text = cleanText(e[3]);
-
-
+    public TranscriptEntry(String[] entry) {
+        this.from = Double.valueOf(entry[0]);
+        this.until = Double.valueOf(entry[1]);
+        this.speaker = entry[2];
+        this.text = cleanText(entry[3]);
     }
 
-    private String cleanText(String s) {
-        //s=s.toLowerCase();
-        s=s.replaceAll("'"," ");
-        s = s.replaceAll("<noise>", "");
-        s = s.replaceAll("<spoken-noise>", "");
-        s = s.replaceAll("<laugh>", "");
-        s = s.replaceAll("<UNK>", "");
-        s = s.replaceAll("<!sil>", "");
-        s= s.replaceAll("-","");
-        String cleans = s;
-        cleans=cleans.toLowerCase();
-        //cleans=cleans.substring(0,cleans.length()-1);
-        return cleans;
+    private String cleanText(String text) {
+        text = text.replaceAll("'", " ");
+        text = text.replaceAll("<noise>", "");
+        text = text.replaceAll("<spoken-noise>", "");
+        text = text.replaceAll("<laugh>", "");
+        text = text.replaceAll("<UNK>", "");
+        text = text.replaceAll("<!sil>", "");
+        text = text.replaceAll("-", "");
+        return text.toLowerCase();
     }
 
     public Double getFrom() {
@@ -87,5 +71,21 @@ public class TranscriptEntry {
     @Override
     public String toString() {
         return this.from + "\t" + this.until + "\t" + this.speaker + "\t" + this.text + "\n";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        TranscriptEntry that = (TranscriptEntry) o;
+        return Objects.equals(from, that.from) &&
+                Objects.equals(until, that.until) &&
+                Objects.equals(speaker, that.speaker) &&
+                Objects.equals(text, that.text);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(from, until, speaker, text);
     }
 }

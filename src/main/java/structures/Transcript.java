@@ -1,5 +1,9 @@
 package structures;
 
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import com.google.common.cache.RemovalListener;
 import core.keywords.TextPreProcess;
 import core.keywords.kcore.KCore;
 import core.keywords.kcore.WeightedGraphKCoreDecomposer;
@@ -9,31 +13,47 @@ import org.jgrapht.WeightedGraph;
 import service.Settings;
 
 import java.util.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 /**
  * Created by midas on 11/23/2016.
  */
 public class Transcript {
-    private List<TranscriptEntry> entries;
+    //    private List<TranscriptEntry> entries;
     //TODO check concurrency status of this map
     private Map<String, Double> latestKeywords;
     private List<String> latestQueries;
-    private Double lastEntryTime;
+    //    private Double lastEntryTime;
     private String language;
+    private LoadingCache<TranscriptEntry, String> transcriptEntries;
 
     public Transcript() {
         this(new ArrayList<>());
     }
 
     public Transcript(List<TranscriptEntry> entries) {
-        this.entries = entries;
+//        this.entries = entries;
+        transcriptEntries = CacheBuilder.newBuilder()
+                .maximumSize(1000)  // Maximum number of entries per period
+                .expireAfterWrite(Settings.TIMEWINDOW, TimeUnit.SECONDS)
+                .removalListener((RemovalListener<TranscriptEntry, String>) notification -> {
+                })
+                .build(new CacheLoader<TranscriptEntry, String>() {
+                    public String load(TranscriptEntry entry) {
+                        return "";
+                    }
+                });
+        for(TranscriptEntry entry : entries){
+            this.add(entry);
+        }
         latestKeywords = new HashMap<>();
-        lastEntryTime = 0.0;
+//        lastEntryTime = 0.0;
         language = "none";
     }
 
-    public void updateKeywords(List<String> padWords) {
+    void updateKeywords(List<String> padWords) {
         String text = getLatestEntriesText();
         if (text.length() == 0) {
             return;
@@ -85,36 +105,45 @@ public class Transcript {
 
     public List<String> getTokens() {
         List<String> tokens = new ArrayList<>();
-        for (TranscriptEntry e : entries) {
-            Collections.addAll(tokens, e.getText().split(" "));
+        for(TranscriptEntry entry : transcriptEntries.asMap().keySet()){
+//        for (TranscriptEntry e : entries) {
+            Collections.addAll(tokens, entry.getText().split(" "));
         }
         return tokens;
     }
 
-    public String getLatestEntriesText() {
+    String getLatestEntriesText() {
         StringBuilder out = new StringBuilder();
-        if (!this.entries.isEmpty()) {
-            lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
-            for (TranscriptEntry e : entries) {
-                if (e.getUntil() > lastEntryTime - Settings.TIMEWINDOW)
-                    out.append(e.getText()).append(" ");
-            }
+//        if (!this.entries.isEmpty()) {
+//            lastEntryTime = this.entries.get(this.entries.size() - 1).getUntil();
+//            for (TranscriptEntry e : entries) {
+//                if (e.getUntil() > lastEntryTime - Settings.TIMEWINDOW)
+//                    out.append(e.getText()).append(" ");
+//            }
+//        }
+        for(TranscriptEntry entry : transcriptEntries.asMap().keySet()){
+            out.append(entry.getText()).append(" ");
         }
         return out.toString();
     }
 
-    public List<Keyword> getLatestKeywords() {
+    List<Keyword> getLatestKeywords() {
         return latestKeywords.keySet().stream().map(k -> new Keyword(k, latestKeywords.get(k).toString())).collect(Collectors.toList());
     }
 
-    public void add(TranscriptEntry e) {
-        this.entries.add(e);
+    public void add(TranscriptEntry entry) {
+//        this.entries.add(e);
+        try {
+            transcriptEntries.get(entry);
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public String toString() {
         StringBuilder out = new StringBuilder();
-        for (TranscriptEntry e : entries) {
+        for (TranscriptEntry e : transcriptEntries.asMap().keySet()) {
             out.append(e.toString());
         }
         return out.toString();
@@ -124,7 +153,7 @@ public class Transcript {
         return this.language;
     }
 
-    public List<String> getLatestQueries() {
+    List<String> getLatestQueries() {
         return latestQueries;
     }
 

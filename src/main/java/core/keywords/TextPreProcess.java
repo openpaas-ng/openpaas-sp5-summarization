@@ -21,24 +21,22 @@ import java.util.regex.Pattern;
 public class TextPreProcess {
     private String text;
     private String language;
-    private final Set<String> supportedLanguages = new HashSet<>(Arrays.asList("en", "fr"));
     private final Map<String, String> patterns = new HashMap<String, String>() {{
-       put("en", "JJ(R|S)*_[0-9]+ NNS*_[0-9]+ NNS*_[0-9]+|( JJ(R|S)*_[0-9]+){1,} NNS*_[0-9]+|NNS*_[0-9]+ IN_[0-9]+ NNS*_[0-9]+|NNS*_[0-9]+|NNPS*_[0-9]+( NNPS*_[0-9]+)*");
-       put("fr", "NOUN_[0-9]+ ADJ_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+( ADJ_[0-9]+){1,}|ADJ_[0-9]+ NOUN_[0-9]+|(NOUN_[0-9]+|PROPN_[0-9]+){1}( (NOUN_[0-9]+|PROPN_[0-9]+)){1,}|NOUN_[0-9]+ ADP_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+|PROPN_[0-9]+");
+        put("en", "JJ(R|S)*_[0-9]+ NNS*_[0-9]+ NNS*_[0-9]+|( JJ(R|S)*_[0-9]+){1,} NNS*_[0-9]+|NNS*_[0-9]+ IN_[0-9]+ NNS*_[0-9]+|NNS*_[0-9]+|NNPS*_[0-9]+( NNPS*_[0-9]+)*");
+        put("fr", "NOUN_[0-9]+ ADJ_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+( ADJ_[0-9]+){1,}|ADJ_[0-9]+ NOUN_[0-9]+|(NOUN_[0-9]+|PROPN_[0-9]+){1}( (NOUN_[0-9]+|PROPN_[0-9]+)){1,}|NOUN_[0-9]+ ADP_[0-9]+ NOUN_[0-9]+|NOUN_[0-9]+|PROPN_[0-9]+");
     }};
 
     public TextPreProcess(String text, String language) {
         this.text = text;
-        if(!supportedLanguages.contains(language)){
-            String lang = new LanguageIdentifier(text).getLanguage().toLowerCase();
-            System.out.println("Detected language: " + lang);
-            if (supportedLanguages.contains(lang)) {
-                this.language = lang;
+        if (!Application.languageStopwords.containsKey(language)) { // Verify that the defined language is supported by the application
+            String detectedLanguage = new LanguageIdentifier(text).getLanguage().toLowerCase();
+            System.out.println("Detected language: " + detectedLanguage);
+            if (Application.languageStopwords.containsKey(detectedLanguage)) { // Verify that the detected language is supported by the application
+                this.language = detectedLanguage;
                 process();
             } else {
                 this.language = "fr";
                 process();
-                this.language = language;
             }
         } else {
             this.language = language;
@@ -48,17 +46,15 @@ public class TextPreProcess {
 
     private void process() {
         Annotation annotation = new Annotation(text); // Remove punctuation? text.replaceAll("[^A-Za-z0-9]", " ")
-        List<List<String>> stopwords;
+        Set<String> stopwords = Application.languageStopwords.get(language);
         SnowballProgram stemmer;
         switch (language) {
             case "en":
                 Application.enPOSpipeline.annotate(annotation);
-                stopwords = new ArrayList<>(Arrays.asList(Application.stopWordsEnglish, Application.fillerWordsEnglish));
                 stemmer = new EnglishStemmer();
                 break;
             case "fr":
                 Application.frenchPOSpipeline.annotate(annotation);
-                stopwords = new ArrayList<>(Arrays.asList(Application.stopWordsFrench, Application.fillerWordsFrench, Application.stopWordsFrench2));
                 stemmer = new FrenchStemmer();
                 break;
             default:
@@ -79,7 +75,7 @@ public class TextPreProcess {
                 termsIndexes.addAll(indexes);
                 termsEndIndexes.add(indexes.get(indexes.size() - 1));
             }
-            for(int index: termsIndexes){
+            for (int index : termsIndexes) {
                 String word = sentence.get(CoreAnnotations.TokensAnnotation.class).get(index).get(CoreAnnotations.TextAnnotation.class);
                 if (isStopword(word, stopwords) && !termsIndexes.contains(index)) {
                     continue;
@@ -134,19 +130,14 @@ public class TextPreProcess {
         return termsIndex;
     }
 
-    private boolean isStopword(String word, List<List<String>> stopwords) {
+    private boolean isStopword(String word, Set<String> stopwords) {
         if (word.equalsIgnoreCase("") || stopwords == null) {
             return false;
         }
-        for (List<String> sublist : stopwords) {
-            if (sublist.contains(word)) {
-                return true;
-            }
-        }
-        return false;
+        return stopwords.contains(word);
     }
 
-    public Set<String> getVocabulary(){
+    public Set<String> getVocabulary() {
         return new HashSet<>(Arrays.asList(this.text.split("\\s+|_")));
     }
 

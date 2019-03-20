@@ -3,7 +3,7 @@ package service;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Created by midas on 1/12/2016.
@@ -11,6 +11,7 @@ import java.util.Properties;
  */
 public class Settings {
     public static Integer TIMEWINDOW;
+    public static Integer PADTIMEWINDOW;
     public static Integer NKEYWORDS;
     public static String WIKIENKEY;
     public static String WIKIENCX;
@@ -30,7 +31,9 @@ public class Settings {
 
     public static String BABELKEY1, BABELKEY2, BABELKEY3, BABELKEY4;
 
-    public static void init() throws IOException {
+    static Map<String, List<String>> languageConfigurations;
+
+    static void init() throws IOException {
         Properties prop = new Properties();
         InputStream input = null;
 
@@ -39,6 +42,8 @@ public class Settings {
         // load a properties file
         prop.load(input);
         TIMEWINDOW = Integer.valueOf(prop.getProperty("TIMEWINDOW"));
+        PADTIMEWINDOW = Integer.valueOf(prop.getProperty("PADTIMEWINDOW"));
+
         NKEYWORDS = Integer.valueOf(prop.getProperty("NKEYWORDS"));
         WIKIENKEY = prop.getProperty("WIKIENKEY");
         WIKIENCX = prop.getProperty("WIKIENCX");
@@ -57,6 +62,25 @@ public class Settings {
         SOKEY_ALL = prop.getProperty("SOENKEY");
         SOENCX = prop.getProperty("SOENCX");
         SOFRCX = prop.getProperty("SOFRCX");
+
+        int countLanguages = 1;
+        languageConfigurations = new HashMap<>();
+        while (true) {
+            String languageCode = prop.getProperty("LANG" + countLanguages);
+            if (languageCode == null) {
+                break;
+            }
+            List<String> properties = new ArrayList<>();
+            String stopwordsFiles = prop.getProperty("LANG" + countLanguages + "_STOPWORDS");
+            if (stopwordsFiles == null) {
+                System.err.println("Stopwords file is missing for language '" + languageCode + "'.");
+                System.exit(-1);
+            }
+            properties.add(stopwordsFiles);
+            properties.add(prop.getProperty("LANG" + countLanguages + "_EMBEDDINGS", null));
+            languageConfigurations.put(languageCode, properties);
+            countLanguages++;
+        }
 
         input.close();
     }
